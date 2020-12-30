@@ -1,0 +1,25 @@
+label: Liens externes ou documents
+type: structure
+fields: 
+  label:
+    label: Label du lien
+    type: text
+  linkType:
+    type: select
+    options:
+      external: Lien externe
+      document: Document à télécharger
+    width: 1/2
+  url:
+    type: url
+    label: Lien
+    when: 
+      linkType: external
+    width: 1/2
+  document:
+    type: files
+    label: Document
+    multiple: false
+    when: 
+      linkType: document
+    width: 1/2

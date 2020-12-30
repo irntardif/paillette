@@ -1,0 +1,18 @@
+type: structure
+max: 1
+fields:
+  label: 
+    type: text
+  img:
+    label: Image
+    type: files
+    multiple: false
+    width: 1/2
+  contentText:
+    label: Contenu
+    type: textarea
+    width: 1/2
+  links: sections/links
+  press: sections/press
+
+

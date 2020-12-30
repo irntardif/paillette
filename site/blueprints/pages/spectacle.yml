@@ -1,0 +1,169 @@
+# Each page blueprint must have a title, the title may be different from the file name
+title: Spectacle
+
+# Each page can have an icon that is shown in page listings when no preview image is available.
+icon: preview
+
+# Page status can be limited, here to `draft` and `listed`.
+# More about page status: https://getkirby.com/docs/reference/panel/blueprints/page#statuses
+status:
+  draft: true
+  listed: true
+
+# Define the form layout with two columns
+# Columns are optional but help structure the form layout
+# The first column defines an files section, the second a set of fields
+# More about different types of sections: https://getkirby.com/docs/reference/panel/sections
+# More about columns: https://getkirby.com/docs/guide/blueprints/layout#defining-columns
+
+tabs:
+  spectacleinfo:
+    label: Infos du spectacle
+    icon: file
+    columns:
+      - width: 1/3
+        # The first column contains a set of fields to store
+        # information about the album.
+        #
+        # List of all available field types:
+        # https://getkirby.com/docs/reference/panel/fields
+        fields:
+          # If you need the same field in multiple locations, you can define them once and reuse whereever needed.
+          # Here we use a files field defined in `/site/blueprints/field/cover.yml`
+          categories:
+            label: Catégories
+            type: multiselect
+            options:
+              family: En famille
+              creation: creation
+          cover: fields/cover
+          creation:
+            type: toggle
+            label: Création Paillette ?
+            text:
+              - non 
+              - oui
+          coHosting:
+            type: toggle
+            label: Co-hosting ?
+            text:
+              - non 
+              - oui
+          cohostingInfos:
+            label: Lien vers le partenaire accueillant
+            type: structure
+            when: 
+              coHosting: true
+            fields:
+              label: 
+                type: text
+              url:
+                type: url
+              logo:
+                label: Logo du partenaire accueillant
+                type: files
+                multiple: false
+          moreinfos:
+            label: Informations complémentaires
+            type: writer
+            help: ""1h30, dès 15 ans""
+          representations:
+            label: Representations
+            type: structure
+            fields:
+              date:
+                type: date
+                time: true
+              publicType:
+                label: Public
+                type: select
+                default: all
+                options:
+                  all: Tous publics
+                  school: Scolaires
+          prices:
+            label: Tarifs
+            type: structure
+            fields:
+              priceType:
+                label: Type de Tarif
+                type: text
+              amount:
+                label: Montant
+                type: number
+          ticketing:
+            label: Lien vers la billetterie
+            type: url
+          
+          #tags: true
+          practicalInfos:
+            label: Informations Pratiques
+            type: info
+            text: Les informations générales sont à spécifier dans l'accueil du Back-Office
+
+      - width: 2/3
+        sections:
+          images:
+            type: files
+            layout: cards
+            template: image
+            info: "{{ file.dimensions }}"
+            image:
+              ratio: 5/4
+              cover: true
+            min: 1
+            size: small
+          textContent:
+            type: fields
+            fields:
+              company:
+                label: Compagnie
+                type: select
+                options:
+                  artistpage: Fiche Artiste
+                  label: Champ texte
+                width: 1/2
+              relatedCompany:
+                label: Fiche Artiste 
+                type: pages
+                query: site.find('artistes').children.listed
+                max: 1
+                when:
+                  company: artistpage
+                width: 1/2
+              companyName:
+                label: Nom de la compagnie
+                type: text
+                when:
+                  company: label
+                width: 1/2
+              description:
+                label: Description
+                type: textarea
+              distribution:
+                label: Distribution
+                type: textarea
+                width: 1/2
+              credits:
+                label: Credits
+                type: textarea
+                width: 1/2
+              links: sections/links
+  related:
+    label: Relatif au spectacle
+    icon: attachment
+    columns:
+      - width: 2/3
+        fields:
+          relatedPages:
+            ##Aventures + Evenements
+            label: Événements en lien
+            type: pages
+            query: site.find('artistes').children.listed
+          press: sections/press
+
+
+
+
+          
+
