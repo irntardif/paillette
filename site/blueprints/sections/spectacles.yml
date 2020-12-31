@@ -3,7 +3,7 @@
 # Sections can have different layouts and display additional information or a preview image
 # More about pages sections: https://getkirby.com/docs/reference/panel/sections/pages
 type: pages
-headline: Spectacles
+headline: Spectacles et évènements
 parent: kirby.page("spectacles")
 info: "{{ page.companyName }}"
 layout: list
