@@ -1,0 +1,46 @@
+title: Artistes en résidence
+
+icon: preview
+
+options:
+  changeStatus: false
+
+status:
+  draft: true
+  listed: true
+
+columns:
+  - width: 2/3
+    sections:
+      content:
+        type: fields
+        fields:
+          edito:
+            label: Editorial
+            type: textarea
+          headerImage:
+            label: Image d'en tête
+            type: files
+            multiple: false
+          hr:
+            type: line
+          focus: sections/focus
+
+
+  - width: 1/3 
+    sections:
+      listed:
+        extends: sections/artistes
+        headline: Artistes Publiés
+        status: listed 
+      drafts:
+          extends: sections/artistes
+          headline: Brouillons
+          status: draft
+
+      
+
+
+   # help: Tous les spectacles remontent des fiches spectacles.
+
+
