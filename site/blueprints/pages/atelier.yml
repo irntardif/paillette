@@ -1,0 +1,122 @@
+# Each page blueprint must have a title, the title may be different from the file name
+title: Spectacle
+
+# Each page can have an icon that is shown in page listings when no preview image is available.
+icon: preview
+
+# Page status can be limited, here to `draft` and `listed`.
+# More about page status: https://getkirby.com/docs/reference/panel/blueprints/page#statuses
+status:
+  draft: true
+  listed: true
+
+# Define the form layout with two columns
+# Columns are optional but help structure the form layout
+# The first column defines an files section, the second a set of fields
+# More about different types of sections: https://getkirby.com/docs/reference/panel/sections
+# More about columns: https://getkirby.com/docs/guide/blueprints/layout#defining-columns
+
+tabs:
+  spectacleinfo:
+    label: Infos générales
+    icon: file
+    columns:
+      - width: 1/3
+        # The first column contains a set of fields to store
+        # information about the album.
+        #
+        # List of all available field types:
+        # https://getkirby.com/docs/reference/panel/fields
+        fields:
+          # If you need the same field in multiple locations, you can define them once and reuse whereever needed.
+          # Here we use a files field defined in `/site/blueprints/field/cover.yml`
+          intervenant:
+            label: Intervenant
+            type: pages
+            query: site.page("intervenants").children.listed
+          contactMail:
+            label: Adresse de contact
+            type: email
+          public:
+            label: Public concerné
+            type: multiselect
+            options:
+              children1: 4-5 ans
+              children2: 6-10 ans
+              teen1: 11-14 ans
+              teen2: 15-18 ans
+              students: étudiants
+              adults: adultes
+          prices:
+            label: Tarifs
+            type: structure
+            fields:
+              priceType:
+                label: Type de Tarif
+                type: text
+              amount:
+                label: Montant (à l'année)
+                type: number
+
+      - width: 2/3
+        sections:
+          cover: fields/cover
+          textContent:
+            type: fields
+            fields:
+              description:
+                label: Description générale
+                type: textarea
+              planning:
+                label: Planning
+                type: structure
+                default:
+                  - public: 4-5 ans
+                  - public: 6-10 ans
+                  - public: 11-14 ans
+                  - public: 15-18 ans
+                  - public: étudiants
+                  - public: adultes
+                help: Supprimer la ligne lorsque le type de public n'est pas concerné par l'atelier
+                fields:
+                  public:
+                    label: Type de public
+                    type: text
+                    width: 1/3
+                  hours:
+                    label: Horaires
+                    type: text
+                    width: 1/3
+                  isFull:
+                    label: Complet ?
+                    type: toggle
+                    text: 
+                      - non
+                      - oui
+                    width: 1/3
+                  description:
+                    label: Description
+                    type: textarea
+
+
+              links: sections/links
+  related:
+    label: pour aller plus loin...
+    icon: attachment
+    columns:
+      - width: 2/3
+        fields:
+          relatedEvents:
+            label: Évènements en lien
+            type: pages
+            query: site.find('spectacles').children.listed
+          relatedAdventures:
+            label: Aventures en lien
+            type: pages
+            query: site.find('adventures').children.listed
+
+
+
+
+          
+

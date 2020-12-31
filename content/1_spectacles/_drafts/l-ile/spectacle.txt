@@ -2,6 +2,10 @@ Title: L'Île
 
 ----
 
+Type: show
+
+----
+
 Categories: family, creation
 
 ----
@@ -38,7 +42,7 @@ Ticketing:
 
 ----
 
-Company: artistpage
+Company: label
 
 ----
 
@@ -46,7 +50,7 @@ Relatedcompany:
 
 ----
 
-Companyname: 
+Companyname: Collectif Bajour / Hector Manuel
 
 ----
 

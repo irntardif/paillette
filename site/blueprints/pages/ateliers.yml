@@ -18,11 +18,30 @@ columns:
           edito:
             label: Editorial
             type: textarea
+            width: 2/3
           headerImage:
             label: Image d'en tête
             type: files
             multiple: false
+            width: 1/3
           hr:
+            type: line
+          artsedito:
+            label: Edito Arts plastiques
+            type: textarea
+          wellnessedito:
+            label: Edito Bien-être
+            type: textarea
+          danseedito:
+            label: Edito Danse
+            type: textarea
+          musicedito:
+            label: Edito Musique et chant
+            type: textarea
+          theatreedito:
+            label: Edito Théâtre
+            type: textarea
+          hr2:
             type: line
           focus: sections/focus
 

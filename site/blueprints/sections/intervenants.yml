@@ -3,13 +3,9 @@
 # Sections can have different layouts and display additional information or a preview image
 # More about pages sections: https://getkirby.com/docs/reference/panel/sections/pages
 type: pages
-headline: Spectacles
-parent: kirby.page("spectacles")
-info: "{{ page.companyName }}"
+headline: Intervenants
+parent: kirby.page("intervenants")
+info: "{{ page.area }}"
 layout: list
-template: spectacle
-empty: Pas encore de Spectacle
-image:
-  query: page.cover
-  cover: true
-  ratio: 5/4
+template: intervenant
+empty: Pas encore d'intervenant

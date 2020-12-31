@@ -7,7 +7,7 @@ headline: Ateliers
 parent: kirby.page("ateliers")
 info: "{{ page.images.count }} image(s)"
 layout: list
-template: ateliers
+template: atelier
 empty: Pas encore d'Ateliers
 image:
   query: page.cover

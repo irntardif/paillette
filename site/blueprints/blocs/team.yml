@@ -39,16 +39,8 @@ fields:
       column_2:
         label: Intervenants
         fields:
-          stakeholders:
-            type: structure
-            fields:
-              sName: 
-                label: Nom
-                type: text
-              sFunction:
-                label: Atelier
-                type: text
-              page:
-                type: pages
-                query: site.page('ateliers').children.listed
+          intervenant:
+            label: Sélectionnez un intervenant
+            type: pages
+            query: site.page('intervenants').children.listed
                 

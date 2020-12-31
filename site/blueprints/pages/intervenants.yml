@@ -1,0 +1,24 @@
+title: Intervenants
+
+icon: preview
+
+options:
+  changeStatus: false
+
+status:
+  draft: true
+  listed: true
+
+columns:
+  - width: 2/3
+    sections:
+      listed:
+        extends: sections/intervenants
+        headline: Intervenants Publiés
+        status: listed 
+      drafts:
+          extends: sections/intervenants
+          headline: Brouillons
+          status: draft
+
+
