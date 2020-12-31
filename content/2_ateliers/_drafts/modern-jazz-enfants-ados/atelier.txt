@@ -2,7 +2,13 @@ Title: Modern Jazz / Enfants - ados
 
 ----
 
-Intervenant: 
+Area: danse
+
+----
+
+Intervenant:
+
+- intervenants/laurence-gicquel
 
 ----
 
@@ -66,3 +72,7 @@ Relatedevents:
 ----
 
 Relatedadventures: 
+
+----
+
+Type: dance

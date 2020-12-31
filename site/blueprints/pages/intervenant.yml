@@ -30,10 +30,10 @@ columns:
         type: select
         label: Type de pratique
         options:
-          arts: Arts Plastiques
-          wellness: Bien-être
+          arts-plastiques: Arts Plastiques
+          bien-être: Bien-être
           danse: Danse
-          music: Musique et Chant
+          musique-chant: Musique et Chant
           theatre: Théâtre
       bio:
         label: À propos
