@@ -1,0 +1,46 @@
+label: Espaces de travail
+fields:
+  h1Title:
+    label: Titre de la section
+    type: text
+    width: 3/4
+  dropdown:
+    type: toggle
+    label: 'Menu déroulant ?'
+    default: true
+    text: 
+      - 'non'
+      - 'oui'
+    width: 1/4
+  description:
+    label: Description générale
+    type: textarea
+    width: 2/3
+  workspaces_1: 
+    label: Espaces de travail
+    type: structure
+    fields:
+      location:
+        label: Emplacement
+        type: select
+        options:
+          lavoir: Au lavoir
+          theatre: Au théâtre
+        width: 1/2
+      img:
+        label: Image
+        type: files
+        template: image-svg
+        multiple: false
+        width: 1/2
+      pName: 
+        label: Nom de la salle
+        type: text
+        width: 1/2
+      moreInfos:
+        label: Capacité & informations additionnelles
+        type: textarea
+        width: 1/2
+      
+
+                

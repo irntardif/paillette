@@ -1,0 +1,54 @@
+label: Équipe
+fields:
+  h1Title:
+    label: Titre de la section
+    type: text
+    width: 3/4
+  dropdown:
+    type: toggle
+    label: 'Menu déroulant ?'
+    default: true
+    text: 
+      - 'non'
+      - 'oui'
+    width: 1/4
+  description:
+    label: Description générale
+    type: textarea
+    width: 2/3
+  columnTeam: 
+    type: builder
+    label: Membres
+    columns: 2
+    fieldsets:
+      column_1:
+        label: Permanents
+        fields:
+          permanents: 
+            type: structure
+            fields:
+              pName: 
+                label: Nom
+                type: text
+              pFunction:
+                label: Poste
+                type: text
+              pEmail:
+                label: Adresse mail
+                type: email
+      column_2:
+        label: Intervenants
+        fields:
+          stakeholders:
+            type: structure
+            fields:
+              sName: 
+                label: Nom
+                type: text
+              sFunction:
+                label: Atelier
+                type: text
+              page:
+                type: pages
+                query: site.page('ateliers').children.listed
+                

@@ -1,0 +1,9 @@
+title: Image Files
+
+accept:
+  mime: image/jpeg, image/png, image/svg+xml,
+
+fields:
+  caption:
+    label: Caption
+    type: text

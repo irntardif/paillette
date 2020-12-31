@@ -1,0 +1,26 @@
+title: Infos Pratiques
+
+icon: key
+
+status:
+  draft: true
+  listed: true
+
+options:
+  changeSlug: false
+  delete: false
+
+columns:
+  content:
+    icon: text
+    label: content
+    fields:
+      pageBuilder:
+        label: Page Builder
+        type: builder
+        columns: 1
+        fieldsets:
+          editorial: blocs/editorial 
+          administration: blocs/workspaces 
+
+            

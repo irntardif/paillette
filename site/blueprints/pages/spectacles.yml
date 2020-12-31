@@ -29,15 +29,16 @@ columns:
 
   - width: 1/3 
     sections:
+      listed:
+        extends: sections/spectacles
+        headline: Spectacles ou Evènements Publiés
+        status: listed 
       drafts:
           extends: sections/spectacles
           headline: Brouillons
           status: draft
 
-      listed:
-        extends: sections/spectacles
-        headline: Spectacles Publiés
-        status: listed 
+      
 
 
    # help: Tous les spectacles remontent des fiches spectacles.

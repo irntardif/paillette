@@ -1,0 +1,145 @@
+label: Editorial
+fields:
+  h1Title:
+    label: Titre de la section
+    type: text
+    width: 3/4
+  dropdown:
+    type: toggle
+    label: 'Menu déroulant ?'
+    default: true
+    text: 
+      - 'non'
+      - 'oui'
+    width: 1/4
+  layout:
+    label: Grille
+    type: select
+    default: columns_2
+    options:
+      columns_2: 2 colonnes
+      columns_3: 3 colonnes
+    width: 1/4
+  template:
+    label: Mise en page
+    type: select
+    default: alignleft
+    options:
+      alignleft: Texte aligné à gauche 
+      alignright: Texte aligné à droite 
+    width: 1/4
+  textonly:
+    type: toggle
+    label: 'Texte seulement ?'
+    default: false
+    text: 
+      - 'non'
+      - 'oui'
+    width: 1/4
+  hasVideo:
+    type: toggle
+    label: 'Ajouter une vidéo ?'
+    default: false
+    text: 
+      - 'non'
+      - 'oui'
+    width: 1/4
+  content:
+    label: Contenu
+    type: textarea
+    width: 1/2
+    files:
+      query: page.images.template('image-svg')
+      image:
+        cover: true
+    uploads:
+      parent: page
+      template: image-svg
+  content2:
+    label: Contenu Texte 1
+    type: textarea
+    width: 1/2
+    files:
+      query: page.images.template('image-svg')
+      image:
+        cover: true
+    uploads:
+      parent: page
+      template: image-svg
+    when:
+      textonly: true
+  content2:
+    label: Contenu Texte 2
+    type: textarea
+    width: 1/2
+    files:
+      query: page.images.template('image-svg')
+      image:
+        cover: true
+    uploads:
+      parent: page
+      template: image-svg
+    when:
+      textonly: true
+      layout: columns_2
+  content3:
+    label: Contenu Texte 2 
+    type: textarea
+    width: 1/2
+    files:
+      query: page.images.template('image-svg')
+      image:
+        cover: true
+    uploads:
+      parent: page
+      template: image-svg
+    when:
+      layout: columns_3
+  content4:
+    label: Contenu Texte 3
+    type: textarea
+    width: 1/2
+    files:
+      query: page.images.template('image-svg')
+      image:
+        cover: true
+    uploads:
+      parent: page
+      template: image-svg
+    when:
+      textonly: true
+      layout: columns_3
+  imgs:
+    label: Images
+    type: files
+    width: 1/2
+    template: image-svg
+    query: page.images.template('image-svg')
+    uploads:
+      parent: page
+      template: image-svg
+    when:
+      textonly: false
+      hasVideo: false
+  videoId:
+    label: Identifiant de la vidéo
+    type: text
+    width: 1/4
+    when:
+      hasVideo: true
+  platform:
+    label: Platforme
+    type: select
+    default: youtube
+    options:
+      youtube: youtube
+      vimeo: vimeo
+    width: 1/4
+    when:
+      hasVideo: true
+  gap:
+    type: gap
+    width: 1/4
+    when:
+      textonly: false
+       hasVideo: false
