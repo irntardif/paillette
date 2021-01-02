@@ -5,9 +5,9 @@
 type: pages
 headline: Aventures à partager
 parent: kirby.page("aventures")
-info: "{{ page.images.count }} image(s)"
+info: "{{ page.type }}"
 layout: list
-template: aventures
+template: aventure
 empty: Pas encore d'Aventures
 image:
   query: page.cover

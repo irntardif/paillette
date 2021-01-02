@@ -15,10 +15,10 @@ fields:
   layout:
     label: Grille
     type: select
-    default: columns_2
+    default: c-2
     options:
-      columns_2: 2 colonnes
-      columns_3: 3 colonnes
+      c-2: 2 colonnes
+      c-3: 3 colonnes
     width: 1/4
   template:
     label: Mise en page
@@ -44,7 +44,7 @@ fields:
       - 'non'
       - 'oui'
     width: 1/4
-  content:
+  textContent:
     label: Contenu
     type: textarea
     width: 1/2
@@ -55,20 +55,7 @@ fields:
     uploads:
       parent: page
       template: image-svg
-  content2:
-    label: Contenu Texte 1
-    type: textarea
-    width: 1/2
-    files:
-      query: page.images.template('image-svg')
-      image:
-        cover: true
-    uploads:
-      parent: page
-      template: image-svg
-    when:
-      textonly: true
-  content2:
+  textContent2:
     label: Contenu Texte 2
     type: textarea
     width: 1/2
@@ -82,7 +69,7 @@ fields:
     when:
       textonly: true
       layout: columns_2
-  content3:
+  textContent3:
     label: Contenu Texte 2 
     type: textarea
     width: 1/2
@@ -95,7 +82,7 @@ fields:
       template: image-svg
     when:
       layout: columns_3
-  content4:
+  textContent4:
     label: Contenu Texte 3
     type: textarea
     width: 1/2

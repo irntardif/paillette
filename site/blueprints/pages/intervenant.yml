@@ -43,3 +43,7 @@ columns:
         label: Ateliers
         type: pages
         query: site.page('ateliers').children.listed
+      adventures:
+        label: Aventures
+        type: pages
+        query: site.page('aventures').children.listed

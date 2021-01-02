@@ -7,11 +7,11 @@ Pagebuilder:
 - 
   h1title: Accueil
   dropdown: 'false'
-  layout: columns_2
+  layout: c-2
   template: alignleft
   textonly: 'false'
   hasvideo: 'false'
-  content: |
+  textcontent: |
     ## Nous contacter :
     2, rue du Pré de Bris- 35000 Rennes
     Accueil : 02 99 59 88 88 – accueil.mjc@la-paillette.net
@@ -28,9 +28,9 @@ Pagebuilder:
     Ligne de bus C4 et 53 : Arrêt Guilloux
     Star de nuit N1 : arrêt Chèques postaux
     Vélo Star : station Chèques postaux
-  content2: ""
-  content3: ""
-  content4: ""
+  textcontent2: ""
+  textcontent3: ""
+  textcontent4: ""
   imgs: [ ]
   videoid: ""
   platform: youtube
@@ -40,10 +40,17 @@ Pagebuilder:
 - 
   h1title: Horaires et Accessibilité
   dropdown: 'false'
-  layout: columns_3
+  layout: c-2
   template: alignleft
   textonly: 'false'
   hasvideo: 'false'
+  textcontent: ""
+  textcontent2: ""
+  textcontent3: ""
+  textcontent4: ""
+  imgs: [ ]
+  videoid: ""
+  platform: youtube
   content: |
     ## Horaires d’ouverture :
     Accueil - côté Lavoir
@@ -58,9 +65,6 @@ Pagebuilder:
     
     Pour les personnes malentendantes, un dispositif de boucle magnétique a été installé dans la salle de spectacle.
   content4: ""
-  imgs: [ ]
-  videoid: ""
-  platform: youtube
   _key: editorial
   uniquekey: 0
   showpreviewinitially: false
@@ -71,11 +75,11 @@ Pagebuilder:
 - 
   h1title: 'Tarifs et modalités de paiement '
   dropdown: 'false'
-  layout: columns_3
+  layout: c-2
   template: alignleft
   textonly: 'false'
   hasvideo: 'false'
-  content: |
+  textcontent: |
     ## -TARIFS SPECTACLES
     Tarif plein 13 € (hors spectacles Akila - le Tissu d’Antigone et Circulations Capitales)
     Tarifs réduits 11 € Adhérent La Paillette, adhérent MJC de Rennes Métropole, demandeur d’emploi, carte Cezam 9 € Étudiant, bénéficiaire RSA, AAH 8 € Moins de 18 ans, groupe (10 personnes et plus) 5 € dispositif Sortir ! Pour tout tarif réduit il vous sera demandé un justificatif.
@@ -84,15 +88,15 @@ Pagebuilder:
     Ce dispositif nominatif vous donne droit à des réductions. Il est délivré sous conditions de ressources, via les CCAS. Infos dans le CCAS de votre lieu d’habitation. Infos : www.sortir-rennesmetropole.fr
     Comités d’entreprises
     OIS Cezam, inter CE en Ille et Vilaine : un tarif réduit (11€) est accordé aux porteurs de la carte CEZAM en cours de validité
-  content2: ""
-  content3: |
+  textcontent2: ""
+  textcontent3: |
     ## PAIEMENT 
     Sur place à la billetterie en espèces, carte bancaire, chèque, chèque-vacances
     En ligne sur notre site www.la-paillette.net par carte bancaire sans majoration (système sécurisé)
     Par téléphone par carte bancaire au 02 99 59 88 86 Il est possible de réserver une place par téléphone. Les réservations sont définitives à réception du règlement dans les 5 jours suivant l’appel. Passé ce délai, les places seront remises en vente. Les billets prépayés sont à retirer au guichet le soir de la représentation.
     Par courrier en précisant le spectacle choisi, la date, le nombre et le tarif des places que vous commandez. Joignez le chèque établi à l’ordre de La Paillette.
      Les billets non retirés ne seront pas remboursés.
-  content4: ""
+  textcontent4: ""
   imgs: [ ]
   videoid: ""
   platform: youtube
@@ -104,19 +108,19 @@ Pagebuilder:
     Dispositifs liés aux actualités
     sanitaires et sécuritaires
   dropdown: 'true'
-  layout: columns_3
+  layout: c-2
   template: alignleft
   textonly: 'false'
   hasvideo: 'false'
-  content: |
+  textcontent: |
     La Paillette met tout en œuvre pour vous accueillir dans les meilleures conditions. Un protocole respectant les normes sanitaires en vigueur appliquées aux salles de spectacle est en place. Il concerne l’accès aux ateliers et aux spectacles. Nous l’adapterons en fonction des obligations et nous vous tiendrons informés. Vous pouvez consulter les mesures mises en œuvre dans les fiches dédiées.
     (file: accueil-du-public.pdf)
     (file: accueil-des-adherents.pdf)
     
     L’espace bar du Théâtre est temporairement fermé.
-  content2: ""
-  content3: ""
-  content4: ""
+  textcontent2: ""
+  textcontent3: ""
+  textcontent4: ""
   imgs: [ ]
   videoid: ""
   platform: youtube
@@ -126,11 +130,11 @@ Pagebuilder:
 - 
   h1title: Tarifs et modalité de paiement
   dropdown: 'true'
-  layout: ""
+  layout: c-2
   template: ""
   textonly: 'false'
   hasvideo: 'false'
-  content: |
+  textcontent: |
     -TARIFS SPECTACLES
     Tarif plein 13 € (hors spectacles Akila - le Tissu d’Antigone et Circulations Capitales)
     Tarifs réduits 11 € Adhérent La Paillette, adhérent MJC de Rennes Métropole, demandeur d’emploi, carte Cezam 9 € Étudiant, bénéficiaire RSA, AAH 8 € Moins de 18 ans, groupe (10 personnes et plus) 5 € dispositif Sortir ! Pour tout tarif réduit il vous sera demandé un justificatif.
@@ -146,9 +150,9 @@ Pagebuilder:
     Par téléphone par carte bancaire au 02 99 59 88 86 Il est possible de réserver une place par téléphone. Les réservations sont définitives à réception du règlement dans les 5 jours suivant l’appel. Passé ce délai, les places seront remises en vente. Les billets prépayés sont à retirer au guichet le soir de la représentation.
     Par courrier en précisant le spectacle choisi, la date, le nombre et le tarif des places que vous commandez. Joignez le chèque établi à l’ordre de La Paillette.
      Les billets non retirés ne seront pas remboursés.
-  content2: ""
-  content3: ""
-  content4: ""
+  textcontent2: ""
+  textcontent3: ""
+  textcontent4: ""
   imgs: [ ]
   videoid: ""
   platform: youtube
