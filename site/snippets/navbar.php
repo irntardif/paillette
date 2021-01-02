@@ -17,14 +17,17 @@
     </nav>
 
     <nav class="menu aside-menu">
-      search
+       <a class="menu-icon loop" target="_blank" href="#">
+          search
+        </a>
       <?php if( $site->ticketing()->isNotEmpty()): ?>
-        <a target="_blank"href="<?= $site->ticketing() ?>">
+        <a class="menu-icon ticket" target="_blank" href="<?= $site->ticketing() ?>">
           Billetterie
         </a>
       <?php endif; ?>
      <span id="burger">
-       <span>Menu-burger</span>
+       <span class="burger--line"></span>
+       <span>Menu</span>
      </span>
     </nav>
   </div>

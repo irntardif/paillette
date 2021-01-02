@@ -6,7 +6,9 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
+    'Bnomei\\MobileDetect' => $baseDir . '/site/plugins/kirby3-mobile-detect/classes/MobileDetect.php',
     'Composer\\InstalledVersions' => $vendorDir . '/composer/InstalledVersions.php',
+    'Detection\\MobileDetect' => $vendorDir . '/mobiledetect/mobiledetectlib/namespaced/Detection/MobileDetect.php',
     'Kirby\\Api\\Api' => $baseDir . '/kirby/src/Api/Api.php',
     'Kirby\\Api\\Collection' => $baseDir . '/kirby/src/Api/Collection.php',
     'Kirby\\Api\\Model' => $baseDir . '/kirby/src/Api/Model.php',
@@ -251,6 +253,7 @@ return array(
     'League\\ColorExtractor\\Palette' => $vendorDir . '/league/color-extractor/src/League/ColorExtractor/Palette.php',
     'Michelf\\SmartyPants' => $vendorDir . '/michelf/php-smartypants/Michelf/SmartyPants.php',
     'Michelf\\SmartyPantsTypographer' => $vendorDir . '/michelf/php-smartypants/Michelf/SmartyPantsTypographer.php',
+    'Mobile_Detect' => $vendorDir . '/mobiledetect/mobiledetectlib/Mobile_Detect.php',
     'PHPMailer\\PHPMailer\\Exception' => $vendorDir . '/phpmailer/phpmailer/src/Exception.php',
     'PHPMailer\\PHPMailer\\OAuth' => $vendorDir . '/phpmailer/phpmailer/src/OAuth.php',
     'PHPMailer\\PHPMailer\\PHPMailer' => $vendorDir . '/phpmailer/phpmailer/src/PHPMailer.php',

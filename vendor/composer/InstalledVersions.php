@@ -19,11 +19,20 @@ private static $installed = array (
     'aliases' => 
     array (
     ),
-    'reference' => '8977b0ee576f22442916335aff4fb35aacdc1933',
+    'reference' => 'e9dda0208f618afed2a56c8cb3e414647d3d31cb',
     'name' => 'getkirby/starterkit',
   ),
   'versions' => 
   array (
+    'bnomei/kirby3-mobile-detect' => 
+    array (
+      'pretty_version' => '1.3.3',
+      'version' => '1.3.3.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '2fc0c392b0d0080241e25921f4a272976d9dd5c8',
+    ),
     'claviska/simpleimage' => 
     array (
       'pretty_version' => '3.5.1',
@@ -67,7 +76,7 @@ private static $installed = array (
       'aliases' => 
       array (
       ),
-      'reference' => '8977b0ee576f22442916335aff4fb35aacdc1933',
+      'reference' => 'e9dda0208f618afed2a56c8cb3e414647d3d31cb',
     ),
     'laminas/laminas-escaper' => 
     array (
@@ -111,6 +120,15 @@ private static $installed = array (
       array (
       ),
       'reference' => '47d17c90a4dfd0ccf1f87e25c65e6c8012415aad',
+    ),
+    'mobiledetect/mobiledetectlib' => 
+    array (
+      'pretty_version' => '2.8.34',
+      'version' => '2.8.34.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '6f8113f57a508494ca36acbcfa2dc2d923c7ed5b',
     ),
     'mustangostang/spyc' => 
     array (

@@ -9,8 +9,9 @@
   https://getkirby.com/docs/guide/templates/snippets
 */
 ?>
-  </main>
 
+  </main>
+</div>
   <footer class="footer">
     <div class="grid">
       <div class="column" style="--columns: 8">
