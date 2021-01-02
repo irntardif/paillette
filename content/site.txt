@@ -2,4 +2,24 @@ Title: La Paillette
 
 ----
 
+Email: 
+
+----
+
+Mainphone: 
+
+----
+
+Ticketingphone: 
+
+----
+
 Ticketing: http://forumsirius.fr/orion/paillette.phtml?kld=1
+
+----
+
+Social:
+
+- 
+  platform: facebook
+  url: https://www.facebook.com/LaPailletteMJC/

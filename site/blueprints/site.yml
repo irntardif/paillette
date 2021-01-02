@@ -49,14 +49,45 @@ tabs:
     icon: page
     label: Informations générales
     columns:
-      - width: 1/2
+      - width: 1/1
           sections:
             content:
               type: fields
               fields:
+                address:
+                  label: Adresse
+                  type: writer
+                  inline: true
+                  width: 1/2
+                email:
+                  label: Email de contact
+                  type: email
+                  width: 1/4
+                mainphone:
+                  label: Téléphone de l'accueil
+                  type: tel
+                  width: 1/4
+                ticketingphone:
+                  label: Téléphone de la billetterie
+                  type: tel
+                  width: 1/4
                 ticketing:
                   label: Lien vers la billetterie
                   type: url
+                  width: 1/4
+                social:
+                  label: Sur les réseaux
+                  type: structure
+                  fields:
+                    platform:
+                      label: Réseau
+                      type: text
+                      width: 1/2
+                    url:
+                      label: URL
+                      type: url
+                      width: 1/2
+
 
 
 

@@ -13,32 +13,56 @@
   </main>
 </div>
   <footer class="footer">
-    <div class="grid">
-      <div class="column" style="--columns: 8">
-        <h2><a href="https://getkirby.com">Made with Kirby</a></h2>
-        <p>
-          Kirby: the file-based CMS that adapts to any project, loved by developers and editors alike
-        </p>
+    <section class="bg-main">
+      <div class="main-wrapper no-p">
+        <div class="grid">
+          <div class="column" style="--columns: 5">
+            <a class="logo footer-logo" href="<?= $site->url() ?>">
+              <?= $site->title()->html() ?>
+            </a>
+          </div>
+          <div class="column" style="--columns: 3">
+            <ul>
+              <?php foreach ($site->children()->listed() as $elPage): ?>
+              <li><a href="<?= $elPage->url() ?>"><?= $elPage->title()->html() ?></a></li>
+              <?php endforeach ?>
+              <li><a href="<?= $site->find('artistes')->url() ?>"><?= $site->find('artistes')->title()->html() ?></a></li>
+            </ul>
+          </div>
+          <div class="column" style="--columns: 2">
+            <ul>
+              <li><a href="<?= $site->find('la-paillette')->url() ?>"><?= $site->find('la-paillette')->title()->html() ?></a></li>
+              <li><a href="<?= $site->find('infos')->url() ?>"><?= $site->find('infos')->title()->html() ?></a></li>
+              <?php if($site->find('espace-pro')): ?>
+              <li><a href="<?= $site->find('espace-pro')->url() ?>"><?= $site->find('espace-pro')->title()->html() ?></a></li>
+              <?php endif; ?>
+            </ul>
+          </div>
+          <div class="column" style="--columns: 2">
+            <?php snippet('social', ['socials' => $site->social()->toStructure() ]) ?>
+            <ul>
+              <li>
+                 <a href="#newsletter"><span class="bg-primary bg-tint">Newsletter</span></a>
+              </li>
+              <?php if( $site->ticketing()->isNotEmpty()): ?>
+              <li>
+                <a class="menu-icon ticket" target="_blank" href="<?= $site->ticketing() ?>">
+                  Billetterie
+                </a>
+              </li> 
+              <?php endif; ?>
+              <li>
+                <a class="menu-icon loop" target="_blank" href="#">search</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </section>
+    <section class="bg-accent">
+      <div class="main-wrapper no-p">
+         
       </div>
-      <div class="column" style="--columns: 2">
-        <h2>Pages</h2>
-        <ul>
-          <?php foreach ($site->children()->listed() as $example): ?>
-          <li><a href="<?= $example->url() ?>"><?= $example->title()->html() ?></a></li>
-          <?php endforeach ?>
-        </ul>
-      </div>
-      <div class="column" style="--columns: 2">
-        <h2>Kirby</h2>
-        <ul>
-          <li><a href="https://getkirby.com">Website</a></li>
-          <li><a href="https://getkirby.com/docs">Docs</a></li>
-          <li><a href="https://forum.getkirby.com">Forum</a></li>
-          <li><a href="https://chat.getkirby.com">Chat</a></li>
-          <li><a href="https://github.com/getkirby">GitHub</a></li>
-        </ul>
-      </div>
-    </div>
+    </section>
   </footer>
 
   <?= js([

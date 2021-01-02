@@ -52,7 +52,7 @@
       <?php endif; ?>
     </nav>
 
-     <?php snippet('social') ?>
+   <?php snippet('social', ['socials' => $site->social()->toStructure() ]) ?>
   </div>
 
 </header>

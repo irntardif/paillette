@@ -65,6 +65,14 @@ small {
 .bg-light {
   background-color: var(--color-light);
 }
+
+.bg-accent {
+  background-color: var(--color-accent);
+}
+
+.bg-main {
+  background-color: var(--color-main);
+}
 .color-grey {
   color: var(--color-text-grey);
 }
@@ -77,9 +85,11 @@ small {
   position: fixed;
   z-index: 9999;
   top: 0;
-  left: 20px;
   opacity:0;
   transition: opacity .3s ease;
+  left: calc(50% - 30em);
+  -webkit-transform: translate(calc(-100% - 25px), 0);
+  transform: translate(calc(-100% - 25px), 0);
 }
 
 .paillette-logo.hide{
@@ -91,7 +101,6 @@ small {
   .paillette-logo{
     width: 140px;
     height: 250px;
-    left:25px;
   }
 }
 
@@ -160,10 +169,13 @@ small {
 
 .social {
   display: flex;
-  padding: 0 .5rem;
 }
 .social a {
-  padding: 1rem .5rem;
+  padding: .5rem;
+}
+
+.social a:first-child{
+  padding-left:0;
 }
 
 a.menu-icon{
@@ -451,7 +463,6 @@ hr {
 }
 
 .footer {
-  padding: 9rem 0 6rem;
   line-height: 1.5em;
 }
 .footer:before {
@@ -512,6 +523,10 @@ hr {
 }
 .margin-xxl {
   margin-bottom: 6rem;
+}
+
+.no-p{
+  padding: 0;
 }
 
 
@@ -684,6 +699,10 @@ hr {
   .fixed-header .main-header{
     position:fixed;
     padding: .8rem 0;
+  }
+
+  .fixed-header .main-menu a:first-child{
+    padding-left: 0;
   }
 
   .fixed-header .main-header .logo{

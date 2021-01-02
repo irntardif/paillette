@@ -11,14 +11,12 @@
   https://getkirby.com/docs/guide/templates/snippets
 */
 ?>
+ <?php if ($socials->count()): ?>
 <span class="social">
-  <a href="https://twitter.com/getkirby">
-    <?= svg('assets/icons/twitter.svg') ?>
+  <?php foreach ($socials as $social): ?>
+  <a href="<?= $social->url(); ?>">
+    <?= svg('assets/icons/'.$social->platform().'.svg') ?>
   </a>
-  <a href="https://chat.getkirby.com">
-    <?= svg('assets/icons/discord.svg') ?>
-  </a>
-  <a href="https://instagram.com/getkirby">
-    <?= svg('assets/icons/instagram.svg') ?>
-  </a>
+  <?php endforeach; ?>
 </span>
+<?php endif; ?>

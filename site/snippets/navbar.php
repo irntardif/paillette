@@ -33,7 +33,7 @@
   </div>
 
   <div class="wrapper-2">
-    <?php snippet('social') ?>
+   <?php snippet('social', ['socials' => $site->social()->toStructure() ]) ?>
     <nav class="menu">
       <?php foreach ($site->children()->unlisted() as $item):
         if($item->id() == 'artistes' || $item->id() == 'infos' || $item->id() == 'la-paillette'): ?>
