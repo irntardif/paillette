@@ -116,6 +116,7 @@ small {
   grid-gap: var(--gutter);
   grid-template-columns: 1fr;
 }
+
 .grid > .column {
   margin-bottom: var(--gutter);
 }
@@ -378,6 +379,20 @@ hr {
 
   .grid {
     grid-template-columns: repeat(12, 1fr);
+  }
+  .grid.c-2{
+   grid-template-columns: repeat(2, 1fr);
+  }
+  .grid.c-3{
+   grid-template-columns: repeat(3, 1fr);
+  }
+  .grid.alignright > div:last-child {
+      grid-column-start: 1;
+      grid-row-start: 1;
+  }
+  .grid.c-3.alignright > div:nth-child(2) {
+      grid-column-start: 2;
+      grid-row-start: 1;
   }
   .grid > .column {
     grid-column: span var(--columns);
