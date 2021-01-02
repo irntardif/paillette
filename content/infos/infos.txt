@@ -12,18 +12,18 @@ Pagebuilder:
   textonly: 'false'
   hasvideo: 'false'
   textcontent: |
-    ## Nous contacter :
+    ### Nous contacter :
     2, rue du Pré de Bris- 35000 Rennes
     Accueil : 02 99 59 88 88 – accueil.mjc@la-paillette.net
     Billetterie : 02 99 59 88 86 – billetterie@la-paillette.net
     
-    ## Nous trouver :
-    Le lavoir :
-    2, rue du Pré de Bris- 35000 Rennes
-    Le Théâtre :
-    6 rue Louis Guilloux – 35000 Rennes
     
-    ## Accès :
+    ### Nous trouver :
+    Le lavoir : 2, rue du Pré de Bris- 35000 Rennes
+    Le Théâtre : 6 rue Louis Guilloux – 35000 Rennes
+    
+    
+    ### Accès :
     Lignes de bus 11, 54, 55, 56 : arrêt Guilloux Lorient
     Ligne de bus C4 et 53 : Arrêt Guilloux
     Star de nuit N1 : arrêt Chèques postaux
@@ -31,7 +31,8 @@ Pagebuilder:
   textcontent2: ""
   textcontent3: ""
   textcontent4: ""
-  imgs: [ ]
+  imgs:
+    - plan-paillette.png
   videoid: ""
   platform: youtube
   _key: editorial
@@ -39,7 +40,7 @@ Pagebuilder:
   gap: null
 - 
   h1title: Horaires et Accessibilité
-  dropdown: 'false'
+  dropdown: 'true'
   layout: c-2
   template: alignleft
   textonly: 'false'
@@ -74,7 +75,7 @@ Pagebuilder:
   gap: null
 - 
   h1title: 'Tarifs et modalités de paiement '
-  dropdown: 'false'
+  dropdown: 'true'
   layout: c-2
   template: alignleft
   textonly: 'false'

@@ -9,4 +9,20 @@
  */
 return [
     'debug' => true,
+    'thumbs' => [
+		'presets' => [
+	    	'default' => ['width' => 400, 'quality' => 80, 'blur' => true],
+	   	],
+	   	'srcsets' => [
+		  'default' => [
+		    '800w' => ['width' => 1600, 'quality' => 90],
+		    '1024w' => ['width' => 2048, 'quality' => 90],
+		    '1280w' => ['width' => 1560, 'quality' => 90],
+		    '1440w' => ['width' => 2880, 'quality' => 90],
+		    '1600w' => ['width' => 3200, 'quality' => 90],
+		    '2048w' => ['width' => 4096, 'quality' => 90]
+		  ]
+		],
+	],
+    
 ];

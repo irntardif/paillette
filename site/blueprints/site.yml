@@ -48,6 +48,15 @@ tabs:
   globalInfos:
     icon: page
     label: Informations générales
+    columns:
+      - width: 1/2
+          sections:
+            content:
+              type: fields
+              fields:
+                ticketing:
+                  label: Lien vers la billetterie
+                  type: url
 
 
 

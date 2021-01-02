@@ -68,7 +68,7 @@ fields:
       template: image-svg
     when:
       textonly: true
-      layout: columns_2
+      layout: c-2
   textContent3:
     label: Contenu Texte 2 
     type: textarea
@@ -81,7 +81,7 @@ fields:
       parent: page
       template: image-svg
     when:
-      layout: columns_3
+      layout: c-3
   textContent4:
     label: Contenu Texte 3
     type: textarea
@@ -95,7 +95,7 @@ fields:
       template: image-svg
     when:
       textonly: true
-      layout: columns_3
+      layout: c-3
   imgs:
     label: Images
     type: files

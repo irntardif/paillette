@@ -7,10 +7,11 @@ Pagebuilder:
 - 
   h1title: Notre lieu
   dropdown: 'false'
-  layout: alignleft
+  layout: c-2
+  template: alignleft
   textonly: 'false'
   hasvideo: 'false'
-  content: |
+  textcontent: |
     Située au cœur du domaine Saint-Cyr à Rennes, dans le quartier de Bourg L’évêque, La Paillette est l’une des cinq Maison des Jeunes et de la Culture de la ville. Elle accueille tout au long de l’année des ateliers de pratiques artistiques en amateur, des spectacles de théâtre, des stages, un festival et des projets de médiation et d’action culturelle imaginés sous forme d’aventures à partager.
     
     Disposant de deux bâtiments, le Lavoir et le Théâtre, La Paillette n’a de cesse de lier ces espaces autour d’un projet commun : celui d’accueillir et de valoriser toutes les cultures en infusant dans chaque pan de son activité la rencontre primordiale avec la création.
@@ -19,10 +20,13 @@ Pagebuilder:
     Se rendre au Théâtre c’est découvrir le versant récent de La Paillette, construit en 2006, pour y rencontrer une ruche identique au Lavoir et profiter de sa salle de spectacle de 210 places faisant la part belle à la création théâtrale contemporaine et notamment bretonne.
     
     Chaque bâtiment a été pensé comme un espace ouvert et accueillant. Au détour d’une balade ou avant une activité, il est possible de passer prendre un café en journée ou de découvrir quelques suggestions de livres au coin lecture du Lavoir. En soirée, le Théâtre invite les spectateurs à se restaurer avant ou après les spectacles, en profitant d’une vue imprenable sur le parc Saint-Cyr.
-  content2: ""
+  textcontent2: ""
+  textcontent3: ""
+  textcontent4: ""
   imgs: [ ]
   videoid: ""
   platform: youtube
+  content2: ""
   img: [ ]
   title: ""
   title2: ""
@@ -32,10 +36,11 @@ Pagebuilder:
 - 
   h1title: Notre projet associatif
   dropdown: 'true'
-  layout: alignleft
+  layout: c-2
+  template: alignleft
   textonly: 'false'
   hasvideo: 'false'
-  content: |
+  textcontent: |
     Construit autour des notions fondamentales des droits culturels et d’éducation populaire, le projet de La Paillette s’attache à respecter la définition de la culture donnée par l’Unesco en 2007 : « Le terme culture recouvre les valeurs, les croyances, les convictions, les langues, les savoirs et les arts, les traditions, institutions et modes de vie par lesquels une personne ou un groupe exprime son humanité et les significations qu’il donne à son existence et à son développement… »
     
     Ouvert à la singularité et à la diversité des personnes et de leurs pratiques, La Paillette développe son activité autour de 5 axes forts :
@@ -48,7 +53,9 @@ Pagebuilder:
     L’ensemble de ces axes forme un tout interdépendant qui s’adresse de l’enfance au 4ème âge. Ce parcours transversal est guidé par l’envie de créer des espaces de valorisation de soi par le biais du sensible et de la création.
     
     Au-delà de son activité annuelle, La Paillette héberge des associations du territoire qui souhaitent proposer des activités complémentaires à celles proposées : Ming Shen (cours de Qi Gong) Indigoyoga (cours de yoga kundalini), Braise Tango (cours de tango)
-  content2: ""
+  textcontent2: ""
+  textcontent3: ""
+  textcontent4: ""
   imgs: [ ]
   videoid: ""
   platform: youtube
@@ -69,19 +76,22 @@ Pagebuilder:
 - 
   h1title: Nous rejoindre
   dropdown: 'true'
-  layout: alignleft
+  layout: c-2
+  template: alignleft
   textonly: 'true'
   hasvideo: 'false'
-  content: |
+  textcontent: |
     ## Devenir bénévole
     La Paillette vous intrigue, vous appelle, vous séduit ? Vous avez envie de vivre le lieu différemment et de découvrir les coulisses de l’organisation d’un événement ? Alors n’attendez plus et rejoignez notre équipe de bénévoles.
     
     + Renseignements : (email: dynamique.lapaillette@gmail.com text: Par ici !)
-  content2: |
+  textcontent2: |
     ## Adhérer
     Devenez acteur·rice de la vie culturelle et sociale de La Paillette, de votre quartier et de votre ville en adhérant à notre structure. L’adhésion vous permet également de participer à la vie démocratique de l’association en Assemblée Générale et elle vous fait bénéficier de tarifs réduits pour les spectacles et les activités organisés par La Paillette et l’ensemble des MJC de la Région Bretagne.
     L’adhésion est valable du 1er septembre au 31 août de l’année suivante.
     Adhésion individuelle : 13€ Adhésion familiale : 26€ (couvrant parents et enfants à charge) Adhésion participative : 5€ (stages, membres des associations adhérentes)
+  textcontent3: ""
+  textcontent4: ""
   imgs: [ ]
   videoid: ""
   platform: youtube
@@ -170,6 +180,7 @@ Pagebuilder:
       _key: column_1
       _uid: column_1_1609417324013_431
     - 
+      intervenant: [ ]
       stakeholders: [ ]
       _key: column_2
       _uid: column_2_1609418302613_431
