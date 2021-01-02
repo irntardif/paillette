@@ -20,6 +20,10 @@
             <a class="logo footer-logo" href="<?= $site->url() ?>">
               <?= $site->title()->html() ?>
             </a>
+            <p><?= $site->address() ?></p>
+            <p><a href="mailto:<?= $site->email()?>"><?= $site->email() ?></a></p>
+            <p>Accueil: <?= $site->mainphone() ?></p>
+            <p>Billetterie: <?= $site->ticketingphone() ?></p>
           </div>
           <div class="column" style="--columns: 3">
             <ul>
@@ -60,7 +64,14 @@
     </section>
     <section class="bg-accent">
       <div class="main-wrapper no-p">
-         
+         <ul>
+           <?php if($site->find('mentions-legales')): ?>
+            <li><a href="<?= $site->find('mentions-legales')->url() ?>"><?= $site->find('mentions-legales')->title()->html() ?></a></li>
+            <?php endif; ?>
+            <?php if($site->find('credits')): ?>
+            <li><a href="<?= $site->find('credits')->url() ?>"><?= $site->find('credits')->title()->html() ?></a></li>
+            <?php endif; ?>
+         </ul>
       </div>
     </section>
   </footer>
