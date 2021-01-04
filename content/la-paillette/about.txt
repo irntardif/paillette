@@ -23,7 +23,9 @@ Pagebuilder:
   textcontent2: ""
   textcontent3: ""
   textcontent4: ""
-  imgs: [ ]
+  imgs:
+    - theatre-la-paillette-mjc2.jpg
+    - theatre-la-paillette-mjc.jpg
   videoid: ""
   platform: youtube
   content2: ""
@@ -36,13 +38,13 @@ Pagebuilder:
 - 
   h1title: Notre projet associatif
   dropdown: 'true'
-  layout: c-2
+  layout: c-3
   template: alignleft
-  textonly: 'false'
+  textonly: 'true'
   hasvideo: 'false'
-  textcontent: |
-    Construit autour des notions fondamentales des droits culturels et d’éducation populaire, le projet de La Paillette s’attache à respecter la définition de la culture donnée par l’Unesco en 2007 : « Le terme culture recouvre les valeurs, les croyances, les convictions, les langues, les savoirs et les arts, les traditions, institutions et modes de vie par lesquels une personne ou un groupe exprime son humanité et les significations qu’il donne à son existence et à son développement… »
-    
+  textcontent: 'Construit autour des notions fondamentales des droits culturels et d’éducation populaire, le projet de La Paillette s’attache à respecter la définition de la culture donnée par l’Unesco en 2007 : « Le terme culture recouvre les valeurs, les croyances, les convictions, les langues, les savoirs et les arts, les traditions, institutions et modes de vie par lesquels une personne ou un groupe exprime son humanité et les significations qu’il donne à son existence et à son développement… »'
+  textcontent2: ""
+  textcontent3: |
     Ouvert à la singularité et à la diversité des personnes et de leurs pratiques, La Paillette développe son activité autour de 5 axes forts :
     La diffusion de spectacles
     Le soutien à la création théâtrale régionale contemporaine
@@ -51,11 +53,7 @@ Pagebuilder:
     L’animation de proximité
     
     L’ensemble de ces axes forme un tout interdépendant qui s’adresse de l’enfance au 4ème âge. Ce parcours transversal est guidé par l’envie de créer des espaces de valorisation de soi par le biais du sensible et de la création.
-    
-    Au-delà de son activité annuelle, La Paillette héberge des associations du territoire qui souhaitent proposer des activités complémentaires à celles proposées : Ming Shen (cours de Qi Gong) Indigoyoga (cours de yoga kundalini), Braise Tango (cours de tango)
-  textcontent2: ""
-  textcontent3: ""
-  textcontent4: ""
+  textcontent4: 'Au-delà de son activité annuelle, La Paillette héberge des associations du territoire qui souhaitent proposer des activités complémentaires à celles proposées : Ming Shen (cours de Qi Gong) Indigoyoga (cours de yoga kundalini), Braise Tango (cours de tango)'
   imgs: [ ]
   videoid: ""
   platform: youtube

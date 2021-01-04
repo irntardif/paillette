@@ -42,14 +42,25 @@ Pagebuilder:
   h1title: Horaires et Accessibilité
   dropdown: 'true'
   layout: c-2
-  template: alignleft
+  template: alignright
   textonly: 'false'
   hasvideo: 'false'
-  textcontent: ""
+  textcontent: |
+    ## Horaires d’ouverture :
+    ### Accueil - côté Lavoir
+    Lundi, mardi et jeudi : 13h30-21h Mercredi : 9h30-21h Vendredi : 13h30-18h30 Pendant les vacances scolaires, nous contacter pour connaître nos horaires d’ouverture.
+    
+    ### Billetterie - côté Théâtre 
+    Mardi, jeudi et vendredi : 13h30-18h Mercredi : 12h-18h En soirée : 1h avant le début de chaque représentation.
+    
+    ## Accessibilité
+    Le lavoir et le Théâtre sont accessibles aux personnes à mobilité réduite.
+    Pour la venue aux ateliers et aux représentations, merci de prévenir respectivement l’accueil ou la billetterie en amont afin que nous puissions vous accueillir au mieux.
   textcontent2: ""
   textcontent3: ""
   textcontent4: ""
-  imgs: [ ]
+  imgs:
+    - theatre-la-paillette-mjc.jpg
   videoid: ""
   platform: youtube
   content: |
@@ -78,18 +89,36 @@ Pagebuilder:
   dropdown: 'true'
   layout: c-2
   template: alignleft
-  textonly: 'false'
+  textonly: 'true'
   hasvideo: 'false'
   textcontent: |
-    ## -TARIFS SPECTACLES
+    ## TARIFS SPECTACLES
     Tarif plein 13 € (hors spectacles Akila - le Tissu d’Antigone et Circulations Capitales)
-    Tarifs réduits 11 € Adhérent La Paillette, adhérent MJC de Rennes Métropole, demandeur d’emploi, carte Cezam 9 € Étudiant, bénéficiaire RSA, AAH 8 € Moins de 18 ans, groupe (10 personnes et plus) 5 € dispositif Sortir ! Pour tout tarif réduit il vous sera demandé un justificatif.
-    Parcours 3 spectacles Parcours tarif plein : 33 € (11 € la place supplémentaire) Parcours tarif réduit adhérent et demandeur d’emploi : 30 € (10 € la place supplémentaire) Parcours tarif réduit - de 18 ans, étudiants et bénéficiaire RSA : 21 € (7 € la place supplémentaire)
-    Dispositif Sortir !
+    
+    **Tarifs réduits **
+    11 € Adhérent La Paillette, adhérent MJC de Rennes Métropole, demandeur d’emploi, carte Cezam
+     9 € Étudiant, bénéficiaire RSA, AAH 
+    8 € Moins de 18 ans, groupe (10 personnes et plus) 
+    5 € dispositif Sortir ! 
+    Pour tout tarif réduit il vous sera demandé un justificatif.
+    
+    **Parcours 3 spectacles **
+    Parcours tarif plein : 33 € (11 € la place supplémentaire) 
+    Parcours tarif réduit adhérent et demandeur d’emploi : 30 € (10 € la place supplémentaire)
+     Parcours tarif réduit - de 18 ans, étudiants et bénéficiaire RSA : 21 € (7 € la place supplémentaire)
+    
+    **Dispositif Sortir !**
     Ce dispositif nominatif vous donne droit à des réductions. Il est délivré sous conditions de ressources, via les CCAS. Infos dans le CCAS de votre lieu d’habitation. Infos : www.sortir-rennesmetropole.fr
-    Comités d’entreprises
+    
+    **Comités d’entreprises**
     OIS Cezam, inter CE en Ille et Vilaine : un tarif réduit (11€) est accordé aux porteurs de la carte CEZAM en cours de validité
-  textcontent2: ""
+  textcontent2: |
+    ## PAIEMENT 
+    Sur place à la billetterie en espèces, carte bancaire, chèque, chèque-vacances
+    En ligne sur notre site www.la-paillette.net par carte bancaire sans majoration (système sécurisé)
+    Par téléphone par carte bancaire au 02 99 59 88 86 Il est possible de réserver une place par téléphone. Les réservations sont définitives à réception du règlement dans les 5 jours suivant l’appel. Passé ce délai, les places seront remises en vente. Les billets prépayés sont à retirer au guichet le soir de la représentation.
+    Par courrier en précisant le spectacle choisi, la date, le nombre et le tarif des places que vous commandez. Joignez le chèque établi à l’ordre de La Paillette.
+     Les billets non retirés ne seront pas remboursés.
   textcontent3: |
     ## PAIEMENT 
     Sur place à la billetterie en espèces, carte bancaire, chèque, chèque-vacances
@@ -127,38 +156,6 @@ Pagebuilder:
   platform: youtube
   _key: editorial
   _uid: editorial_1609420517243_400
-  gap: null
-- 
-  h1title: Tarifs et modalité de paiement
-  dropdown: 'true'
-  layout: c-2
-  template: ""
-  textonly: 'false'
-  hasvideo: 'false'
-  textcontent: |
-    -TARIFS SPECTACLES
-    Tarif plein 13 € (hors spectacles Akila - le Tissu d’Antigone et Circulations Capitales)
-    Tarifs réduits 11 € Adhérent La Paillette, adhérent MJC de Rennes Métropole, demandeur d’emploi, carte Cezam 9 € Étudiant, bénéficiaire RSA, AAH 8 € Moins de 18 ans, groupe (10 personnes et plus) 5 € dispositif Sortir ! Pour tout tarif réduit il vous sera demandé un justificatif.
-    Parcours 3 spectacles Parcours tarif plein : 33 € (11 € la place supplémentaire) Parcours tarif réduit adhérent et demandeur d’emploi : 30 € (10 € la place supplémentaire) Parcours tarif réduit - de 18 ans, étudiants et bénéficiaire RSA : 21 € (7 € la place supplémentaire)
-    Dispositif Sortir !
-    Ce dispositif nominatif vous donne droit à des réductions. Il est délivré sous conditions de ressources, via les CCAS. Infos dans le CCAS de votre lieu d’habitation. Infos : www.sortir-rennesmetropole.fr
-    Comités d’entreprises
-    OIS Cezam, inter CE en Ille et Vilaine : un tarif réduit (11€) est accordé aux porteurs de la carte CEZAM en cours de validité
-    
-    PAIEMENT 
-    Sur place à la billetterie en espèces, carte bancaire, chèque, chèque-vacances
-    En ligne sur notre site www.la-paillette.net par carte bancaire sans majoration (système sécurisé)
-    Par téléphone par carte bancaire au 02 99 59 88 86 Il est possible de réserver une place par téléphone. Les réservations sont définitives à réception du règlement dans les 5 jours suivant l’appel. Passé ce délai, les places seront remises en vente. Les billets prépayés sont à retirer au guichet le soir de la représentation.
-    Par courrier en précisant le spectacle choisi, la date, le nombre et le tarif des places que vous commandez. Joignez le chèque établi à l’ordre de La Paillette.
-     Les billets non retirés ne seront pas remboursés.
-  textcontent2: ""
-  textcontent3: ""
-  textcontent4: ""
-  imgs: [ ]
-  videoid: ""
-  platform: youtube
-  _key: editorial
-  _uid: editorial_1609420534799_400
   gap: null
 - 
   h1title: 'Louer nos espaces '

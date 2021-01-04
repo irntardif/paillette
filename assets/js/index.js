@@ -51,7 +51,7 @@ const body = document.getElementsByTagName('body')[0];
 
 document.addEventListener('DOMContentLoaded', function(){
 
-inView('[data-src]').once('enter', setSrcAttribute);
+inView('[data-src]').on('enter', setSrcAttribute);
     
 if (window.innerWidth >= 768 ){
     scrollEventThrottle((scrollPos, previousScrollPos) => {
