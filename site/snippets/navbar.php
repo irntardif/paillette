@@ -43,10 +43,8 @@
       <?php endif; ?>
     <?php endforeach ?>
     </nav>
-    <a href="#newsletter">
-      <div class="bg-primary bg-tint">
-        Newsletter
-      </div>
+    <a class="menu-icon icon-text newsletter" href="#newsletter">
+      <span class="bg-primary bg-tint">Newsletter</span>
     </a>
   </div>
 

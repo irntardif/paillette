@@ -13,7 +13,7 @@
   </main>
 </div>
   <footer class="footer">
-    <section class="bg-main">
+    <section class="bg-main padding_t-l ">
       <div class="main-wrapper no-p">
         <div class="grid">
           <div class="column" style="--columns: 5">
@@ -45,26 +45,26 @@
           <div class="column" style="--columns: 2">
             <?php snippet('social', ['socials' => $site->social()->toStructure() ]) ?>
             <ul>
-              <li>
-                 <a href="#newsletter"><span class="bg-primary bg-tint">Newsletter</span></a>
+              <li class="margin_b-m">
+                 <a class="menu-icon icon-text newsletter" href="#newsletter"><span class="bg-primary bg-tint">Newsletter</span></a>
               </li>
               <?php if( $site->ticketing()->isNotEmpty()): ?>
               <li>
-                <a class="menu-icon ticket" target="_blank" href="<?= $site->ticketing() ?>">
+                <a class="menu-icon icon-text ticket" target="_blank" href="<?= $site->ticketing() ?>">
                   Billetterie
                 </a>
               </li> 
               <?php endif; ?>
               <li>
-                <a class="menu-icon loop" target="_blank" href="#">search</a>
+                <a class="menu-icon icon-text loop" target="_blank" href="#">search</a>
               </li>
             </ul>
           </div>
         </div>
     </section>
-    <section class="bg-accent">
+    <section class="bg-accent padding_h-s">
       <div class="main-wrapper no-p">
-         <ul>
+         <ul class="list-inline">
            <?php if($site->find('mentions-legales')): ?>
             <li><a href="<?= $site->find('mentions-legales')->url() ?>"><?= $site->find('mentions-legales')->title()->html() ?></a></li>
             <?php endif; ?>

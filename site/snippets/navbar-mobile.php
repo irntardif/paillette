@@ -37,11 +37,9 @@
     <nav class="menu">
       
     
-      <a href="#newsletter">
-        <span class="bg-primary bg-tint">
-          Newsletter
-        </span>
-      </a>
+    <a class="menu-icon icon-text newsletter" href="#newsletter">
+      <span class="bg-primary bg-tint">Newsletter</span>
+    </a>
      <a class="menu-icon loop" target="_blank" href="#">
           search
         </a>
