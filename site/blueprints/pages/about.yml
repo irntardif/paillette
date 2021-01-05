@@ -21,7 +21,7 @@ columns:
         columns: 1
         fieldsets:
           editorial: blocs/editorial 
-          administration: blocs/administration 
+          #administration: blocs/administration 
           teamColumns: blocs/team 
           partners: blocs/partners 
 

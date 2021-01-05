@@ -66,11 +66,47 @@ Pagebuilder:
 - 
   h1title: Notre gouvernance
   dropdown: 'true'
-  description: ""
-  administration: [ ]
+  layout: c-2
+  template: alignleft
+  textonly: 'true'
+  hasvideo: 'false'
+  textcontent: |
+    La Paillette est une association de loi 1901. Elle se compose d’une équipe permanente et d’un Conseil d’administration….
+    
+    Présidente : Katell Stephan 
+    Vice-présidente : Corinne Jarnot 
+    Secrétaire : Isabelle Le Corguillé 
+    Secrétaire adjoint : Étienne Cha 
+    Trésorier : Didier Schlagdenhauffen 
+    Trésorier adjoint : Alexander Niess
+     Membres du bureau : Jeanne Clinchamp, Michel Monestes 
+  textcontent2: |
+    Autres membres élus : Rizlane Allanic, Catherine Chalandre, Philippe Desnos, Frédérique Le Borgne, Alain Le Roux, Mélanie Richer, Marcella Sorci 
+    Membres de droit : Corinne Le Fustec représentante de la FRMJC Bretagne, Benoit Careil représentant de la ville de Rennes, Valérie Leroux directrice de La Paillette 
+    Représentants du personnel - membres élus au Conseil Social et Économique : Cyrille Baron représentant titulaire, Laurence Gicquel représentante suppléante
+  textcontent3: |
+    Ouvert à la singularité et à la diversité des personnes et de leurs pratiques, La Paillette développe son activité autour de 5 axes forts :
+    La diffusion de spectacles
+    Le soutien à la création théâtrale régionale contemporaine
+    La médiation culturelle
+    Les pratiques en amateur
+    L’animation de proximité
+    
+    L’ensemble de ces axes forme un tout interdépendant qui s’adresse de l’enfance au 4ème âge. Ce parcours transversal est guidé par l’envie de créer des espaces de valorisation de soi par le biais du sensible et de la création.
+  textcontent4: 'Au-delà de son activité annuelle, La Paillette héberge des associations du territoire qui souhaitent proposer des activités complémentaires à celles proposées : Ming Shen (cours de Qi Gong) Indigoyoga (cours de yoga kundalini), Braise Tango (cours de tango)'
+  imgs: [ ]
+  videoid: ""
+  platform: youtube
+  img: [ ]
   title: ""
-  _key: administration
-  _uid: administration_1609419048305_112
+  title2: ""
+  _key: editorial
+  gap: null
+  uniquekey: 0
+  showpreviewinitially: false
+  expandedinitially: false
+  activefieldsetinitially: content
+  _uid: editorial_1609846262041_4436
 - 
   h1title: Nous rejoindre
   dropdown: 'true'
@@ -110,75 +146,60 @@ Pagebuilder:
     - 
       permanents:
         - 
-          pname:  Corinne Barbier
+          pname: Corinne Barbier
           pfunction: >
             Accueil, gestion administrative et
             financière des ateliers
-          pemail: accueil.mjc@la-paillete.net
+          pemail: accueil.mjc@la-paillette.net
         - 
-          pname:  Corinne Barbier
-          pfunction: >
-            Accueil, gestion administrative et
-            financière des ateliers
-          pemail: accueil.mjc@la-paillete.net
+          pname: Cyrille Baron
+          pfunction: Coordination des pratiques artistiques 
+          pemail: coordination.mjc@la-paillette.net
         - 
-          pname:  Corinne Barbier
-          pfunction: >
-            Accueil, gestion administrative et
-            financière des ateliers
-          pemail: accueil.mjc@la-paillete.net
+          pname: Aude Challemel du Rozier
+          pfunction: Médiation culturelle
+          pemail: mediation@la-paillette.net
         - 
-          pname:  Corinne Barbier
-          pfunction: >
-            Accueil, gestion administrative et
-            financière des ateliers
-          pemail: accueil.mjc@la-paillete.net
+          pname: Martin Delion
+          pfunction: Régie générale
+          pemail: regie@la-paillette.net
         - 
-          pname:  Corinne Barbier
-          pfunction: >
-            Accueil, gestion administrative et
-            financière des ateliers
-          pemail: accueil.mjc@la-paillete.net
+          pname: Agathe Delphino
+          pfunction: Administration, comptabilité
+          pemail: comptarh@la-paillette.net
         - 
-          pname:  Corinne Barbier
-          pfunction: >
-            Accueil, gestion administrative et
-            financière des ateliers
-          pemail: accueil.mjc@la-paillete.net
+          pname: Hélène Fiszpan
+          pfunction: Communication
+          pemail: communication@la-paillette.net
         - 
-          pname:  Corinne Barbier
-          pfunction: >
-            Accueil, gestion administrative et
-            financière des ateliers
-          pemail: accueil.mjc@la-paillete.net
+          pname: Valérie Leroux
+          pfunction: Direction
+          pemail: direction@la-paillette.net
         - 
-          pname:  Corinne Barbier
+          pname: Annick Quistrebert 
           pfunction: >
-            Accueil, gestion administrative et
-            financière des ateliers
-          pemail: accueil.mjc@la-paillete.net
+            Accueil, location de salles, entretien
+            des locaux
+          pemail: loc.salle@la-paillette.net
         - 
-          pname:  Corinne Barbier
+          pname: Amélie Rousseau 
           pfunction: >
-            Accueil, gestion administrative et
-            financière des ateliers
-          pemail: accueil.mjc@la-paillete.net
+            Adjointe de direction, conseillère
+            artistique 
+          pemail: adj.direction@la-paillette.net
         - 
-          pname:  Corinne Barbier
-          pfunction: >
-            Accueil, gestion administrative et
-            financière des ateliers
-          pemail: accueil.mjc@la-paillete.net
+          pname: Céline Salmon  
+          pfunction:  Entretien des locaux 
+          pemail: entretien.theatre@la-paillette.net
         - 
-          pname:  Corinne Barbier
-          pfunction: >
-            Accueil, gestion administrative et
-            financière des ateliers
-          pemail: accueil.mjc@la-paillete.net
+          pname: Amandine Salvan
+          pfunction: Billetterie, accueil, secrétariat
+          pemail: billetterie@la-paillette.net
       _key: column_1
       _uid: column_1_1609417324013_431
     - 
-      intervenant: [ ]
+      intervenants:
+        - intervenants/laurence-gicquel
       stakeholders: [ ]
       _key: column_2
       _uid: column_2_1609418302613_431

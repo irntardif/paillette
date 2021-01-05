@@ -16,7 +16,7 @@
   --color-black: #000;
   --color-white: #fff;
   --color-grey: #777;
-  --color-light: #efefef;
+  --color-light: #EBEBEB;
   --color-text: var(--color-black);
   --color-text-grey: var(--color-grey);
   --color-background: var(--color-white);
@@ -386,6 +386,17 @@ h1, h2, h3, h4, h5, h6 {
   text-transform: uppercase;
 }
 
+.cap,
+.h1.cap,
+.h2.cap,
+.h3.cap{
+  text-transform: capitalize;
+}
+
+.micro-text{
+   font-size:0.77rem;
+}
+
 .text .codeblock {
   display: grid;
 }
@@ -435,6 +446,23 @@ h1, h2, h3, h4, h5, h6 {
 .text figcaption {
   padding-top: .75rem;
   color: var(--color-text-grey);
+}
+
+.card{
+  line-height: 1.1em;
+  padding:15px;
+}
+
+.card.structureType{
+  background-color:  var(--color-main);
+}
+
+.card.pageType{
+  background-color:  var(--color-light);
+}
+
+.card + .card{
+  margin-top: 25px;
 }
 
 hr {
@@ -662,7 +690,7 @@ hr {
   border-color: var(--color-black);
 }
 
-.editorial{
+.dropdowwn-bloc{
   border-bottom: 1px solid #000;
   padding: 20px 0;
 }

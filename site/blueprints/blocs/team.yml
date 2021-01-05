@@ -39,7 +39,7 @@ fields:
       column_2:
         label: Intervenants
         fields:
-          intervenant:
+          intervenants:
             label: Sélectionnez un intervenant
             type: pages
             query: site.page('intervenants').children.listed

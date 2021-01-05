@@ -1,5 +1,5 @@
 <?php if($data): ?>
-<section class="editorial" data-dropdown="<?=$data->dropdown()?>" data-id="<?=$data->_uid()?>">
+<section class="editorial dropdowwn-bloc" data-dropdown="<?=$data->dropdown()?>" data-id="<?=$data->_uid()?>">
   <header class="flex space-between">
     <h1 class="h1"><?= $data->h1title(); ?></h1>
     <span class="open-icon"></span>
