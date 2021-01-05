@@ -1,0 +1,12 @@
+label: Vidéo
+fields: 
+  videoId:
+    label: Identifiant de la vidéo
+    type: url
+  platform:
+    label: Platforme
+    type: select
+    default: youtube
+    options:
+      youtube: youtube
+      vimeo: vimeo

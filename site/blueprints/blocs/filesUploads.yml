@@ -1,0 +1,14 @@
+label: Documents
+fields: 
+  files:
+    type: structure
+    fields:
+      docName:
+        type: text
+        label: Nom du document
+      files:
+        query: page.documents
+        label: Document
+        multiple: false
+        type: files
+        template: document

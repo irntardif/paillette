@@ -465,6 +465,11 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: 25px;
 }
 
+.card .h3{
+  margin-bottom:5px;
+  display:block;
+}
+
 hr {
   border: 0;
   background: currentColor;

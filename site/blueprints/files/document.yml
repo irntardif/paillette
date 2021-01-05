@@ -1,0 +1,12 @@
+title: Document
+
+accept:
+  mime: application/pdf
+  size: 2000
+
+fields:
+  caption:
+    label: Alt Text
+    type: text
+    width: 1/2
+    required: true

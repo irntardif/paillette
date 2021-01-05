@@ -14,7 +14,7 @@
 
 
 <div class='column' style="<?=$style?>">
-	<h2><?= $title; ?></h2>
+	<h2 class="margin_b-s"><?= $title; ?></h2>
 	<?php if($type == 'pageType'): ?>
 	<div class="grid c-2">
 	<?php endif;

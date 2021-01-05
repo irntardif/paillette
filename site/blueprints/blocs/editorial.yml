@@ -20,113 +20,41 @@ fields:
       c-2: 2 colonnes
       c-3: 3 colonnes
     width: 1/4
-  template:
-    label: Mise en page
-    type: select
-    default: alignleft
-    options:
-      alignleft: Texte aligné à gauche 
-      alignright: Texte aligné à droite 
-    width: 1/4
-  textonly:
-    type: toggle
-    label: 'Texte seulement ?'
-    default: false
-    text: 
-      - 'non'
-      - 'oui'
-    width: 1/4
-  hasVideo:
-    type: toggle
-    label: 'Ajouter une vidéo ?'
-    default: false
-    text: 
-      - 'non'
-      - 'oui'
-    width: 1/4
-  textContent:
-    label: Contenu
-    type: textarea
-    width: 1/2
-    files:
-      query: page.images.template('image-svg')
-      image:
-        cover: true
-    uploads:
-      parent: page
-      template: image-svg
-  textContent2:
-    label: Contenu Texte 2
-    type: textarea
-    width: 1/2
-    files:
-      query: page.images.template('image-svg')
-      image:
-        cover: true
-    uploads:
-      parent: page
-      template: image-svg
-    when:
-      textonly: true
+  builder2:
+    label: Blocs
+    type: builder
+    when: 
       layout: c-2
-  textContent3:
-    label: Contenu Texte 2 
-    type: textarea
-    width: 1/2
-    files:
-      query: page.images.template('image-svg')
-      image:
-        cover: true
-    uploads:
-      parent: page
-      template: image-svg
-    when:
+    columns: 2
+    fieldsets:
+      textcontent: 
+        extends: blocs/textContent
+      imgContent:
+        extends: blocs/imgContent
+      videoContent:
+        extends: blocs/videoContent
+      buttonLink:
+        extends: blocs/buttonLink 
+      fileUpload:
+        extends: blocs/filesUploads  
+  builder3:
+    label: Blocs
+    type: builder
+    when: 
       layout: c-3
-  textContent4:
-    label: Contenu Texte 3
-    type: textarea
-    width: 1/2
-    files:
-      query: page.images.template('image-svg')
-      image:
-        cover: true
-    uploads:
-      parent: page
-      template: image-svg
-    when:
-      textonly: true
-      layout: c-3
-  imgs:
-    label: Images
-    type: files
-    width: 1/2
-    template: image-svg
-    query: page.images.template('image-svg')
-    uploads:
-      parent: page
-      template: image-svg
-    when:
-      textonly: false
-      hasVideo: false
-  videoId:
-    label: Identifiant de la vidéo
-    type: text
-    width: 1/4
-    when:
-      hasVideo: true
-  platform:
-    label: Platforme
-    type: select
-    default: youtube
-    options:
-      youtube: youtube
-      vimeo: vimeo
-    width: 1/4
-    when:
-      hasVideo: true
-  gap:
-    type: gap
-    width: 1/4
-    when:
-      textonly: false
-       hasVideo: false
+    columns: 3
+    fieldsets:
+      textcontent: 
+        extends: blocs/textContent
+      imgContent:
+        extends: blocs/imgContent
+      videoContent:
+        extends: blocs/videoContent
+      buttonLink:
+        extends: blocs/buttonLink
+      fileUpload:
+        extends: blocs/filesUploads    
+  
+ 
+ 
+ 

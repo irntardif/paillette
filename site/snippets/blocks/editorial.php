@@ -6,37 +6,26 @@
   </header>
   <?php if($data->dropdown()->toBool()): ?>
   <div class="wrapper">
-  <?php endif ?>
-    <div class="grid <?= $data->layout().' '.$data->template()?>">
-      <div class="text margin_t-m">
-        <?= $data->textcontent()->kirbytext(); ?>
+  <?php endif;
+    
+    if($data->builder2()->isNotEmpty() && $data->layout() == 'c-2'): ?>
+      <div class="grid c-2">
+    <?php foreach($data->builder2()->toBuilderBlocks() as $block):
+      snippet('blocks/' . $block->_key(), array('data' => $block));
+      endforeach;
+    endif;
+
+    if($data->builder3()->isNotEmpty() && $data->layout() == 'c-3'): ?>
+      <div class="grid c-3">
+        <?php foreach($data->builder3()->toBuilderBlocks() as $block):
+          snippet('blocks/' . $block->_key(), array('data' => $block));
+        endforeach; ?>
       </div>
-      <?php if($data->textonly()->toBool()): ?>
-        <?php if($data->layout() == 'c-2'): ?>
-        <div class="text margin_t-m"><?= $data->textcontent2()->kirbytext(); ?> </div>
-        <?php endif ?>
-        <?php if($data->layout() == 'c-3'): ?>
-        <div class="text margin_t-m"><?= $data->textcontent3()->kirbytext(); ?> </div>
-        <div class="text margin_t-m"><?= $data->textcontent4()->kirbytext(); ?> </div>
-        <?php endif ?>
-      <?php else: ?>
-        <div class="media margin_t-m">
-        <?php if($data->hasVideo()->toBool()): ?>
-          BLOCK VIDEO
-         <?php else:
-          
-          foreach($data->imgs()->toFiles() as $img): ?>
-            <figure>
-             <img class="blue-filter" src="<?= $img->thumb()->url() ?>" data-src="<?= $img->url() ?>" data-srcset="<?= $img->srcset() ?>" alt="<?= $img->filename() ?>"/>
-            </figure>
-            
-          <?php endforeach;
-        endif; ?>
-        </div>
-      <?php endif ?>
-    </div>
+    <?php endif ?>
+
   <?php if($data->dropdown()->toBool()): ?>
     </div>
   <?php endif ?>
+
 </section>
 <?php endif; ?>

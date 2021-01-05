@@ -1,0 +1,11 @@
+label: Contenu Texte
+fields: 
+  textContent:
+    type: textarea
+    files:
+      query: page.images.template('image-svg')
+      image:
+        cover: true
+    uploads:
+      parent: page
+      template: image-svg
