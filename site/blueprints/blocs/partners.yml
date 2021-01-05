@@ -25,14 +25,10 @@ fields:
         type: text
         width: 1/3
       logo:
-        label: Poste
+        label: Logo
         type: files
         template: image-svg
         multiple: false
-        width: 1/3
-      pEmail:
-        label: Adresse mail
-        type: email
         width: 1/3
 
                 

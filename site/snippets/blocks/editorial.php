@@ -1,5 +1,5 @@
 <?php if($data): ?>
-<section class="editorial dropdowwn-bloc" data-dropdown="<?=$data->dropdown()?>" data-id="<?=$data->_uid()?>">
+<section class="editorial dropdown-bloc" data-dropdown="<?=$data->dropdown()?>" data-id="<?=$data->_uid()?>">
   <header class="flex space-between">
     <h1 class="h1"><?= $data->h1title(); ?></h1>
     <span class="open-icon"></span>
@@ -11,6 +11,7 @@
     if($data->builder2()->isNotEmpty() && $data->layout() == 'c-2'): ?>
       <div class="grid c-2">
     <?php foreach($data->builder2()->toBuilderBlocks() as $block):
+
       snippet('blocks/' . $block->_key(), array('data' => $block));
       endforeach;
     endif;

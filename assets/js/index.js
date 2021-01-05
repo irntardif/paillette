@@ -6,10 +6,10 @@ Array.from(document.querySelectorAll("[data-lightbox]")).forEach(element => {
   };
 });
 
-Array.from(document.querySelectorAll("[data-dropdown='true']")).forEach(element => {
+Array.from(document.querySelectorAll("[data-dropdown='true'] header")).forEach(element => {
   element.onclick = (e) => {
     e.preventDefault();
-    element.classList.contains('open') ? element.classList.remove('open') : element.classList.add('open')
+    element.parentNode.classList.contains('open') ? element.parentNode.classList.remove('open') : element.parentNode.classList.add('open')
   };
 });
 
@@ -26,7 +26,9 @@ const setSrcAttribute = (el) => {
 		return
 	}
 	el.setAttribute('src', el.getAttribute('data-src'));
-	el.setAttribute('srcset', el.getAttribute('data-srcset'));
+  if(el.getAttribute('data-srcset')){
+    el.setAttribute('srcset', el.getAttribute('data-srcset'));
+  }
 	el.removeAttribute('data-src');
 	el.classList.add('loaded');
 };

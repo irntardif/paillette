@@ -7,8 +7,27 @@ Pagebuilder:
 - 
   h1title: 'Notre lieu '
   dropdown: 'false'
-  layout: c-3
-  builder2: [ ]
+  layout: c-2
+  builder2:
+    - 
+      textcontent: |
+        Située au cœur du domaine Saint-Cyr à Rennes, dans le quartier de Bourg L’évêque, La Paillette est l’une des cinq Maison des Jeunes et de la Culture de la ville. Elle accueille tout au long de l’année des ateliers de pratiques artistiques en amateur, des spectacles de théâtre, des stages, un festival et des projets de médiation et d’action culturelle imaginés sous forme d’aventures à partager.
+        
+        Disposant de deux bâtiments, le Lavoir et le Théâtre, La Paillette n’a de cesse de lier ces espaces autour d’un projet commun : celui d’accueillir et de valoriser toutes les cultures en infusant dans chaque pan de son activité la rencontre primordiale avec la création.
+        
+        Traverser le Lavoir, c’est contempler deux siècles d’histoire, être charmé par sa galerie vitrée donnant sur l’Ille, au confluent de la Vilaine, et prendre le pouls de l’activité fourmillante de La Paillette lorsqu’adhérents, professionnel·le·s, équipes artistiques, bénévoles et habitant·e·s se croisent pour pratiquer, transmettre, créer, échanger et profiter de ce lieu convivial.
+        
+        Se rendre au Théâtre c’est découvrir le versant récent de La Paillette, construit en 2006, pour y rencontrer une ruche identique au Lavoir et profiter de sa salle de spectacle de 210 places faisant la part belle à la création théâtrale contemporaine et notamment bretonne.
+        
+        Chaque bâtiment a été pensé comme un espace ouvert et accueillant. Au détour d’une balade ou avant une activité, il est possible de passer prendre un café en journée ou de découvrir quelques suggestions de livres au coin lecture du Lavoir. En soirée, le Théâtre invite les spectateurs à se restaurer avant ou après les spectacles, en profitant d’une vue imprenable sur le parc Saint-Cyr.
+      _key: textcontent
+      _uid: textcontent_1609862789787_1666
+    - 
+      images:
+        - theatre-la-paillette-mjc.jpg
+        - theatre-la-paillette-mjc2.jpg
+      _key: imgContent
+      _uid: imgContent_1609862815498_1666
   builder3:
     - 
       textcontent: |
@@ -61,28 +80,100 @@ Pagebuilder:
     - 
       files:
         - 
-          docname: >
-            Télécharger le projet artistique de la
-            Paillette
+          docname: Projet artistique de la Paillette
           files:
             - >
               12.02-presentation-des-modeles-de-mise-en-page.pdf
         - 
           docname: >
-            Télécharger la charte de l’Unesco
-            sur la diversité culturelle
+            Charte de l’Unesco sur la diversité
+            culturelle
           files:
             - mockup-1111.pdf
       _key: fileUpload
       _uid: fileUpload_1609858054990_229
-    - 
-      videoid: https://youtu.be/qBM6sBnXORE
-      platform: youtube
-      _key: videoContent
-      _uid: videoContent_1609858876644_229
   builder3: [ ]
   _key: editorial
   _uid: editorial_1609856546431_101
+- 
+  h1title: 'Notre gouvernance '
+  dropdown: 'true'
+  layout: c-2
+  builder2:
+    - 
+      textcontent: |
+        La Paillette est une association de loi 1901. Elle se compose d’une équipe permanente et d’un Conseil d’administration….
+        
+        ##Conseil d'administration
+        Présidente : Katell Stephan 
+        Vice-présidente : Corinne Jarnot 
+        Secrétaire : Isabelle Le Corguillé 
+        Secrétaire adjoint : Étienne Cha
+         Trésorier : Didier Schlagdenhauffen 
+        Trésorier adjoint : Alexander Niess 
+        Membres du bureau : Jeanne Clinchamp, Michel Monestes 
+      _key: textcontent
+      _uid: textcontent_1609860054202_1357
+    - 
+      textcontent: |
+        Autres membres élus : Rizlane Allanic, Catherine Chalandre, Philippe Desnos, Frédérique Le Borgne, Alain Le Roux, Mélanie Richer, Marcella Sorci
+         Membres de droit : Corinne Le Fustec représentante de la FRMJC Bretagne, Benoit Careil représentant de la ville de Rennes, Valérie Leroux directrice de La Paillette 
+        Représentants du personnel - membres élus au Conseil Social et Économique : Cyrille Baron représentant titulaire, Laurence Gicquel représentante suppléante
+      _key: textcontent
+      _uid: textcontent_1609860054202_1367
+    - 
+      linklabel: Contact
+      linktype: mail
+      linkurl: ""
+      mailaddr: conseiladministration@la-paillette.net
+      buttonlinks: [ ]
+      _key: buttonLink
+      _uid: buttonLink_1609860412566_290
+  builder3: [ ]
+  _key: editorial
+  uniquekey: 0
+  showpreviewinitially: false
+  expandedinitially: false
+  activefieldsetinitially: content
+  _uid: editorial_1609860047479_1056
+- 
+  h1title: 'Nous rejoindre '
+  dropdown: 'true'
+  layout: c-2
+  builder2:
+    - 
+      textcontent: |
+        ##Devenir bénévole
+        La Paillette vous intrigue, vous appelle, vous séduit ? Vous avez envie de vivre le lieu différemment et de découvrir les coulisses de l’organisation d’un événement ? Alors n’attendez plus et rejoignez notre équipe de bénévoles.
+        
+        ##Adhérer
+        Devenez acteur·rice de la vie culturelle et sociale de La Paillette, de votre quartier et de votre ville en adhérant à notre structure. L’adhésion vous permet également de participer à la vie démocratique de l’association en Assemblée Générale et elle vous fait bénéficier de tarifs réduits pour les spectacles et les activités organisés par La Paillette et l’ensemble des MJC de la Région Bretagne.
+        L’adhésion est valable du 1er septembre au 31 août de l’année suivante.
+        - Adhésion individuelle : 13€
+        -  Adhésion familiale : 26€ (couvrant parents et enfants à charge) 
+        - Adhésion participative : 5€ (stages, membres des associations adhérentes)
+      _key: textcontent
+      _uid: textcontent_1609862641994_1127
+    - 
+      images:
+        - illu-paillette1.png
+      _key: imgContent
+      _uid: imgContent_1609862317064_1656
+    - 
+      linklabel: Renseignements
+      linktype: mail
+      linkurl: ""
+      mailaddr: dynamique.lapaillette@gmail.com
+      buttonlinks: [ ]
+      _key: buttonLink
+      _uid: buttonLink_1609862335071_2153
+  builder3: [ ]
+  _key: editorial
+  uniquekey: 0
+  showpreviewinitially: false
+  expandedinitially: false
+  activefieldsetinitially: content
+  _uid: editorial_1609862111419_1282
 - 
   h1title: "L'Équipe"
   dropdown: 'true'
@@ -164,6 +255,23 @@ Pagebuilder:
     La Paillette remercie tous les partenaires qui soutiennent son projet en lui permettant de faire vivre la création et les pratiques artistiques en amateur.
     
     La Paillette, Maison des Jeunes et de la Culture est affiliée à la Fédération Régionale des Maisons des Jeunes et de la Culture de Bretagne. Elle est subventionnée par la Ville de Rennes, Rennes Métropole, le Conseil Régional de Bretagne, la DRAC Bretagne. Elle est soutenue pour la diffusion de certains spectacles par l’ONDA, Office National de Diffusion Artistique, l’OARA-Office Artistique de la Région Nouvelle-Aquitaine et Spectacle Vivant en Bretagne. Elle est membre du réseau professionnel des PCGO, Partenaires Culturels du Grand Ouest.
-  partnerslogos: [ ]
+  partnerslogos:
+    - 
+      pname: Ville de Rennes
+      logo:
+        - rennes.png
+    - 
+      pname: Rennes Métropole
+      logo:
+        - rennes-metropoles.svg
+    - 
+      pname: CR Bretagne
+      logo:
+        - region-bretagne-logo.svg
+    - 
+      pname: ONDA
+      logo:
+        - >
+          logo-onda-office-national-de-diffusion-artistique.jpg
   _key: partners
   _uid: partners_1609419771345_112

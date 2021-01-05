@@ -69,6 +69,60 @@ button {
   color: currentColor;
   cursor: pointer;
 }
+
+.btn{
+  border-radius: 60px;
+  padding: 15px 60px;
+  background-color: var(--color-accent);
+  border:none;
+  display: inline-block;
+  text-decoration: none;
+  transition: background .3s ease;
+  text-align:center;
+  line-height:1.1;
+}
+
+.btn-light{
+  background-color: #fff;
+  border:1px solid #000;
+}
+
+.btn:hover{
+  background-color: #f59c94;
+}
+
+.btn-light:hover{
+  background-color: #ffff;
+  color: var(--color-accent);
+  border: 1px solid var(--color-accent);
+}
+
+.btn-light.icon:before{
+  content:"";
+  display:inline-block;
+  width: 17px;
+  height:17px;
+  margin-right: .7em;
+  position:relative;
+}
+
+.icon.download:before{
+  background: url(../icons/download.svg) no-repeat center;
+  top:2px;
+}
+
+.icon.url:before{
+  background: url(../icons/link.svg) no-repeat center;
+}
+
+.icon.download:hover:before{
+   background: url(../icons/download-accent.svg) no-repeat center;
+}
+
+.icon.url:before{
+  background: url(../icons/link-accent.svg) no-repeat center;
+}
+
 strong, b {
   font-weight: 600;
 }
@@ -290,6 +344,10 @@ a.menu-icon.icon-text{
   display:flex;
 }
 
+.wrap{
+  flex-wrap: wrap;
+}
+
 .space-between{
   justify-content: space-between; 
 }
@@ -324,15 +382,15 @@ h1, h2, h3, h4, h5, h6 {
 .text {
   line-height: 1.5em;
 }
-.text a {
+.text a:not(.btn) {
   text-decoration: underline;
 }
 .text :first-child {
   margin-top: 0;
 }
-.text :last-child {
+/*.text :last-child {
   margin-bottom: 0;
-}
+}*/
 .text p,
 .text ul,
 .text ol {
@@ -446,6 +504,28 @@ h1, h2, h3, h4, h5, h6 {
 .text figcaption {
   padding-top: .75rem;
   color: var(--color-text-grey);
+}
+
+figure.logo-img{
+  width:calc(50% - 2em);
+  height: 0;
+  overflow: hidden;
+  padding-bottom: calc(15% + 30px);
+  position:relative;
+  margin: 1em;
+}
+
+figure.logo-img figcaption{
+  position: absolute;
+  font-size: .7em;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  line-height: 1.2;
+}
+
+figure.logo-img img{
+  position:relative;
 }
 
 .card{
@@ -695,7 +775,7 @@ hr {
   border-color: var(--color-black);
 }
 
-.dropdowwn-bloc{
+.dropdown-bloc{
   border-bottom: 1px solid #000;
   padding: 20px 0;
 }
@@ -908,5 +988,9 @@ hr {
 
   .logo{
     font-size:3rem;
+  }
+
+  figure.logo-img{
+    width:calc(20% - 2em);
   }
 }

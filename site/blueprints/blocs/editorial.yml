@@ -36,7 +36,13 @@ fields:
       buttonLink:
         extends: blocs/buttonLink 
       fileUpload:
-        extends: blocs/filesUploads  
+        extends: blocs/filesUploads
+      gap:
+        label: Espace vide
+        fields: 
+          gap:
+            type: info
+            text: Permet de laisser un espace vide avant ou après un bloc
   builder3:
     label: Blocs
     type: builder

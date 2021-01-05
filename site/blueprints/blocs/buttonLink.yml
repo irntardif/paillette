@@ -1,28 +1,25 @@
-label: Liens
+label: Bouton - lien
 fields: 
-  buttonLinks:
-    type: structure
-    label: Liens
-    fields:
-      linkLabel:
-        type: text
-        label: Label du lien
-      linkType:
-        type: select
-        default: url
-        options:
-          url: Url 
-          mail: Adresse mail
-        width: 1/2
-      linkUrl: 
-        type: url
-        label: Type de lien
-        when: 
-          linkType: url
-        width: 1/2
-      mailAddr: 
-        label: Adresse mail
-        type: email
-        when: 
-          linkType: mail
-        width: 1/2
+  linkLabel:
+    type: text
+    label: Label du lien
+  linkType:
+    label: Type de lien
+    type: select
+    default: url
+    options:
+      url: Url 
+      mail: Adresse mail
+    width: 1/2
+  linkUrl: 
+    type: url
+    label: Url
+    when: 
+      linkType: url
+    width: 1/2
+  mailAddr: 
+    label: Adresse mail
+    type: email
+    when: 
+      linkType: mail
+    width: 1/2
