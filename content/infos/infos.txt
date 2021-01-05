@@ -8,6 +8,33 @@ Pagebuilder:
   h1title: Accueil
   dropdown: 'false'
   layout: c-2
+  builder2:
+    - 
+      textcontent: |
+        ##Nous contacter :
+        2, rue du Pré de Bris- 35000 Rennes
+        Accueil : 02 99 59 88 88 – accueil.mjc@la-paillette.net
+        Billetterie : 02 99 59 88 86 – billetterie@la-paillette.net
+        
+        ##Nous trouver :
+        Le lavoir :
+        2, rue du Pré de Bris- 35000 Rennes
+        Le Théâtre :
+        6 rue Louis Guilloux – 35000 Rennes
+        
+        ##Accès :
+        Lignes de bus 11, 54, 55, 56 : arrêt Guilloux Lorient
+        Ligne de bus C4 et 53 : Arrêt Guilloux
+        Star de nuit N1 : arrêt Chèques postaux
+        Vélo Star : station Chèques postaux
+      _key: textcontent
+      _uid: textcontent_1609868666789_2198
+    - 
+      images:
+        - plan-paillette.png
+      _key: imgContent
+      _uid: imgContent_1609868693901_2198
+  builder3: [ ]
   template: alignleft
   textonly: 'false'
   hasvideo: 'false'
@@ -42,6 +69,29 @@ Pagebuilder:
   h1title: Horaires et Accessibilité
   dropdown: 'true'
   layout: c-2
+  builder2:
+    - 
+      images:
+        - theatre-la-paillette-mjc.jpg
+      _key: imgContent
+      _uid: imgContent_1609868710625_2249
+    - 
+      textcontent: |
+        ##Horaires d’ouverture :
+        Accueil - côté Lavoir
+        Lundi, mardi et jeudi : 13h30-21h Mercredi : 9h30-21h Vendredi : 13h30-18h30 Pendant les vacances scolaires, nous contacter pour connaître nos horaires d’ouverture.
+        
+        ##Billetterie - côté Théâtre 
+        Mardi, jeudi et vendredi : 13h30-18h Mercredi : 12h-18h En soirée : 1h avant le début de chaque représentation.
+        
+        ##Accessibilité
+        Le lavoir et le Théâtre sont accessibles aux personnes à mobilité réduite.
+        Pour la venue aux ateliers et aux représentations, merci de prévenir respectivement l’accueil ou la billetterie en amont afin que nous puissions vous accueillir au mieux.
+        
+        Pour les personnes malentendantes, un dispositif de boucle magnétique a été installé dans la salle de spectacle.
+      _key: textcontent
+      _uid: textcontent_1609868717216_2249
+  builder3: [ ]
   template: alignright
   textonly: 'false'
   hasvideo: 'false'
@@ -88,6 +138,39 @@ Pagebuilder:
   h1title: 'Tarifs et modalités de paiement '
   dropdown: 'true'
   layout: c-2
+  builder2:
+    - 
+      textcontent: |
+        ##TARIFS SPECTACLES
+        
+        Tarif plein 13 € (hors spectacles Akila - le Tissu d’Antigone et Circulations Capitales)
+        
+        **Tarifs réduits**
+         11 € Adhérent La Paillette, adhérent MJC de Rennes Métropole, demandeur d’emploi, carte Cezam 9 € Étudiant, bénéficiaire RSA, AAH 8 € Moins de 18 ans, groupe (10 personnes et plus)
+         5 € dispositif Sortir ! 
+        Pour tout tarif réduit il vous sera demandé un justificatif.
+        
+        **Parcours 3 spectacles **
+        Parcours tarif plein : 33 € (11 € la place supplémentaire) 
+        Parcours tarif réduit adhérent et demandeur d’emploi : 30 € (10 € la place supplémentaire) Parcours tarif réduit - de 18 ans, étudiants et bénéficiaire RSA : 21 € (7 € la place supplémentaire)
+        
+        **Dispositif Sortir !**
+        Ce dispositif nominatif vous donne droit à des réductions. Il est délivré sous conditions de ressources, via les CCAS. Infos dans le CCAS de votre lieu d’habitation. Infos : www.sortir-rennesmetropole.fr
+        Comités d’entreprises
+        OIS Cezam, inter CE en Ille et Vilaine : un tarif réduit (11€) est accordé aux porteurs de la carte CEZAM en cours de validité
+      _key: textcontent
+      _uid: textcontent_1609868759493_2300
+    - 
+      textcontent: |
+        ##PAIEMENT 
+        Sur place à la billetterie en espèces, carte bancaire, chèque, chèque-vacances
+        En ligne sur notre site www.la-paillette.net par carte bancaire sans majoration (système sécurisé)
+        Par téléphone par carte bancaire au 02 99 59 88 86 Il est possible de réserver une place par téléphone. Les réservations sont définitives à réception du règlement dans les 5 jours suivant l’appel. Passé ce délai, les places seront remises en vente. Les billets prépayés sont à retirer au guichet le soir de la représentation.
+        Par courrier en précisant le spectacle choisi, la date, le nombre et le tarif des places que vous commandez. Joignez le chèque établi à l’ordre de La Paillette.
+         Les billets non retirés ne seront pas remboursés.
+      _key: textcontent
+      _uid: textcontent_1609868779802_2300
+  builder3: [ ]
   template: alignleft
   textonly: 'true'
   hasvideo: 'false'
@@ -139,6 +222,23 @@ Pagebuilder:
     sanitaires et sécuritaires
   dropdown: 'true'
   layout: c-2
+  builder2:
+    - 
+      textcontent: |
+        ##Covid 19
+        La Paillette met tout en œuvre pour vous accueillir dans les meilleures conditions. Un protocole respectant les normes sanitaires en vigueur appliquées aux salles de spectacle est en place. Il concerne l’accès aux ateliers et aux spectacles. Nous l’adapterons en fonction des obligations et nous vous tiendrons informés. Vous pouvez consulter les mesures mises en œuvre dans les fiches dédiées.
+        (file: accueil-du-public.pdf)
+        (file: accueil-des-adherents.pdf)
+        
+        L’espace bar du Théâtre est temporairement fermé.
+      _key: textcontent
+      _uid: textcontent_1609868809210_2351
+    - 
+      images:
+        - illu-paillette4.png
+      _key: imgContent
+      _uid: imgContent_1609868802193_2351
+  builder3: [ ]
   template: alignleft
   textonly: 'false'
   hasvideo: 'false'
@@ -164,7 +264,12 @@ Pagebuilder:
     La Paillette loue des salles d’une capacité de 10 à 200 personnes pour vos événements, réunions, formations, séminaires, répétitions de danse, théâtre, etc... Merci de nous contacter afin de préciser votre demande, nous vous ferons part des disponibilités, conditions techniques et financières.
     
     + Renseignements :  Annick Quistrebert - loc.salle@la-paillette.net - 02 99 59 88 88. 
-  workspaces_1: [ ]
+  workspaces_1:
+    - 
+      location: ""
+      img: [ ]
+      pname: ""
+      moreinfos: ""
   _key: administration
   _uid: administration_1609426180828_104
 
