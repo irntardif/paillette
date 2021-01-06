@@ -13,16 +13,12 @@
 		</div>
 		<div class="text">
 			<span><?= $el->label()->kirbytext(); ?></span>
-			<div class="margin_b-l">
+			<div class="margin_b-s">
 				<?= $el->contentText()->kirbytext(); ?>
 			</div>
-			<div class="margin_t-m">
-			<?php foreach ($el->links()->toStructure() as $link):
-				$href = $link->document()->isNotEmpty() ? $link->document()->toFile()->url() :  $link->url(); ?>
-				<p><a class="btn icon eye bg-main" target="_blank" href="<?= $href ?>"><?= $link->label() ?></a></p>
-			<?php endforeach; ?>
-			</div>
-			<?php snippet('blocks/press', array('pressData' => $el->press()->toStructure())) ?>
+			
+			<?php snippet('links', array('links' => $el->links()->toStructure(), 'class' => 'bg-main')) ?>
+			<?php snippet('press', array('pressData' => $el->press()->toStructure())) ?>
 		</div>
 	</div>
 </section>

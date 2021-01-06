@@ -36,6 +36,16 @@ tabs:
             options:
               show: Spectacle
               event: Évènement
+          genre:
+            label: Genre
+            type: select
+            default: theatre
+            options:
+              danse: Danse
+              theatre: Théâtre
+              performance: Performance
+              musical: Comédie Musicale
+              puppets: Marionnettes
           categories:
             label: Catégories
             type: multiselect
@@ -110,18 +120,19 @@ tabs:
 
       - width: 2/3
         sections:
-          images:
-            type: files
-            layout: cards
-            template: image
-            info: "{{ file.dimensions }}"
-            image:
-              ratio: 5/4
-              cover: true
-            size: tiny
-          textContent:
+          globalContent:
             type: fields
             fields:
+              gallery:
+                label: Galerie d'images
+                type: files
+                layout: cards
+                template: image
+                info: "{{ file.dimensions }}"
+                image:
+                  ratio: 5/4
+                  cover: true
+                size: tiny
               company:
                 label: Compagnie
                 type: select
@@ -167,7 +178,21 @@ tabs:
             type: pages
             query: site.find('artistes').children.listed
           press: sections/press
-
+  files:
+    label: Fichiers
+    icon: image
+    columns:
+      - width: 2/3
+        sections:
+          files:
+            label: Fichiers
+            type: files
+            layout: cards
+            info: "{{ file.dimensions }}"
+            image:
+              ratio: 5/4
+              cover: true
+            size: tiny
 
 
 

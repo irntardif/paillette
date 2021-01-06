@@ -156,7 +156,7 @@ Pagebuilder:
       _uid: textcontent_1609862641994_1127
     - 
       images:
-        - illu-paillette1.png
+        - header-cheval.png
       _key: imgContent
       _uid: imgContent_1609862317064_1656
     - 

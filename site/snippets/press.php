@@ -1,4 +1,4 @@
-<div class="text margin_t-l">
+<div class="text margin_t-m">
 	<h3 class="h3 margin_b-s">La presse en parle</h3>
 	<?php foreach ($pressData as $article): ?>
 		<div class="micro-text">

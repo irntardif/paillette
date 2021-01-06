@@ -1,7 +1,5 @@
- <div class="text margin_t-m">
- <?php foreach($data->files()->toStructure() as $element): ?>
+<?php foreach($data->files()->toStructure() as $element): ?>
 	<?php if($element->files()->isNotEmpty()): ?>
-	<p class="margin_b-s"><a class="btn icon download btn-light" target="_blank" href="<?= $element->files()->toFile()->url() ?>"><?= $element->docname() ?></a></p>
+	<a class="btn icon download btn-light" target="_blank" href="<?= $element->files()->toFile()->url() ?>"><?= $element->docname() ?></a>
 	<?php endif; ?>	
 <?php endforeach; ?>
-</div>

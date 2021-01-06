@@ -3,9 +3,5 @@
 else: 
 	$href = $data->linkUrl();
 endif; ?>
+<a style="max-width: 120px" class="btn large" target="_blank" href="<?= $href; ?>"><?= $data->linkLabel(); ?></a>
 
-<div class=text>
-	<p>
-		<a class="btn" target="_blank" href="<?= $href; ?>"><?= $data->linkLabel(); ?></a>
-	</p>
-</div>
