@@ -40,5 +40,5 @@ else: ?>
 endif;
 snippet('newsletter') ?>
 
-<div class="main-wrapper">
-  <main class="main">
+
+

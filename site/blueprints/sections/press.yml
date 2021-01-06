@@ -1,16 +1,13 @@
 label: La Presse en parle
 type: structure
 fields:
-  date:
-    label: Date
-    type: date
-  review:
-    label: Revue/Website
-    type: text
   excerpt:
     label: Extrait
     maxlength: 200
     type: writer
+  moreinfos:
+    label: Auteur, Revue, Date
+    type: text
   link:
     label: Lien
     type: url

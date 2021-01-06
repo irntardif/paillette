@@ -5,6 +5,7 @@ fields:
     label: Label du lien
     type: text
   linkType:
+    label: Type de lien
     type: select
     options:
       external: Lien externe

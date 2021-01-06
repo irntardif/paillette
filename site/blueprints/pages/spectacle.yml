@@ -80,6 +80,7 @@ tabs:
               date:
                 type: date
                 time: true
+                display: DD MMM YYYY
               publicType:
                 label: Public
                 type: select
@@ -117,8 +118,7 @@ tabs:
             image:
               ratio: 5/4
               cover: true
-            min: 1
-            size: small
+            size: tiny
           textContent:
             type: fields
             fields:

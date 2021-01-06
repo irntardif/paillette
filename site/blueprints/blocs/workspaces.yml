@@ -16,7 +16,7 @@ fields:
     label: Description générale
     type: textarea
     width: 2/3
-  workspaces_1: 
+  workspaces: 
     label: Espaces de travail
     type: structure
     fields:
@@ -41,6 +41,11 @@ fields:
         label: Capacité & informations additionnelles
         type: textarea
         width: 1/2
+  buttonLink: 
+    label: Lien de contact
+    type: structure
+    extends: blocs/buttonLink
+    max: 1
       
 
                 

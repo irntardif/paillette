@@ -263,15 +263,86 @@ Pagebuilder:
   description: |
     La Paillette loue des salles d’une capacité de 10 à 200 personnes pour vos événements, réunions, formations, séminaires, répétitions de danse, théâtre, etc... Merci de nous contacter afin de préciser votre demande, nous vous ferons part des disponibilités, conditions techniques et financières.
     
-    + Renseignements :  Annick Quistrebert - loc.salle@la-paillette.net - 02 99 59 88 88. 
+    Plus de renseignements au 02 99 59 88 88. 
+  workspaces:
+    - 
+      location: lavoir
+      img:
+        - theatre-la-paillette-mjc.jpg
+      pname: Salle Mélété
+      moreinfos: Capacité de 80 à 100 personnes
+    - 
+      location: lavoir
+      img:
+        - theatre-la-paillette-mjc3.jpg
+      pname: Salle Polymnie
+      moreinfos: |
+        Capacité de 20 à 30 personnes 
+        Salle équipée d’un tapis de danse et de barres de danse.
+    - 
+      location: lavoir
+      img:
+        - theatre-la-paillette-mjc2.jpg
+      pname: Salle Thalie
+      moreinfos: Capacité de 20 à 30 personnes
+    - 
+      location: lavoir
+      img:
+        - theatre-la-paillette-mjc.jpg
+      pname: Salle Calliope
+      moreinfos: |
+        Capacité de 40 personnes.  
+        Salle réservée pour les réunions et formations.
+    - 
+      location: lavoir
+      img:
+        - theatre-la-paillette-mjc2.jpg
+      pname: Salle Uranie
+      moreinfos: |
+        Capacité de 20 à 30 personnes
+         Salle réservée pour les réunions et formations.
+    - 
+      location: lavoir
+      img:
+        - theatre-la-paillette-mjc.jpg
+      pname: Salle Clio
+      moreinfos: |
+        Capacité de 20 à 30 personnes
+         Salle réservée pour les réunions et formations.
+    - 
+      location: theatre
+      img:
+        - theatre-la-paillette-mjc3.jpg
+      pname: Salle de Spectacle
+      moreinfos: >
+        Salle de spectacle et espaces corrélés
+        (loges, bar, hall d’accueil, etc.)
+         Capacité de 210 places
+    - 
+      location: theatre
+      img:
+        - theatre-la-paillette-mjc.jpg
+      pname: Salle Création  
+      moreinfos: Capacité de 41 places
+    - 
+      location: theatre
+      img: [ ]
+      pname: Salle Atelier  
+      moreinfos: ""
+  buttonlink:
+    - 
+      linklabel: 'Annick Quistrebert '
+      linktype: mail
+      linkurl: ""
+      mailaddr: loc.salle@la-paillette.net
   workspaces_1:
     - 
       location: ""
       img: [ ]
       pname: ""
       moreinfos: ""
-  _key: administration
-  _uid: administration_1609426180828_104
+  _key: workspaces
+  _uid: workspaces_1609426180828_104
 
 ----
 

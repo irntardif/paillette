@@ -24,5 +24,9 @@ return [
 		  ]
 		],
 	],
+  	'locale' => 'fr_FR.utf-8',
+	'date'  => [
+        'handler' => 'strftime'
+    ]
     
 ];

@@ -10,7 +10,6 @@
 */
 ?>
 
-  </main>
 </div>
   <footer class="footer">
     <section class="bg-main padding_t-l ">

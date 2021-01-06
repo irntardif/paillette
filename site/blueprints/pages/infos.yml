@@ -21,6 +21,6 @@ columns:
         columns: 1
         fieldsets:
           editorial: blocs/editorial 
-          administration: blocs/workspaces 
+          workspaces: blocs/workspaces 
 
             
