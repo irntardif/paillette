@@ -1,0 +1,91 @@
+Title: Modern Jazz / Enfants - ados
+
+----
+
+Area: danse
+
+----
+
+Intervenant:
+
+- intervenants/laurence-gicquel
+
+----
+
+Contactmail: 
+
+----
+
+Public: children1, children2, teen1, teen2, students, adults
+
+----
+
+Prices:
+
+- 
+  pricetype: Ateliers de 7 à 12 ans
+  amount: 193
+- 
+  pricetype: 'Ateliers de 13 à 17 ans '
+  amount: 209
+
+----
+
+Cover:
+
+- modern-jazz.jpg
+
+----
+
+Description: Exercices d’échauffement et de placement et apprentissage d'une chorégraphie présentée dans le cadre du festival les Envolées sont les bases de cet atelier. Rythme, énergie, fluidité et respiration font partie de l' enseignement mais le plaisir et l’écoute sont les moteurs principaux des ateliers.
+
+----
+
+Planning:
+
+- 
+  public: 4-5 ans
+  hours: ""
+  isfull: 'false'
+  description: ""
+- 
+  public: 6-10 ans
+  hours: ""
+  isfull: 'false'
+  description: ""
+- 
+  public: 11-14 ans
+  hours: ""
+  isfull: 'false'
+  description: ""
+- 
+  public: 15-18 ans
+  hours: ""
+  isfull: 'false'
+  description: ""
+- 
+  public: étudiants
+  hours: ""
+  isfull: 'false'
+  description: ""
+- 
+  public: adultes
+  hours: ""
+  isfull: 'false'
+  description: ""
+
+----
+
+Links: 
+
+----
+
+Relatedevents: 
+
+----
+
+Relatedadventures: 
+
+----
+
+Type: dance

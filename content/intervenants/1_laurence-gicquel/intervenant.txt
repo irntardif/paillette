@@ -10,11 +10,27 @@ Bio: Lorem Ipsum blablabla
 
 ----
 
-Links: 
+Links:
+
+- 
+  label: Danse nomade
+  linktype: external
+  url: >
+    https://www.ouest-france.fr/bretagne/la-danse-nomade-dispensee-aux-eleves-des-perrieres-1598537
+  document: [ ]
+- 
+  label: Facebook
+  linktype: external
+  url: https://www.facebook.com/
+  document: [ ]
 
 ----
 
 Workshops: 
+
+----
+
+Adventures: 
 
 ----
 

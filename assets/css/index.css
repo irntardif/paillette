@@ -143,6 +143,10 @@ button {
   height:20px;
 }
 
+.icon.ticket:before{
+  background: url(../icons/ticket.svg) no-repeat center;
+}
+
 .icon.download.btn-light:hover:before{
    background: url(../icons/download-accent.svg) no-repeat center;
 }
@@ -191,8 +195,8 @@ small {
   opacity:0;
   transition: opacity .3s ease;
   left: calc(50% - 30em);
-  -webkit-transform: translate(calc(-100% - 25px), 0);
-  transform: translate(calc(-100% - 25px), 0);
+  -webkit-transform: translate(calc(-100% - 20px), 0);
+  transform: translate(calc(-100% - 20px), 0);
 }
 
 .paillette-logo.hide{
@@ -290,7 +294,7 @@ a.menu-icon{
   display:inline-block;
 }
 
-a.ticket{
+a:not(.btn).ticket{
   background: url(../icons/ticket.svg) no-repeat center 10px;
 }
 
@@ -301,6 +305,19 @@ a.loop{
 a.newsletter{
   background: url(../icons/newsletter.svg) no-repeat center 10px;
 }
+
+a.infos{
+  background: url(../icons/infos.svg) no-repeat center 10px;
+}
+
+a.phone{
+  background: url(../icons/phone.svg) no-repeat center 10px;
+}
+
+a.marker{
+  background: url(../icons/marker.svg) no-repeat center 10px;
+}
+
 
 a.menu-icon.icon-text{
   color: var(--text-color);
@@ -440,6 +457,26 @@ nav.breadcrumb li a:hover{
   padding: 2px 10px;
 }
 
+.comma-list a:after{
+  content:", ";
+  display:inline-block;
+  padding-right:.2em;
+}
+
+.comma-list a:last-child:after{
+  content:".";
+}
+
+.comma-list a:nth-last-child(-n+2):after{
+  content:"";
+}
+
+.comma-list a:nth-last-child(-n+1):before{
+  content:"et ";
+  display:inline-block;
+  padding-right:.2em;
+}
+
 .text {
   line-height: 1.5em;
 }
@@ -457,12 +494,12 @@ nav.breadcrumb li a:hover{
 .text ol {
   margin-bottom: 1.5rem;
 }
-.text ul,
-.text ol {
+.text ul:not(.no_m),
+.text ol:not(.no_m) {
   margin-left: 1rem;
 }
-.text ul p,
-.text ol p {
+.text ul p:not(.no_m),
+.text ol p:not(.no_m) {
   margin-bottom: 0;
 }
 .text ul > li {
@@ -508,6 +545,10 @@ nav.breadcrumb li a:hover{
 .h3{
   font-size:1.16rem;
   text-transform: uppercase;
+}
+
+.thumb h2{
+  line-height:1.2;
 }
 
 .cap,
@@ -576,6 +617,17 @@ nav.breadcrumb li a:hover{
   padding-top: .75rem;
   color: var(--color-text-grey);
 }
+
+.icons-list{
+  margin-left:0;
+}
+
+.icons-list li{
+  list-style:none;
+  display:block;
+  margin:0;
+}
+
 
 figure.logo-img{
   width:calc(50% - 2em);

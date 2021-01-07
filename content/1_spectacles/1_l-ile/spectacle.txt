@@ -25,11 +25,21 @@ Creation: false
 
 ----
 
-Cohosting: false
+Cohosting: true
 
 ----
 
-Cohostinginfos: 
+Cohostinginfos:
+
+- 
+  label: Théâtre National de Bretagne
+  url: https://www.t-n-b.fr/
+  logo: [ ]
+- 
+  label: Théâtre Contemporain
+  url: >
+    https://www.theatre-contemporain.net/contacts/Theatre-National-de-Bretagne-TNB/
+  logo: [ ]
 
 ----
 
@@ -54,8 +64,14 @@ Representations:
 Prices:
 
 - 
-  pricetype: ""
-  amount: null
+  pricetype: Plein
+  amount: 12
+- 
+  pricetype: Réduit
+  amount: 8
+- 
+  pricetype: Scolaire
+  amount: 4
 
 ----
 

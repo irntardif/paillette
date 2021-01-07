@@ -70,10 +70,10 @@ tabs:
 
       - width: 2/3
         sections:
-          cover: fields/cover
-          textContent:
+          globalContent:
             type: fields
             fields:
+              cover: fields/cover
               description:
                 label: Description générale
                 type: textarea

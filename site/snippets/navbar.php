@@ -17,7 +17,7 @@
     </nav>
 
     <nav class="menu aside-menu">
-       <a class="menu-icon loop" target="_blank" href="#">
+       <a class="menu-icon loop" target="_blank" href="<?= $site->find('search')->url()?>">
           search
         </a>
       <?php if( $site->ticketing()->isNotEmpty()): ?>

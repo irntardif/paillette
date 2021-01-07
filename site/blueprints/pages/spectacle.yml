@@ -75,10 +75,6 @@ tabs:
                 type: text
               url:
                 type: url
-              logo:
-                label: Logo du partenaire accueillant
-                type: files
-                multiple: false
           moreinfos:
             label: Informations complémentaires
             type: writer
