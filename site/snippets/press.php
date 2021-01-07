@@ -1,3 +1,4 @@
+<?php if($pressData->isNotEmpty()): ?>
 <div class="text margin_t-m">
 	<h3 class="h3 margin_b-s">La presse en parle</h3>
 	<?php foreach ($pressData as $article): ?>
@@ -8,3 +9,4 @@
 		</div>
 	<?php endforeach; ?>
 </div>
+<?php endif; ?>

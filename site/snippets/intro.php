@@ -4,7 +4,7 @@
   <div class="text">
     <?= $page->edito()->kirbytext(); ?>
   </div>
-  <div class="medias">
+  <div class="media">
     <?php if ($page->headerImage()->isNotEmpty()):
      $img = $page->headerImage()->toFile(); ?>
       <figure>

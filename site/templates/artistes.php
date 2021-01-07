@@ -6,11 +6,11 @@
   <div class="main-wrapper">
     <?php snippet('breadcrumb') ?>
     <?php snippet('intro') ?>
-    <?php if ($spectaclesP = page('spectacles')): ?>
+    <?php if ($artistsP = page('artistes')): ?>
     
     <ul class="grid c-2 margin_t-m">
-      <?php foreach ($spectaclesP->children()->listed() as $event): ?>
-      <?php snippet('event-thumb', array('event' => $event)); ?>
+      <?php foreach ($artistsP->children()->listed() as $artist): ?>
+      <?php snippet('artist-thumb', array('artist' => $artist)); ?>
       <?php endforeach ?>
     </ul>
     <?php endif ?>

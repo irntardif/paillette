@@ -39,14 +39,14 @@
           </header>
           <div class="wrapper">
             <div class='grid c-2'>
-              <div class="text">
+              <div class="text margin_t-m">
                 <?= $desc; ?>
               </div>
-              <div>
+              <div class="text margin_t-m">
                 Intervenants
               </div>
             </div>
-            <ul class="grid c-3">
+            <ul class="grid c-3 margin_t-m">
             <?php foreach ($ateliersP->children()->listed()->filterBy('area', $type, ',') as $workshop): ?>
               <?php snippet('thumb', array('event' => $workshop)); ?>
             <?php endforeach; ?>

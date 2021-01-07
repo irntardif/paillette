@@ -5,7 +5,7 @@
 type: pages
 headline: Artistes
 parent: kirby.page("artistes")
-info: "{{ page.images.count }} image(s)"
+info: "{{ page.type }}"
 layout: list
 template: artiste
 empty: Pas encore d'artiste

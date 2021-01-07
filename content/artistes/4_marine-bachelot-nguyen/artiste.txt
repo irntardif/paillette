@@ -1,0 +1,37 @@
+Title: Marine Bachelot Nguyen, lumière d'août
+
+----
+
+Type: Résidence plateau
+
+----
+
+Duration: 26 oct. au 9 nov.
+
+----
+
+Spectacle: 
+
+----
+
+Creationname: 
+
+----
+
+Links:
+
+- 
+  label: "Lumière d'août"
+  linktype: external
+  url: http://www.lumieredaout.net/
+  document: [ ]
+
+----
+
+Cover:
+
+- akila-paysage_1-web.jpeg
+
+----
+
+Description: Dans son travail d’auteure et de metteuse en scène, Marine Bachelot Nguyen explore l’alliance de la fiction et du document, les croisements du corps et du politique, les questions féministes et postcoloniales. Akila - le tissu d’Antigone est soutenu par La Paillette depuis deux saisons.

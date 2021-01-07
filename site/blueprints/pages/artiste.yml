@@ -17,7 +17,7 @@ status:
 # More about columns: https://getkirby.com/docs/guide/blueprints/layout#defining-columns
 
 columns:
-  - width: 2/3
+  - width: 1/3
     # The first column contains a set of fields to store
     # information about the album.
     #
@@ -32,19 +32,19 @@ columns:
       duration:
         label: Durée de la résidence
         type: text
-      cover: fields/cover
-      artistName:
+      spectacle:
+        label: Création en lien
+        type: pages
+        query: site.find('spectacles').children.listed
+      creationName:
         type: text
-        label: Nom de la Compagnie / de l'artiste
+        label: Nom de la Création
+        help: Indiquer le nom de la Création si ce n'est pas une fiche spectacle.
+     
+      links: sections/links
+  - width: 2/3
+    fields:
+      cover: fields/cover
       description:
         type: textarea
         label: Description
-      links:
-        type: structure
-        label: Liens 
-        fields:
-          url:
-            type: url
-          linklabel:
-            label: Intitulé du lien
-            type: url
