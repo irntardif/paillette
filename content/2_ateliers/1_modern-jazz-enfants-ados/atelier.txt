@@ -12,7 +12,7 @@ Intervenant:
 
 ----
 
-Contactmail: 
+Contactmail: mail@mail.fr
 
 ----
 
@@ -44,35 +44,35 @@ Description: Exercices d’échauffement et de placement et apprentissage d'une 
 Planning:
 
 - 
-  public: 4-5 ans
-  hours: ""
+  public: 7 ans
+  hours: mardi 17-18h
   isfull: 'false'
-  description: ""
+  description: "Exercices d’échauffement et de placement et apprentissage d'une chorégraphie présentée dans le cadre du festival les Envolées sont les bases de cet atelier. Rythme, énergie, fluidité et respiration font partie de l' enseignement mais le plaisir et l’écoute sont les moteurs principaux des ateliers."
 - 
-  public: 6-10 ans
-  hours: ""
-  isfull: 'false'
-  description: ""
+  public: 8 ans
+  hours: mardi 18-19h
+  isfull: 'true'
+  description: "Exercices d’échauffement et de placement et apprentissage d'une chorégraphie présentée dans le cadre du festival les Envolées sont les bases de cet atelier. Rythme, énergie, fluidité et respiration font partie de l' enseignement mais le plaisir et l’écoute sont les moteurs principaux des ateliers."
 - 
-  public: 11-14 ans
-  hours: ""
-  isfull: 'false'
-  description: ""
+  public: 9-10 ans
+  hours: mercredi 15h15-16h15
+  isfull: 'true'
+  description: "Exercices d’échauffement et de placement et apprentissage d'une chorégraphie présentée dans le cadre du festival les Envolées sont les bases de cet atelier. Rythme, énergie, fluidité et respiration font partie de l' enseignement mais le plaisir et l’écoute sont les moteurs principaux des ateliers."
 - 
-  public: 15-18 ans
-  hours: ""
-  isfull: 'false'
-  description: ""
+  public: 11-12 ans
+  hours: mercredi 14h15-15h15
+  isfull: 'true'
+  description: "Exercices d’échauffement et de placement et apprentissage d'une chorégraphie présentée dans le cadre du festival les Envolées sont les bases de cet atelier. Rythme, énergie, fluidité et respiration font partie de l' enseignement mais le plaisir et l’écoute sont les moteurs principaux des ateliers."
 - 
-  public: étudiants
-  hours: ""
+  public: 13-14 ans
+  hours: mercredi 16h15-17h30
   isfull: 'false'
-  description: ""
+  description: "Exercices d’échauffement et de placement et apprentissage d'une chorégraphie présentée dans le cadre du festival les Envolées sont les bases de cet atelier. Rythme, énergie, fluidité et respiration font partie de l' enseignement mais le plaisir et l’écoute sont les moteurs principaux des ateliers."
 - 
-  public: adultes
-  hours: ""
-  isfull: 'false'
-  description: ""
+  public: 14-17 ans
+  hours: mercredi 17h45-19h
+  isfull: 'true'
+  description: "Exercices d’échauffement et de placement et apprentissage d'une chorégraphie présentée dans le cadre du festival les Envolées sont les bases de cet atelier. Rythme, énergie, fluidité et respiration font partie de l' enseignement mais le plaisir et l’écoute sont les moteurs principaux des ateliers."
 
 ----
 

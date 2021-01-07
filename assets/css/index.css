@@ -314,6 +314,10 @@ a.phone{
   background: url(../icons/phone.svg) no-repeat center 10px;
 }
 
+a.mail{
+  background: url(../icons/mail.svg) no-repeat center 10px;
+}
+
 a.marker{
   background: url(../icons/marker.svg) no-repeat center 10px;
 }
