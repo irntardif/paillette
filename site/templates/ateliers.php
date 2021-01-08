@@ -42,9 +42,7 @@
               <div class="text margin_t-m">
                 <?= $desc; ?>
               </div>
-              <div class="text margin_t-m">
-                Intervenants
-              </div>
+              <?php snippet('artists-list', array('collection' => $ateliersP->children()->listed()->filterBy('area', $type))); ?>  
             </div>
             <ul class="grid c-3 margin_t-m">
             <?php foreach ($ateliersP->children()->listed()->filterBy('area', $type, ',') as $workshop): ?>

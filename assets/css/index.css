@@ -507,6 +507,11 @@ ul.comma-list li:nth-last-child(-n+1):before,
   padding-right:.2em;
 }
 
+ul.comma-list li:first-child:before,
+.comma-list a:first-child:before{
+  display:none;
+}
+
 .text {
   line-height: 1.5em;
 }

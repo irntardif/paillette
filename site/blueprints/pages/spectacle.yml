@@ -46,6 +46,7 @@ tabs:
               performance: Performance
               musical: Comédie Musicale
               puppets: Marionnettes
+              lecture: Lecture
           categories:
             label: Catégories
             type: multiselect

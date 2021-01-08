@@ -25,6 +25,9 @@ foreach ($categories->split(',') as $cat):
 	    case 'performance':
 	    	$cats[] = 'performance';
 	        break;
+	    case 'lecture':
+	    	$cats[] = 'lecture';
+	        break;
 	    case 'school':
 	    	$cats[] = 'scolaires';
 	        break;

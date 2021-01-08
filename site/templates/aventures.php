@@ -68,13 +68,9 @@
 			    	<?php endif ?>
 			  	</div>
             </div>
-            <ul class="grid c-3">
-            <?php foreach ($aventuresP->children()->listed()->filterBy('template', $type) as $adventure): ?>
-              <?php snippet('thumb', array('event' => $adventure)); ?>
-            <?php endforeach; ?>
-            </ul>
+            
           </div>
-        </section>
+      </section>
     <?php endif; ?>
   </div>
 </main>

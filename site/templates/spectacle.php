@@ -44,32 +44,19 @@
         <aside class="column" style="--columns: 4">
            <span class="uppercase"><?php snippet('categories', array('categories' => $page->genre())) ?></span>
            <?= $page->moreinfos()->kirbytext(); ?>
-           <div class="margin_t-s">
-            <?php foreach ($page->representations()->toStructure() as $rprst): ?>
-               <p class="flex">
-                <span style="width: 60%"><?= $rprst->date()->toDate('%d %B %Y'); ?> → <?= $rprst->date()->toDate('%Hh%M') ?></span>
-                <span class="no_m" style="width: 40%">
-                  <span class="label bg-light"><?php snippet('categories', array('categories' => $rprst->publicType())) ?></span>
-                </span>
-               </p>
-            <?php endforeach ?>
-           </div>
+           <span><?php snippet('representations', 
+          array('representations' => $page->representations(), 
+                'label' => null, 
+                'moreInfos' => null
+                )) ?></span>
            <a class="btn icon ticket" href="<?= $page->ticketing(); ?>" target="_blank">Réserver en ligne</a>
-           <ul class="icons-list margin_t-s">
+           <ul class="icons-list margin_t-m">
              <li><a href="tel:<?=$site->ticketingphone()?>"class="menu-icon icon-text underline phone">Réserver par téléphone</a></li>
              <li><a href="<?= $site->find('infos')->url()?>" class="menu-icon icon-text underline infos">Informations pratiques</a></li>
              <li><a href="<?= $site->find('la-paillette')->url()?>" class="menu-icon icon-text underline marker">La Paillette, côté théâtre</a></li>
            </ul>
            <div class="margin_t-s">
-            <p class="margin_b-s">Tarifs</p>
-             <ul class="no_m">
-                <?php foreach ($page->prices()->toStructure() as $price): ?>
-                <li class="flex">
-                  <span style="width: 15%"><?=$price->amount()?> €</span>
-                  <span class="no_m" style="width: 85%"><?=$price->pricetype()?></span>
-                </li>
-               <?php endforeach ?>
-             </ul>
+             <?php snippet('prices', array('prices' => $page->prices())) ?>
              <?php if ($page->cohosting()->toBool()): ?>
              <p class="comma-list margin_t-s">Ce spectacle est en co-accueil avec
               <?php foreach ($page->cohostinginfos()->toStructure() as $info): ?>
