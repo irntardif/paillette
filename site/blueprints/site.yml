@@ -20,7 +20,6 @@ tabs:
           ateliers: sections/ateliers
           aventures: sections/aventures
 
-
       - width: 1/2
         sections:
           pages:
@@ -35,7 +34,7 @@ tabs:
               - aventures
               - default
   artists:
-    icon: user
+    icon: smile
     label: Artistes et intervenants
     columns:
        - width: 1/2

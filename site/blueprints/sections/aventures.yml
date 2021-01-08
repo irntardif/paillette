@@ -5,9 +5,13 @@
 type: pages
 headline: Aventures à partager
 parent: kirby.page("aventures")
-info: "{{ page.type }}"
+info: "{{ page.template }}"
 layout: list
-template: aventure
+templates:
+  - stage
+  - immersion
+  - projets
+  - sortie-classe
 empty: Pas encore d'Aventures
 image:
   query: page.cover

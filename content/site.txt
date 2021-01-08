@@ -27,3 +27,6 @@ Social:
 - 
   platform: facebook
   url: https://www.facebook.com/LaPailletteMJC/
+- 
+  platform: twitter
+  url: https://twitter.com/PailletteRennes

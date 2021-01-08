@@ -1,0 +1,26 @@
+Title: François Soutif
+
+----
+
+Area: arts-plastiques
+
+----
+
+Bio: Professeur d'arts plastiques et illustrateur jeunesse
+
+----
+
+Links: 
+
+----
+
+Workshops:
+
+- ateliers/arts-plastiques
+
+----
+
+Adventures:
+
+- aventures/linogravure
+- aventures/sculpture

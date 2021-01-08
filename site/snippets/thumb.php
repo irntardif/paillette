@@ -8,7 +8,9 @@
     <?php endif; ?>
     <div class="infos margin_t-s">
       <h2 class="h2"><?= $event->title(); ?></h2>
-      <p>avec <?= $event->intervenant()->toPage() ? $event->intervenant()->toPage()->title() : $event->companyName(); ?></p>
+      <?php if($event->intervenant()->isNotEmpty()): ?>
+      <p> <?= $event->intervenant()->toPage()->title() ?></p>
+      <?php endif; ?>
     </div>
   </a>
 </li>

@@ -36,7 +36,34 @@ Theatreedito: Travail du corps et de la voix, de l’espace et de l’écoute, a
 
 ----
 
-Focus: 
+Focus:
+
+- 
+  label: Infos Pratiques
+  img:
+    - illu-paillette3.png
+  contenttext: |
+    ## Conditions de déroulement des ateliers
+    
+    Tous les ateliers débutent le 28 septembre 2020.
+    
+    Le nombre de séances dans l’année peut varier entre 26 et 30 séances (au maximum). Le nombre total d’heures et l’amplitude horaire des séances hebdomadaires sont donnés à titre indicatif en début de saison. Ils peuvent être ajustés à la hausse comme à la baisse en fonction du nombre d’inscrits. Une séance d’essai est possible la première semaine seulement si le dossier est complet : adhésion et cotisation réglées (l’adhésion est obligatoire et non remboursable).
+    La Paillette se réserve le droit d’annuler un atelier ou un stage non complet.
+    Les parents des mineurs de moins de 16 ans doivent impérativement remplir une fiche listant les autorisations parentales (médicale et de sortie de l’établissement).
+    
+    
+    ### Paiement
+    Pour les ateliers, il se fait intégralement à l’inscription (uniquement sur place).
+    Pour les stages, les réservations prises par téléphone sont définitives à réception du règlement dans les 6 jours suivant l’appel. Passé ce délai, votre inscription n’est plus valide. Une inscription annulée 15 jours avant le stage sans justificatifs valables ne sera pas remboursée.
+    Possibilité de régler par chèque, chèque-vacances ou espèces.
+    Des facilités de paiement vous sont proposées : échelonnement ; application du dispositif Sortir ! ; Tarif préférentiel pour les étudiants.
+    
+    
+    ### Conditions de remboursement
+    Le remboursement est possible en cas de mutation et/ou déménagement au-delà de 50 km, maladie, nouveaux horaires de travail empêchant définitivement la pratique de l’activité.
+    Toute demande doit être accompagnée de justificatifs et doit être effectuée auprès du secrétariat au Lavoir. Tout trimestre entamé reste dû.
+  links: [ ]
+  press: [ ]
 
 ----
 

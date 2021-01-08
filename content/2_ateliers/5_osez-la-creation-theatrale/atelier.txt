@@ -1,0 +1,59 @@
+Title: Osez la création théâtrale
+
+----
+
+Area: theatre
+
+----
+
+Intervenant:
+
+- intervenants/compagnie-la-morsure
+
+----
+
+Contactmail: 
+
+----
+
+Public: 
+
+----
+
+Prices:
+
+- 
+  pricetype: 60 +
+  amount: 200
+
+----
+
+Cover:
+
+- bleu.jpg
+
+----
+
+Description: Cet atelier s'adresse aux non-initiés et initiés pour apprendre à improviser dans un cadre établi par une dramaturgie, une esthétique et un propos où chaque comédien est auteur de sa partition. Il y sera question de l'acquisition de techniques théâtrales générales (corps, voix, espace ...) et spécifiques à l’improvisation : celles de « l’imagination », l’écoute, la connexion à soi et aux autres. Il propose de travailler et explorer sa propre matière dite la part de soi (vécu, souvenirs, savoirs) et de la transformer en une proposition artistique. Cet atelier autonome sera amené à rencontrer ponctuellement à partir de janvier 2020 un autre groupe spécifique dit de ‘création franche’.
+
+----
+
+Planning:
+
+- 
+  public: 60 ans et +
+  hours: Jeudi 10h-12h
+  isfull: 'false'
+  description: ""
+
+----
+
+Links: 
+
+----
+
+Relatedevents: 
+
+----
+
+Relatedadventures: 

@@ -2,7 +2,7 @@
 title: Immersion dans la création
 
 # Each page can have an icon that is shown in page listings when no preview image is available.
-icon: circle-filled
+icon: book
 
 # Page status can be limited, here to `draft` and `listed`.
 # More about page status: https://getkirby.com/docs/reference/panel/blueprints/page#statuses
@@ -33,7 +33,24 @@ tabs:
           intervenant:
             label: Intervenant
             type: pages
-            query: site.page("intervenants").children.listed
+            query: kirby.collection('contributors')
+          dates:
+            label: Dates
+            type: structure
+            fields:
+              date:
+                type: date
+                display: DD MMM YYYY
+              publicType:
+                label: Public
+                type: select
+                default: all
+                options:
+                  all: Tous publics
+                  school: Scolaires
+          hours:
+            label: Horaires
+            type: text
           contactMail:
             label: Adresse de contact
             type: email
@@ -55,16 +72,38 @@ tabs:
                 label: Type de Tarif
                 type: text
               amount:
-                label: Montant (à l'année)
+                label: Montant (en €)
                 type: number
-                help: Si '0' est renseigné, le tarif n'apparaitra pas.
+                help: Entrer 0 pour la mention "Gratuit".
+          rprstnName:
+            label: Nom de la Représentation
+            type: text
+          moreinfos:
+            label: Informations complémentaires
+            type: text
+            help: "Ex: Durée 1h05"
+          representations:
+            label: Representations
+            type: structure
+            fields:
+              date:
+                type: date
+                time: true
+                display: DD MMM YYYY
+              publicType:
+                label: Public
+                type: select
+                default: all
+                options:
+                  all: Tous publics
+                  school: Scolaires
 
       - width: 2/3
         sections:
-          cover: fields/cover
-          textContent:
+          globalContent:
             type: fields
             fields:
+              cover: fields/cover
               description:
                 label: Description générale
                 type: textarea

@@ -39,12 +39,10 @@
               <div class="text margin_t-m">
                 <?= $desc; ?>
               </div>
-              <div class="text margin_t-m">
-                Intervenants
-              </div>
+            <?php snippet('artists-list', array('collection' => $aventuresP->children()->listed()->filterBy('intendedTemplate', $type))); ?>  
             </div class="text margin_t-m">
             <ul class="grid c-3">
-            <?php foreach ($aventuresP->children()->listed()->filterBy('template', $type) as $adventure): ?>
+            <?php foreach ($aventuresP->children()->listed()->filterBy('intendedTemplate', $type) as $adventure): ?>
               <?php snippet('thumb', array('event' => $adventure)); ?>
             <?php endforeach; ?>
             </ul>

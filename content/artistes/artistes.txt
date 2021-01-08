@@ -19,13 +19,26 @@ Headerimage:
 Focus:
 
 - 
-  label: Accompagnement
+  label: ""
   img:
     - theatre-la-paillette-mjc3.jpg
   contenttext: |
-    ## Espace de recherche
-    Mise à disposition des espaces de travail
+    ##Accompagnement
+    Dans le but d’accomplir au mieux sa mission d’accompagnement de la création, La Paillette met à disposition des équipes artistiques - évoluant principalement dans le secteur théâtral - des salles de travail pour des temps de recherche et de répétitions. Afin d’être au plus proche des besoins et de la temporalité des compagnies, la planification de ces accueils se construit avec elles tout au long de l’année.
+    Cette mise à disposition gracieuse de ces espaces de travail (salles de réunion & studios au Lavoir et salle création au Théâtre) répond à plusieurs objectifs :
+    - le partage de l’outil
+    - la rencontre et l’interconnaissance mutuelle
     
-    Depuis la rentrée 2008 - 2009, la salle « création » à La Paillette est ouverte à toute compagnie de théâtre - artiste qui souhaitent chercher, essayer, répéter … sans pour autant qu’ils soient en projet avec La Paillette. Cette salle est bien adaptée aux besoins de cette étape de travail. Cet espace peut aussi être propice — dans certaines conditions — à la présentation de lecture, d’étape de travail auprès des professionnels afin de favoriser les rencontres entre les artistes et les programmateurs mais aussi avec le public.
+    ###Saison 2020-2021 :
+    **9 équipes artistiques sont accueillies : **
+    - Cie l’unanime
+    - Cie 13/10e en Ut
+    -  Cie Felmur
+    - Groupe Odyssée
+    -  Cie Mze Shina
+    -  Collectif LACAVALE
+    - Cie la mort est dans la boîte
+    -  Sophie Cardin, plasticienne
+    - Théâtre des Tarabates
   links: [ ]
   press: [ ]

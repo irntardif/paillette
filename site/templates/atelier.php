@@ -19,14 +19,17 @@
         <section class="text column" style="--columns: 8">
           <header>
             <h1 class="no_m h1"><?= $page->title(); ?></h1>
-            <p>avec <?= $page->intervenant()->toPage() ? $page->intervenant()->toPage()->title() : $page->companyName(); ?></p>
+            <?php if($page->intervenant()->isNotEmpty()): ?>
+            <p> <?= $page->intervenant()->toPage()->title() ?></p>
+            <?php endif; ?>
           </header>
           <div class="margin_t-m"><?= $page->description()->kirbytext(); ?></div>
           <ul class="no_m">
-            <?php foreach ($page->planning()->toStructure() as $key => $timeslot): ?>
-            <section class="dropdown-bloc bloc-small" data-dropdown="true" data-id="<?=$key?>">
-              <header class="flex wrap space-between">
-                <span style="width:10%"><?=$timeslot->public()?></span>
+            <?php foreach ($page->planning()->toStructure() as $key => $timeslot):
+            $isDesc = $timeslot->description()->isNotEmpty();  ?>
+            <section class="dropdown-bloc bloc-small" data-dropdown="<?= $isDesc ? 'true' : 'false' ?>" data-id="<?=$key?>">
+              <header class="no_m flex wrap space-between">
+                <span style="width:15%"><?=$timeslot->public()?></span>
                 <span style="width:25%"><?=$timeslot->hours()?></span>
                 <?php if($timeslot->isFull()->toBool()): ?> 
                   <span style="width:10%"><span class="label bg-light">complet</span></span>
@@ -35,9 +38,11 @@
                 <?php endif; ?>
                 <span class="open-icon no_m"></span>
               </header>
+              <?php if($timeslot->description()->isNotEmpty()): ?>
               <div class="wrapper no_m">
                 <?= $timeslot->description()->kirbytext() ?>
               </div>
+            <?php endif; ?>
             </section>
            <?php endforeach ?>
           </ul>
@@ -48,16 +53,15 @@
            <span class="uppercase"><?php snippet('categories', array('categories' => $page->genre())) ?></span>
            <?= $page->moreinfos()->kirbytext(); ?>
            
-            <p class="margin_b-s">Tarifs</p>
+            <p class="margin_b-s">Tarifs (à l'année)</p>
             <ul class="no_m">
               <?php foreach ($page->prices()->toStructure() as $price): ?>
               <li class="flex">
                 <span style="width: 15%"><?=$price->amount()?> €</span>
-                <span class="no_m" style="width: 85%"><?=$price->pricetype()?></span>
+                <span class="no_m" style="width: 85%">&nbsp;&nbsp;→&nbsp;&nbsp;<?=$price->pricetype()?></span>
               </li>
              <?php endforeach ?>
             </ul>
-           
             <ul class="icons-list margin_t-s">
               <li><a href="<?= $site->find('infos')->url()?>" class="menu-icon icon-text underline infos">Informations pratiques</a></li>
               <?php if($page->contactMail()->isNotEmpty()): ?>

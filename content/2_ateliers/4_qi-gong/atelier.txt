@@ -1,0 +1,73 @@
+Title: Qi Gong
+
+----
+
+Area: bien-être
+
+----
+
+Intervenant:
+
+- intervenants/jean-marc-le-cacheur
+
+----
+
+Contactmail: 
+
+----
+
+Public: 
+
+----
+
+Prices: 
+
+----
+
+Cover:
+
+- bleu.jpg
+
+----
+
+Description:
+
+Ateliers gérés et encadrés par l'association Ming Shen
+Renseignements & inscriptions : 06 12 16 56 40
+
+----
+
+Planning:
+
+- 
+  public: adultes
+  hours: Lundi 10h30-12h
+  isfull: 'false'
+  description: ""
+- 
+  public: adultes
+  hours: Lundi 12-13h30
+  isfull: 'false'
+  description: ""
+- 
+  public: adultes
+  hours: Jeudi 12-13h30
+  isfull: 'false'
+  description: ""
+- 
+  public: adultes
+  hours: Jeudi 10h30-12h
+  isfull: 'false'
+  description: ""
+
+----
+
+Links: 
+
+----
+
+Relatedevents: 
+
+----
+
+Relatedadventures: 
