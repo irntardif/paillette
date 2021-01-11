@@ -2,7 +2,7 @@
 ?>
 <?php snippet('header') ?>
 
-<main class="main">
+<main class="main spectacle">
   <div class="main-wrapper">
     <?php snippet('breadcrumb') ?>
     <?php snippet('intro') ?>
@@ -20,7 +20,9 @@
         <section class="text column" style="--columns: 8">
           <header>
             <h1 class="no_m h1"><?= $page->title(); ?></h1>
-            <?= $page->relatedCompany()->toPage() ? $page->relatedCompany()->toPage()->title() : $page->companyName(); ?>
+            <span class="label bg-accent uppercase"><?php snippet('categories', array('categories' => $page->categories(), 'isClass' => false)) ?></span>
+            <p>
+            <?= $page->relatedCompany()->toPage() ? $page->relatedCompany()->toPage()->title() : $page->companyName(); ?></p>
           </header>
           <div class="margin_t-m"><?= $page->description()->kirbytext(); ?></div>
           <?php snippet('links', array('links' => $page->links()->toStructure(), 'class' => 'btn-light')) ?>
@@ -42,7 +44,7 @@
           </div>
         </section>
         <aside class="column" style="--columns: 4">
-           <span class="uppercase"><?php snippet('categories', array('categories' => $page->genre())) ?></span>
+           <span class="uppercase"><?php snippet('categories', array('categories' => $page->genre(), 'isClass' => false)) ?></span>
            <?= $page->moreinfos()->kirbytext(); ?>
            <span><?php snippet('representations', 
           array('representations' => $page->representations(), 
@@ -68,7 +70,7 @@
         </aside>
       </div>
     </article>
-    <?php snippet('prev-next') ?>
+    <?php snippet('next-prev', array('url' => $page->parent()->url())) ?>
   </div>
 </main>
 

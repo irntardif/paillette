@@ -125,7 +125,18 @@ button {
   margin-right: .7em;
   position:relative;
   top:2px;
+}
 
+.btn.prev:before{
+  content:'← ';
+  display:inline-block;
+  margin-right:.3em;
+}
+
+.btn.next:after{
+  content:' →';
+  display:inline-block;
+  margin-left:.3em;
 }
 
 .icon.download:before{
@@ -1181,9 +1192,18 @@ hr {
   }
 
   .filter-item{
-    width: calc(50% - 2em);
+    width: calc(50% - 2.6em);
     margin-bottom:4em;
-    margin: 1em;
+    margin: 1.3em;
+  }
+
+  .grid.c-3 .filter-item{
+    width: calc(33.33333% - 2.6em);
+  }
+
+  .filter-grid{
+    margin-left: -1em;
+    margin-right: -1em;
   }
 
   .main-header{

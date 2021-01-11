@@ -75,7 +75,7 @@
         </aside>
       </div>
     </article>
-    <?php snippet('prev-next') ?>
+    <?php snippet('next-prev', array('url' => $page->parent()->url())) ?>
   </div>
 </main>
 

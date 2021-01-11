@@ -8,13 +8,15 @@
     <?php snippet('intro') ?>
     <?php if ($spectaclesP = page('spectacles')): ?>
 
-    <?php snippet('filters', array('categories' => ['' => "Tous les genres", '.family' => 'En famille', '.creation' => 'Création'])); ?>
+    <div class='grid-wrapper'>
+      <?php snippet('filters', array('categories' => ['' => "Tous les genres", '.family' => 'En famille', '.creation' => 'Création'], "showMonths" => true )); ?>
     
-    <ul class="filter-grid grid c-2 margin_t-m row-large">
-      <?php foreach ($spectaclesP->children()->listed() as $event): ?>
-      <?php snippet('event-thumb', array('event' => $event)); ?>
-      <?php endforeach ?>
-    </ul>
+      <ul class="filter-grid grid c-2 margin_t-m row-large">
+        <?php foreach ($spectaclesP->children()->listed() as $event): ?>
+        <?php snippet('event-thumb', array('event' => $event)); ?>
+        <?php endforeach ?>
+      </ul>
+    </div>
     <?php endif ?>
   </div>
 </main>

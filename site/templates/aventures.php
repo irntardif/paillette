@@ -34,14 +34,15 @@
             <h1 class="h1"><?= $title ?></h1>
             <span class="open-icon"></span>
           </header>
-          <div class="wrapper">
+          <div class="wrapper grid-wrapper">
             <div class='grid c-2'>
               <div class="text margin_t-m">
                 <?= $desc; ?>
               </div>
             <?php snippet('artists-list', array('collection' => $aventuresP->children()->listed()->filterBy('intendedTemplate', $type))); ?>  
             </div class="text margin_t-m">
-            <ul class="grid c-3">
+            <?php snippet('filters', array('categories' => ['' => "Tous les âges", '.children1' => '4-5 ans', '.children2' => '6-10 ans', '.teen1' => '11-14 ans', '.teen2' => '15-18 ans', '.students' => 'étudiants', '.adults' => 'adultes'])); ?>
+            <ul class="filter-grid grid c-3">
             <?php foreach ($aventuresP->children()->listed()->filterBy('intendedTemplate', $type) as $adventure): ?>
               <?php snippet('thumb', array('event' => $adventure)); ?>
             <?php endforeach; ?>
@@ -71,4 +72,5 @@
 <?php if($page->focus()->isNotEmpty()):
   snippet('focus', array('focus' => $page->focus()->toStructure()));
 endif ?>
+<?php snippet('isotope-script') ?>
 <?php snippet('footer') ?>

@@ -1,4 +1,4 @@
-<li class="thumb" data-age="<?= $event->public(); ?>">
+<li class="filter-item thumb <?php if($event->public()->isNotEmpty()): echo str_replace(',', '', $event->public()); endif; ?>">
   <a href="<?= $event->url() ?>">
     <?php $img = $event->cover()->toFile(); 
     if($img): ?>

@@ -1,0 +1,11 @@
+.spectacle h1{
+	display:inline-block;
+}
+
+.spectacle h1 + .label{
+	display: inline-block;
+    color: #000;
+    margin: 0 1em;
+    padding: 0 1em;
+    vertical-align: super;
+}
