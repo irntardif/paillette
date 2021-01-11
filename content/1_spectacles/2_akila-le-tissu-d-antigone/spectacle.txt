@@ -10,7 +10,7 @@ Genre: lecture
 
 ----
 
-Categories: family, creation
+Categories: creation
 
 ----
 

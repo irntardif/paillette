@@ -10,7 +10,7 @@ Genre: lecture
 
 ----
 
-Categories: family, creation
+Categories: family
 
 ----
 
@@ -65,7 +65,6 @@ Ticketing: http://forumsirius.fr/orion/_spectacle.phtml?inst=06007&lg=FR&kld=1&t
 Gallery:
 
 - ondp-photo-001-1408x.jpg
-- l-assommoir-frederic-desmesure24.jpg
 
 ----
 

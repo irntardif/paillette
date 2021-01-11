@@ -36,5 +36,10 @@ foreach ($categories->split(',') as $cat):
 	        break;
 	}
 endforeach;
+if($isClass):
+	$cats = $categories->split(',');
+	echo implode(" ", $cats);
+else:
 echo implode(" • ", $cats);
+endif;
 ?>

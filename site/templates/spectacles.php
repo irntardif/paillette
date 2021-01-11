@@ -7,8 +7,10 @@
     <?php snippet('breadcrumb') ?>
     <?php snippet('intro') ?>
     <?php if ($spectaclesP = page('spectacles')): ?>
+
+    <?php snippet('filters', array('categories' => ['' => "Tous les genres", '.family' => 'En famille', '.creation' => 'Création'])); ?>
     
-    <ul class="grid c-2 margin_t-m row-large">
+    <ul class="filter-grid grid c-2 margin_t-m row-large">
       <?php foreach ($spectaclesP->children()->listed() as $event): ?>
       <?php snippet('event-thumb', array('event' => $event)); ?>
       <?php endforeach ?>
@@ -19,4 +21,6 @@
 <?php if($page->focus()->isNotEmpty()):
   snippet('focus', array('focus' => $page->focus()->toStructure()));
 endif ?>
+<?php snippet('isotope-script') ?>
 <?php snippet('footer') ?>
+

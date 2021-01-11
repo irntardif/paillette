@@ -159,7 +159,31 @@ button {
   background: url(../icons/eye-accent.svg) no-repeat center;
 }
 
+.select{
+  border-radius: 30px;
+  padding: .5em 2em .5em 1em;
+  font-family: 'pantograph-regular';
+  font-size: 1em;
+  -webkit-appearance: none;
+  appearance: none;
+  background: url(../icons/chevron.svg) no-repeat 95% 50%;
+  cursor:pointer;
+  border: 1px solid #000;
+}
 
+.select:hover{
+  border: 1px solid var(--color-accent);
+  color: var(--color-accent);
+  background: url(../icons/chevron-accent.svg) no-repeat 95% 50%;
+}
+
+.select:focus{
+  outline: none;
+}
+
+.select + .select{
+  margin-left: 1em;
+}
 
 strong, b {
   font-weight: 600;
@@ -1154,6 +1178,12 @@ hr {
   }
   .grid > .column {
     grid-column: span var(--columns);
+  }
+
+  .filter-item{
+    width: calc(50% - 2em);
+    margin-bottom:4em;
+    margin: 1em;
   }
 
   .main-header{
