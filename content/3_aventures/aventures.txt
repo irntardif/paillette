@@ -15,13 +15,25 @@ Headerimage:
 
 Visitstext:
 
-Vous avez envie de découvrir l’envers du décor ? La Paillette organise des visites à la demande, pour des groupes constitués. Entre initiations techniques, parcours dans les recoins de nos deux bâtiments et rencontres avec l’équipe professionnelle, le Lavoir et le Théâtre n’auront plus aucuns secrets pour vous. 
+Vous avez envie de découvrir l’envers du décor ? La Paillette organise des visites à la demande, pour des groupes constitués. Entre initiations techniques, parcours dans les recoins de nos deux bâtiments et rencontres avec l’équipe professionnelle, le Lavoir et le Théâtre n’auront plus aucuns secrets pour vous.
 
-+ Contact : Aude Challemel du Rozier - mediation@la-paillette.net
+Contactez Aude Challemel du Rozier :
 
 ----
 
-Visitsimage: 
+Visitsimage:
+
+- scolaires-2.jpg
+
+----
+
+Visitslinks:
+
+- 
+  linklabel: Contact
+  linktype: mail
+  linkurl: ""
+  mailaddr: mediation@la-paillette.net
 
 ----
 
@@ -53,3 +65,7 @@ Contact : (email: mediation@la-paillette.net text: Aude Challemel du Rozier)
 Souliers de sable : Ven 11 déc à 14h30
 Le Roi des nuages : Jeu 11 et Ven 12 fév. à 14h30
 De l’avenir incertain du monde merveilleux dans lequel nous vivons : Mar 23 mars à 14h30
+
+----
+
+Globalinks: 

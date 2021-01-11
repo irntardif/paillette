@@ -51,22 +51,16 @@
       <?php endforeach; ?>
       <section class="dropdown-bloc" data-dropdown="true" data-id="visits">
           <header class="flex space-between">
-            <h1 class="h1">Visite de la Paillette</h1>
+            <h1 class="h1">Visites de la Paillette</h1>
             <span class="open-icon"></span>
           </header>
           <div class="wrapper">
             <div class='grid c-2'>
             	<div class="text margin_t-m">
                 	<?= $page->visitsText()->kirbytext(); ?>
-              	</div>
-              	<div class="media margin_t-m">
-			    	<?php if ($page->visitsImage()->isNotEmpty()):
-			     	$img = $page->visitsImage()->toFile(); ?>
-			      	<figure>
-			       	<img class="<?php echo $img->extension() == 'jpg' ? 'blue-filter' : '' ?>" src="<?= $img->thumb()->url() ?>" data-src="<?= $img->url() ?>" data-srcset="<?= $img->srcset() ?>" alt="<?= $img->filename() ?>"/>
-			      	</figure>
-			    	<?php endif ?>
-			  	</div>
+                  <?php snippet('blocks/buttonLink', array('data' => $page->visitsLinks()->toStructure())); ?>
+              </div>
+              <?php snippet('headerImg', array('img' => $page->visitsImage())); ?>
             </div>
             
           </div>

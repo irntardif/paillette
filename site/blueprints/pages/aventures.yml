@@ -26,10 +26,12 @@ tabs:
             type: files
             multiple: false
             width: 1/3
+            uploads:
+              template: image
           hr:
             type: line
           visitsText:
-            label: Visite de la paillette
+            label: Visites de la paillette
             type: textarea
             width: 2/3
           visitsImage:
@@ -37,6 +39,12 @@ tabs:
             type: files
             multiple: false
             width: 1/3
+            uploads:
+              template: image
+          visitsLinks: 
+            extends: blocs/buttonLink
+            type: structure
+            width: 2/3
           hr2:
             type: line
           focus: sections/focus

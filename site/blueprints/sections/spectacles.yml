@@ -5,7 +5,7 @@
 type: pages
 headline: Spectacles et évènements
 parent: kirby.page("spectacles")
-info: "{{ page.companyName }}"
+info: "{{ page.relatedCompany.topage.title.or(page.title) }}"
 layout: list
 template: spectacle
 empty: Pas encore de Spectacle

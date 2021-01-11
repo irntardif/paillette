@@ -130,6 +130,8 @@ tabs:
                   ratio: 5/4
                   cover: true
                 size: tiny
+                uploads:
+                  template: image
               company:
                 label: Compagnie
                 type: select
@@ -186,6 +188,7 @@ tabs:
             type: files
             layout: cards
             info: "{{ file.dimensions }}"
+            maxsize: 1000000
             image:
               ratio: 5/4
               cover: true

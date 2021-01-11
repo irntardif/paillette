@@ -1,0 +1,211 @@
+Title: Circulations capitales
+
+----
+
+Type: show
+
+----
+
+Genre: theatre
+
+----
+
+Categories: 
+
+----
+
+Cover:
+
+- c.ablain_059.jpg
+
+----
+
+Creation: false
+
+----
+
+Cohosting: false
+
+----
+
+Cohostinginfos:
+
+- 
+  label: Théâtre National de Bretagne
+  url: https://www.t-n-b.fr/
+  logo: [ ]
+- 
+  label: Théâtre Contemporain
+  url: >
+    https://www.theatre-contemporain.net/contacts/Theatre-National-de-Bretagne-TNB/
+  logo: [ ]
+
+----
+
+Moreinfos: <p>1h, dès 15 ans</p>
+
+----
+
+Representations:
+
+- 
+  date: 2021-04-20 20:00:00
+  publictype: all
+- 
+  date: 2021-04-21 20:00:00
+  publictype: all
+
+----
+
+Prices:
+
+- 
+  pricetype: Sur Réservation
+  amount: 0
+
+----
+
+Ticketing: http://forumsirius.fr/orion/_spectacle.phtml?inst=06007&lg=FR&kld=1&tCache=1602771054017&idv=82adff&spec=644
+
+----
+
+Gallery:
+
+- circulations-capitales.jpg
+
+----
+
+Company: artistpage
+
+----
+
+Relatedcompany:
+
+- artistes/marine-bachelot-nguyen
+
+----
+
+Companyname: 
+
+----
+
+Description:
+
+**Horaires à confirmer**
+
+Parcourir l’album-souvenir, remonter les arbres généalogiques, vouloir voir au-delà du noir et blanc des visages figés. Alors, prendre l’avion vers l’Est, et découvrir, comme un explorateur une terre nouvelle, un pays qu’on ne connaît qu’à travers les souvenirs fantasmés des anciens.
+Entre Vietnam, France et Russie, Marine Bachelot Nguyen, François-Xavier Phan et Marina Keltchewsky plongent dans leur mémoire familiale et tissent ensemble un spectacle où la petite histoire croise la grande. En liant l'intime et le politique, ils interrogent les traces et cicatrices que laissent les idéologies du XXe siècle sur les corps et les esprits, et éclairent les liens entre Christianisme, Communisme, Colonialisme et Capitalisme.
+Sur scène leur récit de voyage se déploie à trois voix, en trois langues, et entrelace chansons, héritages et vidéo. Un théâtre récit sensible en navigation libre entre souvenir personnel et fresque historique.
+
+Spectacle organisé en co-réalisation avec le festival Mythos.
+
+----
+
+Distribution: 
+
+----
+
+Credits: Mise en scène, texte : Marine Bachelot Nguyen
+
+----
+
+Links: 
+
+----
+
+Relatedpages: 
+
+----
+
+Press: 
+
+----
+
+Cohostinglogo: 
+
+----
+
+Moreinformations: 
+
+----
+
+Headline: 
+
+----
+
+Subheadline: 
+
+----
+
+Tags: 
+
+----
+
+Images:
+
+- 
+  filename: >
+    lile-2_bajour_loewen-photographie-scaled.jpg
+  dragText: '(image: lile-2_bajour_loewen-photographie-scaled.jpg)'
+  icon:
+    type: file-image
+    ratio: 5/4
+    back: pattern
+    color: '#de935f'
+    cover: true
+    url: >
+      https://la-paillette.dev/media/pages/spectacles/l-ile/fe3a9fb330-1609944032/lile-2_bajour_loewen-photographie-scaled.jpg
+    cards:
+      url: >
+        data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw
+      srcset: >
+        https://la-paillette.dev/media/pages/spectacles/l-ile/fe3a9fb330-1609944032/lile-2-bajour-loewen-photographie-scaled-352x.jpg
+        352w,
+        https://la-paillette.dev/media/pages/spectacles/l-ile/fe3a9fb330-1609944032/lile-2-bajour-loewen-photographie-scaled-864x.jpg
+        864w,
+        https://la-paillette.dev/media/pages/spectacles/l-ile/fe3a9fb330-1609944032/lile-2-bajour-loewen-photographie-scaled-1408x.jpg
+        1408w
+    list:
+      url: >
+        data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw
+      srcset: >
+        https://la-paillette.dev/media/pages/spectacles/l-ile/fe3a9fb330-1609944032/lile-2-bajour-loewen-photographie-scaled-38x38.jpg
+        1x,
+        https://la-paillette.dev/media/pages/spectacles/l-ile/fe3a9fb330-1609944032/lile-2-bajour-loewen-photographie-scaled-76x76.jpg
+        2x
+  id: >
+    spectacles/l-ile/lile-2_bajour_loewen-photographie-scaled.jpg
+  image:
+    ratio: 5/4
+    back: pattern
+    cover: true
+    url: >
+      https://la-paillette.dev/media/pages/spectacles/l-ile/fe3a9fb330-1609944032/lile-2_bajour_loewen-photographie-scaled.jpg
+    cards:
+      url: >
+        data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw
+      srcset: >
+        https://la-paillette.dev/media/pages/spectacles/l-ile/fe3a9fb330-1609944032/lile-2-bajour-loewen-photographie-scaled-352x.jpg
+        352w,
+        https://la-paillette.dev/media/pages/spectacles/l-ile/fe3a9fb330-1609944032/lile-2-bajour-loewen-photographie-scaled-864x.jpg
+        864w,
+        https://la-paillette.dev/media/pages/spectacles/l-ile/fe3a9fb330-1609944032/lile-2-bajour-loewen-photographie-scaled-1408x.jpg
+        1408w
+    list:
+      url: >
+        data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw
+      srcset: >
+        https://la-paillette.dev/media/pages/spectacles/l-ile/fe3a9fb330-1609944032/lile-2-bajour-loewen-photographie-scaled-38x38.jpg
+        1x,
+        https://la-paillette.dev/media/pages/spectacles/l-ile/fe3a9fb330-1609944032/lile-2-bajour-loewen-photographie-scaled-76x76.jpg
+        2x
+  info: 1198 × 600
+  link: >
+    /pages/spectacles+l-ile/files/lile-2_bajour_loewen-photographie-scaled.jpg
+  text: >
+    lile-2_bajour_loewen-photographie-scaled.jpg
+  type: image
+  url: >
+    https://la-paillette.dev/media/pages/spectacles/l-ile/fe3a9fb330-1609944032/lile-2_bajour_loewen-photographie-scaled.jpg
+  uuid: >
+    lile-2_bajour_loewen-photographie-scaled.jpg

@@ -9,6 +9,7 @@ title: Image
 
 accept: 
   type: image
+  maxsize: 1000000
 
 columns:
   - width: 1/2

@@ -1,4 +1,4 @@
-Title: On ne dit pas j'ai crevé
+Title: Ces filles là
 
 ----
 
@@ -6,17 +6,17 @@ Type: show
 
 ----
 
-Genre: lecture
+Genre: theatre
 
 ----
 
-Categories: family, creation
+Categories: 
 
 ----
 
 Cover:
 
-- ondp-photo-001-600x.jpg
+- ces-filles-la.jpg
 
 ----
 
@@ -42,53 +42,66 @@ Cohostinginfos:
 
 ----
 
-Moreinfos: <p>45min, dès 9 ans</p>
+Moreinfos: <p>1h05, dès 12 ans</p>
 
 ----
 
 Representations:
 
 - 
-  date: 2020-10-16 19:00:00
+  date: 2021-03-09 10:00:00
+  publictype: school
+- 
+  date: 2021-03-09 14:30:00
+  publictype: school
+- 
+  date: 2021-03-13 20:00:00
+  publictype: all
+- 
+  date: 2021-03-14 15:00:00
   publictype: all
 
 ----
 
-Prices: 
+Prices:
+
+- 
+  pricetype: Sur Réservation
+  amount: 0
 
 ----
 
-Ticketing: http://forumsirius.fr/orion/_spectacle.phtml?inst=06007&lg=FR&kld=1&tCache=1602770428742&idv=756d7e&spec=634
+Ticketing: http://forumsirius.fr/orion/_spectacle.phtml?inst=06007&lg=FR&kld=1&tCache=1602771054017&idv=82adff&spec=645
 
 ----
 
 Gallery:
 
-- ondp-photo-001-1408x.jpg
+- ces-filles-la.jpg
 
 ----
 
-Company: artistpage
+Company: label
 
 ----
 
-Relatedcompany:
-
-- artistes/enora-boelle-le-joli-collectif
+Relatedcompany: 
 
 ----
 
-Companyname: Collectif Bajour / Hector Manuel
+Companyname: La Collective Ces Filles-Là
 
 ----
 
 Description:
 
-Il y a le temps où l’idée germe et le temps où elle éclot. Entre les deux, il peut se passer des mois, voire des années. Avant la création du spectacle On ne dit pas j’ai crevé prévue en octobre 2021, Enora Boëlle nous offre un temps de lecture faisant entendre l'intégralité de cette partition sensible autour du thème de la mort. On y perçoit ce moment où tout s'arrête, on assiste à la mise en place de la cérémonie pour dire " au revoir". Coeur, poumons, cerveau... lorsque le corps cesse d'être, n'est-ce pas finalement le meilleur moment pour parler de la vie qui l'habitait avant tout ?
+Projet participatif réunissant amatrices et professionnelles autour du texte d'Evan Placey
 
-Un temps d’échange avec l'équipe artistique est organisé à l’issue de la lecture.
+« Entre filles, on doit se serrer les coudes, pas vrai ? ». C’est ce que déclarent les pensionnaires de l’institution religieuse Sainte-Hélène qui scolarise de la maternelle à la terminale des cohortes soudées comme les doigts de la main. Quand la photo volée de Scarlett nue circule sur les réseaux sociaux, la solidarité cesse, et le groupe devient bourreau.
+Pour faire le récit du harcèlement dont Scarlett est victime, La Collective Ces Filles-Là enfile ses chaussettes de sport, ses crampons et mouille le maillot. Elles sont six jeunes comédiennes, sorties des grandes écoles de théâtre, auxquelles s’ajoute un groupe de rennaises associées pour l’occasion.
+Elles seront une quinzaine à se mettre en ligne pour raconter de façon chorale la tyrannie du groupe, à plonger leurs yeux dans ceux du public, à chanter, à danser, et à dire sans détour le texte incisif du canadien Evan Placey, auteur de cette pièce drôle cruelle et militante.
 
-Spectacle organisé en partenariat avec le Festival Marmaille.
+Représentations accueillies avec le soutien de l'Office national de diffusion artistique (ONDA).
 
 ----
 
@@ -96,17 +109,14 @@ Distribution:
 
 ----
 
-Credits: Lecture : Enora Boëlle / Texte : Robin Lescouët
+Credits:
+
+Texte : Evan Placey
+Conception : La Collective Ces Filles-Là
 
 ----
 
-Links:
-
-- 
-  label: Dossier artistique
-  linktype: document
-  url: ""
-  document: [ ]
+Links: 
 
 ----
 

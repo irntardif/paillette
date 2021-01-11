@@ -6,7 +6,7 @@
   <a href="<?= $event->url() ?>">
     <figure class="regular">
       <?php $img = $event->cover()->toFile(); ?>
-      <img class="<?php echo $img->extension() == 'jpg' ? 'blue-filter' : '' ?>" src="<?= $img->thumb()->url() ?>" data-src="<?= $img->url() ?>" data-srcset="<?= $img->srcset() ?>" alt="<?= $img->filename() ?>"/>
+      <img class="<?php  echo $img->extension() == 'jpg' || $img->extension() == 'jpeg' ? 'blue-filter' : '' ?>" src="<?= $img->thumb()->url() ?>" data-src="<?= $img->url() ?>" data-srcset="<?= $img->srcset() ?>" alt="<?= $img->filename() ?>"/>
     </figure>
     <div class="infos margin_t-s">
       <?php snippet('categories', array('categories' => $event->categories())) ?>

@@ -8,7 +8,7 @@
     <?php snippet('intro') ?>
     <?php if ($spectaclesP = page('spectacles')): ?>
     
-    <ul class="grid c-2 margin_t-m">
+    <ul class="grid c-2 margin_t-m row-large">
       <?php foreach ($spectaclesP->children()->listed() as $event): ?>
       <?php snippet('event-thumb', array('event' => $event)); ?>
       <?php endforeach ?>
