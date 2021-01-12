@@ -16,29 +16,4 @@ Headerimage:
 
 ----
 
-Focus:
-
-- 
-  label: ""
-  img:
-    - theatre-la-paillette-mjc3.jpg
-  contenttext: |
-    ##Accompagnement
-    Dans le but d’accomplir au mieux sa mission d’accompagnement de la création, La Paillette met à disposition des équipes artistiques - évoluant principalement dans le secteur théâtral - des salles de travail pour des temps de recherche et de répétitions. Afin d’être au plus proche des besoins et de la temporalité des compagnies, la planification de ces accueils se construit avec elles tout au long de l’année.
-    Cette mise à disposition gracieuse de ces espaces de travail (salles de réunion & studios au Lavoir et salle création au Théâtre) répond à plusieurs objectifs :
-    - le partage de l’outil
-    - la rencontre et l’interconnaissance mutuelle
-    
-    ###Saison 2020-2021 :
-    **9 équipes artistiques sont accueillies : **
-    - Cie l’unanime
-    - Cie 13/10e en Ut
-    -  Cie Felmur
-    - Groupe Odyssée
-    -  Cie Mze Shina
-    -  Collectif LACAVALE
-    - Cie la mort est dans la boîte
-    -  Sophie Cardin, plasticienne
-    - Théâtre des Tarabates
-  links: [ ]
-  press: [ ]
+Focus: 

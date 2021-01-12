@@ -75,7 +75,7 @@
         </aside>
       </div>
     </article>
-    <?php snippet('next-prev', array('url' => $page->parent()->url())) ?>
+    <?php snippet('next-prev', array('template' => 'Sortie de classe', 'type' => 'f')) ?>
   </div>
 </main>
 

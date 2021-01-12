@@ -24,30 +24,34 @@
             <?php endif; ?>
           </header>
           <div class="margin_t-m"><?= $page->description()->kirbytext(); ?></div>
-          <ul class="no_m">
-            <?php foreach ($page->planning()->toStructure() as $key => $timeslot):
-            $isDesc = $timeslot->description()->isNotEmpty();  ?>
-            <section class="dropdown-bloc bloc-small" data-dropdown="<?= $isDesc ? 'true' : 'false' ?>" data-id="<?=$key?>">
-              <header class="no_m flex wrap space-between">
-                <span style="width:15%"><?=$timeslot->public()?></span>
-                <span style="width:25%"><?=$timeslot->hours()?></span>
-                <?php if($timeslot->isFull()->toBool()): ?> 
-                  <span style="width:10%"><span class="label bg-light">complet</span></span>
-                <?php else: ?>
-                  <span style="width:10%"></span>
-                <?php endif; ?>
-                <span class="open-icon no_m"></span>
-              </header>
-              <?php if($timeslot->description()->isNotEmpty()): ?>
-              <div class="wrapper no_m">
-                <?= $timeslot->description()->kirbytext() ?>
-              </div>
-            <?php endif; ?>
-            </section>
-           <?php endforeach ?>
-          </ul>
+          <div class="margin_b-l">
+            <ul class="no_m">
+              <?php foreach ($page->planning()->toStructure() as $key => $timeslot):
+              $isDesc = $timeslot->description()->isNotEmpty();  ?>
+              <section class="dropdown-bloc bloc-small" data-dropdown="<?= $isDesc ? 'true' : 'false' ?>" data-id="<?=$key?>">
+                <header class="no_m flex wrap space-between">
+                  <span style="width:15%"><?=$timeslot->public()?></span>
+                  <span style="width:25%"><?=$timeslot->hours()?></span>
+                  <?php if($timeslot->isFull()->toBool()): ?> 
+                    <span style="width:10%"><span class="label bg-light">complet</span></span>
+                  <?php else: ?>
+                    <span style="width:10%"></span>
+                  <?php endif; ?>
+                  <span class="open-icon no_m"></span>
+                </header>
+                <?php if($timeslot->description()->isNotEmpty()): ?>
+                <div class="wrapper no_m">
+                  <?= $timeslot->description()->kirbytext() ?>
+                </div>
+              <?php endif; ?>
+              </section>
+             <?php endforeach ?>
+            </ul>
+          </div>
           <?php snippet('links', array('links' => $page->links()->toStructure(), 'class' => 'btn-light')) ?>
-
+          <?php if ($page->intervenant()->isNotEmpty()): ?>
+            <?php snippet('about', array('speaker' => $page->intervenant()->toPage(), 'class' => 'btn-light')) ?>
+          <?php endif; ?>
         </section>
         <aside class="column" style="--columns: 4">
            <span class="uppercase"><?php snippet('categories', array('categories' => $page->genre())) ?></span>
@@ -71,7 +75,7 @@
         </aside>
       </div>
     </article>
-    <?php snippet('next-prev', array('url' => $page->parent()->url())) ?>
+   <?php snippet('next-prev', array('template' => 'Atelier', 'type' => 'm')) ?>
   </div>
 </main>
 

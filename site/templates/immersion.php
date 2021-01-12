@@ -75,7 +75,7 @@
         </aside>
       </div>
     </article>
-    <?php snippet('next-prev', array('url' => $page->parent()->url())) ?>
+    <?php snippet('next-prev', array('template' => 'Immersion', 'type' => 'f')) ?>
   </div>
 </main>
 

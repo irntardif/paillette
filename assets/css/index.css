@@ -32,9 +32,21 @@ html {
   background: var(--color-background);
   font-size:18px;
 }
+
 img {
   width: 100%;
 }
+
+img[data-src]:not(.loaded) {
+ opacity:.3;
+  -webkit-transition: .3s opacity ease .5s;
+  transition: .3s opacity ease .5s;
+}
+
+img.loaded{
+ opacity: 1;
+}
+
 
 .defs-only {
   position: absolute;
@@ -43,9 +55,24 @@ img {
   left: -100%;
 }
 
+
+
 img.blue-filter{
   -webkit-filter: url(#monochrome);
   filter:  url(#monochrome);
+  -webkit-transition: 1s -webkit-filter linear;
+  -moz-transition: 1s -moz-filter linear;
+  -moz-transition: 1s filter linear;
+  -ms-transition: 1s -ms-filter linear;
+  -o-transition: 1s -o-filter linear;
+  transition: 1s filter linear, 1s -webkit-filter linear, opacity .3s;
+  opacity:1;
+}
+
+.filter-item:hover img.blue-filter{
+  -webkit-filter: initial;
+  filter: initial;
+  opacity:.9;
 }
 
 .main-wrapper{
