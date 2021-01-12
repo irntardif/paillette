@@ -30,6 +30,15 @@
 </head>
 <body>
 
+<?php if($page->uid() == 'home' && $page->headerImage()->isNotEmpty()): ?>
+<section class="header-paillette header-image">
+  <?php $img = $page->headerImage()->toFile(); ?>
+  <figure class="regular">
+    <img src="<?= $img->thumb()->url() ?>" data-src="<?= $img->url() ?>" data-srcset="<?= $img->srcset() ?>" alt="<?= $img->filename() ?>"/>
+  </figure>
+</section>
+<?php endif; ?>
+
 <?php if($page->isMobile()):
   snippet('navbar-mobile');
 else: ?>

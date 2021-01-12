@@ -2,6 +2,67 @@ Title: Accueil
 
 ----
 
+Headerimage:
+
+- header-paillette-website.jpg
+
+----
+
+News:
+
+- 
+  title: Dernières nouvelles
+  contenttext: '<p>Cher·e·s adhérent·e·s,<br>Cher·e·s spectateurs·trice·s,<br>Cher·e·s ami·e·s de La Paillette,</p><p>À la suite des dernières mesures annoncées par le gouvernement, nous sommes dans l’obligation de fermer La Paillette au public jusqu’au 1er décembre 2020. Par conséquent, jusqu’à cette date, tous les ateliers réguliers sont suspendus, les spectacles et stages sont annulés. Nous nous efforçons de trouver des solutions avec les artistes, intervenants et partenaires, aussi nous vous demandons encore un peu de patience afin de pouvoir vous proposer dès que possible des alternatives et/ou des dispositifs de compensation adaptés. En attendant de vous retrouver dans nos murs, nous restons joignables par téléphone et par mail.</p><p>On se dit à très vite ? Nous l’espérons, vous nous manquez déjà !</p>'
+- 
+  title: >
+    Résidence Marine Bachelot Nguyen —
+    Lumière D’août
+  contenttext: "<p>Petite lueur dans cette période de confinement , Marine Bachelot Nguyen et son équipe sont autorisés à passer deux semaines en résidence sur les planches du théâtre pour peaufiner les derniers détails de la création Akila - le tissu d'Antigone, qui aurait dû jouer du 10 au 14 novembre.</p>"
+- 
+  title: >
+    Résidence Marine Bachelot Nguyen —
+    Lumière D’août
+  contenttext: "<p>Petite lueur dans cette période de confinement , Marine Bachelot Nguyen et son équipe sont autorisés à passer deux semaines en résidence sur les planches du théâtre pour peaufiner les derniers détails de la création Akila - le tissu d'Antigone, qui aurait dû jouer du 10 au 14 novembre.</p>"
+
+----
+
+Adventurestext: Laboratoires de création, stages, projets avec le public, théâtromobile : milles manières de passer jours et nuits avec La Paillette.
+
+----
+
+Adventuresimage:
+
+- illu-paillette3-2.png
+
+----
+
+Workshoptext: 60 ateliers différents — théâtre, musique, chant, danse et arts plastiques et bien-être — espaces d’apprentissage, d’expérimentation et de création, mêlant pratique régulière et rencontre avec les artistes accueillis à La Paillette.
+
+----
+
+Workshopimage:
+
+- illu-paillette3.png
+
+----
+
+Focus:
+
+- 
+  label: Zoom sur...
+  img:
+    - akila-paysage.jpg
+  contenttext: |
+    ##Marine Bachelot Nguyen
+    
+    Artiste en résidence, Marine Bachelot Nguyen, sera avec nous en novembre pour la création de son dernier spectacle
+    
+    Petite lueur dans cette période de confinement , Marine Bachelot Nguyen et son équipe sont autorisés à passer deux semaines en résidence sur les planches du théâtre pour peaufiner les derniers détails de la création Akila - le tissu d'Antigone, qui aurait dû jouer du 10 au 14 novembre.
+  links: [ ]
+  press: [ ]
+
+----
+
 Headline: Welcome to Kirby's Starterkit
 
 ----
