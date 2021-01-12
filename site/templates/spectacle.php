@@ -45,6 +45,7 @@
           <?php if ($page->relatedCompany()->isNotEmpty()): ?>
             <?php snippet('about', array('speaker' => $page->relatedCompany()->toPage(), 'class' => 'btn-light')) ?>
           <?php endif; ?>
+         
         </section>
         <aside class="column" style="--columns: 4">
            <span class="uppercase"><?php snippet('categories', array('categories' => $page->genre(), 'isClass' => false)) ?></span>
@@ -73,6 +74,7 @@
         </aside>
       </div>
     </article>
+    <?php snippet('related-events', array('related' => $page->relatedPages())) ?>
     <?php snippet('next-prev', array('template' => 'Spectacle', 'type' => 'm')) ?>
   </div>
 </main>

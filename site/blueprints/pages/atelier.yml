@@ -116,14 +116,11 @@ tabs:
     columns:
       - width: 2/3
         fields:
-          relatedEvents:
-            label: Évènements en lien
+          relatedPages:
+            label: Événements en lien
             type: pages
-            query: site.find('spectacles').children.listed
-          relatedAdventures:
-            label: Aventures en lien
-            type: pages
-            query: site.find('aventures').children.listed
+            query: kirby.collection('events')
+            help: Spectacles, Aventures et Ateliers
 
 
 

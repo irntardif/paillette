@@ -172,10 +172,10 @@ tabs:
       - width: 2/3
         fields:
           relatedPages:
-            ##Aventures + Evenements
             label: Événements en lien
             type: pages
-            query: site.find('artistes').children.listed
+            query: kirby.collection('events')
+            help: Spectacles, Aventures et Ateliers
           press: sections/press
   files:
     label: Fichiers

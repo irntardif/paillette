@@ -75,7 +75,8 @@
         </aside>
       </div>
     </article>
-   <?php snippet('next-prev', array('template' => 'Projet', 'type' => 'm')) ?>
+    <?php snippet('related-events', array('related' => $page->relatedPages())) ?>
+    <?php snippet('next-prev', array('template' => 'Projet', 'type' => 'm')) ?>
   </div>
 </main>
 

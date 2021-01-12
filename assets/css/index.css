@@ -76,7 +76,7 @@ img.blue-filter{
 }
 
 .main-wrapper{
-  padding: 140px var(--padding);
+  padding: 140px var(--padding) 0 var(--padding);
   max-width: 60rem;
   margin: 0 auto;
 }
@@ -491,7 +491,7 @@ a.menu-icon.icon-text{
 }
 
 .grid > .column {
-  margin-bottom: var(--gutter);
+  margin-bottom: 1em;
 }
 
 .autogrid {
@@ -956,6 +956,9 @@ hr {
 .padding_t-m {
   padding-top: 1.5rem;
 }
+.padding_b-m {
+  padding-bottom: 1.5rem;
+}
 .padding_w-m {
   padding:0 1.5rem;
 }
@@ -968,8 +971,14 @@ hr {
 .padding_t-xl {
   padding-top: 4.5rem;
 }
+.padding_b-xl {
+  padding-bottom: 4.5rem;
+}
 .padding_t-xxl {
   padding-top: 6rem;
+}
+.padding_b-xxl {
+  padding-bottom: 6rem;
 }
 
 .no-p{
@@ -1231,6 +1240,18 @@ hr {
   .filter-grid{
     margin-left: -1em;
     margin-right: -1em;
+  }
+
+  .carousel-thumb{
+    width:100%;
+  }
+
+  .carousel-thumb figure{
+    margin:0 0 1em 0;
+  }
+
+  .carousel-thumb a{
+    text-decoration:none;
   }
 
   .main-header{
