@@ -1,5 +1,5 @@
 <li class="filter-item <?php snippet('categories', array('categories' => $event->categories(), 'isClass' => true )) ?><?= $event->representations()->isNotEmpty() ? ' '.$event->representations()->toStructure()->first()->date()->toDate('%B') : ' all' ?>">
-  <span class="header-thumb grid c-2 margin_b-s">
+  <span class="header-thumb grid c-2 margin_b-s" style="grid-gap: 2em;">
     <span><?php snippet('dates', array('representations' => $event->representations())) ?></span>
     <span><?= $event->type() == 'show' ? 'Spectacle' : 'Évènement'; ?></span>
   </span>

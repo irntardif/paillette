@@ -57,10 +57,11 @@ inView('[data-src]').on('enter', setSrcAttribute);
     
 if (window.innerWidth >= 768 ){
     scrollEventThrottle((scrollPos, previousScrollPos) => {
-      if(scrollPos >= 150){
+      let $toptrigger = body.classList.contains('home') ? 550 : 150;
+      if(scrollPos >= $toptrigger){
         body.classList.add('fixed-header');
       }
-      if(scrollPos < 150){
+      if(scrollPos < $toptrigger){
         body.classList.remove('fixed-header');
       }
     });

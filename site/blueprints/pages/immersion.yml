@@ -138,7 +138,7 @@ tabs:
           relatedPages:
             label: Événements en lien
             type: pages
-            query: kirby.collection('events')
+            query: kirby.collection('events-workshops')
             help: Spectacles, Aventures et Ateliers
 
 

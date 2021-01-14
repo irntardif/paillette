@@ -15,24 +15,28 @@ if($representations->isNotEmpty()):
 			if($formatDates[0]->date()->toDate('%e %B %Y') == $formatDates[1]->date()->toDate('%e %B %Y')):
 				echo $formatDates[1]->date()->toDate('%e %B %Y');
 			elseif($formatDates[0]->date()->toDate('%B %Y') == $formatDates[1]->date()->toDate('%B %Y')):
-				echo $formatDates[0]->date()->toDate('%e').' - '.$formatDates[1]->date()->toDate('%e %B %Y');
+				echo $formatDates[0]->date()->toDate('%e').' & '.$formatDates[1]->date()->toDate('%e %B %Y');
 			else:
-				echo $formatDates[0]->date()->toDate('%e %B').' - '.$formatDates[1]->date()->toDate('%e %B %Y');
+				echo $formatDates[0]->date()->toDate('%e %B').' & '.$formatDates[1]->date()->toDate('%e %B %Y');
 			endif;
 		elseif(count($formatDates) == 3):
-			if($formatDates[0]->date()->toDate('%e %B %Y') == $formatDates[1]->date()->toDate('%e %B %Y') && $formatDates[1]->date()->toDate('%e %B %Y')== $formatDates[2]->date()->toDate('%e %B %Y')):
+			if($formatDates[0]->date()->toDate('%e %B %Y') == $formatDates[1]->date()->toDate('%e %B %Y') && $formatDates[1]->date()->toDate('%e %B %Y') == $formatDates[2]->date()->toDate('%e %B %Y')):
 				echo $formatDates[2]->date()->toDate('%e %B %Y');
 			elseif($formatDates[0]->date()->toDate('%e %B %Y') == $formatDates[1]->date()->toDate('%e %B %Y') && $formatDates[1]->date()->toDate('%e %B %Y') != $formatDates[2]->date()->toDate('%e %B %Y')):
 				echo $formatDates[1]->date()->toDate('%e %B').' '.$formatDates[2]->date()->toDate('%e %B %Y');
 			elseif($formatDates[0]->date()->toDate('%e %B %Y') != $formatDates[1]->date()->toDate('%e %B %Y') && $formatDates[1]->date()->toDate('%e %B %Y') == $formatDates[2]->date()->toDate('%e %B %Y')):
-				echo $formatDates[0]->date()->toDate('%e %B').' – '.$formatDates[1]->date()->toDate('%e %B %Y'); 
+				echo $formatDates[0]->date()->toDate('%e').' – '.$formatDates[1]->date()->toDate('%e %B %Y'); 
 			elseif( $formatDates[0]->date()->toDate('%B %Y') == $formatDates[1]->date()->toDate('%B %Y') && $formatDates[1]->date()->toDate('%B %Y') == $formatDates[2]->date()->toDate('%B %Y')):
 				echo $formatDates[0]->date()->toDate('%e').' - '.$formatDates[1]->date()->toDate('%e').' - '.$formatDates[2]->date()->toDate('%e %B %Y');
 			elseif($formatDates[0]->date()->toDate('%B %Y') == $formatDates[1]->date()->toDate('%B %Y') && $formatDates[1]->date()->toDate('%B %Y') != $formatDates[2]->date()->toDate('%B %Y')):
 				echo $formatDates[0]->date()->toDate('%e').' - '.$formatDates[1]->date()->toDate('%e %B').' – '.$formatDates[2]->date()->toDate('%e %B %Y');
 			endif;
 		else:
-			echo $formatDates[0]->date()->toDate('%e %B').' - '.$formatDates[count($formatDates) - 1]->date()->toDate('%e %B %Y');
+			if($formatDates[0]->date()->toDate('%e %B') == $formatDates[count($formatDates) - 1]->date()->toDate('%e %B')):
+				echo $formatDates[0]->date()->toDate('%e').' - '.$formatDates[count($formatDates) - 1]->date()->toDate('%e %B %Y');
+			else:
+				echo $formatDates[0]->date()->toDate('%e %B').' - '.$formatDates[count($formatDates) - 1]->date()->toDate('%e %B %Y');
+			endif;
 		endif;
 	endif;
 else:

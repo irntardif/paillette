@@ -2,14 +2,23 @@
 ?>
 <?php snippet('header') ?>
 <main class="main">
-	<div class="main-wrapper">
-		<div class='carousel-wrapper'>
+	<div class="main-wrapper padding_b-xxl">
+		
+		<div class="carousel-wrapper margin_t-l">
 			<div class="carousel-events">
 				<?php foreach ($kirby->collection('incoming-shows') as $event): ?>
 		      		<?php snippet('event-thumb', array('event' => $event)); ?>
 		    	<?php endforeach; ?>
+		    	<div style="width:100%"></div>
 			</div>
+			<nav class="carousel-nav">
+				<button class="prev">Prev</button>
+				<button class="next">Next</button>
+			</nav>
 		</div>
+
+		<?php snippet('agenda', array('img' => $page->workshopImage())); ?>
+		
 		<div class="grid <?= $page->news()->isNotEmpty() ? 'c-3' : 'c-2' ?>">
 			<?php if($page->news()->isNotEmpty()):?>
 			<div>
@@ -17,7 +26,7 @@
 				<?php foreach($page->news()->toStructure() as $key => $new): ?>
 				<section class="dropdown-bloc small" data-dropdown="true" data-id="<?=$key?>">
 		        	<header class="flex space-between">
-		        		<h3 class="h3"><?= $new->title() ?></h1>
+		        		<h4 class="uppercase h4"><?= $new->title() ?></h4>
 		        		<span class="open-icon"></span>
 					</header>
 					<div class="wrapper grid-wrapper">
@@ -59,8 +68,10 @@
 endif ?>
 <?php snippet('footer') ?>
 <?= js(['assets/js/siema.min.js']) ?>
+
 <script>
-  new Siema({
+
+  const carousel = new Siema({
     selector: '.carousel-events',
     duration: 400,
     easing: 'ease-out',
@@ -74,4 +85,10 @@ endif ?>
     onInit: () => {},
     onChange: () => {},
   });
+  	const prev = document.querySelector('.prev');
+	const next = document.querySelector('.next');
+
+	prev.addEventListener('click', () => carousel.prev());
+	next.addEventListener('click', () => carousel.next());
+
 </script>

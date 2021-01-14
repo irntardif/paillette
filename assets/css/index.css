@@ -219,8 +219,9 @@ button {
   background: url(../icons/chevron-accent.svg) no-repeat 95% 50%;
 }
 
-.select:focus{
-  outline: none;
+:active,
+:focus{
+   outline: none;
 }
 
 .select + .select{
@@ -998,6 +999,8 @@ hr {
   margin-left:0;
 }
 
+
+
 .open-icon{
   width:35px;
   height:35px;
@@ -1028,6 +1031,11 @@ hr {
 .open .open-icon:after{
   -webkit-transform: translate(0,-50%) rotate(0);
   transform: translate(0,-50%) rotate(0);
+}
+
+.small .open-icon{
+  width:28px;
+  height:28px;
 }
 
 
@@ -1133,13 +1141,12 @@ hr {
 }
 
 .modal-container .modal-header {
-    padding: 2rem;
 }
 
 .modal-container .modal-body {
     overflow-y: auto;
-    padding: 2rem;
     position: relative;
+    padding: 1em;
 }
 
 .modal-container .modal-footer {

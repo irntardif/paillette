@@ -12,7 +12,7 @@
 */
 ?>
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
 
   <meta charset="utf-8">
@@ -26,9 +26,17 @@
     '@auto'
   ]) ?>
 
+  <?php if($page->uid() == 'home'): ?>
+    <link href='https://cdn.jsdelivr.net/npm/fullcalendar@5.5.0/main.css' rel="stylesheet"/>
+    <script src='https://cdn.jsdelivr.net/npm/fullcalendar@5.5.0/main.min.js'></script>
+    <script src="https://unpkg.com/@popperjs/core@2/dist/umd/popper.min.js"></script>
+    <script src="https://unpkg.com/tippy.js@6/dist/tippy-bundle.umd.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/tippy.js/themes/light.css" />
+  <?php endif; ?>
+  
   <link rel="shortcut icon" type="image/x-icon" href="<?= url('favicon.ico') ?>">
 </head>
-<body>
+<body class="<?= $page->id() ?>">
 
 <?php if($page->uid() == 'home' && $page->headerImage()->isNotEmpty()): ?>
 <section class="header-paillette header-image">
@@ -47,7 +55,8 @@ else: ?>
   </a>
   <?php snippet('navbar');
 endif;
-snippet('newsletter') ?>
+snippet('newsletter');
+snippet('event-modal') ?>
 
 
 

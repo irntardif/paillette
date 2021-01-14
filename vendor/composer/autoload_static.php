@@ -26,6 +26,11 @@ class ComposerStaticInit7f194fccc3131ab97782c5430cfa5bd3
         array (
             'Symfony\\Polyfill\\Mbstring\\' => 26,
         ),
+        'R' => 
+        array (
+            'Robinscholz\\' => 12,
+            'Recurr\\' => 7,
+        ),
         'P' => 
         array (
             'Psr\\Log\\' => 8,
@@ -39,6 +44,10 @@ class ComposerStaticInit7f194fccc3131ab97782c5430cfa5bd3
         'K' => 
         array (
             'Kirby\\' => 6,
+        ),
+        'D' => 
+        array (
+            'Doctrine\\Common\\Collections\\' => 28,
         ),
         'B' => 
         array (
@@ -58,6 +67,14 @@ class ComposerStaticInit7f194fccc3131ab97782c5430cfa5bd3
         'Symfony\\Polyfill\\Mbstring\\' => 
         array (
             0 => __DIR__ . '/..' . '/symfony/polyfill-mbstring',
+        ),
+        'Robinscholz\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/site/plugins/better-rest/classes',
+        ),
+        'Recurr\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/simshaun/recurr/src/Recurr',
         ),
         'Psr\\Log\\' => 
         array (
@@ -79,6 +96,10 @@ class ComposerStaticInit7f194fccc3131ab97782c5430cfa5bd3
         array (
             0 => __DIR__ . '/../..' . '/kirby/src',
             1 => __DIR__ . '/..' . '/getkirby/composer-installer/src',
+        ),
+        'Doctrine\\Common\\Collections\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/doctrine/collections/lib/Doctrine/Common/Collections',
         ),
         'Bnomei\\' => 
         array (
@@ -118,6 +139,18 @@ class ComposerStaticInit7f194fccc3131ab97782c5430cfa5bd3
         'Bnomei\\MobileDetect' => __DIR__ . '/../..' . '/site/plugins/kirby3-mobile-detect/classes/MobileDetect.php',
         'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
         'Detection\\MobileDetect' => __DIR__ . '/..' . '/mobiledetect/mobiledetectlib/namespaced/Detection/MobileDetect.php',
+        'Doctrine\\Common\\Collections\\AbstractLazyCollection' => __DIR__ . '/..' . '/doctrine/collections/lib/Doctrine/Common/Collections/AbstractLazyCollection.php',
+        'Doctrine\\Common\\Collections\\ArrayCollection' => __DIR__ . '/..' . '/doctrine/collections/lib/Doctrine/Common/Collections/ArrayCollection.php',
+        'Doctrine\\Common\\Collections\\Collection' => __DIR__ . '/..' . '/doctrine/collections/lib/Doctrine/Common/Collections/Collection.php',
+        'Doctrine\\Common\\Collections\\Criteria' => __DIR__ . '/..' . '/doctrine/collections/lib/Doctrine/Common/Collections/Criteria.php',
+        'Doctrine\\Common\\Collections\\Expr\\ClosureExpressionVisitor' => __DIR__ . '/..' . '/doctrine/collections/lib/Doctrine/Common/Collections/Expr/ClosureExpressionVisitor.php',
+        'Doctrine\\Common\\Collections\\Expr\\Comparison' => __DIR__ . '/..' . '/doctrine/collections/lib/Doctrine/Common/Collections/Expr/Comparison.php',
+        'Doctrine\\Common\\Collections\\Expr\\CompositeExpression' => __DIR__ . '/..' . '/doctrine/collections/lib/Doctrine/Common/Collections/Expr/CompositeExpression.php',
+        'Doctrine\\Common\\Collections\\Expr\\Expression' => __DIR__ . '/..' . '/doctrine/collections/lib/Doctrine/Common/Collections/Expr/Expression.php',
+        'Doctrine\\Common\\Collections\\Expr\\ExpressionVisitor' => __DIR__ . '/..' . '/doctrine/collections/lib/Doctrine/Common/Collections/Expr/ExpressionVisitor.php',
+        'Doctrine\\Common\\Collections\\Expr\\Value' => __DIR__ . '/..' . '/doctrine/collections/lib/Doctrine/Common/Collections/Expr/Value.php',
+        'Doctrine\\Common\\Collections\\ExpressionBuilder' => __DIR__ . '/..' . '/doctrine/collections/lib/Doctrine/Common/Collections/ExpressionBuilder.php',
+        'Doctrine\\Common\\Collections\\Selectable' => __DIR__ . '/..' . '/doctrine/collections/lib/Doctrine/Common/Collections/Selectable.php',
         'Kirby\\Api\\Api' => __DIR__ . '/../..' . '/kirby/src/Api/Api.php',
         'Kirby\\Api\\Collection' => __DIR__ . '/../..' . '/kirby/src/Api/Collection.php',
         'Kirby\\Api\\Model' => __DIR__ . '/../..' . '/kirby/src/Api/Model.php',
@@ -381,6 +414,32 @@ class ComposerStaticInit7f194fccc3131ab97782c5430cfa5bd3
         'Psr\\Log\\Test\\DummyTest' => __DIR__ . '/..' . '/psr/log/Psr/Log/Test/DummyTest.php',
         'Psr\\Log\\Test\\LoggerInterfaceTest' => __DIR__ . '/..' . '/psr/log/Psr/Log/Test/LoggerInterfaceTest.php',
         'Psr\\Log\\Test\\TestLogger' => __DIR__ . '/..' . '/psr/log/Psr/Log/Test/TestLogger.php',
+        'Recurr\\DateExclusion' => __DIR__ . '/..' . '/simshaun/recurr/src/Recurr/DateExclusion.php',
+        'Recurr\\DateInclusion' => __DIR__ . '/..' . '/simshaun/recurr/src/Recurr/DateInclusion.php',
+        'Recurr\\DateInfo' => __DIR__ . '/..' . '/simshaun/recurr/src/Recurr/DateInfo.php',
+        'Recurr\\DateUtil' => __DIR__ . '/..' . '/simshaun/recurr/src/Recurr/DateUtil.php',
+        'Recurr\\DaySet' => __DIR__ . '/..' . '/simshaun/recurr/src/Recurr/DaySet.php',
+        'Recurr\\Exception' => __DIR__ . '/..' . '/simshaun/recurr/src/Recurr/Exception.php',
+        'Recurr\\Exception\\InvalidArgument' => __DIR__ . '/..' . '/simshaun/recurr/src/Recurr/Exception/InvalidArgument.php',
+        'Recurr\\Exception\\InvalidRRule' => __DIR__ . '/..' . '/simshaun/recurr/src/Recurr/Exception/InvalidRRule.php',
+        'Recurr\\Exception\\InvalidWeekday' => __DIR__ . '/..' . '/simshaun/recurr/src/Recurr/Exception/InvalidWeekday.php',
+        'Recurr\\Frequency' => __DIR__ . '/..' . '/simshaun/recurr/src/Recurr/Frequency.php',
+        'Recurr\\Recurrence' => __DIR__ . '/..' . '/simshaun/recurr/src/Recurr/Recurrence.php',
+        'Recurr\\RecurrenceCollection' => __DIR__ . '/..' . '/simshaun/recurr/src/Recurr/RecurrenceCollection.php',
+        'Recurr\\Rule' => __DIR__ . '/..' . '/simshaun/recurr/src/Recurr/Rule.php',
+        'Recurr\\Time' => __DIR__ . '/..' . '/simshaun/recurr/src/Recurr/Time.php',
+        'Recurr\\Transformer\\ArrayTransformer' => __DIR__ . '/..' . '/simshaun/recurr/src/Recurr/Transformer/ArrayTransformer.php',
+        'Recurr\\Transformer\\ArrayTransformerConfig' => __DIR__ . '/..' . '/simshaun/recurr/src/Recurr/Transformer/ArrayTransformerConfig.php',
+        'Recurr\\Transformer\\Constraint' => __DIR__ . '/..' . '/simshaun/recurr/src/Recurr/Transformer/Constraint.php',
+        'Recurr\\Transformer\\ConstraintInterface' => __DIR__ . '/..' . '/simshaun/recurr/src/Recurr/Transformer/ConstraintInterface.php',
+        'Recurr\\Transformer\\Constraint\\AfterConstraint' => __DIR__ . '/..' . '/simshaun/recurr/src/Recurr/Transformer/Constraint/AfterConstraint.php',
+        'Recurr\\Transformer\\Constraint\\BeforeConstraint' => __DIR__ . '/..' . '/simshaun/recurr/src/Recurr/Transformer/Constraint/BeforeConstraint.php',
+        'Recurr\\Transformer\\Constraint\\BetweenConstraint' => __DIR__ . '/..' . '/simshaun/recurr/src/Recurr/Transformer/Constraint/BetweenConstraint.php',
+        'Recurr\\Transformer\\TextTransformer' => __DIR__ . '/..' . '/simshaun/recurr/src/Recurr/Transformer/TextTransformer.php',
+        'Recurr\\Transformer\\Translator' => __DIR__ . '/..' . '/simshaun/recurr/src/Recurr/Transformer/Translator.php',
+        'Recurr\\Transformer\\TranslatorInterface' => __DIR__ . '/..' . '/simshaun/recurr/src/Recurr/Transformer/TranslatorInterface.php',
+        'Recurr\\Weekday' => __DIR__ . '/..' . '/simshaun/recurr/src/Recurr/Weekday.php',
+        'Robinscholz\\Betterrest' => __DIR__ . '/../..' . '/site/plugins/better-rest/classes/Betterrest.php',
         'Symfony\\Polyfill\\Mbstring\\Mbstring' => __DIR__ . '/..' . '/symfony/polyfill-mbstring/Mbstring.php',
         'TrueBV\\Exception\\DomainOutOfBoundsException' => __DIR__ . '/..' . '/true/punycode/src/Exception/DomainOutOfBoundsException.php',
         'TrueBV\\Exception\\LabelOutOfBoundsException' => __DIR__ . '/..' . '/true/punycode/src/Exception/LabelOutOfBoundsException.php',

@@ -3,7 +3,7 @@
 <?php snippet('header') ?>
 
 <main class="main">
-  <div class="main-wrapper">
+  <div class="main-wrapper padding_b-xxl">
     <?php snippet('breadcrumb') ?>
     <?php snippet('intro') ?>
     <?php if ($artistsP = page('artistes')): ?>

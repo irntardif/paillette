@@ -6,7 +6,7 @@
     'aliases' => 
     array (
     ),
-    'reference' => 'e9dda0208f618afed2a56c8cb3e414647d3d31cb',
+    'reference' => 'e81d9c2bca97357da7adc9b071882e4307ea1a80',
     'name' => 'getkirby/starterkit',
   ),
   'versions' => 
@@ -28,6 +28,15 @@
       array (
       ),
       'reference' => 'ab2ab8a4672738ab77b39b00922ee4e79aeadb11',
+    ),
+    'doctrine/collections' => 
+    array (
+      'pretty_version' => '1.6.7',
+      'version' => '1.6.7.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '55f8b799269a1a472457bd1a41b4f379d4cfba4a',
     ),
     'filp/whoops' => 
     array (
@@ -63,7 +72,16 @@
       'aliases' => 
       array (
       ),
-      'reference' => 'e9dda0208f618afed2a56c8cb3e414647d3d31cb',
+      'reference' => 'e81d9c2bca97357da7adc9b071882e4307ea1a80',
+    ),
+    'hashandsalt/kirby-recurr' => 
+    array (
+      'pretty_version' => 'v0.0.6',
+      'version' => '0.0.6.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '6a85ac439faef46dd177171169abdf98289367ce',
     ),
     'laminas/laminas-escaper' => 
     array (
@@ -143,6 +161,24 @@
       array (
       ),
       'reference' => '0f73288fd15629204f9d42b7055f72dacbe811fc',
+    ),
+    'robinscholz/better-rest' => 
+    array (
+      'pretty_version' => '1.2.6',
+      'version' => '1.2.6.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '912eee6a050c76f87e81efeaf19509fe448b5b3c',
+    ),
+    'simshaun/recurr' => 
+    array (
+      'pretty_version' => 'v4.0.2',
+      'version' => '4.0.2.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => 'd6f85ec8652366f45f6d1ba07292c9653939631a',
     ),
     'symfony/polyfill-mbstring' => 
     array (
