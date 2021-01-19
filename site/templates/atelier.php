@@ -54,6 +54,7 @@
           <?php endif; ?>
         </section>
         <aside class="column" style="--columns: 4">
+           <?php snippet('social-sharer') ?>
            <span class="uppercase"><?php snippet('categories', array('categories' => $page->genre())) ?></span>
            <?= $page->moreinfos()->kirbytext(); ?>
            

@@ -6,6 +6,7 @@
   <div class="main-wrapper">
     <?php snippet('breadcrumb') ?>
     <?php snippet('intro') ?>
+
     <article>
       <?php if ($page->gallery()->isNotEmpty()): ?>
       <div class="carousel">
@@ -48,6 +49,7 @@
          
         </section>
         <aside class="column" style="--columns: 4">
+          <?php snippet('social-sharer') ?>
            <span class="uppercase"><?php snippet('categories', array('categories' => $page->genre(), 'isClass' => false)) ?></span>
            <?= $page->moreinfos()->kirbytext(); ?>
            <span><?php snippet('representations', 

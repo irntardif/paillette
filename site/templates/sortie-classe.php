@@ -54,6 +54,7 @@
 
         </section>
         <aside class="column" style="--columns: 4">
+          <?php snippet('social-sharer') ?>
           <?php if($page->dates()->isNotEmpty()): ?>
           <h3 class="margin_t-m margin_b-s">Dates</h3>
           <span><?php snippet('dates', array('representations' => $page->dates())) ?></span>
