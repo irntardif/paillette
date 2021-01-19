@@ -1,0 +1,25 @@
+Title: Espace Pro
+
+----
+
+Text:
+
+Bienvenue sur l’espace pro de la Paillette,
+Vous trouverez ci-dessous différents documents :
+
+----
+
+Links:
+
+- 
+  label: Document X
+  linktype: document
+  url: ""
+  document:
+    - 12.02-maquettes-graphiques-du-site.pdf
+- 
+  label: Document X
+  linktype: document
+  url: ""
+  document:
+    - 12.02-maquettes-graphiques-du-site.pdf

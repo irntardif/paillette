@@ -10,3 +10,6 @@ fields:
     type: textarea
     size: huge
     width: 2/3
+  cover: 
+    extends: fields/cover
+    width: 1/3

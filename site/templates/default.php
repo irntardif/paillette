@@ -1,30 +1,24 @@
-<?php
-/*
-  Templates render the content of your pages.
-
-  They contain the markup together with some control structures
-  like loops or if-statements. The `$page` variable always
-  refers to the currently active page.
-
-  To fetch the content from each field we call the field name as a
-  method on the `$page` object, e.g. `$page->title()`.
-
-  This default template must not be removed. It is used whenever Kirby
-  cannot find a template with the name of the content file.
-
-  Snippets like the header and footer contain markup used in
-  multiple templates. They also help to keep templates clean.
-
-  More about templates: https://getkirby.com/docs/guide/templates/basics
-*/
-?>
 <?php snippet('header') ?>
 
-<article>
-  <h1 class="h1"><?= $page->title()->html() ?></h1>
-  <div class="text">
-    <?= $page->text()->kt() ?>
+<main class="main">
+  <div class="main-wrapper padding_b-xxl">
+    <?php snippet('breadcrumb') ?>
+    <?php snippet('intro') ?>
+    <div class="grid default">
+      <div class="text">
+        <?= $page->text()->kt() ?>
+      </div>
+      <div class="media">
+        <?php if ($page->cover()->isNotEmpty()):
+         $img = $page->cover()->toFile(); ?>
+          <figure>
+           <img class="<?php echo $img->extension() == 'jpg' ? 'blue-filter' : '' ?>" src="<?= $img->thumb()->url() ?>" data-src="<?= $img->url() ?>" data-srcset="<?= $img->srcset() ?>" alt="<?= $img->filename() ?>"/>
+          </figure>
+        <?php endif ?>
+      </div>
+    </div>
   </div>
-</article>
+</main>
 
 <?php snippet('footer') ?>
+

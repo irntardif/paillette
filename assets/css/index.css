@@ -1250,6 +1250,10 @@ hr {
    grid-template-columns: repeat(3, 1fr);
    grid-row-gap: 1.5em;
   }
+  .grid.default{
+    grid-template-columns: 3fr 1fr;
+    grid-row-gap: 1.5em;
+  }
   .grid.row-large{
     grid-row-gap:4.2em;
   }

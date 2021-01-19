@@ -4,16 +4,14 @@ Title: Mentions légales
 
 Text:
 
-Mentions légales du site www.la-paillette.net :
+## Mentions légales du site www.la-paillette.net :
 
- 
+###Propriétaire du site www.la-paillette.net : 
 
-- Propriétaire du site www.la-paillette.net : MJC La Paillette, 2 rue du Pré de Bris 35000 Rennes, 02 99 59 88 88
+**MJC La Paillette, 2 rue du Pré de Bris 35000 Rennes, 02 99 59 88 88**
 
 - Éditeur du site : Le site internet www.la-paillette.net a été conçu et réalisé par nos soins.
-
 - Signes distinctifs : Le nom de domaine www.la-paillette.net appartient à La Paillette.
-
 - Hébergement du site www.la-paillette.net :  Le site www.la-paillette.net est hébergé par
 
 OVH, SAS au capital de 10 000 000 €
@@ -23,16 +21,15 @@ N° TVA : FR 22 424 761 419
 Siège social : 2 rue Kellermann - 59100 Roubaix - France.
 
  
-
 Conformément à l'article 15 de la loi n°78-17 du 6 janvier 1978 relative à l'informatique, aux fichiers et aux libertés, le site est conforme aux exigences de la Commission Nationale de l'Informatique et des Libertés. L'utilisateur déclare avoir pris connaissance des informations ci-dessus avant la visite du site. En choisissant d'accéder au site l'utilisateur accepte, expressément et irrévocablement, les termes ci-après.
 
 
-Informatique et libertés
+### Informatique et libertés
 
 Conformément à la loi française du 6 janvier 1978 relative à l'informatique, aux fichiers et aux libertés, modifiée par la loi relative à la protection des personnes physiques à l'égard des traitements de données à caractère personnel du 6 août 2004, vous disposez d'un droit d'accès, de modification, de rectification et de suppression des données qui vous concerne, en vous adressant à La Paillette soit par courrier (adresse figurant ci-dessus), soit par email.
 
  
-Responsabilités
+### Responsabilités
 
 La société décline toute responsabilité quant au contenu des sites proposés en liens. Quelque soit le type de lien établi à partir d'un site Internet extérieur, dit "site liant", vers celui de La Paillette, cette dernière se réserve le droit de s'opposer à son établissement.
 
@@ -41,8 +38,7 @@ Les informations sur ce site sont fournies " telles quelles " sans aucune garant
 Les informations sur ce site peuvent inclure des inexactitudes ou des erreurs. La Paillette se réserve le droit d'apporter des modifications, des améliorations et des changements sur les produits et les programmes décrits sur son site à tout moment et sans le notifier.
 
  
-
-Droits d'auteur
+### Droits d'auteur
 
 (textes, photos, …)
 Les photographies, textes, slogans, dessins, images, vidéos, séquences animées sonores ou non ainsi que toutes œuvres intégrées dans le site sont la propriété de La Paillette ou de tiers ayant autorisé La Paillette à les utiliser.
@@ -53,7 +49,12 @@ Les reproductions, sur un support papier ou informatique, dudit site et des œuv
 
 À l'exception des dispositions ci-dessus, toute reproduction, représentation, utilisation ou modification, par quelque procédé que ce soit et sur quelque support que ce soit, de tout ou partie du site, de tout ou partie des différentes œuvres qui le composent, sans avoir obtenu l'autorisation préalable de La Paillette est strictement interdite et constitue un délit de contrefaçon et peut donner suite à des poursuites judiciaires civiles et/ou pénales et au paiement de dommages et intérêts.
 
- 
-Votre attention
+###  Votre attention
 
 Nous vous rappelons qu'il n'est pas possible de garantir la confidentialité des messages transmis sur le réseau Internet. Aussi, si vous souhaitez transmettre un message dans de meilleures conditions de sécurité, nous vous recommandons d'utiliser la voie postale.
+
+----
+
+Cover:
+
+- illu-paillette4.png

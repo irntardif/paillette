@@ -1,1 +1,15 @@
 Title: Crédits
+
+----
+
+Text:
+
+Directrice de la publication : Hélène Fiszpan
+Conception graphique : (link: https://a-e-r-o.club/ text: aéro-club)
+Conception web et développement : (link: http://irenetardif.com/ text: Irene Tardif)
+
+----
+
+Cover:
+
+- illu-paillette2.png

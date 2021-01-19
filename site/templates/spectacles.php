@@ -1,5 +1,3 @@
-<?php
-?>
 <?php snippet('header') ?>
 
 <main class="main">

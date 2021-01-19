@@ -32,6 +32,7 @@ tabs:
               - spectacles
               - ateliers
               - aventures
+              - espace-pro
               - default
   artists:
     icon: smile
@@ -53,6 +54,19 @@ tabs:
             content:
               type: fields
               fields:
+                description:
+                  label: Description générale du site
+                  type: writer
+                  width: 1/2
+                mainImage:
+                  label: Logo Principal
+                  type: files
+                  template: image
+                  uploads:
+                  template: image
+                  width: 1/2
+                hr:
+                  type: line
                 address:
                   label: Adresse
                   type: writer

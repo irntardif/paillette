@@ -1,0 +1,13 @@
+title: Espace Pro
+
+icon: draft
+
+status:
+  draft: true
+
+fields:
+  text:
+    type: textarea
+    size: small
+    width: 2/3
+  links: sections/links
