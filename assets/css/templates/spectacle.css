@@ -3,9 +3,15 @@
 }
 
 .spectacle h1 + .label{
-	display: inline-block;
     color: #000;
-    margin: 0 1em;
     padding: 0 1em;
-    vertical-align: super;
+    display: inline-block;
+    margin: .3em 0;
+}
+
+@media screen and(min-width:768px){
+	.spectacle h1 + .label{
+	    margin: 0 1em;
+	    vertical-align: super;
+	}
 }

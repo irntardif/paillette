@@ -261,6 +261,7 @@ button {
   background: url(../icons/chevron.svg) no-repeat 95% 50%;
   cursor:pointer;
   border: 1px solid #000;
+  margin-bottom: .8em;
 }
 
 .select:hover{
@@ -272,10 +273,6 @@ button {
 :active,
 :focus{
    outline: none;
-}
-
-.select + .select{
-  margin-left: 1em;
 }
 
 strong, b {
@@ -1052,8 +1049,6 @@ hr {
   margin-left:0;
 }
 
-
-
 .open-icon{
   width:35px;
   height:35px;
@@ -1232,7 +1227,45 @@ hr {
   }
 }
 
+.filter-item{
+  width:100%;
+  margin-bottom:3em;
+}
+
+.filter-item .header-thumb{
+  grid-gap: 0;
+}
+
 @media screen and (max-width: 60rem) {
+
+  .grid{
+    grid-gap: 0;
+  }
+  
+  .block-newsletter{
+    padding: 1em;
+  }
+
+  .block-newsletter .main-wrapper{
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  .inline-form p:first-child,
+  .inline-form p:last-child{
+    width:100%;
+    text-align:center;
+  }
+
+  .inline-form p input{
+    width:calc(100% - 2em);
+    margin-bottom:1em;
+  }
+
+  .main-wrapper{
+    padding: 100px var(--padding) var(--padding);
+  }
+
  .footer .grid{
     grid-gap: 0;
   }
@@ -1255,6 +1288,14 @@ hr {
 
   .text h2, .h2{
     font-size: 1.2rem;
+  }
+
+  nav.breadcrumb{
+    margin-bottom:1em;
+  }
+
+  nav.breadcrumb li {
+    display: block;
   }
 
 }
@@ -1303,6 +1344,10 @@ hr {
 
   .grid.c-3 .filter-item{
     width: calc(33.33333% - 2.6em);
+  }
+
+  .filter-item .header-thumb{
+    grid-gap: 2em;
   }
 
   .filter-grid{
@@ -1372,5 +1417,9 @@ hr {
 
   figure.logo-img{
     width:calc(20% - 2em);
+  }
+
+  .select + .select{
+    margin-left: 1em;
   }
 }

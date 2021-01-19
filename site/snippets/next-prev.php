@@ -1,4 +1,4 @@
-<nav class="flex margin_b-m" style="justify-content:space-between">
+<nav class="flex noflex-mob margin_b-m" style="justify-content:space-between">
 	<?php if($page->hasPrevListed()): ?>
 	<a class="btn bg-light prev" href="<?= $page->prevListed()->url() ?>"><?= $type == 'm' ? $template.' '.'précédent' : $template.' '.'précédente' ?></a>
 	<?php endif; ?>

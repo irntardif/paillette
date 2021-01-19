@@ -1,5 +1,5 @@
  <?php 
- if($page->edito()->isNotEmpty()):
+if($page->edito()->isNotEmpty()):
   $description = $page->edito()->value();
 elseif($page->description()->isNotEmpty()):
   $description = $page->description()->value();
@@ -11,6 +11,12 @@ if($page->cover()->isNotEmpty()):
   $image = $page->cover()->toFile()->url();
 else:
   $image = $site->mainImage()->toFile()->url();
+endif; 
+
+if($page->intendedTemplate() == 'spectacles' || $page->intendedTemplate() == 'ateliers' || $page->intendedTemplate() == 'aventures' || $page->intendedTemplate() == 'infos' || $page->intendedTemplate() == 'la-paillette' || $page->intendedTemplate() == 'home'):
+  $type = 'website';
+else:
+  $type = 'article';
 endif; 
 ?>
 <!DOCTYPE html>
@@ -39,13 +45,13 @@ endif;
   <meta name="theme-color" content="#ADDCEB">
  
   <meta name="description" content="<?= $description ?>"> 
-  <meta property="og:type" content="siteweb" />
+  <meta property="og:type" content="<?= $type ?>" />
   <meta property="og:url" content="<?= $page->url() ?>" />
-   <meta property="og:title" content="<?= $site->title() ?> | <?= $page->title() ?>" />
+  <meta property="og:title" content="<?= $site->title() ?> | <?= $page->title() ?>" />
   <meta property="og:description" content="<?= $description ?>"/>
   <meta property="og:site_name" content="La Paillette"/>
   <meta property="og:local" content="fr_FR"/>
-  <meta property="og:image" content="<?= $image ?>"/>
+  <meta property="og:image:url" content="<?= $image ?>"/>
 
 
   <?= css([

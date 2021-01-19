@@ -75,7 +75,10 @@ endif ?>
     selector: '.carousel-events',
     duration: 400,
     easing: 'ease-out',
-    perPage: 3,
+    perPage: {
+	    768: 1,
+	    1024: 3,
+	  },
     startIndex: 0,
     draggable: true,
     multipleDrag: true,
