@@ -1,18 +1,7 @@
-<?php
-/*
-  Snippets are a great way to store code snippets for reuse
-  or to keep your templates clean.
-
-  This footer snippet is reused in all templates.
-
-  More about snippets:
-  https://getkirby.com/docs/guide/templates/snippets
-*/
-?>
-
 </div>
+  <?php snippet('newsletter-footer'); ?>
   <footer class="footer">
-    <section class="bg-main padding_t-l ">
+    <section class="bg-main padding_h-l">
       <div class="main-wrapper no-p">
         <div class="grid">
           <div class="column flex noflex-mob" style="--columns: 5">

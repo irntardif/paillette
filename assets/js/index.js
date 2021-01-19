@@ -21,6 +21,27 @@ document.getElementById('burger').onclick = (e) => {
   logo.classList.contains('hide') ? logo.classList.remove('hide') : logo.classList.add('hide');
 }
 
+function validateEmail(email) {
+  const re = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+  return re.test(email);
+}
+
+document.getElementById('open-newsletter').onclick = (e) => {
+  e.preventDefault();
+  let inputMail = document.getElementById('mail-newsletter').value,
+      alert = document.getElementById('alert');
+
+  if(inputMail && validateEmail(inputMail)){
+    document.getElementsByClassName('newsletter')[0].click();
+    document.getElementById('EMAIL').value = inputMail;
+  }else{
+    alert.innerHTML = "L'adresse mail n'est pas valide";
+    setTimeout(function(){
+      alert.innerHTML = "";
+    },5000)
+  }
+}
+
 const setSrcAttribute = (el) => {
 	if(!el.getAttribute('data-src')){
 		return
