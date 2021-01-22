@@ -26,6 +26,7 @@ endif;
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1.0">
   <title><?= $site->title() ?> | <?= $page->title() ?></title>
+  <link rel="shortcut icon" type="image/x-icon" href="<?= $kirby->url('assets') ?>/icons/favicons/favicon-32x32.png">
   <link rel="apple-touch-icon" sizes="57x57" href="<?= $kirby->url('assets') ?>/icons/favicons/apple-icon-57x57.png">
   <link rel="apple-touch-icon" sizes="60x60" href="<?= $kirby->url('assets') ?>/icons/favicons/favicons//apple-icon-60x60.png">
   <link rel="apple-touch-icon" sizes="72x72" href="<?= $kirby->url('assets') ?>/icons/favicons/favicons//apple-icon-72x72.png">
@@ -69,7 +70,6 @@ endif;
     <link rel="stylesheet" href="https://unpkg.com/tippy.js/themes/light.css" />
   <?php endif; ?>
   
-  <link rel="shortcut icon" type="image/x-icon" href="<?= url('favicon.ico') ?>">
 </head>
 <body class="<?= $page->id() ?>">
 

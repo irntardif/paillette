@@ -1,4 +1,4 @@
-Title: L'Île
+Title: De l'avenir incertain du monde merveilleux dans lequel nous vivons
 
 ----
 
@@ -6,18 +6,17 @@ Type: show
 
 ----
 
-Genre: theatre
+Genre: musical
 
 ----
 
-Categories: family, creation
+Categories: 
 
 ----
 
 Cover:
 
-- >
-  lile-2-bajour-c2a9loewen-photographie-600x.jpg
+- avenir-incertain.jpg
 
 ----
 
@@ -25,7 +24,7 @@ Creation: false
 
 ----
 
-Cohosting: true
+Cohosting: false
 
 ----
 
@@ -43,46 +42,36 @@ Cohostinginfos:
 
 ----
 
-Moreinfos: <p>1h30, dès 15 ans</p>
+Moreinfos: <p>1h10, dès 9 ans</p>
 
 ----
 
 Representations:
 
 - 
-  date: 2021-03-30 20:00:00
-  publictype: all
+  date: 2021-03-23 14:30:00
+  publictype: school
 - 
-  date: 2021-03-31 20:00:00
-  publictype: all
-- 
-  date: 2021-04-01 20:00:00
-  publictype: all
+  date: 2021-03-23 20:00:00
+  publictype: school
 
 ----
 
 Prices:
 
 - 
-  pricetype: Plein
-  amount: 12
-- 
-  pricetype: Réduit
-  amount: 8
-- 
-  pricetype: Scolaire
-  amount: 4
+  pricetype: Sur Réservation
+  amount: 0
 
 ----
 
-Ticketing: http://forumsirius.fr/orion/_spectacle.phtml?inst=06007&lg=FR&kld=1&tCache=1602771054017&idv=82adff&spec=643
+Ticketing: http://forumsirius.fr/orion/_spectacle.phtml?inst=06007&lg=FR&kld=1&tCache=1602771054017&idv=82adff&spec=642
 
 ----
 
 Gallery:
 
-- >
-  lile-2_bajour_loewen-photographie-scaled.jpg
+- avenir-incertain.jpg
 
 ----
 
@@ -94,38 +83,38 @@ Relatedcompany:
 
 ----
 
-Companyname: Collectif Bajour / Hector Manuel
+Companyname: BOB théâtre – Denis Athimon, Bertrand Bouessay
 
 ----
 
 Description:
 
-Sur l’île, tout est calme. Le bruit des vagues berce ce lieu apaisé, encadré de deux plantes vertes pâlichonnes. Isolés au milieu de l’océan, Greg et Natacha, croisent Leslie. Les premiers ont quitté brutalement la start-up dans laquelle ils faisaient pourtant une ascension fulgurante. La trajectoire militante de la seconde s’est achevée cruellement. Cette île étrange aurait-elle des vertus réparatrices ? S’y retrouvent encore d’autres êtres en perte de sens, pour lesquels se retirer du monde est l’occasion d’inventer d’autres façons de vivre ensemble, de la plus (im)probable à la plus inouïe.
-Les jeunes membres du collectif Bajour ne laissent aucun répit au spectateur : en de courtes scènes drôles et caustiques, ils entremêlent fiction et flash-back. Avec un plaisir communicatif, ils interprètent ces insulaires tentant désespérément de se réapproprier une existence qui leur a échappé. Et affirment, au travers de cette allégorie, leur amour du théâtre et du jeu.
+Ses parents, ses enseignants… Tout le monde s’accorde sur un point : Nina est trop gentille. Et dans la société dans laquelle elle grandit, c’est un énorme problème. Sans esprit de compétition ni stratégie commerciale, son potentiel est nul. Bref, Nina est inadaptée. Quand le diagnostic tombe, ses parents optent pour la solution la plus rentable. Et c’est radical.
+Le Bob Théâtre s’attaque, pour de rire, à une forme complexe inouïe : la comédie musicale. Avec le concours du musicien et parolier Bertrand Bouessay, il convoque un quintet à l’imperfection totalement assumée pour interpréter des chansons enflammées et bancales, des chorégraphies exaltées improbables.
+Comment vivre mieux tous ensemble ? À cette question, Le Bob Théâtre, champion des contes détournés et des histoires revisitées, ne répondra pas. Mais il sèmera de petits cailloux pour que chacun se fasse son idée. Avec beaucoup de second degré, d’humour et de dérision.
+
+
+
+RESERVEZ VOS PLACES
 
 ----
 
-Distribution:
-
-Création Collectif Bajour
-Mise en scène et écriture collective dirigée par Hector Manuel
-Avec Leslie Bernard, Julien Derivaz, Matthias Jacquin, Margaux Grilleau, Georges Slowick, Alexandre Virapin, Adèle Zouane
-Musique originale Hector Manuel et Joaquim Pavy
-Création lumière Damien Caris
+Distribution: 
 
 ----
 
-Credits:
-
-Production BAJOUR
-Coproduction CPPC / L’Aire Libre, St-Jacques-de-la-Lande (35)
-Avec le soutien du Groupe des 20 Théâtre Île de France, du Fond d’Insertion du Théâtre National de Bretagne et de Spectacle Vivant en Bretagne.
-
-Le collectif BAJOUR bénéficie du soutien de la Région Bretagne et de la Ville de Rennes.
+Credits: Texte, mise en scène : Denis Athimon, Bertrand Bouessay/BOB théâtre
 
 ----
 
-Links: 
+Links:
+
+- 
+  label: Appel à textes de théâtre
+  linktype: external
+  url: >
+    http://www.lumieredaout.net/7-pages/504-appel-a-textes-de-theatre
+  document: [ ]
 
 ----
 

@@ -115,7 +115,7 @@
                               document.getElementById('sib-captcha').dispatchEvent(event);
                             }
                           </script>
-                          <div class="g-recaptcha sib-visible-recaptcha" id="sib-captcha" data-sitekey="6LfDnzEaAAAAAJKx-W8FXWypLBh3CTk8KhqbHBZj" data-callback="handleCaptchaResponse"></div>
+                          <div class="g-recaptcha sib-visible-recaptcha" id="sib-captcha" data-sitekey="6Lc5GTMaAAAAAAEb8msCNsPuT7euXjxc7nrwF9IV" data-callback="handleCaptchaResponse"></div>
                         </div>
                         <label class="entry__error entry__error--primary" style="font-size:16px; text-align:left; font-family:'pantograph-regular', 'Helvetica', sans-serif; color:#661d1d; background-color:#ffeded; border-radius:3px; border-color:#ff4949;">
                         </label>

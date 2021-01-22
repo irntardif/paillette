@@ -10,16 +10,15 @@ Pagebuilder:
   layout: c-2
   builder2:
     - 
+      videoid: https://vimeo.com/411598677
+      platform: vimeo
+      _key: videoContent
+      _uid: videoContent_1611138849118_1622
+    - 
       textcontent: |
         Située au cœur du domaine Saint-Cyr à Rennes, dans le quartier de Bourg L’évêque, La Paillette est l’une des cinq Maison des Jeunes et de la Culture de la ville. Elle accueille tout au long de l’année des ateliers de pratiques artistiques en amateur, des spectacles de théâtre, des stages, un festival et des projets de médiation et d’action culturelle imaginés sous forme d’aventures à partager.
         
         Disposant de deux bâtiments, le Lavoir et le Théâtre, La Paillette n’a de cesse de lier ces espaces autour d’un projet commun : celui d’accueillir et de valoriser toutes les cultures en infusant dans chaque pan de son activité la rencontre primordiale avec la création.
-        
-        Traverser le Lavoir, c’est contempler deux siècles d’histoire, être charmé par sa galerie vitrée donnant sur l’Ille, au confluent de la Vilaine, et prendre le pouls de l’activité fourmillante de La Paillette lorsqu’adhérents, professionnel·le·s, équipes artistiques, bénévoles et habitant·e·s se croisent pour pratiquer, transmettre, créer, échanger et profiter de ce lieu convivial.
-        
-        Se rendre au Théâtre c’est découvrir le versant récent de La Paillette, construit en 2006, pour y rencontrer une ruche identique au Lavoir et profiter de sa salle de spectacle de 210 places faisant la part belle à la création théâtrale contemporaine et notamment bretonne.
-        
-        Chaque bâtiment a été pensé comme un espace ouvert et accueillant. Au détour d’une balade ou avant une activité, il est possible de passer prendre un café en journée ou de découvrir quelques suggestions de livres au coin lecture du Lavoir. En soirée, le Théâtre invite les spectateurs à se restaurer avant ou après les spectacles, en profitant d’une vue imprenable sur le parc Saint-Cyr.
       _key: textcontent
       _uid: textcontent_1609862789787_1666
     - 
@@ -28,6 +27,15 @@ Pagebuilder:
         - theatre-la-paillette-mjc2.jpg
       _key: imgContent
       _uid: imgContent_1609862815498_1666
+    - 
+      textcontent: |
+        Traverser le Lavoir, c’est contempler deux siècles d’histoire, être charmé par sa galerie vitrée donnant sur l’Ille, au confluent de la Vilaine, et prendre le pouls de l’activité fourmillante de La Paillette lorsqu’adhérents, professionnel·le·s, équipes artistiques, bénévoles et habitant·e·s se croisent pour pratiquer, transmettre, créer, échanger et profiter de ce lieu convivial.
+        
+        Se rendre au Théâtre c’est découvrir le versant récent de La Paillette, construit en 2006, pour y rencontrer une ruche identique au Lavoir et profiter de sa salle de spectacle de 210 places faisant la part belle à la création théâtrale contemporaine et notamment bretonne.
+        
+        Chaque bâtiment a été pensé comme un espace ouvert et accueillant. Au détour d’une balade ou avant une activité, il est possible de passer prendre un café en journée ou de découvrir quelques suggestions de livres au coin lecture du Lavoir. En soirée, le Théâtre invite les spectateurs à se restaurer avant ou après les spectacles, en profitant d’une vue imprenable sur le parc Saint-Cyr.
+      _key: textcontent
+      _uid: textcontent_1611139152064_1622
   builder3:
     - 
       textcontent: |
@@ -242,6 +250,12 @@ Pagebuilder:
     - 
       intervenants:
         - intervenants/laurence-gicquel
+        - intervenants/manon-thomas
+        - intervenants/morvan-leray
+        - >
+          intervenants/denise-et-craig-schaffer-cie-mze-shina
+        - intervenants/raphael-trehin
+        - intervenants/jean-renault
       stakeholders: [ ]
       _key: column_2
       _uid: column_2_1609418302613_431

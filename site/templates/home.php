@@ -24,7 +24,7 @@
 			<div>
 				<h2 class="h2">Actualités</h2>
 				<?php foreach($page->news()->toStructure() as $key => $new): ?>
-				<section class="dropdown-bloc small" data-dropdown="true" data-id="<?=$key?>">
+				<section class="dropdown-bloc small <?= $key == 0 ? 'open' : '' ?>" data-dropdown="true" data-id="<?=$key?>">
 		        	<header class="flex space-between">
 		        		<h4 class="uppercase h4"><?= $new->title() ?></h4>
 		        		<span class="open-icon"></span>
@@ -32,35 +32,29 @@
 					<div class="wrapper grid-wrapper">
 						<div class="text margin_t-m">
 							<?= $new->contentText()->kirbyText() ?>
+							<?php snippet('links', array('links'=> $new->links()->toStructure(), 'class' => 'eye' )) ?>
 						</div>
 					</div>
 		        </section>
 		    	<?php endforeach; ?>
 			</div>
 			<?php endif; ?>
-			<div>
-				<h2 class="h2">Aventures à partager</h2>
-				<?php snippet('headerImg', array('img' => $page->adventuresImage())); ?>
-				<div class="text margin_t-m">
-					<?php if($page->adventuresText()->isNotEmpty()):?>
-						<?= $page->adventuresText()->kirbyText() ?>
-					<?php endif; ?>
-					<p><a href="<?= $site->find('aventures')->url() ?>" class="btn bg-accent icon eye">Toutes les aventures</a></p>
-				</div>
-			</div>
-			<div>
-				<h2 class="h2">Ateliers</h2>
-				<?php snippet('headerImg', array('img' => $page->workshopImage())); ?>
-				<div class="text margin_t-m">
-					<?php if($page->workshopText()->isNotEmpty()):?>
-						<?= $page->workshopText()->kirbyText() ?>
-					<?php endif; ?>
-					<p><a href="<?= $site->find('ateliers')->url() ?>" class="btn bg-accent icon eye">Tous les ateliers</a></p>
-				</div>
-			</div>
+			
+			<?php if($page->highlightedBlocks()->isNotEmpty()):?>
+				<?php foreach($page->highlightedBlocks()->toStructure() as $key => $block): ?>
+					<div>
+						<h2 class="h2"><?= $block->title() ?></h2>
+						<?php snippet('headerImg', array('img' => $block->img())); ?>
+						<div class="text margin_t-m">
+							<?php if($block->contentText()->isNotEmpty()):?>
+								<?= $block->contentText()->kirbyText() ?>
+							<?php endif; ?>
+							<?php snippet('links', array('links'=> $block->links()->toStructure(), 'class' => 'eye' )) ?>
+						</div>
+					</div>
+				<?php endforeach; ?>
+			<?php endif; ?>
 		</div>
-    
-    
 	</div>
 </main>
 <?php if($page->focus()->isNotEmpty()):

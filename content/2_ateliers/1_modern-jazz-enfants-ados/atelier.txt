@@ -44,11 +44,6 @@ Description: Exercices d’échauffement et de placement et apprentissage d'une 
 Planning:
 
 - 
-  public: 7 ans
-  hours: mardi 17-18h
-  isfull: 'false'
-  description: ""
-- 
   public: 8 ans
   hours: mardi 18-19h
   isfull: 'true'
@@ -77,6 +72,10 @@ Planning:
 ----
 
 Links: 
+
+----
+
+Relatedpages: 
 
 ----
 
