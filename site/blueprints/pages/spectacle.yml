@@ -37,16 +37,7 @@ tabs:
               show: Spectacle
               event: Évènement
           genre:
-            label: Genre
-            type: select
-            default: theatre
-            options:
-              danse: Danse
-              theatre: Théâtre
-              performance: Performance
-              musical: Comédie Musicale
-              puppets: Marionnettes
-              lecture: Lecture
+            type: text
           categories:
             label: Catégories
             type: multiselect
@@ -60,22 +51,9 @@ tabs:
             text:
               - non 
               - oui
-          coHosting:
-            type: toggle
-            label: Co-hosting ?
-            text:
-              - non 
-              - oui
           cohostingInfos:
-            label: Lien vers le partenaire accueillant
-            type: structure
-            when: 
-              coHosting: true
-            fields:
-              label: 
-                type: text
-              url:
-                type: url
+            label: Partenaire Co-accueil
+            type: writer
           moreinfos:
             label: Informations complémentaires
             type: writer
@@ -93,7 +71,7 @@ tabs:
                 type: select
                 default: all
                 options:
-                  all: Tous publics
+                  all: Tout public
                   school: Scolaires
           prices:
             label: Tarifs

@@ -1,4 +1,4 @@
-<nav class="margin_b-m">
+<nav class="margin_t-m">
 	<p>À partager</p>
     <ul class="flex social-share">
 <!-- Email -->

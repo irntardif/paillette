@@ -6,7 +6,7 @@ Type: show
 
 ----
 
-Genre: lecture
+Genre: Lecture
 
 ----
 
@@ -24,21 +24,7 @@ Creation: false
 
 ----
 
-Cohosting: false
-
-----
-
-Cohostinginfos:
-
-- 
-  label: Théâtre National de Bretagne
-  url: https://www.t-n-b.fr/
-  logo: [ ]
-- 
-  label: Théâtre Contemporain
-  url: >
-    https://www.theatre-contemporain.net/contacts/Theatre-National-de-Bretagne-TNB/
-  logo: [ ]
+Cohostinginfos: <p>En co-accueil avec <a href="https://www.t-n-b.fr/ " target="_blank" rel="noopener noreferrer nofollow">Théâtre National de Bretagne</a> et le <a href="https://www.theatre-contemporain.net/contacts/Theatre-National-de-Bretagne-TNB/ " rel="noopener noreferrer nofollow">Théâtre Contemporain</a> </p>
 
 ----
 
@@ -115,6 +101,10 @@ Relatedpages:
 ----
 
 Press: 
+
+----
+
+Cohosting: false
 
 ----
 

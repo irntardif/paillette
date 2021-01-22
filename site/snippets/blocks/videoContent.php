@@ -9,7 +9,7 @@
     return end($pathTokens); // get the last segment
 }
 
-if($data->videoId()->isNotEmpty()):
+if($data && $data->videoId()->isNotEmpty()):
 
 	if($data->platform() == 'youtube'):
 		$url = 'https://www.youtube.com/embed/';

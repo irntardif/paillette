@@ -1,5 +1,5 @@
 <?php if($prices->isNotEmpty()):  ?>
-<p class="margin_t-m">Tarifs</p>
+<p style="font-size:1.16em" class="margin_t-m">Tarifs <?php if($page->intendedTemplate() == 'atelier') : echo "(à l'année)";  endif;?></p>
 <ul class="no_m">
   <?php foreach ($prices->toStructure() as $price): ?>
   <li class="flex">

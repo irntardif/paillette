@@ -8,36 +8,12 @@
   margin-top:100px;
 }
 
-.carousel-wrapper{
-  position:relative;
-  margin-top:0;
-}
-
-.carousel-nav{
-  position:absolute;
+.carousel-events .carousel-nav{
   top:45%;
-  -webkit-transform: translate(0,-50%);
-  transform: translate(0,-50%);
-  color:transparent;
-  font-size:1px;
-  width:100%;
-  z-index:3;
 }
 
-.carousel-nav button{
-  width:15px;
-  height:15px;
-  position:relative;
-}
-
-.carousel-nav button.prev{
-  background: url(../../icons/chevron-prev.svg) no-repeat center;
-  left:-20em;
-}
-
-.carousel-nav button.next{
-  background: url(../../icons/chevron-next.svg) no-repeat center;
-  left:calc(100% - 10em);
+.main-wrapper .carousel-wrapper:not(.media){
+  overflow:hidden;
 }
 
 .carousel-events{
@@ -192,11 +168,11 @@
     width:calc(100% - 2em);
   }
 
-  .carousel-nav button.next{
-    left:calc(100% - 20em);
+  .carousel-events + .carousel-nav button.next{
+    left:calc(100% - 30em);
   } 
 
-  .carousel-nav{
+  .carousel-events + .carousel-nav{
     top:40%;
   }
 

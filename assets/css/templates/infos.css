@@ -1,11 +1,11 @@
-.workspaces figure{
+#workspaces figure{
 	position: relative;
 	height:0;
 	overflow: hidden;
 	padding-bottom:calc(69% + 85px);
 }
 
-.workspaces img{
+#workspaces img{
 	position: absolute;
 	height:calc(100% - 85px);
 	width:100%;
@@ -14,15 +14,15 @@
 	object-fit:cover;
 }
 
-.workspaces figcaption{
+#workspaces figcaption{
 	padding-top:calc(69% + 10px);
 }
 
-.workspaces figcaption span{
+#workspaces figcaption span{
 	display:block;
 }
 
-.workspaces figcaption span:first-child{
+#workspaces figcaption span:first-child{
 	position: absolute;
 	top:1em;
 	right:1em;

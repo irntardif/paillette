@@ -61,7 +61,6 @@
   snippet('focus', array('focus' => $page->focus()->toStructure()));
 endif ?>
 <?php snippet('footer') ?>
-<?= js(['assets/js/siema.min.js']) ?>
 
 <script>
 
@@ -85,7 +84,19 @@ endif ?>
   	const prev = document.querySelector('.prev');
 	const next = document.querySelector('.next');
 
-	prev.addEventListener('click', () => carousel.prev());
-	next.addEventListener('click', () => carousel.next());
+	prev.classList.add('inactive');
+
+    prev.addEventListener('click', () => {
+        carousel.prev();
+        console.log(Math.round(carousel.innerElements.length / carousel.perPage));
+        carousel.currentSlide == 0 ? prev.classList.add('inactive') : prev.classList.remove('inactive');
+        carousel.currentSlide == carousel.innerElements.length - carousel.perPage ? next.classList.add('inactive') : next.classList.remove('inactive');
+      }
+    );
+    next.addEventListener('click',  () => {
+      carousel.next()
+      carousel.currentSlide == 0 ? prev.classList.add('inactive') : prev.classList.remove('inactive');
+      carousel.currentSlide == carousel.innerElements.length - carousel.perPage ? next.classList.add('inactive') : next.classList.remove('inactive');
+    });
 
 </script>

@@ -1,15 +1,17 @@
 <?php if($representations->isNotEmpty()): ?>
-  <h3 class="margin_t-m">Représentations</h3>
+  <h3 style="font-size:1.16em">Représentations</h3>
   <p class="h3 color-accent"><?= $label; ?></p>
-  <div class="margin_b-s">
+  <div style="font-size:1.16em" class="margin_b-s">
     <?php foreach ($representations->toStructure() as $rprst): ?>
        <p class="flex">
-        <span style="width: 60%"><?= $rprst->date()->toDate('%d %B %Y'); ?> → <?= $rprst->date()->toDate('%Hh%M') ?></span>
-        <span class="no_m" style="width: 40%">
+        <span class="<?= $rprst->publicType() != 'all' ? 'color-grey' : ''?>" style="width: 70%"><?= $rprst->date()->toDate('%d %b. %Y'); ?> → <?= $rprst->date()->toDate('%Hh%M') ?></span>
+        <?php if($rprst->publicType() != 'all'): ?>
+        <span class="no_m" style="width: 30%">
           <span class="label bg-light"><?php snippet('categories', array('categories' => $rprst->publicType())) ?></span>
         </span>
+        <?php endif; ?>
        </p>
     <?php endforeach ?>
+    <?= $moreInfos; ?>
   </div>
-  <?= $moreInfos; ?>
 <?php endif; ?>

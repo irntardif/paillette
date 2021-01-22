@@ -9,7 +9,6 @@
 </div>
 <?php endif; ?>
 
-<?= js(['assets/js/siema.min.js']) ?>
 <script>
   new Siema({
     selector: '.carousel-related',

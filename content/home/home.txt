@@ -61,8 +61,15 @@ Focus:
 
 - 
   label: Zoom sur...
-  img:
+  imgs:
+    - ces-filles-la.jpg
     - akila-paysage.jpg
+  diaporama: 'true'
+  hasvideo: 'true'
+  video:
+    - 
+      videoid: https://youtu.be/7g7cGjwJAkc
+      platform: youtube
   contenttext: |
     ##Marine Bachelot Nguyen
     
@@ -76,6 +83,10 @@ Focus:
       url: https://la-paillette.dev/
       document: [ ]
   press: [ ]
+  videoid: https://youtu.be/7g7cGjwJAkc
+  platform: youtube
+  img:
+    - akila-paysage.jpg
 
 ----
 

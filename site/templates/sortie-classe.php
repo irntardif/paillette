@@ -1,5 +1,3 @@
-<?php
-?>
 <?php snippet('header') ?>
 
 <main class="main">
@@ -15,15 +13,22 @@
         </figure>
       </div>
       <?php endif; ?>
-      <div class="grid margin_t-l">
-        <section class="text column" style="--columns: 8">
-          <header>
+      
+        <header class="grid margin_t-l">
+          <div class="column" style="--columns: 8">
             <h1 class="no_m h1"><?= $page->title(); ?></h1>
             <?php if($page->intervenant()->isNotEmpty()): ?>
-            <p> <?= $page->intervenant()->toPage()->title() ?></p>
+            <p style="font-size:1.16em"> <?= $page->intervenant()->toPage()->title() ?></p>
             <?php endif; ?>
-          </header>
-          <div class="margin_t-m"><?= $page->description()->kirbytext(); ?></div>
+          </div>
+          <div class="column" style="--columns: 4; padding-top: 1.4em;">
+            <span style="font-size:1.16em" class="uppercase"><?= $page->intendedTemplate(); ?></span>
+          </div>
+        </header>
+
+        <div class="grid">
+        <section class="text column" style="--columns: 8">
+          <div class="margin_b-l" style="font-size:1.16em; line-height:1.4"><?= $page->description()->kirbytext(); ?></div>
           <?php snippet('about', array('speaker' => $page->intervenant()->toPage(), 'class' => 'btn-light')) ?>
 
           <ul class="no_m">
@@ -54,30 +59,31 @@
 
         </section>
         <aside class="column" style="--columns: 4">
-          <?php snippet('social-sharer') ?>
+          
           <?php if($page->dates()->isNotEmpty()): ?>
-          <h3 class="margin_t-m margin_b-s">Dates</h3>
-          <span><?php snippet('dates', array('representations' => $page->dates())) ?></span>
+          <span style="font-size:1.16em"><?php snippet('dates', array('representations' => $page->dates())) ?></span>
           <?php endif; ?>
-
+          <span class="color-accent"><?php snippet('representations', 
+          array('representations' => $page->representations(), 
+                'label' => $page->rprstnName(), 
+                'moreInfos' => $page->moreInfos()
+                )) ?></span>
+         
           <?php snippet('prices', array('prices' => $page->prices())) ?>
           
-          <ul class="icons-list margin_t-s">
+          <ul class="icons-list margin_t-m">
             <li><a href="<?= $site->find('infos')->url()?>" class="menu-icon icon-text underline infos">Informations pratiques</a></li>
             <?php if($page->contactMail()->isNotEmpty()): ?>
             <li><a href="mailto:<?=$page->contactmail()?>"class="menu-icon icon-text underline mail">Contact</a></li>
           <?php endif; ?>
          </ul>
-         <span><?php snippet('representations', 
-          array('representations' => $page->representations(), 
-                'label' => $page->rprstnName(), 
-                'moreInfos' => $page->moreInfos()
-                )) ?></span>
+         
+          <?php snippet('social-sharer') ?>
         </aside>
       </div>
     </article>
     <?php snippet('related-events', array('related' => $page->relatedPages())) ?>
-    <?php snippet('next-prev', array('template' => 'Sortie de classe', 'type' => 'f')) ?>
+    <?php snippet('next-prev', array('template' => 'Stage', 'type' => 'm')) ?>
   </div>
 </main>
 

@@ -15,7 +15,7 @@
   --padding: 1.5rem;
   --color-black: #000;
   --color-white: #fff;
-  --color-grey: #777;
+  --color-grey: #878787;
   --color-light: #EBEBEB;
   --color-text: var(--color-black);
   --color-text-grey: var(--color-grey);
@@ -31,6 +31,10 @@ html {
   color: var(--color-text);
   background: var(--color-background);
   font-size:18px;
+}
+
+body{
+  scroll-behavior: smooth;
 }
 
 img {
@@ -54,7 +58,6 @@ img.loaded{
   overflow: none;
   left: -100%;
 }
-
 
 
 img.blue-filter{
@@ -829,7 +832,7 @@ figure.regular img{
 }
 
 figure.regular._16_9 img{
-  object-fit:contain;
+  object-fit:cover;
 }
 
 .card{
@@ -1355,6 +1358,10 @@ hr {
     margin-right: -1em;
   }
 
+  .carousel-img{
+    max-width:500px;
+  }
+
   .carousel-thumb{
     width:100%;
   }
@@ -1366,6 +1373,53 @@ hr {
   .carousel-thumb a{
     text-decoration:none;
   }
+
+  .carousel-nav{
+    position:absolute;
+    top:50%;
+    -webkit-transform: translate(0,-50%);
+    transform: translate(0,-50%);
+    color:transparent;
+    font-size:1px;
+    width:100%;
+    z-index:3;
+  }
+
+  .carousel-wrapper{
+    position:relative;
+    margin-top:0;
+  }
+
+  .carousel-nav button{
+    width:15px;
+    height:15px;
+    position:relative;
+    opacity: 1;
+    transition: opacity .3s ease;
+  }
+
+  .carousel-nav button.inactive{
+    opacity:0;
+  }
+
+  .carousel-nav button.prev{
+    background: url(../icons/chevron-prev.svg) no-repeat center;
+    left:10em;
+  }
+
+  .carousel-nav button.next{
+    background: url(../icons/chevron-next.svg) no-repeat center;
+    left:calc(100% - 10em);
+  }
+
+  .focus .carousel-nav button.prev{
+    left: -30em;
+  }
+
+  .focus .carousel-nav button.next{
+    left:calc(100% - 15em);
+  }
+
 
   .main-header{
     width:100%;

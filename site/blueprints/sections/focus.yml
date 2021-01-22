@@ -1,19 +1,44 @@
 type: structure
 max: 1
+columns: 
+  label: 
+    width: 1/5  
+  img:
+    width: 2/5     
+  contentText: 
+    width: 2/5
 fields:
   label: 
     type: text
-  img:
-    label: Image
+  imgs:
+    label: Images
     type: files
-    multiple: false
-    width: 1/2
+    width: 2/3
     uploads:
       template: image
+  diaporama:
+    label: Afficher la galerie en diaporama ?
+    type: toggle
+    width: 1/3
+    text:
+      - non
+      - oui
+  hasVideo:
+    label: Ajouter une vidéo ?
+    type: toggle
+    width: 1/3
+    text:
+      - non
+      - oui
+  video: 
+    extends: blocs/videoContent
+    type: structure
+    width: 2/3
+    when: 
+      hasVideo: true
   contentText:
     label: Contenu
     type: textarea
-    width: 1/2
   links: sections/links
   press: sections/press
 

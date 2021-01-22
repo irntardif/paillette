@@ -47,7 +47,7 @@ Planning:
   public: 8 ans
   hours: mardi 18-19h
   isfull: 'true'
-  description: ""
+  description: lorem ipsum blabla
 - 
   public: 9-10 ans
   hours: mercredi 15h15-16h15

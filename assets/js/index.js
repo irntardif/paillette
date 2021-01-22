@@ -76,7 +76,7 @@ document.addEventListener('DOMContentLoaded', function(){
 
 inView('[data-src]').on('enter', setSrcAttribute);
     
-if (window.innerWidth >= 768 ){
+  if (window.innerWidth >= 768 ){
     scrollEventThrottle((scrollPos, previousScrollPos) => {
       let $toptrigger = body.classList.contains('home') ? 550 : 150;
       if(scrollPos >= $toptrigger){
@@ -91,4 +91,27 @@ if (window.innerWidth >= 768 ){
     return
   }
 
+  const carousels = document.querySelectorAll(".carousel-img");
+  for(const carousel of carousels) {
+    const carouselInst = new Siema({
+      selector: carousel
+    })
+
+    const prev = carousel.nextElementSibling.querySelector('.prev');
+    const next = carousel.nextElementSibling.querySelector('.next');
+    
+    prev.classList.add('inactive');
+
+    prev.addEventListener('click', () => {
+        carouselInst.prev();
+        carouselInst.currentSlide == 0 ? prev.classList.add('inactive') : prev.classList.remove('inactive');
+        carouselInst.currentSlide == carouselInst.innerElements.length - 1 ? next.classList.add('inactive') : next.classList.remove('inactive');
+      }
+    );
+    next.addEventListener('click',  () => {
+      carouselInst.next()
+      carouselInst.currentSlide == 0 ? prev.classList.add('inactive') : prev.classList.remove('inactive');
+      carouselInst.currentSlide == carouselInst.innerElements.length - 1 ? next.classList.add('inactive') : next.classList.remove('inactive');
+    });
+  }
 });

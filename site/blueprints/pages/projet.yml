@@ -95,7 +95,7 @@ tabs:
                 type: select
                 default: all
                 options:
-                  all: Tous publics
+                  all: Tout public
                   school: Scolaires
 
       - width: 2/3

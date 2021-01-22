@@ -91,6 +91,7 @@
   </footer>
 
   <?= js([
+    'assets/js/siema.min.js',
     'assets/js/prism.js',
     'assets/js/lightbox.js',
     'assets/js/inview.js',
@@ -100,3 +101,4 @@
 
 </body>
 </html>
+

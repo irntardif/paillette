@@ -71,7 +71,7 @@ endif;
   <?php endif; ?>
   
 </head>
-<body class="<?= $page->id() ?>">
+<body class="<?= $page->uid() ?>">
 
 <?php if($page->uid() == 'home' && $page->headerImage()->isNotEmpty()): ?>
 <section class="header-paillette header-image">
