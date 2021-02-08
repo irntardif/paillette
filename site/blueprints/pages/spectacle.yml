@@ -131,6 +131,9 @@ tabs:
                 when:
                   company: label
                 width: 1/2
+              accentinfos:
+                label: Infos exceptionnelles
+                type: textarea
               description:
                 label: Description
                 type: textarea

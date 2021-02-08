@@ -16,9 +16,18 @@ tabs:
       # It reuses the pages section defined in `/site/blueprints/sections/albums.yml`
       - width: 1/2
         sections:
-          spectacles: sections/spectacles
-          ateliers: sections/ateliers
-          aventures: sections/aventures
+          spectacles: 
+            extends: sections/spectacles
+            status: listed
+            #help: "Définir l'ordre des spectacles dans la Page Spectacle"
+          ateliers: 
+            extends: sections/ateliers
+            status: listed
+            #help: "Définir l'ordre des ateliers dans la Page Atelier"
+          aventures: 
+            extends: sections/aventures
+            status: listed
+            #help: "Définir l'ordre des aventures dans la Page Aventures"
 
       - width: 1/2
         sections:

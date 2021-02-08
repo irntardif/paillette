@@ -45,6 +45,11 @@ columns:
   - width: 2/3
     fields:
       cover: fields/cover
+      bio:
+        label: À propos
+        type: textarea
+        help: Champ court pour les fiches
+        maxlength: 300
       description:
         type: textarea
         label: Description

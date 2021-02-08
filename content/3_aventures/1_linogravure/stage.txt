@@ -42,21 +42,37 @@ Prices:
 
 ----
 
+Rprstnname: 
+
+----
+
+Moreinfos: 
+
+----
+
+Representations: 
+
+----
+
 Cover:
 
 - bleu.jpg
 
 ----
 
-Description:
+Accentinfos: Adultes - Tous niveaux
 
-Pour expérimenter cette technique simple de gravure, les participants sont invités à réaliser une œuvre colorée en combinant gravure et fonds préparés en collage. Ouvert aux débutants, ce stage est également accessible aux personnes expérimentées qui y trouveront un prolongement naturel des précédents stages organisés à La Paillette.
+----
 
-Adultes - Tous niveaux
+Description: Pour expérimenter cette technique simple de gravure, les participants sont invités à réaliser une œuvre colorée en combinant gravure et fonds préparés en collage. Ouvert aux débutants, ce stage est également accessible aux personnes expérimentées qui y trouveront un prolongement naturel des précédents stages organisés à La Paillette.
 
 ----
 
 Links: 
+
+----
+
+Relatedpages: 
 
 ----
 

@@ -104,6 +104,9 @@ tabs:
             type: fields
             fields:
               cover: fields/cover
+              accentinfos:
+                label: Infos exceptionnelles
+                type: textarea
               description:
                 label: Description générale
                 type: textarea

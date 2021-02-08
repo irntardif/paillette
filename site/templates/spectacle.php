@@ -33,6 +33,9 @@
         </header>
         <div class="grid margin_t-m">
           <section class="text column" style="--columns: 8">
+            <?php if($page->accentinfos()->isNotEmpty()): ?>
+             <div class="margin_b-s color-accent" style="font-size:1.16em; line-height:1.4"><?= $page->accentinfos()->kirbytext(); ?></div>
+            <?php endif; ?>
             <div class="margin_b-l" style="font-size:1.16em; line-height:1.4"><?= $page->description()->kirbytext(); ?></div>
             <?php snippet('links', array('links' => $page->links()->toStructure(), 'class' => 'btn-light')) ?>
             

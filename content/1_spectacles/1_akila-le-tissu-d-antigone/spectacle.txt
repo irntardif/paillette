@@ -6,7 +6,7 @@ Type: show
 
 ----
 
-Genre: lecture
+Genre: Théâtre
 
 ----
 
@@ -24,21 +24,7 @@ Creation: false
 
 ----
 
-Cohosting: false
-
-----
-
-Cohostinginfos:
-
-- 
-  label: Théâtre National de Bretagne
-  url: https://www.t-n-b.fr/
-  logo: [ ]
-- 
-  label: Théâtre Contemporain
-  url: >
-    https://www.theatre-contemporain.net/contacts/Theatre-National-de-Bretagne-TNB/
-  logo: [ ]
+Cohostinginfos: <p>Co-accueil : <a href=" https://www.t-n-b.fr/" rel="noopener noreferrer nofollow">Théâtre National de Bretagne</a> et <a href="https://www.theatre-contemporain.net" rel="noopener noreferrer nofollow">Théâtre Contemporain</a></p>
 
 ----
 
@@ -78,11 +64,11 @@ Companyname: Collectif Bajour / Hector Manuel
 
 ----
 
-Description:
+Accentinfos: Les billets achetés au guichet ou sur le site internet de La Paillette pour ce spectacle peuvent être remboursés auprès de notre service billetterie : 02 99 59 88 86 ou billetterie@la-paillette.net.
 
-Les billets achetés au guichet ou sur le site internet de La Paillette pour ce spectacle peuvent être remboursés auprès de notre service billetterie : 02 99 59 88 86 ou billetterie@la-paillette.net
-pour ce Théâtre / 2h
-Dès 15 ans
+----
+
+Description:
 
 Akila, lycéenne discrète, perd deux de ses frères dans des circonstances très différentes. L’un en héros. L’autre en paria. Parce que l’on refuse à ce dernier une place au cimetière communal, la jeune fille va défier les lois de la République, à commencer par celles en vigueur dans son lycée.
 Dans cette fiction politisée et actuelle, Marine Bachelot Nguyen transpose le drame d’Antigone, connue pour sa résistance à l’ordre donné par Créon de laisser la dépouille de son frère Polynice sans sépulture. En l’écrivant au présent, elle confronte plusieurs visions de la laïcité et du vivre-ensemble et s’empare de la tragédie pour interroger les sujets politiques sensibles qui agitent nos sociétés. Le voile dont se coiffe Akila, symbole de révolte, va provoquer de multiples remous.
@@ -113,6 +99,10 @@ Relatedpages:
 ----
 
 Press: 
+
+----
+
+Cohosting: false
 
 ----
 

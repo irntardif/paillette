@@ -24,6 +24,9 @@
           </header>
           <div class="grid">
             <section class="text column" style="--columns: 8">
+            <?php if($page->accentinfos()->isNotEmpty()): ?>
+            <div class="color-accent" style="font-size:1.16em; line-height:1.4"><?= $page->accentinfos()->kirbytext(); ?></div>
+            <?php endif; ?>
             <div class="margin_t-m"><?= $page->description()->kirbytext(); ?></div>
             <div class="margin_b-l">
               <ul class="no_m">

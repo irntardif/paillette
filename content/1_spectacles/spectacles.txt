@@ -17,14 +17,7 @@ Headerimage:
 
 ----
 
-Program:
-
-- 
-  label: Programme de la saison
-  linktype: document
-  url: ""
-  document:
-    - paillette-v4.pdf
+Program: 
 
 ----
 
