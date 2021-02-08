@@ -88,8 +88,7 @@
       </div>
     </article>
     <?php snippet('related-events', array('related' => $page->relatedPages())) ?>
-    <?php snippet('next-prev', array('template' => 'Stage', 'type' => 'm')) ?>
-  </div>
+    <?php snippet('next-prev', array('template' => 'Sortie de classe', 'type' => 'f')) ?>
 </main>
 
 <?php snippet('footer') ?>
