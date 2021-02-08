@@ -622,6 +622,7 @@ nav.breadcrumb li a:hover{
   color: var(--color-accent);
 }
 
+
 .label{
   font-size: 0.77em;
   color: #878787;
@@ -636,6 +637,14 @@ nav.breadcrumb li a:hover{
     vertical-align: super;
     font-size:0.777em;
     text-transform:lowercase;
+}
+
+.thumb .label.tag{
+  z-index: 99;
+  margin: 1em;
+  display: inline-block;
+  position: absolute;
+  right: 0;
 }
 
 .header-thumb .label{

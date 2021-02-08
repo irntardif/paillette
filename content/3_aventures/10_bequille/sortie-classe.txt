@@ -46,6 +46,14 @@ Cover:
 
 ----
 
+Accentinfos: 
+
+----
+
+Level: coucou
+
+----
+
 Description:
 
 Résidence de création au Lycée Bréquigny (report saison 2019-2020) 
@@ -57,6 +65,10 @@ Ce projet devait être créé initialement en mars 2020 au Lycée Bréquigny. Ap
 ----
 
 Links: 
+
+----
+
+Relatedpages: 
 
 ----
 

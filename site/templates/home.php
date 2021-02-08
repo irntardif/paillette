@@ -66,7 +66,7 @@ endif ?>
 
   const carousel = new Siema({
     selector: '.carousel-events',
-    duration: 400,
+    duration: 600,
     easing: 'ease-out',
     perPage: {
 	    768: 1,
@@ -76,7 +76,7 @@ endif ?>
     draggable: true,
     multipleDrag: true,
     threshold: 20,
-    loop: false,
+    loop: true,
     rtl: false,
     onInit: () => {},
     onChange: () => {},
@@ -98,5 +98,25 @@ endif ?>
       carousel.currentSlide == 0 ? prev.classList.add('inactive') : prev.classList.remove('inactive');
       carousel.currentSlide == carousel.innerElements.length - carousel.perPage ? next.classList.add('inactive') : next.classList.remove('inactive');
     });
+
+
+	// AUTOPLAY
+
+	const myInterval = setInterval(() => carousel.next(), 5000);
+
+	document.querySelector(".prev").addEventListener("click", () => {
+	    carousel.prev();
+	    clearInterval(myInterval);
+	});
+	document.querySelector(".next").addEventListener("click", () => {
+	    carousel.next();
+	    clearInterval(myInterval);
+	});
+	document.querySelector(".carousel-events").addEventListener("mousedown", () => {
+	    clearInterval(myInterval);
+	});
+	document.querySelector(".carousel-events").addEventListener("touchstart", () => {
+	    clearInterval(myInterval);
+	});
 
 </script>

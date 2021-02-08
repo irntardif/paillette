@@ -60,7 +60,11 @@ Cover:
 
 ----
 
-Accentinfos: Adultes - Tous niveaux
+Accentinfos: 
+
+----
+
+Level: Adultes - Tous niveaux
 
 ----
 

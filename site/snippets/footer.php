@@ -24,9 +24,9 @@
                 <?= $site->title()->html() ?>
               </a>
               <p><?= $site->address() ?></p>
-              <p><a href="mailto:<?= $site->email()?>"><?= $site->email() ?></a></p>
-              <p>Accueil: <?= $site->mainphone() ?></p>
-              <p>Billetterie: <?= $site->ticketingphone() ?></p>
+             <!--  <p><a href="mailto:<?= $site->email()?>"><?= $site->email() ?></a></p> -->
+              <p>Accueil : <?= $site->mainphone() ?></p>
+              <p>Billetterie : <?= $site->ticketingphone() ?></p>
             </div>
           </div>
           <div class="column" style="--columns: 3">

@@ -25,7 +25,7 @@
           <div class="grid">
             <section class="text column" style="--columns: 8">
             <?php if($page->accentinfos()->isNotEmpty()): ?>
-            <div class="color-accent" style="font-size:1.16em; line-height:1.4"><?= $page->accentinfos()->kirbytext(); ?></div>
+            <div class="margin_t-m color-accent" style="font-size:1.16em; line-height:1.4"><?= $page->accentinfos()->kirbytext(); ?></div>
             <?php endif; ?>
             <div class="margin_t-m"><?= $page->description()->kirbytext(); ?></div>
             <div class="margin_b-l">
@@ -58,9 +58,11 @@
             <?php endif; ?>
           </section>
           <aside class="column" style="--columns: 4">
-             
-             <span class="uppercase"><?php snippet('categories', array('categories' => $page->genre())) ?></span>
-             <?= $page->moreinfos()->kirbytext(); ?>
+            <?php if($page->level()->isNotEmpty()): ?>
+            <div class="margin_t-m" style="font-size:1.16em; line-height:1.4"><?= $page->level()->kirbytext(); ?></div>
+            <?php endif; ?>
+            <span class="uppercase"><?php snippet('categories', array('categories' => $page->genre())) ?></span>
+            <?= $page->moreinfos()->kirbytext(); ?>
              
             <div class="margin_t-s text">
               <?php snippet('prices', array('prices' => $page->prices())) ?>

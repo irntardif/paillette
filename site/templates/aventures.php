@@ -25,7 +25,8 @@
             break;
         case 'sortie-classe':
             $title = 'Sorties de Classes';
-            $desc =  $page->classExitsText()->kirbytext();
+            $desc =  $page->classExitsText1()->kirbytext();
+            $desc2 =  $page->classExitsText2()->kirbytext();
             break;
 
         }?>
@@ -39,7 +40,12 @@
               <div class="text margin_t-m">
                 <?= $desc; ?>
               </div>
-            <?php snippet('artists-list', array('collection' => $aventuresP->children()->listed()->filterBy('intendedTemplate', $type))); ?>  
+              <div class="text margin_t-m">
+                <?php if($type == 'sortie-classe'):
+                  echo $desc2; 
+                endif; ?>
+              </div>
+            <!-- <?php snippet('artists-list', array('collection' => $aventuresP->children()->listed()->filterBy('intendedTemplate', $type))); ?>   -->
             </div class="text margin_t-m">
             <?php snippet('filters', array('categories' => ['' => "Tous les âges", '.children1' => '4-5 ans', '.children2' => '6-10 ans', '.teen1' => '11-14 ans', '.teen2' => '15-18 ans', '.students' => 'étudiants', '.adults' => 'adultes'])); ?>
             <ul class="filter-grid grid c-3">

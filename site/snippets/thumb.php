@@ -3,6 +3,9 @@
     <?php $img = $event->cover()->toFile(); 
     if($img): ?>
     <figure class="<?php  echo $img->extension() == 'jpg' || $img->extension() == 'jpeg' ? 'regular blue-filter' : 'regular' ?>">
+      <?php if($event->intendedTemplate()->name() == "sortie-classe"): ?>
+        <span class="label cap tag bg-accent">Projet Scolaire</span>
+      <?php endif; ?>
       <img src="<?= $img->thumb()->url() ?>" data-src="<?= $img->url() ?>" data-srcset="<?= $img->srcset() ?>" alt="<?= $img->filename() ?>"/>
     </figure>
     <?php endif; ?>

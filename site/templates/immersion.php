@@ -21,7 +21,7 @@
             <p style="font-size:1.16em"> <?= $page->intervenant()->toPage()->title() ?></p>
             <?php endif; ?>
           </div>
-          <div class="column" style="--columns: 4; padding-top: 1.4em;">
+          <div class="column" style="--columns: 4; align-self: flex-end;">
             <span style="font-size:1.16em" class="uppercase"><?= $page->intendedTemplate(); ?></span>
           </div>
         </header>
@@ -62,7 +62,9 @@
 
         </section>
         <aside class="column" style="--columns: 4">
-          
+          <?php if($page->level()->isNotEmpty()): ?>
+            <div class="margin_b-m" style="font-size:1.16em; line-height:1.4;"><?= $page->level()->kirbytext(); ?></div>
+          <?php endif; ?>
           <?php if($page->dates()->isNotEmpty()): ?>
           <span style="font-size:1.16em"><?php snippet('dates', array('representations' => $page->dates())) ?></span>
           <?php endif; ?>

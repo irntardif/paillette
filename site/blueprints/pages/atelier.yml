@@ -77,6 +77,12 @@ tabs:
               accentinfos:
                 label: Infos exceptionnelles
                 type: textarea
+                width: 2/3
+              level: 
+                label: Niveau
+                type: text
+                width: 1/3
+                placeholder: "Ex : Adulte – Tous niveaux"
               description:
                 label: Description générale
                 type: textarea
