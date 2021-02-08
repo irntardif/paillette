@@ -11,17 +11,19 @@
       <div class="media margin_t-m">
         <div class="grid c-3">
           <?php foreach($data->workspaces()->toStructure() as $workspace): ?>
-            <figure>
-              <?php if($workspace->img()->isNotEmpty()):
-              $img = $workspace->img()->toFile();  ?>
-              <img class="blue-filter" src="<?= $img->thumb()->url() ?>" data-src="<?= $img->url() ?>" alt="<?= $img->filename() ?>" data-srcset="<?= $img->srcset() ?>"/>
-              <?php endif; ?>
-              <figcaption>
+            <div>
+              <figure class="blue-filter">
+                <?php if($workspace->img()->isNotEmpty()):
+                $img = $workspace->img()->toFile();  ?>
+                <img src="<?= $img->thumb()->url() ?>" data-src="<?= $img->url() ?>" alt="<?= $img->filename() ?>" data-srcset="<?= $img->srcset() ?>"/>
+                <?php endif; ?>
+              </figure>
+              <div class="ws-infos margin_t-s">
                 <span class="cap"><?= $workspace->location() ?></span>
                 <span><?= $workspace->pName() ?></span>
-                <span class="micro-text"><?= $workspace->moreInfos()->kirbytext() ?></span>  
-              </figcaption>
-            </figure>
+                <div class="micro-text"><?= $workspace->moreInfos()->kt() ?></div>  
+              </div>
+            </div>
           <?php endforeach;?>
         </div>
       </div>

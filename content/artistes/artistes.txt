@@ -16,4 +16,20 @@ Headerimage:
 
 ----
 
-Focus: 
+Focus:
+
+- 
+  label: Accompagnement
+  imgs:
+    - theatre-la-paillette-mjc3.jpg
+  diaporama: 'false'
+  hasvideo: 'false'
+  video: [ ]
+  contenttext: |
+    # Espace de recherche
+    
+    Mise à disposition des espaces de travail
+    
+    Depuis la rentrée 2008 - 2009, la salle « création » à La Paillette est ouverte à toute compagnie de théâtre - artiste qui souhaitent chercher, essayer, répéter … sans pour autant qu’ils soient en projet avec La Paillette. Cette salle est bien adaptée aux besoins de cette étape de travail. Cet espace peut aussi être propice — dans certaines conditions — à la présentation de lecture, d’étape de travail auprès des professionnels afin de favoriser les rencontres entre les artistes et les programmateurs mais aussi avec le public.
+  links: [ ]
+  press: [ ]

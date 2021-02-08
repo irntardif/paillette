@@ -35,6 +35,13 @@
               <li><a href="<?= $elPage->url() ?>"><?= $elPage->title()->html() ?></a></li>
               <?php endforeach ?>
               <li><a href="<?= $site->find('artistes')->url() ?>"><?= $site->find('artistes')->title()->html() ?></a></li>
+              <?php if($site->find('spectacles')->program()->isNotEmpty()): 
+              foreach ($site->find('spectacles')->program()->toStructure() as $prog):
+                $url = $prog->document()->isNotEmpty() ? $prog->document()->toFile()->url() : null;
+              endforeach; ?>
+              <li><a target="_blank" href="<?= $url ?>">Programme de saison</a>
+              </li>
+            <?php endif; ?>
             </ul>
           </div>
           <div class="column" style="--columns: 2">
@@ -43,6 +50,7 @@
               <li><a href="<?= $site->find('infos')->url() ?>"><?= $site->find('infos')->title()->html() ?></a></li>
               <?php if($site->find('espace-pro')): ?>
               <li><a href="<?= $site->find('espace-pro')->url() ?>"><?= $site->find('espace-pro')->title()->html() ?></a></li>
+              <li><a href="<?= $site->find('infos')->url().'#workspaces' ?>">Espaces à louer</a></li>
               <?php endif; ?>
             </ul>
           </div>

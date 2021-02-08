@@ -44,7 +44,7 @@
 				<?php foreach($page->highlightedBlocks()->toStructure() as $key => $block): ?>
 					<div>
 						<h2 class="h2"><?= $block->title() ?></h2>
-						<?php snippet('headerImg', array('img' => $block->img())); ?>
+						<?php snippet('headerImg', array('imgs' => $block->img())); ?>
 						<div class="text margin_t-m">
 							<?php if($block->contentText()->isNotEmpty()):?>
 								<?= $block->contentText()->kirbyText() ?>

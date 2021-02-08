@@ -29,7 +29,7 @@
               <ul class="no_m">
                 <?php foreach ($page->planning()->toStructure() as $key => $timeslot):
                 $isDesc = $timeslot->description()->isNotEmpty();  ?>
-                <section class="dropdown-bloc bloc-small" data-dropdown="<?= $isDesc ? 'true' : 'false' ?>" data-id="<?=$key?>">
+                <section class="dropdown-bloc small" data-dropdown="<?= $isDesc ? 'true' : 'false' ?>" data-id="<?=$key?>">
                   <header class="no_m flex wrap space-between">
                     <span style="width:30%"><?=$timeslot->public()?></span>
                     <span style="width:40%"><?=$timeslot->hours()?></span>
@@ -38,7 +38,7 @@
                     <?php else: ?>
                       <span style="width:20%"></span>
                     <?php endif; ?>
-                    <span style="width:5%"><span class="open-icon no_m"></span></span>
+                    <span class="no_m" style="width:5%"><span class="open-icon no_m"></span></span>
                   </header>
                   <?php if($timeslot->description()->isNotEmpty()): ?>
                   <div class="wrapper no_m">

@@ -2,27 +2,28 @@
 	position: relative;
 	height:0;
 	overflow: hidden;
-	padding-bottom:calc(69% + 85px);
+	padding-bottom:69%;
 }
 
 #workspaces img{
 	position: absolute;
-	height:calc(100% - 85px);
+	height:100%;
 	width:100%;
 	top:0;
 	left:0;
 	object-fit:cover;
 }
 
-#workspaces figcaption{
-	padding-top:calc(69% + 10px);
-}
 
-#workspaces figcaption span{
+#workspaces p span{
 	display:block;
 }
 
-#workspaces figcaption span:first-child{
+#workspaces .grid > div{
+	position:relative;
+}
+
+#workspaces .ws-infos span:first-child{
 	position: absolute;
 	top:1em;
 	right:1em;

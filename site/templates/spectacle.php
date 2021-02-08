@@ -20,7 +20,7 @@
             <h1 class="no_m h1"><?= $page->title(); ?></h1>
             <?php  $cats = explode(",", $page->categories());
             foreach ($cats as $cat): ?>
-              <span class="label bg-accent uppercase">
+              <span class="label tag bg-accent uppercase">
               <?= $cat == 'family' ? 'En famille' : 'Création'; ?>
               </span>
             <?php endforeach ?>

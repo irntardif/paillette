@@ -73,6 +73,7 @@ Pagebuilder:
     - 
       images:
         - theatre-la-paillette-mjc.jpg
+        - vendredi.jpg
       _key: imgContent
       _uid: imgContent_1609868710625_2249
     - 

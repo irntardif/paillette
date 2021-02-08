@@ -8,12 +8,6 @@ Edito:
 Théâtre, danse, musique, arts-plastiques, plus de 60 propositions encadrées par des professionnel·le·s du spectacle vivant sont proposées à La Paillette de septembre à juin. À ces ateliers de pratique s’ajoutent la possibilité de vivre le lieu autrement, par le biais de parcours permettant d’assister à des répétitions publiques, de profiter d’interventions d’artistes accueillis dans la programmation, de s’inscrire à des aventures participatives ou d’aller au spectacle en bénéficiant d’un tarif réduit.
 L’aboutissement du travail réalisé au sein des ateliers peut donner lieu en fin d’année à une représentation, une répétition ouverte ou une exposition dans le cadre du Festival Les Envolées, temps fort de la saison dédié aux pratiques en amateur.
 
-**Titre** (link: https://la-paillette.net/ text: texte du lien) 
-- liste 
-- liste
-
-`exemple texte en code`
-
 ----
 
 Headerimage:
@@ -46,8 +40,10 @@ Focus:
 
 - 
   label: Infos Pratiques
-  img:
-    - illu-paillette3.png
+  imgs: [ ]
+  diaporama: 'false'
+  hasvideo: 'false'
+  video: [ ]
   contenttext: |
     ## Conditions de déroulement des ateliers
     
@@ -70,6 +66,8 @@ Focus:
     Toute demande doit être accompagnée de justificatifs et doit être effectuée auprès du secrétariat au Lavoir. Tout trimestre entamé reste dû.
   links: [ ]
   press: [ ]
+  img:
+    - illu-paillette3.png
 
 ----
 

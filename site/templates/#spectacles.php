@@ -1,5 +1,5 @@
 <?php snippet('header') ?>
-
+PREVIOU
 <main class="main">
   <div class="main-wrapper padding_b-xxl">
     <?php snippet('breadcrumb') ?>
@@ -7,10 +7,8 @@
     <?php if ($spectaclesP = page('spectacles')): ?>
 
     <div class='grid-wrapper'>
-      <div class="header-grid grid c-2">
-        <?php snippet('filters', array('categories' => ['' => "Tous les genres", '.family' => 'En famille', '.creation' => 'Création'], "showMonths" => true )); ?>
-        <?php snippet('links', array('links' => $page->program()->toStructure(), 'class' => 'bg-main')) ?>
-      </div>
+      <?php snippet('filters', array('categories' => ['' => "Tous les genres", '.family' => 'En famille', '.creation' => 'Création'], "showMonths" => true )); ?>
+    
       <ul class="filter-grid grid c-2 margin_t-m row-large">
         <?php foreach ($spectaclesP->children()->listed() as $event): ?>
         <?php snippet('event-thumb', array('event' => $event)); ?>

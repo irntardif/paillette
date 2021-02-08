@@ -61,7 +61,7 @@
                 	<?= $page->visitsText()->kirbytext(); ?>
                   <?php snippet('blocks/buttonLink', array('data' => $page->visitsLinks()->toStructure())); ?>
               </div>
-              <?php snippet('headerImg', array('img' => $page->visitsImage())); ?>
+              <?php snippet('headerImg', array('imgs' => $page->visitsImage())); ?>
             </div>
             
           </div>

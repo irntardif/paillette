@@ -13,6 +13,16 @@ Array.from(document.querySelectorAll("[data-dropdown='true'] header")).forEach(e
   };
 });
 
+Array.from(document.querySelectorAll(".read-more")).forEach(element => {
+  element.onclick = (e) => {
+    e.preventDefault();
+    element.innerHTML = element.innerHTML == '↓' ? '↑' : '↓';
+    let innerText = element.previousElementSibling.getAttribute('data-text');
+    element.previousElementSibling.setAttribute('data-text', element.previousElementSibling.innerHTML);
+    element.previousElementSibling.innerHTML = innerText;
+  };
+});
+
 document.getElementById('burger').onclick = (e) => {
   e.preventDefault();
   let header = document.getElementsByClassName('main-header')[0],

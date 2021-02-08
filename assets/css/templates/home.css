@@ -25,13 +25,28 @@
   display:none;
 }
 
+#calendar tbody:after{
+  content: "";
+  position: absolute;
+  width: 9rem;
+  right: -9rem;
+  height: 200px;
+  z-index: 22;
+  background: #fff;
+  top: 0;
+  box-shadow: -9px -2px 15px 8px #fff;
+}
+
+
 #calendar .carousel-events .filter-item{
   width:calc(100% - 2em);
 }
 
-#calendar .fc-day-other{
+#calendar tbody tr:first-child .fc-day-other:nth-child(-n+4),
+#calendar .fc-day-other.fc-day-past{
   display:none;
 }
+
 #calendar .fc-day-other.fc-day-future:first-child{
   display: table-cell;
 }
@@ -47,6 +62,11 @@
 
 #calendar .fc-scrollgrid{
   border:none;
+}
+
+#calendar .fc-scroller-liquid-absolute,
+#calendar .fc-scroller-harness{
+  overflow: visible!important;
 }
 
 #calendar.fc-theme-standard th,  #calendar.fc-theme-standard td {
@@ -122,6 +142,35 @@
   border-top-right-radius: 50px;
   border-bottom-right-radius: 50px;
   font-size: .9em;
+}
+
+#calendar .fc-daygrid-day-number{
+  margin:auto;
+}
+
+.tippy-content{
+  padding:0;
+}
+
+.tippy-modal{
+  width: 350px;
+  border-radius: 0;
+  padding:0;
+}
+
+.tippy-modal .modal-body{
+  border: 1px solid var(--color-accent);
+  padding: 1em;
+  opacity:1;
+  transition: opacity .3s ease;
+}
+
+.tippy-modal .modal-body:hover{
+  opacity:.7;
+}
+
+.tippy-modal + .tippy-modal .modal-body{
+  border-top:none;
 }
 
 @media screen and (max-width: 768px) {

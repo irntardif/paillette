@@ -59,23 +59,32 @@ img.loaded{
   left: -100%;
 }
 
-
-img.blue-filter{
-  -webkit-filter: url(#monochrome);
-  filter:  url(#monochrome);
-  -webkit-transition: 1s -webkit-filter linear;
-  -moz-transition: 1s -moz-filter linear;
-  -moz-transition: 1s filter linear;
-  -ms-transition: 1s -ms-filter linear;
-  -o-transition: 1s -o-filter linear;
-  transition: 1s filter linear, 1s -webkit-filter linear, opacity .3s;
-  opacity:1;
+.blue-filter{
+  background: linear-gradient(var(--color-accent) 5%, 25%, var(--color-main) 95%);
+  position:relative;
 }
 
-.filter-item:hover img.blue-filter{
-  -webkit-filter: initial;
-  filter: initial;
-  opacity:.9;
+.blue-filter:before{
+  content:"";
+  display:block;
+  background: linear-gradient(var(--color-main) 5%, 25%, var(--color-main) 95%);
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  opacity:0;
+  -webkit-transition: opacity .5s ease;
+  transition: opacity .5s ease;
+}
+
+.blue-filter img{
+  mix-blend-mode: multiply;
+  filter: grayscale(1);
+}
+
+.filter-item:hover .blue-filter:before{
+  opacity:1;
 }
 
 .main-wrapper{
@@ -90,8 +99,26 @@ li {
 a {
   color: currentColor;
   text-decoration: none;
+  -webkit-transition: color .3s ease;
   transition: color .3s ease;
 }
+
+.link{
+  -webkit-transition: color .3s ease;
+  transition: color .3s ease;
+  cursor:pointer;
+}
+
+.link:hover{
+  color: var(--color-main);
+}
+
+.read-more{
+  position: relative;
+  top: -2.2em;
+  left: calc(100% - 1em);
+}
+
 button {
   font: inherit;
   background: none;
@@ -125,6 +152,7 @@ button {
   text-align:center;
   line-height:1.1;
   margin: 10px 25px 10px 0;
+   border:1px solid transparent;
 }
 
 
@@ -138,12 +166,13 @@ button {
 }
 
 .btn:hover{
-  background-color: #f59c94;
+  background-color: transparent;
+  border:1px solid #000;
 }
 
 .btn-light:hover{
-  background-color: #ffff;
-  color: var(--color-accent);
+  background-color:  var(--color-accent);
+  color: #000;
   border: 1px solid var(--color-accent);
 }
 
@@ -216,17 +245,17 @@ button {
   background: url(../icons/ticket.svg) no-repeat center;
 }
 
-.icon.download.btn-light:hover:before{
+/*.icon.download.btn-light:hover:before{
    background: url(../icons/download-accent.svg) no-repeat center;
-}
+}*/
 
-.icon.url.btn-light:hover:before{
+/*.icon.url.btn-light:hover:before{
   background: url(../icons/link-accent.svg) no-repeat center;
-}
-
+}*/
+/*
 .icon.btn-light.eye:hover:before{
   background: url(../icons/eye-accent.svg) no-repeat center;
-}
+}*/
 
 .social-share a{
   position:relative;
@@ -304,7 +333,7 @@ small {
 }
 
 .color-main {
-  background-color: var(--color-main);
+  color: var(--color-main);
 }
 
 .bg-main {
@@ -545,6 +574,14 @@ a.menu-icon.icon-text{
   grid-template-columns: 1fr;
 }
 
+.grid.header-grid div:last-child{
+  text-align:right;
+}
+
+.grid.header-grid div:last-child > *{
+  margin:0;
+}
+
 .grid > .column {
   margin-bottom: 1em;
 }
@@ -589,6 +626,22 @@ nav.breadcrumb li a:hover{
   font-size: 0.77em;
   color: #878787;
   padding: 2px 10px;
+}
+
+.label.tag{
+    color: #000;
+    padding: 0 1em;
+    display: inline-block;
+    margin: 0 .5em 0 0;
+    vertical-align: super;
+    font-size:0.777em;
+    text-transform:lowercase;
+}
+
+.header-thumb .label{
+  position: relative;
+  top: .4em;
+  margin-left: 1em;
 }
 
 ul.comma-list{
@@ -840,6 +893,15 @@ figure.regular._16_9 img{
   padding:15px;
 }
 
+.card .small-title{
+  font-size:21px;
+  line-height:1.3;
+}
+
+.card a{
+  text-decoration:underline;
+}
+
 .card.structureType{
   background-color:  var(--color-main);
 }
@@ -850,6 +912,10 @@ figure.regular._16_9 img{
 
 .card + .card{
   margin-top: 25px;
+}
+
+.grid.c-2 .card + .card{
+  margin-top: 0;
 }
 
 .card .h3{
@@ -918,6 +984,11 @@ hr {
   object-fit: cover;
   border: 0;
 }
+
+iframe{
+  max-width:100%;
+}
+
 .img[data-contain] img {
   object-fit: contain;
 }
@@ -1341,12 +1412,12 @@ hr {
 
   .filter-item{
     width: calc(50% - 2.6em);
-    margin-bottom:4em;
-    margin: 1.3em;
+    margin: 1.3em 1.3em 4.5em 1.3em;
   }
 
   .grid.c-3 .filter-item{
     width: calc(33.33333% - 2.6em);
+    margin: 1.3em 1.3em 2.5em 1.3em;
   }
 
   .filter-item .header-thumb{
@@ -1356,6 +1427,10 @@ hr {
   .filter-grid{
     margin-left: -1em;
     margin-right: -1em;
+  }
+
+  .filter-grid h2{
+    line-height: 1.3;
   }
 
   .carousel-img{
@@ -1418,6 +1493,10 @@ hr {
 
   .focus .carousel-nav button.next{
     left:calc(100% - 15em);
+  }
+
+  .focus .text h1{
+    margin-bottom:.5em;
   }
 
 

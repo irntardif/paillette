@@ -26,7 +26,10 @@ Links:
 
 ----
 
-Workshops: 
+Workshops:
+
+- ateliers/modern-jazz-enfants-ados
+- ateliers/arts-plastiques
 
 ----
 

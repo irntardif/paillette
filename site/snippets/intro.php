@@ -1,8 +1,13 @@
 <?php
 ?>
 <header class="grid c-2">
-  <div class="text">
-    <?= $page->edito()->kirbytext(); ?>
+  <div>
+    <div class="text" data-text="<?= $page->edito()->kirbytext()?>">
+      <?= $page->edito()->kirbytext()->short(500,'...'); ?>
+    </div>
+    <?php if($page->edito()->length() > 500): ?>
+      <span class="link color-accent read-more">&darr;</span>
+    <?php endif; ?>
   </div>
   <div class="media">
     <?php if ($page->headerImage()->isNotEmpty()):
