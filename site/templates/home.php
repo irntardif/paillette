@@ -102,7 +102,7 @@ endif ?>
 
 	// AUTOPLAY
 
-	const myInterval = setInterval(() => carousel.next(), 5000);
+	const myInterval = setInterval(() => carousel.next(), 3000);
 
 	document.querySelector(".prev").addEventListener("click", () => {
 	    carousel.prev();

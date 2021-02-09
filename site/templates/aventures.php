@@ -13,20 +13,24 @@
         <?php switch ($type) {
         case 'stage':
             $title = 'Les Stages';
-            $desc = $page->stageText()->kirbytext();
+            $desc   =   $page->stageText()->kirbytext();
+            $link   =   $page->stageLinks()->toStructure();
             break;
         case 'immersion':
-            $title = 'Immersion dans la création';
-            $desc =  $page->immersionText()->kirbytext();
+            $title  = 'Immersion dans la création';
+            $desc   =  $page->immersionText()->kirbytext();
+            $link   =  $page->immersionLinks()->toStructure();
             break;
         case 'projet':
-            $title = 'Projets en complicité';
-            $desc =  $page->projectText()->kirbytext();
+            $title  = 'Projets en complicité';
+            $desc   =  $page->projectText()->kirbytext();
+            $link   =  $page->projectLinks()->toStructure();
             break;
         case 'sortie-classe':
-            $title = 'Sorties de Classes';
-            $desc =  $page->classExitsText1()->kirbytext();
-            $desc2 =  $page->classExitsText2()->kirbytext();
+            $title  = 'Sorties de Classes';
+            $desc   =  $page->classExitsText1()->kirbytext();
+            $desc2  =  $page->classExitsText2()->kirbytext();
+            $link   =  $page->classLinks()->toStructure();
             break;
 
         }?>
@@ -39,6 +43,7 @@
             <div class='grid c-2'>
               <div class="text margin_t-m">
                 <?= $desc; ?>
+                <?php snippet('blocks/buttonLink', array('data' => $link)); ?>
               </div>
               <div class="text margin_t-m">
                 <?php if($type == 'sortie-classe'):
@@ -47,7 +52,9 @@
               </div>
             <!-- <?php snippet('artists-list', array('collection' => $aventuresP->children()->listed()->filterBy('intendedTemplate', $type))); ?>   -->
             </div class="text margin_t-m">
-            <?php snippet('filters', array('categories' => ['' => "Tous les âges", '.children1' => '4-5 ans', '.children2' => '6-10 ans', '.teen1' => '11-14 ans', '.teen2' => '15-18 ans', '.students' => 'étudiants', '.adults' => 'adultes'])); ?>
+            <?php if($type == 'stage'):
+            snippet('filters', array('categories' => ['' => "Tous les âges", '.children1' => '4-5 ans', '.children2' => '6-10 ans', '.teen1' => '11-14 ans', '.teen2' => '15-18 ans', '.students' => 'étudiants', '.adults' => 'adultes'])); ?>
+          <?php endif; ?>
             <ul class="filter-grid grid c-3">
             <?php foreach ($aventuresP->children()->listed()->filterBy('intendedTemplate', $type) as $adventure): ?>
               <?php snippet('thumb', array('event' => $adventure)); ?>

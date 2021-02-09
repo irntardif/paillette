@@ -333,9 +333,11 @@ Pagebuilder:
   buttonlink:
     - 
       linklabel: 'Annick Quistrebert '
-      linktype: mail
+      linktype: file
       linkurl: ""
       mailaddr: loc.salle@la-paillette.net
+      doc:
+        - mockup-1111.pdf
   workspaces_1:
     - 
       location: ""

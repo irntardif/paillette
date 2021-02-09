@@ -34,6 +34,7 @@ Visitslinks:
   linktype: mail
   linkurl: ""
   mailaddr: mediation@la-paillette.net
+  doc: [ ]
 
 ----
 
@@ -45,11 +46,23 @@ Stagetext: Sur des temps courts, des week-ends ou des journées pendant les vaca
 
 ----
 
+Stagelinks: 
+
+----
+
 Immersiontext: Si l’envie de vous plonger dans un procédé créatif vous démange, n’hésitez plus et rejoignez-nous ! Avec plusieurs projets annuels en lien direct avec le travail d’une équipe artistique accueillie, nous vous proposons de passer des fauteuils au plateau. Ces projets, pensés en amont avec les compagnies professionnelles, peuvent proposer aux amateurs de monter sur scène dans des formes participatives ou leur offrir la possibilité d’intervenir dans le processus de création en réfléchissant aux côtés des metteur·e·s en scène et artistes présent·e·s dans nos murs..
 
 ----
 
+Immersionlinks: 
+
+----
+
 Projecttext: Ouverts aux acteurs culturels souhaitant développer un projet dans ou hors les murs de La Paillette, ces projets en complicité sont le fruit de rencontres et d’envies communes. Réflexion autour de la thématique du projet, du choix des intervenant·e·s, des tenants logistiques, des possibilités de financement.. tout est possible, il suffit d’en discuter ensemble.
+
+----
+
+Projectlinks: 
 
 ----
 
@@ -69,6 +82,18 @@ Classexitstext2:
 Souliers de sable : Ven 11 déc à 14h30
 Le Roi des nuages : Jeu 11 et Ven 12 fév. à 14h30
 De l’avenir incertain du monde merveilleux dans lequel nous vivons : Mar 23 mars à 14h30
+
+----
+
+Classlinks:
+
+- 
+  linklabel: Contact
+  linktype: file
+  linkurl: ""
+  mailaddr: ""
+  doc:
+    - mockup-1111.pdf
 
 ----
 
