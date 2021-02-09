@@ -51,6 +51,13 @@ tabs:
           hours:
             label: Horaires
             type: text
+          isFull:
+            label: Complet ?
+            type: toggle
+            text: 
+              - non
+              - oui
+            width: 1/3
           contactMail:
             label: Adresse de contact
             type: email
@@ -116,28 +123,22 @@ tabs:
               description:
                 label: Description générale
                 type: textarea
+              highlightedBlocks:
+                label: Blocs secondaires
+                type: structure
+                max: 2
                 fields:
-                  public:
-                    label: Type de public
+                  title:
+                    label: Titre
                     type: text
-                    width: 1/3
-                  hours:
-                    label: Horaires
-                    type: text
-                    width: 1/3
-                  isFull:
-                    label: Complet ?
-                    type: toggle
-                    text: 
-                      - non
-                      - oui
-                    width: 1/3
-                  description:
-                    label: Description
-                    type: textarea
-
-
-              links: sections/links
+                    width: 1/2
+                  contentText:
+                    label: Contenu
+                    type: writer
+                help: Maximum 2
+              links: 
+                extends: blocs/buttonLink
+                type: structure  
   related:
     label: pour aller plus loin...
     icon: attachment

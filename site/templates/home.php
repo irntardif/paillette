@@ -88,7 +88,6 @@ endif ?>
 
     prev.addEventListener('click', () => {
         carousel.prev();
-        console.log(Math.round(carousel.innerElements.length / carousel.perPage));
         carousel.currentSlide == 0 ? prev.classList.add('inactive') : prev.classList.remove('inactive');
         carousel.currentSlide == carousel.innerElements.length - carousel.perPage ? next.classList.add('inactive') : next.classList.remove('inactive');
       }

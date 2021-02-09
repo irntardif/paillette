@@ -23,6 +23,10 @@ Hours: de 10h à 16h
 
 ----
 
+Isfull: true
+
+----
+
 Contactmail: 
 
 ----
@@ -72,7 +76,39 @@ Description: Pour expérimenter cette technique simple de gravure, les participa
 
 ----
 
-Links: 
+Highlightedblocks:
+
+- 
+  title: Financeurs
+  contenttext: '<p>la DRAC Bretagne<br>dispositif KARTA et La Paillette</p>'
+- 
+  title: Partenaires
+  contenttext: '<p>Coucou les petits moineau</p>'
+
+----
+
+Links:
+
+- 
+  linklabel: contact
+  linktype: mail
+  linkurl: ""
+  mailaddr: bonjour@irenetardif.com
+  doc: [ ]
+- 
+  linklabel: pdf
+  linktype: file
+  linkurl: ""
+  mailaddr: bonjour@irenetardif.com
+  doc:
+    - paillette-v4.pdf
+- 
+  linklabel: url
+  linktype: url
+  linkurl: https://google.fr
+  mailaddr: bonjour@irenetardif.com
+  doc:
+    - paillette-v4.pdf
 
 ----
 

@@ -14,15 +14,13 @@ Categories:
 
 ----
 
-Cover: - lectures-3textes-cover.jpg
+Cover:
+
+- lectures-3textes-cover.jpg
 
 ----
 
 Creation: false
-
-----
-
-Cohosting: false
 
 ----
 
@@ -64,7 +62,9 @@ Ticketing: http://forumsirius.fr/orion/_spectacle.phtml?inst=06007&lg=FR&kld=1&t
 
 ----
 
-Gallery: - lectures-3textes.jpg
+Gallery:
+
+- lectures-3textes.jpg
 
 ----
 
@@ -72,11 +72,17 @@ Company: artistpage
 
 ----
 
-Relatedcompany: - artistes/marine-bachelot-nguyen
+Relatedcompany:
+
+- artistes/marine-bachelot-nguyen
 
 ----
 
 Companyname: 
+
+----
+
+Accentinfos: 
 
 ----
 
@@ -97,6 +103,22 @@ La lecture est suivie d'un temps de discussion avec les auteurs qui seront prés
 
 ----
 
+Links:
+
+- 
+  linklabel: Dossier artistique
+  linktype: file
+  linkurl: ""
+  mailaddr: ""
+  doc:
+    - paillette-v4.pdf
+  label: Appel à textes de théâtre
+  url: >
+    http://www.lumieredaout.net/7-pages/504-appel-a-textes-de-theatre
+  document: [ ]
+
+----
+
 Distribution: 
 
 ----
@@ -105,14 +127,7 @@ Credits:
 
 ----
 
-Links:
-
-- 
-  label: Appel à textes de théâtre
-  linktype: external
-  url: >
-    http://www.lumieredaout.net/7-pages/504-appel-a-textes-de-theatre
-  document: [ ]
+Highlightedblocks: 
 
 ----
 
@@ -121,6 +136,10 @@ Relatedpages:
 ----
 
 Press: 
+
+----
+
+Cohosting: false
 
 ----
 

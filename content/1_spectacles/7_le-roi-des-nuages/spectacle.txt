@@ -6,7 +6,7 @@ Type: show
 
 ----
 
-Genre: puppets
+Genre: marionnettes
 
 ----
 
@@ -22,10 +22,6 @@ Cover:
 ----
 
 Creation: false
-
-----
-
-Cohosting: false
 
 ----
 
@@ -94,6 +90,10 @@ Companyname: Yoann Pencolé /Compagnie Zusvex
 
 ----
 
+Accentinfos: 
+
+----
+
 Description:
 
 Cirrus, stratus, cumulus, cumulonimbus… Hélios, 8 ans et 11 jours, connaît chaque nuage par son nom, sait tout des arc-en-ciels, et peut prévoir le temps qu’il va faire en regardant le ciel. Une vraie station météo dit Élisa, en classe avec lui. Hélios a ses rituels immuables. Il déteste le bruit de la cour de récréation et ne comprend pas toujours les sentiments des autres enfants. Mais Sofia, son assistante de vie scolaire, l’aide à les reconnaître : la tristesse, la colère, la joie… Est-ce que l’on peut ressentir deux choses différentes en même temps ?
@@ -123,6 +123,10 @@ Relatedpages:
 ----
 
 Press: 
+
+----
+
+Cohosting: false
 
 ----
 

@@ -1,4 +1,8 @@
-<?php if ($related->isNotEmpty()): ?>
+<?php
+
+$carousel = true;
+ if ($related->isNotEmpty()): 
+?>
 <div>
 	<h2 class="h2 margin_b-m"><?= $page->intendedTemplate() == 'spectacle' ? 'Autour du spectacle' : 'Pour aller plus loin'; ?></h2>
   	<div class="carousel-related margin_b-l">
@@ -8,20 +12,3 @@
   	</div>
 </div>
 <?php endif; ?>
-
-<script>
-  new Siema({
-    selector: '.carousel-related',
-    duration: 400,
-    easing: 'ease-out',
-    perPage: 3,
-    startIndex: 0,
-    draggable: true,
-    multipleDrag: true,
-    threshold: 20,
-    loop: false,
-    rtl: false,
-    onInit: () => {},
-    onChange: () => {},
-  });
-</script>

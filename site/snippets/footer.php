@@ -106,7 +106,25 @@
     'assets/js/index.js',
     '@auto'
   ]) ?>
-
+   <?php  
+    if($page->parent() && $page->parent()->intendedTemplate()->name() == 'aventures' || $page->parent() && $page->parent()->intendedTemplate()->name() == 'spectacles' ): ?>
+    <script>
+    new Siema({
+      selector: '.carousel-related',
+      duration: 400,
+      easing: 'ease-out',
+      perPage: 3,
+      startIndex: 0,
+      draggable: true,
+      multipleDrag: true,
+      threshold: 20,
+      loop: false,
+      rtl: false,
+      onInit: () => {},
+      onChange: () => {},
+    });
+  </script>
+<?php endif; ?>
 </body>
 </html>
 

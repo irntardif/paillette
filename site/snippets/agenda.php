@@ -10,12 +10,24 @@ foreach($events as $key => $event):
 		}else{
 			$company = $event->intervenant()->isNotEmpty() ? $event->intervenant()->toPage()->title()->value() : '';
 		}
+
+		$genre = $event->genre()->isNotEmpty() ? $event->genre()->value() : $event->intendedTemplate()->name();
+
+		switch ($genre) {
+			case 'sortie-classe':
+				$genre = 'sortie de classe';
+				break;
+			default:
+				$genre = $genre;
+				break;
+		}
+
 		$eventArray = [];
 		$eventArray['id'] = $event->id();
 		$eventArray['title'] = $event->title()->value();
 		$eventArray['url'] = $event->url();
 		$eventArray['company'] = $company;
-		$eventArray['genre'] = $event->genre()->isNotEmpty() ? $event->genre()->value() : $event->intendedTemplate()->name();
+		$eventArray['genre'] = $genre;
 		$eventArray['backgroundColor'] = '##000';
 		$eventArray['textColor'] = '#000';
 		$eventArray['allDay'] = true;

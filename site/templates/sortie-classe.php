@@ -23,6 +23,10 @@
           </div>
           <div class="column" style="--columns: 4; align-self: flex-end;">
             <span style="font-size:1.16em" class="uppercase"><?= $page->intendedTemplate(); ?></span>
+            <?php  
+            if($page->isFull()->toBool()): ?>
+              <span style="font-size:1.16em" class="color-accent">– COMPLET</span>
+            <?php endif; ?>
           </div>
         </header>
 
@@ -31,39 +35,25 @@
           <?php if($page->accentinfos()->isNotEmpty()): ?>
             <div class="color-accent" style="font-size:1.16em; line-height:1.4"><?= $page->accentinfos()->kirbytext(); ?></div>
           <?php endif; ?>
-          <div class="margin_b-l" style="font-size:1.16em; line-height:1.4"><?= $page->description()->kirbytext(); ?></div>
-          <?php snippet('about', array('speaker' => $page->intervenant()->toPage(), 'class' => 'btn-light')) ?>
-
-          <ul class="no_m">
-            <?php foreach ($page->planning()->toStructure() as $key => $timeslot):
-            $isDesc = $timeslot->description()->isNotEmpty();  ?>
-            
-            <section class="dropdown-bloc bloc-small" data-dropdown="<?= $isDesc ? 'true' : 'false' ?>" data-id="<?=$key?>">
-              <header class="no_m flex wrap space-between">
-                <span style="width:15%"><?=$timeslot->public()?></span>
-                <span style="width:25%"><?=$timeslot->hours()?></span>
-                <?php if($timeslot->isFull()->toBool()): ?> 
-                  <span style="width:10%"><span class="label bg-light">complet</span></span>
-                <?php else: ?>
-                  <span style="width:10%"></span>
-                <?php endif; ?>
-                <span class="open-icon no_m"></span>
-              </header>
-              <?php if($timeslot->description()->isNotEmpty()): ?>
-              <div class="wrapper no_m">
-                <?= $timeslot->description()->kirbytext() ?>
+          <div class="margin_b-m" style="font-size:1.16em; line-height:1.4">
+            <?= $page->description()->kirbytext(); ?>
+            <?php snippet('blocks/buttonLink', array('data' => $page->links()->toStructure(), 'class' => 'btn-light')); ?>  
+          </div>
+          <?php if ($page->highlightedBlocks()->isNotEmpty()): ?>
+          <div class="grid c-2 margin_b-m">
+            <?php foreach ($page->highlightedBlocks()->toStructure() as $bloc): ?>
+               <div>
+                <p class="underline"><?= $bloc->title(); ?></p>
+                <?= $bloc->contentText()->kirbytext(); ?>
               </div>
-            <?php endif; ?>
-            </section>
-           <?php endforeach ?>
-          </ul>
-          
-          <?php snippet('links', array('links' => $page->links()->toStructure(), 'class' => 'btn-light')) ?>
-
+            <?php endforeach; ?>
+          </div>
+          <?php endif; ?>
+          <?php snippet('about', array('speaker' => $page->intervenant()->toPage(), 'class' => 'btn-light')) ?>
         </section>
         <aside class="column" style="--columns: 4">
           <?php if($page->level()->isNotEmpty()): ?>
-            <div class="margin_b-m" style="font-size:1.16em; line-height:1.4"><?= $page->level()->kirbytext(); ?></div>
+            <div style="font-size:1.16em; line-height:1.4"><?= $page->level()->kirbytext(); ?></div>
           <?php endif; ?>
           <?php if($page->dates()->isNotEmpty()): ?>
           <span style="font-size:1.16em"><?php snippet('dates', array('representations' => $page->dates())) ?></span>
@@ -89,9 +79,9 @@
     </article>
     <?php snippet('related-events', array('related' => $page->relatedPages())) ?>
     <?php snippet('next-prev', array('template' => 'Sortie de classe', 'type' => 'f')) ?>
+  </div>
 </main>
 
 <?php snippet('footer') ?>
 
 
- 

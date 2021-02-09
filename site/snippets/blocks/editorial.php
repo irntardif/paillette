@@ -12,14 +12,14 @@
       <div class="grid c-2">
     <?php foreach($data->builder2()->toBuilderBlocks() as $block):
 
-      snippet('blocks/' . $block->_key(), array('data' => $block));
+      snippet('blocks/' . $block->_key(), array('data' => $block, 'class' => "btn-light"));
       endforeach;
     endif;
 
     if($data->builder3()->isNotEmpty() && $data->layout() == 'c-3'): ?>
       <div class="grid c-3">
         <?php foreach($data->builder3()->toBuilderBlocks() as $block):
-          snippet('blocks/' . $block->_key(), array('data' => $block));
+          snippet('blocks/' . $block->_key(), array('data' => $block, 'class' => "btn-light"));
         endforeach; ?>
       </div>
     <?php endif ?>

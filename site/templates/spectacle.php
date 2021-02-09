@@ -36,24 +36,38 @@
             <?php if($page->accentinfos()->isNotEmpty()): ?>
              <div class="margin_b-s color-accent" style="font-size:1.16em; line-height:1.4"><?= $page->accentinfos()->kirbytext(); ?></div>
             <?php endif; ?>
-            <div class="margin_b-l" style="font-size:1.16em; line-height:1.4"><?= $page->description()->kirbytext(); ?></div>
-            <?php snippet('links', array('links' => $page->links()->toStructure(), 'class' => 'btn-light')) ?>
-            
+            <div class="margin_b-l" style="font-size:1.16em; line-height:1.4">
+              <?= $page->description()->kirbytext(); ?>
+              <?php snippet('blocks/buttonLink', array('data' => $page->links()->toStructure(), 'class' => 'btn-light')); ?>  
+            </div>
+            <?php if ($page->highlightedBlocks()->isNotEmpty()): ?>
+
             <div class="grid c-2">
               <?php if ($page->distribution()->isNotEmpty()): ?>
               <div>
-                <p class="underline margin_b-s margin_t-m">Distribution</p>
+                <p class="underline margin_b-s">Distribution</p>
                 <?= $page->distribution()->kirbytext(); ?>
 
               </div>
               <?php endif; ?>
               <?php if ($page->credits()->isNotEmpty()): ?>
               <div>
-                <p class="underline margin_b-s margin_t-m">Crédits</p>
+                <p class="underline margin_b-s">Crédits</p>
                 <?= $page->credits()->kirbytext(); ?>
               </div>
               <?php endif; ?>
             </div>
+            <div class="grid c-2 margin_b-m margin_t-m">
+              <?php foreach ($page->highlightedBlocks()->toStructure() as $bloc): ?>
+                 <div>
+                  <p class="underline"><?= $bloc->title(); ?></p>
+                  <?= $bloc->contentText()->kirbytext(); ?>
+                </div>
+              <?php endforeach; ?>
+            </div>
+            <?php endif; ?>
+            
+            
             <?php if ($page->relatedCompany()->isNotEmpty()): ?>
               <?php snippet('about', array('speaker' => $page->relatedCompany()->toPage(), 'class' => 'btn-light')) ?>
             <?php endif; ?>

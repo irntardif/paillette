@@ -137,6 +137,9 @@ tabs:
               description:
                 label: Description
                 type: textarea
+              links: 
+                extends: blocs/buttonLink
+                type: structure
               distribution:
                 label: Distribution
                 type: textarea
@@ -145,7 +148,20 @@ tabs:
                 label: Credits
                 type: textarea
                 width: 1/2
-              links: sections/links
+              highlightedBlocks:
+                label: Blocs secondaires
+                type: structure
+                max: 2
+                fields:
+                  title:
+                    label: Titre
+                    type: text
+                    width: 1/2
+                  contentText:
+                    label: Contenu
+                    type: writer
+                help: Maximum 2
+              
   related:
     label: Autour de...
     icon: attachment

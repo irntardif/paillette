@@ -12,7 +12,7 @@
         <div class="grid c-3">
           <?php foreach($data->workspaces()->toStructure() as $workspace): ?>
             <div>
-              <figure class="blue-filter">
+              <figure>
                 <?php if($workspace->img()->isNotEmpty()):
                 $img = $workspace->img()->toFile();  ?>
                 <img src="<?= $img->thumb()->url() ?>" data-src="<?= $img->url() ?>" alt="<?= $img->filename() ?>" data-srcset="<?= $img->srcset() ?>"/>

@@ -43,7 +43,7 @@
             <div class='grid c-2'>
               <div class="text margin_t-m">
                 <?= $desc; ?>
-                <?php snippet('blocks/buttonLink', array('data' => $link)); ?>
+                <?php snippet('blocks/buttonLink', array('data' => $link, 'class' => 'btn-light')); ?>
               </div>
               <div class="text margin_t-m">
                 <?php if($type == 'sortie-classe'):
@@ -72,7 +72,7 @@
             <div class='grid c-2'>
             	<div class="text margin_t-m">
                 	<?= $page->visitsText()->kirbytext(); ?>
-                  <?php snippet('blocks/buttonLink', array('data' => $page->visitsLinks()->toStructure())); ?>
+                  <?php snippet('blocks/buttonLink', array('data' => $page->visitsLinks()->toStructure(), 'class' => 'btn-light')); ?>
               </div>
               <?php snippet('headerImg', array('imgs' => $page->visitsImage())); ?>
             </div>

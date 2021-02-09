@@ -24,10 +24,6 @@ Creation: false
 
 ----
 
-Cohosting: false
-
-----
-
 Cohostinginfos:
 
 - 
@@ -79,6 +75,10 @@ Companyname:
 
 ----
 
+Accentinfos: 
+
+----
+
 Description:
 
 Le spectacle Sauvage initialement prévu du 27 au 30 janvier est reporté. Nous vous tiendrons informés des dates choisies dès que nous les connaitrons.
@@ -88,10 +88,21 @@ Et si on faisait complètement différemment ? Si on changeait certaines règles
 À la manière des cadavres exquis, du jeu Dixit ou des matchs d’impro, entourée d’une équipe modulable de dix comédiens et techniciens, la metteuse en scène Frédérique Mingant imagine une façon novatrice et ludique de faire, (peut-être) du théâtre.
 Au préalable il faudrait déterminer un terrain de jeu, et quelques règles élémentaires, dont celle, poétique, d’être attentif aux signes. On ferait la part belle à l’improvisation, les thématiques seraient tirées aux dés et les consignes puisées dans un chapeau. Le public prendrait sa part en collaborant à ce tohu-bohu bien orchestré. Et finalement, on réaliserait quelque chose qu’il faudrait nommer.
 
-+ Autour du spectacle :
-Lecture autour de la thématique « Sauvage » en amont du spectacle.
-Par les élèves du cycle 1 du département Théâtre encadrés par Sarah Mirante-Petit
-En partenariat avec le Conservatoire à Rayonnement Régional de Rennes (CRR)
+----
+
+Links:
+
+- 
+  linklabel: Appel à textes
+  linktype: url
+  linkurl: >
+    http://www.lumieredaout.net/7-pages/504-appel-a-textes-de-theatre
+  mailaddr: ""
+  doc: [ ]
+  label: Appel à textes de théâtre
+  url: >
+    http://www.lumieredaout.net/7-pages/504-appel-a-textes-de-theatre
+  document: [ ]
 
 ----
 
@@ -103,14 +114,11 @@ Credits: Mise en scène : Frédérique Mingant
 
 ----
 
-Links:
+Highlightedblocks:
 
 - 
-  label: Appel à textes de théâtre
-  linktype: external
-  url: >
-    http://www.lumieredaout.net/7-pages/504-appel-a-textes-de-theatre
-  document: [ ]
+  title: Autour du spectacle
+  contenttext: '<p>Lecture autour de la thématique « Sauvage » en amont du spectacle.<br>Par les élèves du cycle 1 du département Théâtre encadrés par Sarah Mirante-Petit<br>En partenariat avec le Conservatoire à Rayonnement Régional de Rennes (CRR)</p>'
 
 ----
 
@@ -119,6 +127,10 @@ Relatedpages:
 ----
 
 Press: 
+
+----
+
+Cohosting: false
 
 ----
 

@@ -68,6 +68,10 @@ Companyname: Collectif Bajour / Hector Manuel
 
 ----
 
+Accentinfos: 
+
+----
+
 Description:
 
 Il y a le temps où l’idée germe et le temps où elle éclot. Entre les deux, il peut se passer des mois, voire des années. Avant la création du spectacle On ne dit pas j’ai crevé prévue en octobre 2021, Enora Boëlle nous offre un temps de lecture faisant entendre l'intégralité de cette partition sensible autour du thème de la mort. On y perçoit ce moment où tout s'arrête, on assiste à la mise en place de la cérémonie pour dire " au revoir". Coeur, poumons, cerveau... lorsque le corps cesse d'être, n'est-ce pas finalement le meilleur moment pour parler de la vie qui l'habitait avant tout ?
@@ -75,6 +79,22 @@ Il y a le temps où l’idée germe et le temps où elle éclot. Entre les deux,
 Un temps d’échange avec l'équipe artistique est organisé à l’issue de la lecture.
 
 Spectacle organisé en partenariat avec le Festival Marmaille.
+
+----
+
+Links:
+
+- 
+  linklabel: Dossier artistique
+  linktype: file
+  linkurl: ""
+  mailaddr: ""
+  doc:
+    - mockup-1111.pdf
+  label: Dossier artistique
+  url: ""
+  document:
+    - paillette-v4.pdf
 
 ----
 
@@ -86,13 +106,7 @@ Credits: Lecture : Enora Boëlle / Texte : Robin Lescouët
 
 ----
 
-Links:
-
-- 
-  label: Dossier artistique
-  linktype: document
-  url: ""
-  document: [ ]
+Highlightedblocks: 
 
 ----
 
