@@ -7,7 +7,7 @@
     <div class="grid default">
       <div class="text">
         <?= $page->text()->kt() ?>
-        <?php snippet('links', array('links' => $page->links()->toStructure(), 'class' => 'eye')); ?>
+        <?php snippet('blocks/buttonLink', array('data' => $page->links()->toStructure(), 'class' => 'btn-light')); ?>
       </div>
       <div class="media">
         <?php if ($page->cover()->isNotEmpty()):

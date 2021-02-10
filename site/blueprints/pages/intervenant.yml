@@ -38,7 +38,9 @@ columns:
       bio:
         label: À propos
         type: textarea
-      links: sections/links
+      links: 
+        extends: blocs/buttonLink
+        type: structure
       workshops:
         label: Ateliers
         type: pages

@@ -40,7 +40,9 @@ columns:
               contentText:
                 label: Contenu
                 type: writer
-              links: sections/links
+              links: 
+                extends: blocs/buttonLink
+                type: structure
           hr2:
             type: line
           highlightedBlocks:
@@ -62,7 +64,9 @@ columns:
               contentText:
                 label: Contenu
                 type: writer
-              links: sections/links
+              links: 
+                extends: blocs/buttonLink
+                type: structure
           hr3:
             type: line
           focus: sections/focus

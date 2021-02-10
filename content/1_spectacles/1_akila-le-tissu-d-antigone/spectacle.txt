@@ -82,6 +82,42 @@ L'accueil de ce spectacle bénéficie du dispositif de soutien à la diffusion �
 
 ----
 
+Links:
+
+- 
+  linklabel: Test
+  linktype: url
+  linkurl: https://google.fr
+  mailaddr: ""
+  doc: [ ]
+  page: [ ]
+- 
+  linklabel: Test-mail
+  linktype: mail
+  linkurl: https://google.fr
+  mailaddr: bonjour@irenetardif.com
+  doc: [ ]
+  page: [ ]
+- 
+  linklabel: Test-doc
+  linktype: file
+  linkurl: https://google.fr
+  mailaddr: bonjour@irenetardif.com
+  doc:
+    - paillette-v4.pdf
+  page: [ ]
+- 
+  linklabel: Test-doc
+  linktype: page
+  linkurl: https://google.fr
+  mailaddr: bonjour@irenetardif.com
+  doc:
+    - paillette-v4.pdf
+  page:
+    - infos
+
+----
+
 Distribution: 
 
 ----
@@ -90,7 +126,7 @@ Credits: Lecture : Enora Boëlle / Texte : Robin Lescouët
 
 ----
 
-Links: 
+Highlightedblocks: 
 
 ----
 

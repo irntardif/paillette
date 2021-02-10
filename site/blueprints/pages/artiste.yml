@@ -40,8 +40,9 @@ columns:
         type: text
         label: Nom de la Création
         help: Indiquer le nom de la Création si ce n'est pas une fiche spectacle.
-     
-      links: sections/links
+      links: 
+        extends: blocs/buttonLink
+        type: structure
   - width: 2/3
     fields:
       cover: fields/cover

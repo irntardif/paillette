@@ -143,14 +143,14 @@ button {
 
 .btn{
   border-radius: 60px;
-  padding: 10px 20px;
+  padding: 8px 20px 10px 20px;
   background-color: var(--color-accent);
   border:none;
   display: inline-block;
   text-decoration: none;
   transition: background .3s ease;
   text-align:center;
-  line-height:1.1;
+  line-height:1.2;
   margin: 10px 25px 10px 0;
   border:1px solid transparent;
 }
@@ -184,9 +184,10 @@ button {
   background-color: rgb(245, 245, 245);
 }
 
-.btn.bg-main:hover{
-  background-color: rgb(201, 249, 255);
+.btn-light.icon.eye:hover:before{
+  background: url(../icons/eye-accent.svg) no-repeat center;
 }
+
 .btn-light.icon.download:hover:before{
   background: url(../icons/download-accent.svg) no-repeat center;
 }
@@ -199,19 +200,19 @@ button {
   background: url(../icons/mail-accent.svg) no-repeat center;
 }
 
-/*.btn-light:hover:before{
-  filter: grayscale(100%);
-  background-blend-mode: saturation;
-}*/
+.btn.btn-light.bg-main:hover{
+  background-color: rgb(201, 249, 255);
+}
 
 .btn.icon:before{
   content:"";
   display:inline-block;
-  width: 17px;
-  height:17px;
-  margin-right: .7em;
+  width: 22px;
+  height:22px;
+  margin-right: .5em;
   position:relative;
-  top:2px;
+  top:4px;
+  background-size:100%;
 }
 
 .btn.prev:before{
@@ -254,21 +255,12 @@ button {
   background: url(../icons/download.svg) no-repeat center;
 }
 
-
-
 .icon.url:before{
   background: url(../icons/link.svg) no-repeat center;
 }
 
-.btn.icon.eye{
-  line-height: 1.5;
-}
-
 .icon.eye:before{
   background: url(../icons/eye.svg) no-repeat center;
-  top:3px;
-  width:25px;
-  height:20px;
 }
 
 .icon.contact:before{
@@ -1083,6 +1075,9 @@ iframe{
   border: 0;
 }
 
+.margin_b-xs {
+  margin-bottom: .5rem;
+}
 .margin_b-s {
   margin-bottom: .75rem;
 }

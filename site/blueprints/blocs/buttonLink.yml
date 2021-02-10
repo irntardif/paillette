@@ -11,6 +11,7 @@ fields:
       url: Url 
       mail: Adresse mail
       file: Document
+      page: Page
     width: 1/2
   linkUrl: 
     type: url
@@ -33,3 +34,9 @@ fields:
     template: document
     query: page.files.filterBy('template', 'document')
     width: 1/2
+  page:
+    type: pages
+    width: 1/2
+    query: site.pages
+    when: 
+      linkType : page

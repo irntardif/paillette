@@ -52,7 +52,7 @@
                <?php endforeach ?>
               </ul>
             </div>
-            <?php snippet('links', array('links' => $page->links()->toStructure(), 'class' => 'btn-light')) ?>
+            <?php snippet('blocks/buttonLink', array('data' => $page->links()->toStructure(), 'class' => 'btn-light')) ?>
             <?php if ($page->intervenant()->isNotEmpty()): ?>
               <?php snippet('about', array('speaker' => $page->intervenant()->toPage(), 'class' => 'btn-light')) ?>
             <?php endif; ?>

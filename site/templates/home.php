@@ -32,7 +32,7 @@
 					<div class="wrapper grid-wrapper">
 						<div class="text margin_t-m">
 							<?= $new->contentText()->kirbyText() ?>
-							<?php snippet('links', array('links'=> $new->links()->toStructure(), 'class' => 'eye' )) ?>
+							<?php snippet('blocks/buttonLink', array('data'=> $new->links()->toStructure(), 'class' => 'eye' )) ?>
 						</div>
 					</div>
 		        </section>
@@ -49,7 +49,8 @@
 							<?php if($block->contentText()->isNotEmpty()):?>
 								<?= $block->contentText()->kirbyText() ?>
 							<?php endif; ?>
-							<?php snippet('links', array('links'=> $block->links()->toStructure(), 'class' => 'eye' )) ?>
+
+							<?php snippet('blocks/buttonLink', array('data'=> $block->links()->toStructure(), 'class' => 'eye' )) ?> 
 						</div>
 					</div>
 				<?php endforeach; ?>

@@ -23,8 +23,13 @@ News:
   contenttext: "<p>Petite lueur dans cette période de confinement , Marine Bachelot Nguyen et son équipe sont autorisés à passer deux semaines en résidence sur les planches du théâtre pour peaufiner les derniers détails de la création Akila - le tissu d'Antigone, qui aurait dû jouer du 10 au 14 novembre.</p>"
   links:
     - 
+      linklabel: ""
+      linktype: ""
+      linkurl: ""
+      mailaddr: ""
+      doc: [ ]
+      page: [ ]
       label: lien XY
-      linktype: external
       url: https://la-paillette.dev/
       document: [ ]
 
@@ -39,8 +44,14 @@ Highlightedblocks:
   contenttext: '<p>Laboratoires de création, stages, projets avec le public, théâtromobile : milles manières de passer jours et nuits avec La Paillette.</p>'
   links:
     - 
+      linklabel: Toutes les aventures
+      linktype: page
+      linkurl: ""
+      mailaddr: ""
+      doc: [ ]
+      page:
+        - aventures
       label: Toutes les aventures
-      linktype: external
       url: https://dev.la-paillette.net/aventures
       document: [ ]
 - 
@@ -50,8 +61,14 @@ Highlightedblocks:
   contenttext: '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam semper accumsan neque et sagittis. Nulla vitae risus felis. Praesent rutrum, nisi id consectetur fermentum, dui odio hendrerit ante, vitae aliquet ligula quam vel mauris. Suspendisse ut massa ut dui finibus tristique. Suspendisse mattis justo dui,</p>'
   links:
     - 
+      linklabel: Infos Pratiques
+      linktype: url
+      linkurl: https://google.fr
+      mailaddr: ""
+      doc: [ ]
+      page:
+        - infos
       label: Espaces à louer
-      linktype: external
       url: 'http://dev.la-paillette.net/infos#workspaces'
       document: [ ]
 

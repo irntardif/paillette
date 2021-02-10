@@ -116,9 +116,9 @@ tabs:
                   description:
                     label: Description
                     type: textarea
-
-
-              links: sections/links
+              links: 
+                extends: blocs/buttonLink
+                type: structure
   related:
     label: pour aller plus loin...
     icon: attachment

@@ -1,4 +1,11 @@
 <li class="filter-item thumb <?php if($event->public()->isNotEmpty()): echo str_replace(',', '', $event->public()); endif; ?>">
+
+  <?php if($event->level()->isNotEmpty()): ?>
+    <header class="margin_b-xs header-thumb">
+      <span><?= $event->level() ?></span>
+    </header>
+        
+  <?php endif; ?>
   <a href="<?= $event->url() ?>">
     <?php $img = $event->cover()->toFile(); 
     if($img): ?>

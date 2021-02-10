@@ -16,3 +16,18 @@ function switchData($data){
 	}
 	return $icon;
 }
+
+function fetchUrl($data){
+	switch ($data->linkType()) {
+		case 'mail':
+			$href = 'mailto:'.$data->mailaddr()->value();
+			break;
+		case 'page':
+			$href = $data->page()->toPage()->url();
+			break;
+		default:
+			$href = $data->linkUrl();
+			break;
+	}
+	return $href;
+}

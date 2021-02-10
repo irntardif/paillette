@@ -18,6 +18,6 @@
       <?= $artist->creationName(); ?>
     <?php endif; ?>
     <div class="margin_t-s text"><?= $artist->description()->kirbytext(); ?></div>
-    <?php snippet('links', array('links' => $artist->links()->toStructure(), 'class' => 'btn-light')) ?>
+    <?php snippet('blocks/buttonLink', array('data' => $artist->links()->toStructure(), 'class' => 'btn-light')) ?>
   </div>
 </li>
