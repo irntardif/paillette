@@ -104,6 +104,10 @@ tabs:
             label: Informations complémentaires
             type: text
             help: "Ex: Durée 1h05"
+          rprstnTitle:
+            label: Titre du bloc (optionnel)
+            type: text
+            help: 'Ex: Représentation ou Restitution'
           representations:
             label: Representations
             type: structure

@@ -2,7 +2,15 @@ Title: Nuages
 
 ----
 
+Intervenanttype: 
+
+----
+
 Intervenant: 
+
+----
+
+Intervenantname: 
 
 ----
 
@@ -11,6 +19,10 @@ Dates:
 ----
 
 Hours: 
+
+----
+
+Isfull: false
 
 ----
 
@@ -34,6 +46,10 @@ Moreinfos:
 
 ----
 
+Rprstntitle: Restitution
+
+----
+
 Representations:
 
 - 
@@ -45,6 +61,14 @@ Representations:
 Cover:
 
 - bleu.jpg
+
+----
+
+Accentinfos: 
+
+----
+
+Level: 
 
 ----
 
@@ -61,7 +85,15 @@ Découverte du spectacle Le roi des nuages et de l’univers de la compagnie, co
 
 ----
 
+Highlightedblocks: 
+
+----
+
 Links: 
+
+----
+
+Relatedpages: 
 
 ----
 
