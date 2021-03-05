@@ -2,9 +2,17 @@ Title: Marionnettes
 
 ----
 
+Intervenanttype: artistpage
+
+----
+
 Intervenant:
 
 - intervenants/on-t-a-vu-sur-la-pointe
+
+----
+
+Intervenantname: 
 
 ----
 
@@ -20,6 +28,10 @@ Dates:
 ----
 
 Hours: de 10h à 17h
+
+----
+
+Isfull: false
 
 ----
 
@@ -64,6 +76,14 @@ Cover:
 
 ----
 
+Accentinfos: 
+
+----
+
+Level: 
+
+----
+
 Description:
 
 Durant 3 jours, Anne-Cécile Richard et Antoine Malfettes proposent un moment de construction et de manipulation afin de découvrir le plaisir des arts de la marionnette. Après avoir fabriqué votre propre marionnette à partir de matériaux de récupération, découvrez comment passer de l’inerte à l’animé en un clin d’oeil et raconter une histoire dans une forme simple mais irrésistible.
@@ -72,7 +92,15 @@ Encadré par Anne-Cécile Richard et Antoine Malfettes, On t'a vu sur la pointe
 
 ----
 
+Highlightedblocks: 
+
+----
+
 Links: 
+
+----
+
+Relatedpages: 
 
 ----
 

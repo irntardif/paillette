@@ -2,9 +2,18 @@ Title: Sculpture
 
 ----
 
+Intervenanttype: label
+
+----
+
 Intervenant:
 
 - intervenants/francois-soutif
+- intervenants/estelle-jegou-henri-louis
+
+----
+
+Intervenantname: Jean Pierre Pernault
 
 ----
 
@@ -23,6 +32,10 @@ Dates:
 ----
 
 Hours: de 10h à 17h
+
+----
+
+Isfull: false
 
 ----
 
@@ -63,6 +76,14 @@ Cover:
 
 ----
 
+Accentinfos: 
+
+----
+
+Level: 
+
+----
+
 Description:
 
 François Soutif propose un stage de trois jours pour devenir aussi inventif que le maître Pablo Picasso lorsqu’il composa sa fameuse Chèvre en bois, plâtre, métal, poteries en céramique et mêmes grandes feuilles de palmiers !
@@ -72,7 +93,15 @@ De 8 à 11 ans
 
 ----
 
+Highlightedblocks: 
+
+----
+
 Links: 
+
+----
+
+Relatedpages: 
 
 ----
 

@@ -30,10 +30,26 @@ tabs:
         fields:
           # If you need the same field in multiple locations, you can define them once and reuse whereever needed.
           # Here we use a files field defined in `/site/blueprints/field/cover.yml`
-          intervenant:
+          intervenantType:
             label: Intervenant
+            type: select
+            options:
+              artistpage: Fiche Intervenant
+              label: Champ texte
+            default: artistpage
+            width: 1/2
+          intervenant:
+            label: Fiche Intervenant
             type: pages
             query: kirby.collection('contributors')
+            when:
+              intervenantType: artistpage
+          intervenantName:
+              label: Nom de l'intervenant
+              type: text
+              when:
+                intervenantType: label
+              width: 1/2
           dates:
             label: Dates
             type: structure
@@ -46,7 +62,7 @@ tabs:
                 type: select
                 default: all
                 options:
-                  all: Tous publics
+                  all: Tout public
                   school: Scolaires
           hours:
             label: Horaires

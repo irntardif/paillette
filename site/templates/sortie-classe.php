@@ -17,12 +17,18 @@
         <header class="grid margin_t-l">
           <div class="column" style="--columns: 8">
             <h1 class="no_m h1"><?= $page->title(); ?></h1>
-            <?php if($page->intervenant()->isNotEmpty()): ?>
-            <p style="font-size:1.16em"> <?= $page->intervenant()->toPage()->title() ?></p>
+            <?php if($page->intervenantType() == 'artistpage'): ?>
+            <p class='list' style="font-size:1.16em">
+              <?php foreach ($page->intervenant()->toPages() as $intervenant) {
+                echo '<span>'.$intervenant->title().'</span>';
+              } ?>
+            </p>
+            <?php else: ?>
+            <p style="font-size:1.16em"> <?= $page->intervenantName() ?></p>
             <?php endif; ?>
           </div>
           <div class="column" style="--columns: 4; align-self: flex-end;">
-            <span style="font-size:1.16em" class="uppercase"><?= $page->intendedTemplate(); ?></span>
+            <span style="font-size:1.16em" class="uppercase">Sortie de classe</span>
             <?php  
             if($page->isFull()->toBool()): ?>
               <span style="font-size:1.16em" class="color-accent">– COMPLET</span>
@@ -49,7 +55,11 @@
             <?php endforeach; ?>
           </div>
           <?php endif; ?>
-          <?php snippet('about', array('speaker' => $page->intervenant()->toPage(), 'class' => 'btn-light')) ?>
+           <?php if($page->intervenant()->toPages()):
+            foreach ($page->intervenant()->toPages() as $page) {
+              snippet('about', array('speaker' => $page->intervenant()->toPage(), 'class' => 'btn-light'));
+            }
+          endif; ?>
         </section>
         <aside class="column" style="--columns: 4">
           <?php if($page->level()->isNotEmpty()): ?>
@@ -57,6 +67,9 @@
           <?php endif; ?>
           <?php if($page->dates()->isNotEmpty()): ?>
           <span style="font-size:1.16em"><?php snippet('dates', array('representations' => $page->dates())) ?></span>
+          <?php endif; ?>
+          <?php if($page->hours()->isNotEmpty()): ?>
+          <p style="max-width: 200px;"><span style="font-size:1.16em"><?= $page->hours(); ?></span></p>
           <?php endif; ?>
           <span class="color-accent"><?php snippet('representations', 
           array('representations' => $page->representations(), 

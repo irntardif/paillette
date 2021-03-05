@@ -2,9 +2,17 @@ Title: Danse contemporaine
 
 ----
 
+Intervenanttype: artistpage
+
+----
+
 Intervenant:
 
 - intervenants/compagnie-equilibre
+
+----
+
+Intervenantname: 
 
 ----
 
@@ -20,6 +28,10 @@ Dates:
 ----
 
 Hours: de 11h à 18h
+
+----
+
+Isfull: false
 
 ----
 
@@ -67,6 +79,14 @@ Cover:
 
 ----
 
+Accentinfos: 
+
+----
+
+Level: 
+
+----
+
 Description:
 
 Vingt-neuf ans après la disparition du grand chorégraphe Dominique Bagouet, Catherine Legrand, interprète de la Compagnie Bagouet entre 1982 et 1993, recrée en 2020 l'une de ses pièces majeures, So Schnell, qui sera présentée au Triangle dans le cadre du Festival Waterproof, plongez dans la danse. Elle animera un stage à La Paillette durant lequel elle proposera d'aborder quelques danses extraites de So Schnell.
@@ -77,13 +97,26 @@ Adulte - tous niveaux
 
 ----
 
+Highlightedblocks: 
+
+----
+
 Links:
 
 - 
+  linklabel: ""
+  linktype: ""
+  linkurl: ""
+  mailaddr: ""
+  doc: [ ]
+  page: [ ]
   label: Renseignements
-  linktype: external
   url: https://letriangle.org/agenda/so-schnell
   document: [ ]
+
+----
+
+Relatedpages: 
 
 ----
 
