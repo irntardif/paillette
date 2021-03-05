@@ -21,8 +21,49 @@ Creationname:
 Links:
 
 - 
+  linklabel: Mail
+  linktype: mail
+  linkurl: ""
+  mailaddr: mail@mail.fr
+  doc: [ ]
+  page: [ ]
   label: Le joli collectif
-  linktype: external
+  url: >
+    https://theatre-de-poche.com/le-joli-collectif
+  document: [ ]
+- 
+  linklabel: Url
+  linktype: url
+  linkurl: https://google.fr
+  mailaddr: mail@mail.fr
+  doc: [ ]
+  page: [ ]
+  label: Le joli collectif
+  url: >
+    https://theatre-de-poche.com/le-joli-collectif
+  document: [ ]
+- 
+  linklabel: Document
+  linktype: file
+  linkurl: https://google.fr
+  mailaddr: mail@mail.fr
+  doc:
+    - apus-mockup1510.pdf
+  page: [ ]
+  label: Le joli collectif
+  url: >
+    https://theatre-de-poche.com/le-joli-collectif
+  document: [ ]
+- 
+  linklabel: Page
+  linktype: page
+  linkurl: https://google.fr
+  mailaddr: mail@mail.fr
+  doc:
+    - apus-mockup1510.pdf
+  page:
+    - espace-pro
+  label: Le joli collectif
   url: >
     https://theatre-de-poche.com/le-joli-collectif
   document: [ ]
@@ -32,6 +73,14 @@ Links:
 Cover:
 
 - visuel-ondp-jan19.jpg
+
+----
+
+Bio: 
+
+----
+
+Origin: 
 
 ----
 

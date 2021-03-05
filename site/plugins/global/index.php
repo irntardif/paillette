@@ -18,12 +18,16 @@ function switchData($data){
 }
 
 function fetchUrl($data){
+
 	switch ($data->linkType()) {
 		case 'mail':
 			$href = 'mailto:'.$data->mailaddr()->value();
 			break;
 		case 'page':
 			$href = $data->page()->toPage()->url();
+			break;
+		case 'file':
+			$href = $data->doc()->toFile()->url();
 			break;
 		default:
 			$href = $data->linkUrl();
