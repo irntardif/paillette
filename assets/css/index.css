@@ -722,6 +722,15 @@ ul.comma-list li:first-child:before,
   display:none;
 }
 
+p.list span:after{
+  content:',';
+  padding-right:.3em;
+}
+
+p.list span:last-child:after{
+  content:'';
+}
+
 .text {
   line-height: 1.5em;
 }
