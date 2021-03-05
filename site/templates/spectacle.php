@@ -83,7 +83,6 @@
               <ul class="icons-list margin_t-m">
                 <li><a href="tel:<?=$site->ticketingphone()?>"class="menu-icon icon-text underline phone"><?=$site->ticketingphone()?></a></li>
                 <li><a href="<?= $site->find('infos')->url()?>" class="menu-icon icon-text underline infos">Informations pratiques</a></li>
-                <li><a href="<?= $site->find('la-paillette')->url()?>" class="menu-icon icon-text underline marker">La Paillette, côté théâtre</a></li>
               </ul>
             <div class="margin_t-s text">
               <?php snippet('prices', array('prices' => $page->prices())) ?>
