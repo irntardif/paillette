@@ -10,7 +10,7 @@ status:
   listed: true
 
 columns:
-  - width: 2/3
+  - width: 1/2
     sections:
       content:
         type: fields
@@ -18,12 +18,10 @@ columns:
           edito:
             label: Editorial
             type: textarea
-            width: 2/3
           headerImage:
             label: Image d'en tête
             type: files
             multiple: false
-            width: 1/3
             uploads:
               template: image
           hr:
@@ -48,7 +46,7 @@ columns:
           focus: sections/focus
 
 
-  - width: 1/3 
+  - width: 1/2 
     sections:
       listed:
         extends: sections/ateliers

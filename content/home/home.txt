@@ -95,8 +95,13 @@ Focus:
     Petite lueur dans cette période de confinement , Marine Bachelot Nguyen et son équipe sont autorisés à passer deux semaines en résidence sur les planches du théâtre pour peaufiner les derniers détails de la création Akila - le tissu d'Antigone, qui aurait dû jouer du 10 au 14 novembre.
   links:
     - 
+      linklabel: Test Lien
+      linktype: url
+      linkurl: https://la-paillette.net
+      mailaddr: ""
+      doc: [ ]
+      page: [ ]
       label: test lien
-      linktype: external
       url: https://la-paillette.dev/
       document: [ ]
   press: [ ]

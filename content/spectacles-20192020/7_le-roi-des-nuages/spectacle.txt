@@ -1,0 +1,220 @@
+Title: Le roi des nuages
+
+----
+
+Type: show
+
+----
+
+Genre: marionnettes
+
+----
+
+Categories: family
+
+----
+
+Cover:
+
+- >
+  visuel_le-roi-des-nuages_-antonin-lebrun.jpg
+
+----
+
+Creation: false
+
+----
+
+Cohostinginfos:
+
+- 
+  label: Théâtre National de Bretagne
+  url: https://www.t-n-b.fr/
+  logo: [ ]
+- 
+  label: Théâtre Contemporain
+  url: >
+    https://www.theatre-contemporain.net/contacts/Theatre-National-de-Bretagne-TNB/
+  logo: [ ]
+
+----
+
+Moreinfos: <p>1h, dès 8 ans</p>
+
+----
+
+Representations:
+
+- 
+  date: 2021-02-11 14:30:00
+  publictype: school
+- 
+  date: 2021-02-12 14:30:00
+  publictype: school
+- 
+  date: 2021-02-12 19:00:00
+  publictype: all
+
+----
+
+Prices:
+
+- 
+  pricetype: Sur Réservation
+  amount: 0
+
+----
+
+Ticketing: http://forumsirius.fr/orion/_spectacle.phtml?inst=06007&lg=FR&kld=1&tCache=1602771054017&idv=82adff&spec=639
+
+----
+
+Gallery:
+
+- >
+  visuel_le-roi-des-nuages_-antonin-lebrun.jpg
+
+----
+
+Company: label
+
+----
+
+Relatedcompany:
+
+- artistes/marine-bachelot-nguyen
+
+----
+
+Companyname: Yoann Pencolé /Compagnie Zusvex
+
+----
+
+Accentinfos: 
+
+----
+
+Description:
+
+Cirrus, stratus, cumulus, cumulonimbus… Hélios, 8 ans et 11 jours, connaît chaque nuage par son nom, sait tout des arc-en-ciels, et peut prévoir le temps qu’il va faire en regardant le ciel. Une vraie station météo dit Élisa, en classe avec lui. Hélios a ses rituels immuables. Il déteste le bruit de la cour de récréation et ne comprend pas toujours les sentiments des autres enfants. Mais Sofia, son assistante de vie scolaire, l’aide à les reconnaître : la tristesse, la colère, la joie… Est-ce que l’on peut ressentir deux choses différentes en même temps ?
+Pour approcher de manière sensible les états émotionnels que traverse ce petit garçon autiste Asperger, Yoann Pencolé convoque, sur scène, comédiens, marionnettes, projections et théâtre d’ombres.
+Parcours initiatique où le quotidien fait office de grande aventure et l’ordinaire revêt des reflets magiques, Le Roi des Nuages explore les frontières entre norme et anormalité avec subtilité et tendresse.
+
+----
+
+Distribution: 
+
+----
+
+Credits:
+
+Texte : Pauline Thimonnier 
+Mise en scène : Yoann Pencolé 
+Compagnie Zusvex
+
+----
+
+Links: 
+
+----
+
+Relatedpages: 
+
+----
+
+Press: 
+
+----
+
+Cohosting: false
+
+----
+
+Cohostinglogo: 
+
+----
+
+Moreinformations: 
+
+----
+
+Headline: 
+
+----
+
+Subheadline: 
+
+----
+
+Tags: 
+
+----
+
+Images:
+
+- 
+  filename: >
+    lile-2_bajour_loewen-photographie-scaled.jpg
+  dragText: '(image: lile-2_bajour_loewen-photographie-scaled.jpg)'
+  icon:
+    type: file-image
+    ratio: 5/4
+    back: pattern
+    color: '#de935f'
+    cover: true
+    url: >
+      https://la-paillette.dev/media/pages/spectacles/l-ile/fe3a9fb330-1609944032/lile-2_bajour_loewen-photographie-scaled.jpg
+    cards:
+      url: >
+        data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw
+      srcset: >
+        https://la-paillette.dev/media/pages/spectacles/l-ile/fe3a9fb330-1609944032/lile-2-bajour-loewen-photographie-scaled-352x.jpg
+        352w,
+        https://la-paillette.dev/media/pages/spectacles/l-ile/fe3a9fb330-1609944032/lile-2-bajour-loewen-photographie-scaled-864x.jpg
+        864w,
+        https://la-paillette.dev/media/pages/spectacles/l-ile/fe3a9fb330-1609944032/lile-2-bajour-loewen-photographie-scaled-1408x.jpg
+        1408w
+    list:
+      url: >
+        data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw
+      srcset: >
+        https://la-paillette.dev/media/pages/spectacles/l-ile/fe3a9fb330-1609944032/lile-2-bajour-loewen-photographie-scaled-38x38.jpg
+        1x,
+        https://la-paillette.dev/media/pages/spectacles/l-ile/fe3a9fb330-1609944032/lile-2-bajour-loewen-photographie-scaled-76x76.jpg
+        2x
+  id: >
+    spectacles/l-ile/lile-2_bajour_loewen-photographie-scaled.jpg
+  image:
+    ratio: 5/4
+    back: pattern
+    cover: true
+    url: >
+      https://la-paillette.dev/media/pages/spectacles/l-ile/fe3a9fb330-1609944032/lile-2_bajour_loewen-photographie-scaled.jpg
+    cards:
+      url: >
+        data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw
+      srcset: >
+        https://la-paillette.dev/media/pages/spectacles/l-ile/fe3a9fb330-1609944032/lile-2-bajour-loewen-photographie-scaled-352x.jpg
+        352w,
+        https://la-paillette.dev/media/pages/spectacles/l-ile/fe3a9fb330-1609944032/lile-2-bajour-loewen-photographie-scaled-864x.jpg
+        864w,
+        https://la-paillette.dev/media/pages/spectacles/l-ile/fe3a9fb330-1609944032/lile-2-bajour-loewen-photographie-scaled-1408x.jpg
+        1408w
+    list:
+      url: >
+        data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw
+      srcset: >
+        https://la-paillette.dev/media/pages/spectacles/l-ile/fe3a9fb330-1609944032/lile-2-bajour-loewen-photographie-scaled-38x38.jpg
+        1x,
+        https://la-paillette.dev/media/pages/spectacles/l-ile/fe3a9fb330-1609944032/lile-2-bajour-loewen-photographie-scaled-76x76.jpg
+        2x
+  info: 1198 × 600
+  link: >
+    /pages/spectacles+l-ile/files/lile-2_bajour_loewen-photographie-scaled.jpg
+  text: >
+    lile-2_bajour_loewen-photographie-scaled.jpg
+  type: image
+  url: >
+    https://la-paillette.dev/media/pages/spectacles/l-ile/fe3a9fb330-1609944032/lile-2_bajour_loewen-photographie-scaled.jpg
+  uuid: >
+    lile-2_bajour_loewen-photographie-scaled.jpg

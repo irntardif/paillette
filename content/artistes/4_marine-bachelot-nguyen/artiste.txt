@@ -21,8 +21,14 @@ Creationname:
 Links:
 
 - 
+  linklabel: test
+  linktype: file
+  linkurl: https://www.google.fr
+  mailaddr: bonjour@irenetardif.com
+  doc:
+    - declaration-de-ca_01_2021.pdf
+  page: [ ]
   label: "Lumière d'août"
-  linktype: external
   url: http://www.lumieredaout.net/
   document: [ ]
 
@@ -35,6 +41,10 @@ Cover:
 ----
 
 Bio: Dans son travail d’auteure et de metteuse en scène, Marine Bachelot Nguyen explore l’alliance de la fiction et du document, les croisements du corps et du politique.
+
+----
+
+Origin: 
 
 ----
 

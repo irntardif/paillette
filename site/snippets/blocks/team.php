@@ -26,7 +26,6 @@
 	    		<p><a class="micro-text" href="mailto:<?= $item->pemail() ?>"><?= $item->pemail() ?></a></p>
 	    		<?php else: ?>
 	    			<p><span class="small-title"><?= $item->title() ?></span></p>
-	    			<p><span class="micro-text cap"><?= $item->area() ?></span></p>
 	    			<?php foreach($item->workshops()->toPages() as $workshop): ?>
 	    				<p><a class="micro-text" href="<?= $workshop->url()?>"><?= $workshop->title() ?></a></p>
 	    			<?php endforeach;

@@ -40,14 +40,12 @@
               <?= $page->description()->kirbytext(); ?>
               <?php snippet('blocks/buttonLink', array('data' => $page->links()->toStructure(), 'class' => 'btn-light')); ?>  
             </div>
-            <?php if ($page->highlightedBlocks()->isNotEmpty()): ?>
-
+            
             <div class="grid c-2">
               <?php if ($page->distribution()->isNotEmpty()): ?>
               <div>
                 <p class="underline margin_b-s">Distribution</p>
                 <?= $page->distribution()->kirbytext(); ?>
-
               </div>
               <?php endif; ?>
               <?php if ($page->credits()->isNotEmpty()): ?>
@@ -57,6 +55,8 @@
               </div>
               <?php endif; ?>
             </div>
+
+            <?php if ($page->highlightedBlocks()->isNotEmpty()): ?>
             <div class="grid c-2 margin_b-m margin_t-m">
               <?php foreach ($page->highlightedBlocks()->toStructure() as $bloc): ?>
                  <div>
@@ -88,7 +88,7 @@
             <div class="margin_t-s text">
               <?php snippet('prices', array('prices' => $page->prices())) ?>
             </div>
-            <div class="margin_t-m text">
+            <div class="margin_t-m text" style="font-size: 1.1em;line-height: 1.5;">
               <?php if ($page->cohostingInfos()->isNotEmpty()): 
                   echo $page->cohostingInfos()->kt();
                 endif; ?>

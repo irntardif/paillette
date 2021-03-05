@@ -1,0 +1,216 @@
+Title: De l'avenir incertain du monde merveilleux dans lequel nous vivons
+
+----
+
+Type: show
+
+----
+
+Genre: musical
+
+----
+
+Categories: 
+
+----
+
+Cover:
+
+- avenir-incertain.jpg
+
+----
+
+Creation: false
+
+----
+
+Cohosting: false
+
+----
+
+Cohostinginfos:
+
+- 
+  label: Théâtre National de Bretagne
+  url: https://www.t-n-b.fr/
+  logo: [ ]
+- 
+  label: Théâtre Contemporain
+  url: >
+    https://www.theatre-contemporain.net/contacts/Theatre-National-de-Bretagne-TNB/
+  logo: [ ]
+
+----
+
+Moreinfos: <p>1h10, dès 9 ans</p>
+
+----
+
+Representations:
+
+- 
+  date: 2021-03-23 14:30:00
+  publictype: school
+- 
+  date: 2021-03-23 20:00:00
+  publictype: school
+
+----
+
+Prices:
+
+- 
+  pricetype: Sur Réservation
+  amount: 0
+
+----
+
+Ticketing: http://forumsirius.fr/orion/_spectacle.phtml?inst=06007&lg=FR&kld=1&tCache=1602771054017&idv=82adff&spec=642
+
+----
+
+Gallery:
+
+- avenir-incertain.jpg
+
+----
+
+Company: label
+
+----
+
+Relatedcompany: 
+
+----
+
+Companyname: BOB théâtre – Denis Athimon, Bertrand Bouessay
+
+----
+
+Description:
+
+Ses parents, ses enseignants… Tout le monde s’accorde sur un point : Nina est trop gentille. Et dans la société dans laquelle elle grandit, c’est un énorme problème. Sans esprit de compétition ni stratégie commerciale, son potentiel est nul. Bref, Nina est inadaptée. Quand le diagnostic tombe, ses parents optent pour la solution la plus rentable. Et c’est radical.
+Le Bob Théâtre s’attaque, pour de rire, à une forme complexe inouïe : la comédie musicale. Avec le concours du musicien et parolier Bertrand Bouessay, il convoque un quintet à l’imperfection totalement assumée pour interpréter des chansons enflammées et bancales, des chorégraphies exaltées improbables.
+Comment vivre mieux tous ensemble ? À cette question, Le Bob Théâtre, champion des contes détournés et des histoires revisitées, ne répondra pas. Mais il sèmera de petits cailloux pour que chacun se fasse son idée. Avec beaucoup de second degré, d’humour et de dérision.
+
+
+
+RESERVEZ VOS PLACES
+
+----
+
+Distribution: 
+
+----
+
+Credits: Texte, mise en scène : Denis Athimon, Bertrand Bouessay/BOB théâtre
+
+----
+
+Links:
+
+- 
+  label: Appel à textes de théâtre
+  linktype: external
+  url: >
+    http://www.lumieredaout.net/7-pages/504-appel-a-textes-de-theatre
+  document: [ ]
+
+----
+
+Relatedpages: 
+
+----
+
+Press: 
+
+----
+
+Cohostinglogo: 
+
+----
+
+Moreinformations: 
+
+----
+
+Headline: 
+
+----
+
+Subheadline: 
+
+----
+
+Tags: 
+
+----
+
+Images:
+
+- 
+  filename: >
+    lile-2_bajour_loewen-photographie-scaled.jpg
+  dragText: '(image: lile-2_bajour_loewen-photographie-scaled.jpg)'
+  icon:
+    type: file-image
+    ratio: 5/4
+    back: pattern
+    color: '#de935f'
+    cover: true
+    url: >
+      https://la-paillette.dev/media/pages/spectacles/l-ile/fe3a9fb330-1609944032/lile-2_bajour_loewen-photographie-scaled.jpg
+    cards:
+      url: >
+        data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw
+      srcset: >
+        https://la-paillette.dev/media/pages/spectacles/l-ile/fe3a9fb330-1609944032/lile-2-bajour-loewen-photographie-scaled-352x.jpg
+        352w,
+        https://la-paillette.dev/media/pages/spectacles/l-ile/fe3a9fb330-1609944032/lile-2-bajour-loewen-photographie-scaled-864x.jpg
+        864w,
+        https://la-paillette.dev/media/pages/spectacles/l-ile/fe3a9fb330-1609944032/lile-2-bajour-loewen-photographie-scaled-1408x.jpg
+        1408w
+    list:
+      url: >
+        data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw
+      srcset: >
+        https://la-paillette.dev/media/pages/spectacles/l-ile/fe3a9fb330-1609944032/lile-2-bajour-loewen-photographie-scaled-38x38.jpg
+        1x,
+        https://la-paillette.dev/media/pages/spectacles/l-ile/fe3a9fb330-1609944032/lile-2-bajour-loewen-photographie-scaled-76x76.jpg
+        2x
+  id: >
+    spectacles/l-ile/lile-2_bajour_loewen-photographie-scaled.jpg
+  image:
+    ratio: 5/4
+    back: pattern
+    cover: true
+    url: >
+      https://la-paillette.dev/media/pages/spectacles/l-ile/fe3a9fb330-1609944032/lile-2_bajour_loewen-photographie-scaled.jpg
+    cards:
+      url: >
+        data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw
+      srcset: >
+        https://la-paillette.dev/media/pages/spectacles/l-ile/fe3a9fb330-1609944032/lile-2-bajour-loewen-photographie-scaled-352x.jpg
+        352w,
+        https://la-paillette.dev/media/pages/spectacles/l-ile/fe3a9fb330-1609944032/lile-2-bajour-loewen-photographie-scaled-864x.jpg
+        864w,
+        https://la-paillette.dev/media/pages/spectacles/l-ile/fe3a9fb330-1609944032/lile-2-bajour-loewen-photographie-scaled-1408x.jpg
+        1408w
+    list:
+      url: >
+        data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw
+      srcset: >
+        https://la-paillette.dev/media/pages/spectacles/l-ile/fe3a9fb330-1609944032/lile-2-bajour-loewen-photographie-scaled-38x38.jpg
+        1x,
+        https://la-paillette.dev/media/pages/spectacles/l-ile/fe3a9fb330-1609944032/lile-2-bajour-loewen-photographie-scaled-76x76.jpg
+        2x
+  info: 1198 × 600
+  link: >
+    /pages/spectacles+l-ile/files/lile-2_bajour_loewen-photographie-scaled.jpg
+  text: >
+    lile-2_bajour_loewen-photographie-scaled.jpg
+  type: image
+  url: >
+    https://la-paillette.dev/media/pages/spectacles/l-ile/fe3a9fb330-1609944032/lile-2_bajour_loewen-photographie-scaled.jpg
+  uuid: >
+    lile-2_bajour_loewen-photographie-scaled.jpg

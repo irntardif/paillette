@@ -1,0 +1,224 @@
+Title: Sauvage
+
+----
+
+Type: show
+
+----
+
+Genre: theatre
+
+----
+
+Categories: creation
+
+----
+
+Cover:
+
+- visu_sauvage_def_horiz_cmjn.jpg
+
+----
+
+Creation: false
+
+----
+
+Cohostinginfos:
+
+- 
+  label: Théâtre National de Bretagne
+  url: https://www.t-n-b.fr/
+  logo: [ ]
+- 
+  label: Théâtre Contemporain
+  url: >
+    https://www.theatre-contemporain.net/contacts/Theatre-National-de-Bretagne-TNB/
+  logo: [ ]
+
+----
+
+Moreinfos: <p>Dès 15 ans</p>
+
+----
+
+Representations: 
+
+----
+
+Prices: 
+
+----
+
+Ticketing: http://forumsirius.fr/orion/_spectacle.phtml?inst=06007&lg=FR&kld=1&tCache=1602771054017&idv=82adff&spec=645
+
+----
+
+Gallery:
+
+- sauvage.jpg
+
+----
+
+Company: artistpage
+
+----
+
+Relatedcompany:
+
+- >
+  artistes/frederic-mingant-cie-13-10e-en-ut
+
+----
+
+Companyname: 
+
+----
+
+Accentinfos: 
+
+----
+
+Description:
+
+Le spectacle Sauvage initialement prévu du 27 au 30 janvier est reporté. Nous vous tiendrons informés des dates choisies dès que nous les connaitrons.
+Les billets achetés pour les représentations du mois de janvier peuvent être remboursés auprès de notre billetterie.
+
+Et si on faisait complètement différemment ? Si on changeait certaines règles immuables du théâtre ? Pour voir ce que ça donne. Pour jouer, tous ensemble, avec tout ce qui est là en acceptant de ne – presque - rien savoir du résultat final ?
+À la manière des cadavres exquis, du jeu Dixit ou des matchs d’impro, entourée d’une équipe modulable de dix comédiens et techniciens, la metteuse en scène Frédérique Mingant imagine une façon novatrice et ludique de faire, (peut-être) du théâtre.
+Au préalable il faudrait déterminer un terrain de jeu, et quelques règles élémentaires, dont celle, poétique, d’être attentif aux signes. On ferait la part belle à l’improvisation, les thématiques seraient tirées aux dés et les consignes puisées dans un chapeau. Le public prendrait sa part en collaborant à ce tohu-bohu bien orchestré. Et finalement, on réaliserait quelque chose qu’il faudrait nommer.
+
+----
+
+Links:
+
+- 
+  linklabel: Appel à textes
+  linktype: url
+  linkurl: >
+    http://www.lumieredaout.net/7-pages/504-appel-a-textes-de-theatre
+  mailaddr: ""
+  doc: [ ]
+  label: Appel à textes de théâtre
+  url: >
+    http://www.lumieredaout.net/7-pages/504-appel-a-textes-de-theatre
+  document: [ ]
+
+----
+
+Distribution: 
+
+----
+
+Credits: Mise en scène : Frédérique Mingant
+
+----
+
+Highlightedblocks:
+
+- 
+  title: Autour du spectacle
+  contenttext: '<p>Lecture autour de la thématique « Sauvage » en amont du spectacle.<br>Par les élèves du cycle 1 du département Théâtre encadrés par Sarah Mirante-Petit<br>En partenariat avec le Conservatoire à Rayonnement Régional de Rennes (CRR)</p>'
+
+----
+
+Relatedpages: 
+
+----
+
+Press: 
+
+----
+
+Cohosting: false
+
+----
+
+Cohostinglogo: 
+
+----
+
+Moreinformations: 
+
+----
+
+Headline: 
+
+----
+
+Subheadline: 
+
+----
+
+Tags: 
+
+----
+
+Images:
+
+- 
+  filename: >
+    lile-2_bajour_loewen-photographie-scaled.jpg
+  dragText: '(image: lile-2_bajour_loewen-photographie-scaled.jpg)'
+  icon:
+    type: file-image
+    ratio: 5/4
+    back: pattern
+    color: '#de935f'
+    cover: true
+    url: >
+      https://la-paillette.dev/media/pages/spectacles/l-ile/fe3a9fb330-1609944032/lile-2_bajour_loewen-photographie-scaled.jpg
+    cards:
+      url: >
+        data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw
+      srcset: >
+        https://la-paillette.dev/media/pages/spectacles/l-ile/fe3a9fb330-1609944032/lile-2-bajour-loewen-photographie-scaled-352x.jpg
+        352w,
+        https://la-paillette.dev/media/pages/spectacles/l-ile/fe3a9fb330-1609944032/lile-2-bajour-loewen-photographie-scaled-864x.jpg
+        864w,
+        https://la-paillette.dev/media/pages/spectacles/l-ile/fe3a9fb330-1609944032/lile-2-bajour-loewen-photographie-scaled-1408x.jpg
+        1408w
+    list:
+      url: >
+        data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw
+      srcset: >
+        https://la-paillette.dev/media/pages/spectacles/l-ile/fe3a9fb330-1609944032/lile-2-bajour-loewen-photographie-scaled-38x38.jpg
+        1x,
+        https://la-paillette.dev/media/pages/spectacles/l-ile/fe3a9fb330-1609944032/lile-2-bajour-loewen-photographie-scaled-76x76.jpg
+        2x
+  id: >
+    spectacles/l-ile/lile-2_bajour_loewen-photographie-scaled.jpg
+  image:
+    ratio: 5/4
+    back: pattern
+    cover: true
+    url: >
+      https://la-paillette.dev/media/pages/spectacles/l-ile/fe3a9fb330-1609944032/lile-2_bajour_loewen-photographie-scaled.jpg
+    cards:
+      url: >
+        data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw
+      srcset: >
+        https://la-paillette.dev/media/pages/spectacles/l-ile/fe3a9fb330-1609944032/lile-2-bajour-loewen-photographie-scaled-352x.jpg
+        352w,
+        https://la-paillette.dev/media/pages/spectacles/l-ile/fe3a9fb330-1609944032/lile-2-bajour-loewen-photographie-scaled-864x.jpg
+        864w,
+        https://la-paillette.dev/media/pages/spectacles/l-ile/fe3a9fb330-1609944032/lile-2-bajour-loewen-photographie-scaled-1408x.jpg
+        1408w
+    list:
+      url: >
+        data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw
+      srcset: >
+        https://la-paillette.dev/media/pages/spectacles/l-ile/fe3a9fb330-1609944032/lile-2-bajour-loewen-photographie-scaled-38x38.jpg
+        1x,
+        https://la-paillette.dev/media/pages/spectacles/l-ile/fe3a9fb330-1609944032/lile-2-bajour-loewen-photographie-scaled-76x76.jpg
+        2x
+  info: 1198 × 600
+  link: >
+    /pages/spectacles+l-ile/files/lile-2_bajour_loewen-photographie-scaled.jpg
+  text: >
+    lile-2_bajour_loewen-photographie-scaled.jpg
+  type: image
+  url: >
+    https://la-paillette.dev/media/pages/spectacles/l-ile/fe3a9fb330-1609944032/lile-2_bajour_loewen-photographie-scaled.jpg
+  uuid: >
+    lile-2_bajour_loewen-photographie-scaled.jpg

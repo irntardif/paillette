@@ -39,7 +39,9 @@ fields:
   contentText:
     label: Contenu
     type: textarea
-  links: sections/links
+  links: 
+    extends: blocs/buttonLink
+    type: structure
   press: sections/press
 
 

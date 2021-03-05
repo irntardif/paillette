@@ -57,7 +57,6 @@ endforeach?>
 				e.el.setAttribute('data-id', e.event.id);
 				e.el.parentNode.parentNode.setAttribute('data-event', true);
 				const $id = e.el.parentNode.parentNode;
-				console.log(e);
 			},
 			eventsSet(events){
 				setTimeout(function(){	

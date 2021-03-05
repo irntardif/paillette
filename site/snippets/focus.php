@@ -31,8 +31,7 @@
 			<div class="margin_b-s">
 				<?= $el->contentText()->kirbytext(); ?>
 			</div>
-			
-			<?php snippet('blocks/buttonLinks', array('data' => $el->links()->toStructure(), 'class' => 'bg-main')) ?>
+			<?php snippet('blocks/buttonLink', array('data' => $el->links()->toStructure(), 'class' => 'bg-main')) ?>
 			<?php snippet('press', array('pressData' => $el->press()->toStructure())) ?>
 		</div>
 	</div>

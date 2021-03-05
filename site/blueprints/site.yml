@@ -44,6 +44,41 @@ tabs:
               - artistes
               - espace-pro
               - default
+          archives:
+            type: fields
+            fields:
+              pdfArchives:
+                label: Archives PDF
+                type: structure
+                help: Télécharger ici les anciens programmes de saisons
+                fields:
+                  title:
+                    type: text
+                    label: Nom du document
+                    width: 1/2
+                  doc:
+                    label: Document
+                    type: files
+                    template: document
+                    query: page.files.filterBy('template', 'document')
+                    width: 1/2
+              archivesInfos:
+                label: Basculer une saison en Archive – Process
+                type: info
+                text:|
+                  Dupliquer la page **Spectacles et Évènements** de la saison en cours
+
+                  Renommer le mot 'copier' de l'url en l'année de la saison 
+                  (Ex -> spectacles-copier devient spectacles-20202021)
+
+                  Copier les fichiers et les pages (Tout basculer sur ON)
+
+                  Changer le titre 'Spectacles' en **Archive XXXX-XXXX**
+
+                  Basculer le statut de **Brouillon** à **Non Listé**
+
+                  Et voilà !
+
   artists:
     icon: smile
     label: Artistes et intervenants

@@ -2,6 +2,16 @@ Title: La Paillette
 
 ----
 
+Pdfarchives:
+
+- 
+  title: Saison 2019-20
+  doc:
+    - >
+      plaquette-2019-2020-la-paillette-planches.pdf
+
+----
+
 Description: <p>Située au cœur du domaine Saint-Cyr à Rennes, dans le quartier de Bourg L’évêque, La Paillette est l’une des cinq Maison des Jeunes et de la Culture de la ville. Elle accueille tout au long de l’année des ateliers de pratiques artistiques en amateur, des spectacles de théâtre, des stages, un festival et des projets de médiation et d’action culturelle imaginés sous forme d’aventures à partager.</p>
 
 ----
