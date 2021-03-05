@@ -33,8 +33,11 @@ columns:
           arts-plastiques: Arts Plastiques
           bien-être: Bien-être
           danse: Danse
-          musique-chant: Musique et Chant
+          musique: Musique
+          chant: Chant
           theatre: Théâtre
+          marionnettes: Marionnettes
+          pratique-transversale: Pratique Transversale
       bio:
         label: À propos
         type: textarea

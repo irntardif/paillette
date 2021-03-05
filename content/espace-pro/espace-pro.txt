@@ -12,14 +12,25 @@ Vous trouverez ci-dessous différents documents :
 Links:
 
 - 
+  linklabel: Test Exemple
+  linktype: mail
+  linkurl: ""
+  mailaddr: mail@mail.fr
+  doc: [ ]
+  page: [ ]
   label: Document X
-  linktype: document
   url: ""
   document:
     - 12.02-maquettes-graphiques-du-site.pdf
 - 
+  linklabel: Doc
+  linktype: file
+  linkurl: ""
+  mailaddr: ""
+  doc:
+    - apus-mockup1510.pdf
+  page: [ ]
   label: Document X
-  linktype: document
   url: ""
   document:
     - 12.02-maquettes-graphiques-du-site.pdf

@@ -44,11 +44,6 @@
                     <span></span>
                     <!-- <span class="no_m" style="width:5%"><span class="open-icon no_m"></span></span> -->
                   </header>
-                  <!-- <?php// if($timeslot->description()->isNotEmpty()): ?>
-                  <div class="wrapper no_m">
-                    <?= $timeslot->description()->kirbytext() ?>
-                  </div>
-                <?php// endif; ?> -->
                 </section>
                <?php endforeach ?>
               </ul>
