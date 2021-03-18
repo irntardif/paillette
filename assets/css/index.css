@@ -227,6 +227,17 @@ button {
   margin-left:.3em;
 }
 
+.input-search{
+  padding: .5em;
+  margin-right: 2em;
+  width:33%;
+}
+
+ul.search li:before{
+  content: '>>';
+}
+
+
 .inline-form p:first-child{
   width:70%;
   padding: .8em 1.5em 0 0;
@@ -373,28 +384,12 @@ small {
 .paillette-logo{
   background: url(../icons/home-paillette.svg) no-repeat center;
   background-size:100%;
-  width: 100px;
-  height: 180px;
-  position: fixed;
-  z-index: 9999;
-  top: 0;
-  opacity:0;
+  width: 38px;
+  height: 50px;
+  position: relative;
+  top: -7px;
+  margin-right:25px;
   transition: opacity .3s ease;
-  left: calc(50% - 30em);
-  -webkit-transform: translate(calc(-100% - 20px), 0);
-  transform: translate(calc(-100% - 20px), 0);
-}
-
-.paillette-logo.hide{
-  opacity: 0;
-  transition: opacity .3s ease;
-}
-
-@media screen and (min-width: 1440px){
-  .paillette-logo{
-    width: 140px;
-    height: 250px;
-  }
 }
 
 .main-header{
@@ -421,20 +416,27 @@ small {
 }
 
 .main-header .wrapper-2{
-  max-height:0;
-  overflow: hidden;
-  transition: max-height .3s ease;
-}
-
-.main-header.open{
-  background-color: var(--color-main);
-  transition: background .3s ease;
+    position: fixed;
+    padding: 2em;
+    top: 100px;
+    left: 0;
+    height: 100vh;
+    background-color: var(--color-main);
+    width: 100%;
+    display: block;
+    -webkit-transform: translate(-200%, 0);
+    transform: translate(-200%, 0);
+    transition: transform .3s ease;
 }
 
 .main-header.open .wrapper-2{
-  max-height:100vh;
-  overflow: hidden;
-  transition: max-height .3s ease, overflow 0s .3s;
+  -webkit-transform: translate(0,0);
+  transform: translate(0,0);
+}
+
+.main-header .wrapper-2 .menu a{
+  display:block;
+  font-size:28px;
 }
 
 .logo {
@@ -518,21 +520,20 @@ a.menu-icon.icon-text{
   height: auto;
 }
 
-#burger{
+.menu-burger{
   position:relative;
   cursor:pointer;
   display: block;
   padding: .3em 0;
-  margin-left: .6em;
 }
 
-#burger span:not(.burger--line){
+.menu-burger span:not(.burger--line){
   padding-left:20px;
 }
 
-#burger .burger--line:after,
-#burger .burger--line:before,
-#burger .burger--line{
+.menu-burger .burger--line:after,
+.menu-burger .burger--line:before,
+.menu-burger .burger--line{
   height: 2px;
   background: #000;
   width:14px;
@@ -543,35 +544,35 @@ a.menu-icon.icon-text{
   transition: transform .3s ease, background .3s ease;
 }
 
-#burger .burger--line{
+.menu-burger .burger--line{
   top: 50%;
   -webkit-transform: translate(0,-50%);
   transform: translate(0,-50%);
 }
   
-#burger .burger--line:after,
-#burger .burger--line:before{
+.menu-burger .burger--line:after,
+.menu-burger .burger--line:before{
   content:"";
 }
 
-#burger .burger--line:before{
+.menu-burger .burger--line:before{
   top:-5px;
 }
 
-#burger .burger--line:after{
+.menu-burger .burger--line:after{
   bottom:-5px;
 }
 
-.main-header.open #burger .burger--line{
+.main-header.open .menu-burger .burger--line{
   background: transparent;
 }
 
-.main-header.open #burger .burger--line:before{
+.main-header.open .menu-burger .burger--line:before{
   transform: rotate(45deg);
   top: 0;
 }
 
-.main-header.open #burger .burger--line:after{
+.main-header.open .menu-burger .burger--line:after{
   transform: rotate(-45deg);
   bottom: 0;
 }
@@ -1455,6 +1456,16 @@ iframe{
 
 @media screen and (max-width: 60rem) {
 
+  .main-header .wrapper-2 {
+    -webkit-transform: translate(100%, 0);
+    transform: translate(100%, 0);
+  }
+
+  #burger{
+    position: fixed;
+    right: 20px;
+  }
+
   .grid{
     grid-gap: 0;
   }
@@ -1518,6 +1529,17 @@ iframe{
 @media screen and (min-width: 60rem) {
   body {
     --padding: 3rem;
+  }
+
+  .main-header .wrapper-2{
+    width: 25%;
+    top:0;
+  }
+
+
+  .main-header .wrapper-2 .menu{
+    display:block;
+    margin-top: 100px;
   }
 
   .grid {
@@ -1656,36 +1678,39 @@ iframe{
   }
 
   .fixed-header .main-header .logo{
-    display:none;
+    color:transparent;
+    font-size:1px;
   }
 
-  .fixed-header .paillette-logo{
-    opacity:1;
-  }
-
-  .fixed-header .paillette-logo.hide{
-    opacity:0;
+  .fixed-header .main-header .paillette-logo{
+    margin: auto;
+    width: 30px;
+    top:0;
   }
 
   .main-header > div{
     display: flex;
   }
 
-  .main-header.open .wrapper-2{
-    max-height:250px;
-  }
-
   .menu {
     display: flex;
     margin-top:0;
+    justify-content: flex-end;
+    align-items: center;
   }
 
   .menu a:not(.menu-icon){
-    padding: 0 2rem;
+    padding: 0 6px;
+    font-size: .9em;
+  }
+
+  .menu .social a {
+    padding-right:0;
+    padding-left: 3px;
   }
 
   .logo{
-    font-size:3rem;
+    font-size:2.8rem;
   }
 
   figure.logo-img{

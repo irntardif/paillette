@@ -85,9 +85,6 @@ endif;
 <?php if($page->isMobile()):
   snippet('navbar-mobile');
 else: ?>
-  <a href="<?= $site->url() ?>">
-    <div class="paillette-logo"></div>
-  </a>
   <?php snippet('navbar');
 endif;
 snippet('newsletter');

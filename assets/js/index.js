@@ -23,13 +23,16 @@ Array.from(document.querySelectorAll(".read-more")).forEach(element => {
   };
 });
 
-document.getElementById('burger').onclick = (e) => {
-  e.preventDefault();
+const openMenu = (e) =>{
+   e.preventDefault();
   let header = document.getElementsByClassName('main-header')[0],
       logo = document.getElementsByClassName('paillette-logo')[0];
   header.classList.contains('open') ? header.classList.remove('open') : header.classList.add('open');
   logo.classList.contains('hide') ? logo.classList.remove('hide') : logo.classList.add('hide');
 }
+
+document.getElementById('burger').onclick = (e) => openMenu(e);
+document.getElementById('burger2').onclick = (e) => openMenu(e);
 
 function validateEmail(email) {
   const re = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;

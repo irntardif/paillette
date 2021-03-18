@@ -4,7 +4,7 @@
       <?= $site->title()->html() ?>
     </a>
 
-    <span id="burger">
+    <span id="burger" class="menu-burger">
       <span class="burger--line"></span>
       <span>Menu</span>
     </span>
@@ -40,11 +40,13 @@
     <a class="menu-icon icon-text newsletter" href="#newsletter">
       <span class="bg-primary bg-tint">Newsletter</span>
     </a>
-     <a class="menu-icon loop" target="_blank" href="#">
-          search
-        </a>
+     <a target="_blank" href="/search">
+        <span class="menu-icon loop"></span>
+        Recherche
+      </a>
       <?php if( $site->ticketing()->isNotEmpty()): ?>
-        <a class="menu-icon ticket" target="_blank" href="<?= $site->ticketing() ?>">
+        <a target="_blank" href="<?= $site->ticketing() ?>">
+          <span class="menu-icon ticket"></span>
           Billetterie
         </a>
       <?php endif; ?>

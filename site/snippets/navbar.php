@@ -1,11 +1,14 @@
  <header class="main-header">
   <div class="wrapper-1">
-    <span id="burger" class="w_33">
-      <span class="burger--line"></span>
-      <span>Menu</span>
-    </span>
+    <div class="w_33">
+      <span id="burger" class="menu-burger">
+        <span class="burger--line"></span>
+        <span>Menu</span>
+      </span>
+    </div>
     
     <a class="logo w_33" href="<?= $site->url() ?>">
+      <span class="paillette-logo"></span>
       <?= $site->title()->html() ?>
     </a>
 
@@ -23,8 +26,11 @@
   </div>
 
   <div class="wrapper-2">
+    <span id="burger2" class="menu-burger">
+        <span class="burger--line"></span>
+        <span>Menu</span>
+      </span>
     <nav class="menu">
-      <nav class="menu main-menu">
       <?php foreach ($site->children()->listed() as $item): ?>
       <a <?php e($item->isOpen(), 'aria-current ') ?> href="<?= $item->url() ?>">
         <?php if($item->id() == 'spectacles'): ?> Spectacles 
@@ -34,7 +40,7 @@
       endif; ?>
         </a>
       <?php endforeach ?>
-    </nav>
+    
       <?php foreach ($site->children()->unlisted() as $item):
         if($item->id() == 'artistes' || $item->id() == 'infos' || $item->id() == 'la-paillette'): ?>
         <a <?php e($item->isOpen(), 'aria-current ') ?> href="<?= $item->url() ?>">

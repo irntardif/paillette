@@ -1,17 +1,18 @@
 <?php snippet('header') ?>
 
-<main class="main">
+<main class="main margin_b-l">
   <div class="main-wrapper">
     <?php snippet('breadcrumb') ?>
-    <form>
-	  <input type="search" name="q" value="<?= html($query) ?>">
-	  <input type="submit" value="Search">
+    <h1 class="h1">Tapez votre recherche ici...</h1>
+    <form class="margin_t-l">
+	  <input class="input-search" type="search" name="q" value="<?= html($query) ?>">
+	  <input class="btn cursor-pointer" type="submit" value="Recherche">
 	</form>
 
-	<ul>
+	<ul class="search margin_t-l">
 	  <?php foreach ($results as $result): ?>
 	  <li>
-	    <a href="<?= $result->url() ?>">
+	    <a class="link" href="<?= $result->url() ?>">
 	      <?= $result->title() ?>
 	    </a>
 	  </li>
