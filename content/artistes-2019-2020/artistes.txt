@@ -1,4 +1,4 @@
-Title: Artistes en résidence
+Title: Artistes 2019-2020
 
 ----
 
@@ -10,10 +10,19 @@ Parce qu’il nous importe de rendre visible cette phase de recherche et de cré
 
 ----
 
-Headerimage:
-
-- illu-paillette5.png
+Headerimage: - illu-paillette5.png
 
 ----
 
 Focus: 
+
+----
+
+Onseason:
+
+- artistes/l-unanime
+- artistes/laure-catherin-ladude
+- >
+  artistes-2019-2020/marine-bachelot-nguyen
+- >
+  artistes-2019-2020/christine-le-berre-hop-hop-hop

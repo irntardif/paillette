@@ -39,6 +39,16 @@ function validateEmail(email) {
   return re.test(email);
 }
 
+const archives = document.getElementById('archives');
+if(archives){
+  archives.onchange = (e) => {
+    e.preventDefault();
+    var win = window.location = e.target.options[e.target.selectedIndex].getAttribute('value');
+    win.focus();
+  }
+}
+
+
 document.getElementById('open-newsletter').onclick = (e) => {
   e.preventDefault();
   let inputMail = document.getElementById('mail-newsletter').value,

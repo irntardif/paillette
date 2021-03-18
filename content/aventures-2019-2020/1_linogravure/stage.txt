@@ -1,0 +1,135 @@
+Title: Linogravure
+
+----
+
+Intervenant:
+
+- intervenants/francois-soutif
+
+----
+
+Dates:
+
+- 
+  date: 2020-11-28
+  publictype: all
+- 
+  date: 2020-11-29
+  publictype: all
+
+----
+
+Hours: de 10h à 16h
+
+----
+
+Isfull: true
+
+----
+
+Contactmail: 
+
+----
+
+Public: adults, students
+
+----
+
+Prices:
+
+- 
+  pricetype: 'Adhérents '
+  amount: 65
+- 
+  pricetype: 'Non adhérents '
+  amount: 70
+
+----
+
+Rprstnname: 
+
+----
+
+Moreinfos: 
+
+----
+
+Representations: 
+
+----
+
+Cover:
+
+- bleu.jpg
+
+----
+
+Accentinfos: 
+
+----
+
+Level: Adultes - Tous niveaux
+
+----
+
+Description: Pour expérimenter cette technique simple de gravure, les participants sont invités à réaliser une œuvre colorée en combinant gravure et fonds préparés en collage. Ouvert aux débutants, ce stage est également accessible aux personnes expérimentées qui y trouveront un prolongement naturel des précédents stages organisés à La Paillette.
+
+----
+
+Highlightedblocks:
+
+- 
+  title: Financeurs
+  contenttext: '<p>la DRAC Bretagne<br>dispositif KARTA et La Paillette</p>'
+- 
+  title: Partenaires
+  contenttext: '<p>Coucou les petits moineau</p>'
+
+----
+
+Links:
+
+- 
+  linklabel: contact
+  linktype: mail
+  linkurl: ""
+  mailaddr: bonjour@irenetardif.com
+  doc: [ ]
+- 
+  linklabel: pdf
+  linktype: file
+  linkurl: ""
+  mailaddr: bonjour@irenetardif.com
+  doc:
+    - paillette-v4.pdf
+- 
+  linklabel: url
+  linktype: url
+  linkurl: https://google.fr
+  mailaddr: bonjour@irenetardif.com
+  doc:
+    - paillette-v4.pdf
+
+----
+
+Relatedpages: 
+
+----
+
+Relatedevents: 
+
+----
+
+Relatedadventures: 
+
+----
+
+Adtype: stage
+
+----
+
+Planning: 
+
+----
+
+Type: stage

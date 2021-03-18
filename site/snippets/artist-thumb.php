@@ -1,4 +1,4 @@
-<li id="<?= $artist->uid() ?>" class="thumb">
+<li id="<?= $artist->uid() ?>" class="thumb thumb--artist">
   <span class="header-thumb grid c-2 margin_b-s">
     <span><?= $artist->duration(); ?></span>
     <span><?= $artist->type(); ?></span>

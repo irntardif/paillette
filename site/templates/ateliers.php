@@ -55,6 +55,7 @@
       <?php endforeach;
     endif; ?>
   </div>
+ 
 </main>
 <?php if($page->focus()->isNotEmpty()):
   snippet('focus', array('focus' => $page->focus()->toStructure()));

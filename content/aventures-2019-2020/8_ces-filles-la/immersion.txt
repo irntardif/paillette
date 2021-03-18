@@ -1,0 +1,103 @@
+Title: Ces filles-là
+
+----
+
+Intervenant:
+
+- intervenants/ces-filles-la
+
+----
+
+Dates:
+
+- 
+  date: 2021-03-04
+  publictype: all
+- 
+  date: 2021-03-05
+  publictype: all
+- 
+  date: 2021-03-06
+  publictype: all
+- 
+  date: 2021-03-07
+  publictype: all
+- 
+  date: 2021-03-11
+  publictype: all
+- 
+  date: 2021-03-18
+  publictype: all
+
+----
+
+Hours: ven : de 19h à 21h // sam & dim de 10h à 18h
+
+----
+
+Contactmail: mediation@la-paillette.net
+
+----
+
+Public: adults, students, teen2
+
+----
+
+Prices:
+
+- 
+  pricetype: Ouvert à toutes
+  amount: 0
+
+----
+
+Rprstnname: 
+
+----
+
+Moreinfos: 
+
+----
+
+Representations:
+
+- 
+  date: 2021-03-13 20:00:00
+  publictype: all
+- 
+  date: 2021-03-14 15:00:00
+  publictype: all
+
+----
+
+Cover:
+
+- bleu.jpg
+
+----
+
+Description:
+
+Programmé au mois de mars à La Paillette, Ces filles-là se décline dans une version participative qui mêle amatrices et professionnelles autour du texte d'Evan Placey. Portrait de l'adolescence et traité féministe, le texte raconte l'histoire d'un groupe de lycéennes, " les meilleurs amies " depuis la maternelle, confrontées au cyber-harcèlement de l'une d'entre elles suite à la publication d'une photo de nu. Pour évoquer ces sujets de société, les 6 comédiennes de La Collective Ces Filles-Là proposent à d'autres femmes de les rejoindre pour jouer cette pièce dans une forme inédite mais aux règles du jeu identiques au spectacle original. Une façon inédite et sportive de monter sur scène pour les rejoindre sur la ligne de départ !
+
+Ouvert à toutes - dès 16 ans
+
+Répétitions : Du Jeu 4 au Dim 7 mars de 10h à 17h et Jeu 11 et Ven 12 mars de 18h30 à 22h30 Représentations : Sam 13 mars à 20h (rdv à 14h pour le filage) et Dim 14 mars à 15h (rdv à 11h pour raccords)
+
+----
+
+Links: 
+
+----
+
+Relatedpages:
+
+- spectacles/ces-filles-la
+
+----
+
+Relatedevents: 
+
+----
+
+Relatedadventures: 

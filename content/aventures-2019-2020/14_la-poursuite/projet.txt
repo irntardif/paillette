@@ -1,0 +1,109 @@
+Title: La Poursuite
+
+----
+
+Intervenanttype: 
+
+----
+
+Intervenant:
+
+- intervenants/compagnie-la-morsure
+
+----
+
+Intervenantname: 
+
+----
+
+Dates: 
+
+----
+
+Hours: 
+
+----
+
+Isfull: false
+
+----
+
+Contactmail: mediation@la-paillette.net
+
+----
+
+Public: teen2, students, adults
+
+----
+
+Prices: 
+
+----
+
+Rprstnname: La Poursuite
+
+----
+
+Moreinfos: 
+
+----
+
+Rprstntitle: 
+
+----
+
+Representations:
+
+- 
+  date: 2021-04-07 20:00:00
+  publictype: all
+
+----
+
+Cover:
+
+- bleu.jpg
+
+----
+
+Accentinfos: Adultes - Tous niveaux
+
+----
+
+Accentlabel: Complet
+
+----
+
+Description:
+
+ Pour sa seconde édition, le projet « La Poursuite » s’appuie sur la thématique de la normopathie afin de permettre à des jeunes âgés de 16 à 30 ans de côtoyer la création. Venue au spectacle, ateliers de pratiques artistiques, rencontre avec les professionnel·le·s du secteur culturel sont autant d’entrées pour leur permettre de trouver un espace de valorisation de soi au sein du projet. Une restitution publique de leur travail sur l’année et une mini tournée régionale ponctuent le projet. 
+Avec l’association Tout à tout  
+ Janvier 2021- Avril 2021 
+ Restitution le 7 avr. 2021
+
+(email: mediation@la-paillette.net text: Aude Challemel du Rozier)
+(email: coordination@toutatout.org text: Association tout à tout )
+
+----
+
+Level: 
+
+----
+
+Highlightedblocks: 
+
+----
+
+Links: 
+
+----
+
+Relatedpages: 
+
+----
+
+Relatedevents: 
+
+----
+
+Relatedadventures: 

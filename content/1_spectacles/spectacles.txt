@@ -43,8 +43,13 @@ Focus:
     Programme disponible à partir du mois d’avril sur notre site.
   links:
     - 
+      linklabel: ""
+      linktype: ""
+      linkurl: ""
+      mailaddr: ""
+      doc: [ ]
+      page: [ ]
       label: Tout le programme
-      linktype: document
       url: ""
       document:
         - paillette-v4.pdf
@@ -57,3 +62,22 @@ Focus:
       link: ""
   img:
     - la-paillette-cheval.jpg
+
+----
+
+Onseason:
+
+- spectacles/akila-le-tissu-d-antigone
+- >
+  spectacles/de-l-avenir-incertain-du-monde-merveilleux-dans-lequel-nous-vivons
+- spectacles/circulations-capitales
+- spectacles/l-ile
+- spectacles/ces-filles-la
+- spectacles/part-dieu-chant-de-gare
+- spectacles/le-roi-des-nuages
+- spectacles/sauvage
+- spectacles/souliers-desable
+- >
+  spectacles/trois-textes-sur-la-qusetion-du-salaire
+- spectacles/l-assomoir
+- spectacles/on-ne-dit-pas-j-ai-creve

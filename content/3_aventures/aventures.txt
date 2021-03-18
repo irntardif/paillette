@@ -35,6 +35,7 @@ Visitslinks:
   linkurl: ""
   mailaddr: mediation@la-paillette.net
   doc: [ ]
+  page: [ ]
 
 ----
 
@@ -50,6 +51,10 @@ Stagelinks:
 
 ----
 
+Onseasonstage: 
+
+----
+
 Immersiontext: Si l’envie de vous plonger dans un procédé créatif vous démange, n’hésitez plus et rejoignez-nous ! Avec plusieurs projets annuels en lien direct avec le travail d’une équipe artistique accueillie, nous vous proposons de passer des fauteuils au plateau. Ces projets, pensés en amont avec les compagnies professionnelles, peuvent proposer aux amateurs de monter sur scène dans des formes participatives ou leur offrir la possibilité d’intervenir dans le processus de création en réfléchissant aux côtés des metteur·e·s en scène et artistes présent·e·s dans nos murs..
 
 ----
@@ -58,11 +63,19 @@ Immersionlinks:
 
 ----
 
+Onseasonimmersion: 
+
+----
+
 Projecttext: Ouverts aux acteurs culturels souhaitant développer un projet dans ou hors les murs de La Paillette, ces projets en complicité sont le fruit de rencontres et d’envies communes. Réflexion autour de la thématique du projet, du choix des intervenant·e·s, des tenants logistiques, des possibilités de financement.. tout est possible, il suffit d’en discuter ensemble.
 
 ----
 
 Projectlinks: 
+
+----
+
+Onseasonproject: 
 
 ----
 
@@ -94,6 +107,14 @@ Classlinks:
   mailaddr: ""
   doc:
     - mockup-1111.pdf
+  page: [ ]
+
+----
+
+Onseasonclass:
+
+- aventures/nuages
+- aventures/le-jeu-du-dehors
 
 ----
 

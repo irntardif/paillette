@@ -689,7 +689,7 @@ nav.breadcrumb li a:hover{
   margin-left: 1em;
 }
 
-li figure > .label.tag{
+li:not(.thumb--artist) figure > .label.tag{
   position: absolute;
   z-index: 99;
   display: block;

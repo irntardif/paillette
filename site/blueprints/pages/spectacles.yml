@@ -38,6 +38,13 @@ columns:
 
   - width: 1/3 
     sections:
+      onseason:
+        type: fields
+        fields:
+          onseason:
+            label: En saison
+            type: pages
+            query: page.children.listed
       listed:
         extends: sections/spectacles
         headline: Spectacles ou Evènements Publiés

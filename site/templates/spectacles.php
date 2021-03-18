@@ -4,7 +4,7 @@
   <div class="main-wrapper padding_b-xxl">
     <?php snippet('breadcrumb') ?>
     <?php snippet('intro') ?>
-    <?php if ($spectaclesP = page('spectacles')): ?>
+    <?php if ($page): ?>
 
     <div class='grid-wrapper'>
       <div class="header-grid grid c-2">
@@ -12,7 +12,7 @@
         <?php snippet('links', array('links' => $page->program()->toStructure(), 'class' => 'bg-main')) ?>
       </div>
       <ul class="filter-grid grid c-2 margin_t-m row-large">
-        <?php foreach ($spectaclesP->children()->listed() as $event): ?>
+        <?php foreach ($page->onseason()->toPages() as $event): ?>
         <?php snippet('event-thumb', array('event' => $event)); ?>
         <?php endforeach ?>
       </ul>
@@ -53,12 +53,6 @@ endif ?>
   document.getElementById('pdfArchives').onchange = (e) => {
   e.preventDefault();
   var win = window.open(e.target.options[e.target.selectedIndex].getAttribute('value'), '_blank');
-  win.focus();
-}
-
-document.getElementById('archives').onchange = (e) => {
-  e.preventDefault();
-  var win = window.location = e.target.options[e.target.selectedIndex].getAttribute('value');
   win.focus();
 }
 </script>

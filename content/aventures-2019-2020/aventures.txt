@@ -1,0 +1,134 @@
+Title: Aventures 2019-2020
+
+----
+
+Edito:
+
+## Aventures à partager  
+Pour découvrir une discipline artistique, un processus de création, inscrire votre établissement scolaire dans un projet d’éducation artistique et culturelle, développer le travail de votre structure dans un projet partenarial ou nous rendre visite, La Paillette décline une palette d’aventures à partager ensemble. Tout est imaginable, n’hésitez pas à nous contacter pour en discuter.
+
+----
+
+Headerimage: 
+
+----
+
+Visitstext:
+
+Vous avez envie de découvrir l’envers du décor ? La Paillette organise des visites à la demande, pour des groupes constitués. Entre initiations techniques, parcours dans les recoins de nos deux bâtiments et rencontres avec l’équipe professionnelle, le Lavoir et le Théâtre n’auront plus aucuns secrets pour vous.
+
+Contactez Aude Challemel du Rozier :
+
+----
+
+Visitsimage: - scolaires-2.jpg
+
+----
+
+Visitslinks:
+
+- 
+  linklabel: Contact
+  linktype: mail
+  linkurl: ""
+  mailaddr: mediation@la-paillette.net
+  doc: [ ]
+  page: [ ]
+
+----
+
+Focus: 
+
+----
+
+Stagetext: Sur des temps courts, des week-ends ou des journées pendant les vacances scolaires, les stages proposés par La Paillette vous invitent à découvrir une discipline artistique ou à vous perfectionner dans un domaine. Menés par des équipes en résidence, des artistes ou des salarié·e·s intervenant·e·s, ces stages ouverts à tous offrent un moment de pratique collective.
+
+----
+
+Stagelinks: 
+
+----
+
+Onseasonstage: 
+
+----
+
+Immersiontext: Si l’envie de vous plonger dans un procédé créatif vous démange, n’hésitez plus et rejoignez-nous ! Avec plusieurs projets annuels en lien direct avec le travail d’une équipe artistique accueillie, nous vous proposons de passer des fauteuils au plateau. Ces projets, pensés en amont avec les compagnies professionnelles, peuvent proposer aux amateurs de monter sur scène dans des formes participatives ou leur offrir la possibilité d’intervenir dans le processus de création en réfléchissant aux côtés des metteur·e·s en scène et artistes présent·e·s dans nos murs..
+
+----
+
+Immersionlinks: 
+
+----
+
+Onseasonimmersion: 
+
+----
+
+Projecttext: Ouverts aux acteurs culturels souhaitant développer un projet dans ou hors les murs de La Paillette, ces projets en complicité sont le fruit de rencontres et d’envies communes. Réflexion autour de la thématique du projet, du choix des intervenant·e·s, des tenants logistiques, des possibilités de financement.. tout est possible, il suffit d’en discuter ensemble.
+
+----
+
+Projectlinks: 
+
+----
+
+Onseasonproject: 
+
+----
+
+Classexitstext1:
+
+De la simple visite du théâtre au projet sur une année, La Paillette met en place des temps privilégiés de rencontre entre un établissement scolaire et les équipes artistiques qui sont présentes dans nos murs. Séance réservée en journée ou représentations en soirée, visite technique, rencontre avec des comédien·ne·s et metteur·e·s en scène, initiation à une pratique lors d’ateliers menés par des professionnel·le·s... toutes ces possibilités s’étudient au cas par cas, en fonction des envies, disponibilités et possibilités financières de chacun.
+
+Vous êtes un établissement scolaire et vous souhaitez obtenir de l’information sur un spectacle, réserver pour une séance, initier un projet au long cours :
+
+Contact : Aude Challemel du Rozier
+
+----
+
+Classexitstext2:
+
+## REPRÉSENTATIONS SCOLAIRES EN 2020 :
+Souliers de sable : Ven 11 déc à 14h30
+Le Roi des nuages : Jeu 11 et Ven 12 fév. à 14h30
+De l’avenir incertain du monde merveilleux dans lequel nous vivons : Mar 23 mars à 14h30
+
+----
+
+Classlinks:
+
+- 
+  linklabel: Contact
+  linktype: file
+  linkurl: ""
+  mailaddr: ""
+  doc:
+    - mockup-1111.pdf
+  page: [ ]
+
+----
+
+Onseasonclass:
+
+- aventures/nuages
+- aventures/le-jeu-du-dehors
+
+----
+
+Classexitstext:
+
+De la simple visite du théâtre au projet sur une année, La Paillette met en place des temps privilégiés de rencontre entre un établissement scolaire et les équipes artistiques qui sont présentes dans nos murs. Séance réservée en journée ou représentations en soirée, visite technique, rencontre avec des comédien·ne·s et metteur·e·s en scène, initiation à une pratique lors d’ateliers menés par des professionnel·le·s... toutes ces possibilités s’étudient au cas par cas, en fonction des envies, disponibilités et possibilités financières de chacun.  
+
+Vous êtes un établissement scolaire et vous souhaitez obtenir de l’information sur un spectacle, réserver pour une séance, initier un projet au long cours : 
+
+Contact : (email: mediation@la-paillette.net text: Aude Challemel du Rozier)
+
+### Représentations scolaires en 2020 : 
+Souliers de sable : Ven 11 déc à 14h30
+Le Roi des nuages : Jeu 11 et Ven 12 fév. à 14h30
+De l’avenir incertain du monde merveilleux dans lequel nous vivons : Mar 23 mars à 14h30
+
+----
+
+Globalinks: 

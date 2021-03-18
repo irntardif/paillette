@@ -3,10 +3,11 @@ title: Aventures à partager
 icon: preview
 
 options:
-  changeStatus: false
+  #changeStatus: false
 
 status:
   draft: true
+  unlisted: true
   listed: true
 
 tabs:
@@ -66,6 +67,13 @@ tabs:
                 type: structure
       - width: 1/3
         sections:
+          onseasonStage:
+            type: fields
+            fields:
+              onseasonStage:
+                label: En saison
+                type: pages
+                query: page.children.listed.filterBy('template','stage')
           stages:
             type: pages
             headline: Stages
@@ -84,6 +92,13 @@ tabs:
                 type: structure
       - width: 1/3
         sections:
+          onseasonImmersion:
+            type: fields
+            fields:
+              onseasonImmersion:
+                label: En saison
+                type: pages
+                query: page.children.listed.filterBy('template','immersion')
           immersions:
             type: pages
             headline: Immersions dans la création
@@ -102,6 +117,13 @@ tabs:
                 type: structure
       - width: 1/3
         sections:
+          onseasonProject:
+            type: fields
+            fields:
+              onseasonProject:
+                label: En saison
+                type: pages
+                query: page.children.listed.filterBy('template','projet')
           projects:
             type: pages
             headline: Projets en complicité
@@ -125,6 +147,13 @@ tabs:
                 type: structure
       - width: 1/3
         sections:
+          onseasonClass:
+            type: fields
+            fields:
+              onseasonClass:
+                label: En saison
+                type: pages
+                query: page.children.listed.filterBy('template','sortie-classe')
           classExits:
             type: pages
             headline: Sorties de classes
