@@ -10,6 +10,18 @@
       <div class="carousel">
         <?php foreach ($page->gallery()->toFiles() as $img): ?>
         <figure class="regular _16_9">
+          <?php if($page->accentlabel()->isNotEmpty()): ?>
+          <div class="label-wrapper">
+           <?php for ($i=0; $i < 35; $i++) { ?>
+                <span style="font-size:18px;" class="label tag bg-accent">
+                   <?= $page->accentlabel() ?>
+                </span>
+            <?php } ?>
+          </div>
+          <?php endif; ?>
+          <?php if($page->creation()->toBool()): ?>
+            <span class="creation--stamp"></span>
+          <?php endif; ?>
            <img src="<?= $img->thumb()->url() ?>" data-src="<?= $img->url() ?>" data-srcset="<?= $img->srcset() ?>" alt="<?= $img->filename() ?>"/>
           </figure>
          <?php endforeach ?>
