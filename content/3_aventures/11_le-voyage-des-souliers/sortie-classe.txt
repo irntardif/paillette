@@ -2,10 +2,18 @@ Title: Le voyage des Souliers
 
 ----
 
+Intervenanttype: 
+
+----
+
 Intervenant:
 
 - >
   intervenants/compagnie-la-petite-fabrique
+
+----
+
+Intervenantname: 
 
 ----
 
@@ -14,6 +22,10 @@ Dates:
 ----
 
 Hours: 
+
+----
+
+Isfull: false
 
 ----
 
@@ -37,6 +49,10 @@ Moreinfos:
 
 ----
 
+Rprstntitle: 
+
+----
+
 Representations: 
 
 ----
@@ -51,12 +67,24 @@ Accentinfos:
 
 ----
 
+Accentlabel: les artichauts
+
+----
+
 Description:
 
 Parcours EAC avec l’école d’Epignac  Saison 2020-2021
 Autour de la création Souliers de Sable jouée par la Cie La Petite Fabrique en décembre 2020, la classe de CE1 de l’école d ’Epignac bénéficie d’un parcours associant visite de La Paillette, venue au spectacle, atelier de théâtre et un atelier philosophique encadré par Les araignées philosophes. 
 
 + Projet financé par la DRAC Bretagne, l’école d’Epignac et La Paillette
+
+----
+
+Level: 
+
+----
+
+Highlightedblocks: 
 
 ----
 

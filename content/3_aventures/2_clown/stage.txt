@@ -2,9 +2,17 @@ Title: Clown
 
 ----
 
+Intervenanttype: 
+
+----
+
 Intervenant:
 
 - intervenants/emilie-bonnafous-armengol
+
+----
+
+Intervenantname: 
 
 ----
 
@@ -13,6 +21,10 @@ Dates:
 ----
 
 Hours: 
+
+----
+
+Isfull: false
 
 ----
 
@@ -35,9 +47,33 @@ Prices:
 
 ----
 
+Rprstnname: 
+
+----
+
+Moreinfos: 
+
+----
+
+Rprstntitle: 
+
+----
+
+Representations: 
+
+----
+
 Cover:
 
 - bleu.jpg
+
+----
+
+Accentinfos: 
+
+----
+
+Accentlabel: Annulé
 
 ----
 
@@ -50,7 +86,19 @@ Nous vous tiendrons informés rapidement des nouvelles dates choisies.
 
 ----
 
+Level: 
+
+----
+
+Highlightedblocks: 
+
+----
+
 Links: 
+
+----
+
+Relatedpages: 
 
 ----
 

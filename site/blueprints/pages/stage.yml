@@ -135,14 +135,20 @@ tabs:
                 label: Infos exceptionnelles
                 type: textarea
                 width: 2/3
+              accentlabel:
+                label: Mention exceptionnelle
+                type: text
+                width: 1/3
+                help: Annulé / Reporté / Complet...
+              description:
+                label: Description générale
+                type: textarea
+                width: 2/3
               level: 
                 label: Niveau
                 type: text
                 width: 1/3
                 placeholder: "Ex : Adulte – Tous niveaux"
-              description:
-                label: Description générale
-                type: textarea
               highlightedBlocks:
                 label: Blocs secondaires
                 type: structure

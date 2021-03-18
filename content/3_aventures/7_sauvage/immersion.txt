@@ -2,10 +2,18 @@ Title: Sauvage
 
 ----
 
+Intervenanttype: 
+
+----
+
 Intervenant:
 
 - >
   artistes/frederic-mingant-cie-13-10e-en-ut
+
+----
+
+Intervenantname: 
 
 ----
 
@@ -24,6 +32,10 @@ Dates:
 ----
 
 Hours: ven : de 19h à 21h // sam & dim de 10h à 18h
+
+----
+
+Isfull: false
 
 ----
 
@@ -47,6 +59,10 @@ Moreinfos:
 
 ----
 
+Rprstntitle: 
+
+----
+
 Representations: 
 
 ----
@@ -64,7 +80,7 @@ Cette année, 2 nouveaux rendez-vous sont proposés avant le grand saut collecti
 
 ----
 
-Level: Un « labo SA
+Accentlabel: Reporté
 
 ----
 
@@ -88,6 +104,10 @@ Ven 27 nov. de 19h à 21h et sam 28 & dim 29 nov. de 10h à 18h
 
 ----
 
+Level: Un « labo SA
+
+----
+
 Highlightedblocks: 
 
 ----
@@ -95,8 +115,13 @@ Highlightedblocks:
 Links:
 
 - 
+  linklabel: ""
+  linktype: ""
+  linkurl: ""
+  mailaddr: ""
+  doc: [ ]
+  page: [ ]
   label: test
-  linktype: external
   url: http://google.fr
   document: [ ]
 

@@ -2,9 +2,17 @@ Title: La Poursuite
 
 ----
 
+Intervenanttype: 
+
+----
+
 Intervenant:
 
 - intervenants/compagnie-la-morsure
+
+----
+
+Intervenantname: 
 
 ----
 
@@ -13,6 +21,10 @@ Dates:
 ----
 
 Hours: 
+
+----
+
+Isfull: false
 
 ----
 
@@ -36,6 +48,10 @@ Moreinfos:
 
 ----
 
+Rprstntitle: 
+
+----
+
 Representations:
 
 - 
@@ -54,7 +70,7 @@ Accentinfos: Adultes - Tous niveaux
 
 ----
 
-Level: coucou
+Accentlabel: Complet
 
 ----
 
@@ -67,6 +83,14 @@ Avec l’association Tout à tout  
 
 (email: mediation@la-paillette.net text: Aude Challemel du Rozier)
 (email: coordination@toutatout.org text: Association tout à tout )
+
+----
+
+Level: 
+
+----
+
+Highlightedblocks: 
 
 ----
 
