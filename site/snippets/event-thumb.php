@@ -17,7 +17,7 @@
       <?php $img = $event->cover()->toFile(); ?>
       <figure class="<?php  echo $img->extension() == 'jpg' || $img->extension() == 'jpeg' ? 'regular blue-filter' : 'regular' ?>">
         <?php if($event->accentlabel()->isNotEmpty()): ?>
-        <span style="font-size:18px;" class="label tag bg-accent">
+        <span style="font-size:18px;" class="label tag bg-accent mention">
           <?= $event->accentlabel() ?>
         </span>
         <?php endif; ?>

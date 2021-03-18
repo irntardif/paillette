@@ -51,7 +51,13 @@ Stagelinks:
 
 ----
 
-Onseasonstage: 
+Onseasonstage:
+
+- aventures/linogravure
+- aventures/clown
+- aventures/danse-contemporaine
+- aventures/marionnettes
+- aventures/voix-polyphonies-harmonies
 
 ----
 

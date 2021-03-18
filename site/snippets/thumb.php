@@ -12,6 +12,11 @@
     <?php $img = $event->cover()->toFile(); 
     if($img): ?>
     <figure class="<?php  echo $img->extension() == 'jpg' || $img->extension() == 'jpeg' ? 'regular blue-filter' : 'regular' ?>">
+      <?php if($event->accentlabel()->isNotEmpty()): ?>
+        <span style="font-size:18px;" class="mention label tag bg-accent">
+          <?= $event->accentlabel() ?>
+        </span>
+        <?php endif; ?>
       <?php if($event->intendedTemplate()->name() == "sortie-classe"): ?>
         <span class="label cap tag bg-accent">Projet Scolaire</span>
       <?php endif; ?>

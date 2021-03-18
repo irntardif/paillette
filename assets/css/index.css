@@ -689,12 +689,18 @@ nav.breadcrumb li a:hover{
   margin-left: 1em;
 }
 
-li:not(.thumb--artist) figure > .label.tag{
+.mention.label.tag{
   position: absolute;
   z-index: 99;
   display: block;
   top: 15px;
   left: 15px;
+  right:auto;
+}
+
+.grid.c-3 .mention.label.tag{
+  top: 0;
+  left: 0;
 }
 
 .label-wrapper{

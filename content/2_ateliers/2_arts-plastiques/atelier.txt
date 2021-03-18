@@ -43,7 +43,19 @@ Cover:
 
 ----
 
+Accentinfos: 
+
+----
+
+Accentlabel: Annulé
+
+----
+
 Description: Dessin, peinture, modelage, gravure, assemblage etc. : autant de disciplines plastiques abordées dans ces ateliers ! La pédagogie développée alterne séances techniques dirigées et séances libres où peuvent être conduits des projets plus personnels.
+
+----
+
+Level: 
 
 ----
 
@@ -107,6 +119,10 @@ Planning:
 ----
 
 Links: 
+
+----
+
+Relatedpages: 
 
 ----
 
