@@ -16,6 +16,14 @@
     <a href="<?= $event->url() ?>">
       <?php $img = $event->cover()->toFile(); ?>
       <figure class="<?php  echo $img->extension() == 'jpg' || $img->extension() == 'jpeg' ? 'regular blue-filter' : 'regular' ?>">
+        <?php if($event->accentlabel()->isNotEmpty()): ?>
+        <span style="font-size:18px;" class="label tag bg-accent">
+          <?= $event->accentlabel() ?>
+        </span>
+        <?php endif; ?>
+        <?php if($event->creation()->toBool()): ?>
+        <span class="creation--stamp"></span>
+        <?php endif; ?>
         <img src="<?= $img->thumb()->url() ?>" data-src="<?= $img->url() ?>" data-srcset="<?= $img->srcset() ?>" alt="<?= $img->filename() ?>"/>
       </figure>
       <div class="infos margin_t-s">

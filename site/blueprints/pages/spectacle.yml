@@ -134,6 +134,12 @@ tabs:
               accentinfos:
                 label: Infos exceptionnelles
                 type: textarea
+                width: 2/3
+              accentlabel:
+                label: Mention exceptionnelle
+                type: text
+                width: 1/3
+                help: Annulé / Reporté / Complet...
               description:
                 label: Description
                 type: textarea

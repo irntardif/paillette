@@ -413,7 +413,6 @@ small {
   position: relative;
   margin:auto;
   flex-wrap: wrap;
-  justify-content: space-between;
   align-items: center;
 }
 
@@ -582,7 +581,12 @@ a.menu-icon.icon-text{
 }
 
 .flex{
+  -webkit-display:flex;
   display:flex;
+}
+
+.w_33{
+  width:33%;
 }
 
 .wrap{
@@ -683,6 +687,33 @@ nav.breadcrumb li a:hover{
   top: .4em;
   margin-left: 1em;
 }
+
+li figure > .label.tag{
+  position: absolute;
+  z-index: 999;
+  display: block;
+  top: 15px;
+  left: 15px;
+}
+
+li figure > .creation--stamp{
+  position: absolute;
+  z-index: 999;
+  display: block;
+  top: 15px;
+  right: 15px;
+  width:60px;
+  height:60px;
+  background: url(../icons/creation-paillette.svg) no-repeat center;
+  background-size:100%;
+  -webkit-animation:spin 4s linear infinite;
+  -moz-animation:spin 4s linear infinite;
+  animation:spin 4s linear infinite;
+}
+
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
 
 ul.comma-list{
   list-style:none;

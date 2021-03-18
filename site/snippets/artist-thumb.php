@@ -18,6 +18,10 @@
       <?= $artist->creationName(); ?>
     <?php endif; ?>
     <div class="margin_t-s text"><?= $artist->description()->kirbytext(); ?></div>
+    <?php if($artist->spectacle()->isNotEmpty()): ?>
+    <p class="text"><a class="link" href="<?= $artist->spectacle()->toPage()->url() ?>">En savoir plus sur le spectacle</a></p>
+    <?php endif; ?>
     <?php snippet('blocks/buttonLink', array('data' => $artist->links()->toStructure(), 'class' => 'btn-light')) ?>
+    
   </div>
 </li>

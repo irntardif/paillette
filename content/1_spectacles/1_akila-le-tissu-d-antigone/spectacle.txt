@@ -20,7 +20,7 @@ Cover:
 
 ----
 
-Creation: false
+Creation: true
 
 ----
 
@@ -65,6 +65,10 @@ Companyname: Collectif Bajour / Hector Manuel
 ----
 
 Accentinfos: Les billets achetés au guichet ou sur le site internet de La Paillette pour ce spectacle peuvent être remboursés auprès de notre service billetterie : 02 99 59 88 86 ou billetterie@la-paillette.net.
+
+----
+
+Accentlabel: Annulé
 
 ----
 
