@@ -23,7 +23,9 @@
 			endif; ?>
 			</div>
 			<div class="media">
-				<?php snippet('blocks/videoContent', array('data' => $el->video()->toStructure()->first())) ?>
+				<?php if($el->hasVideo()->toBool()):
+				snippet('blocks/videoContent', array('data' => $el->video()->toStructure()->first())) ?>
+				<?php endif; ?>
 			</div>
 		</div>
 		<div class="text">

@@ -82,7 +82,7 @@ Focus:
     - ces-filles-la.jpg
     - akila-paysage.jpg
   diaporama: 'true'
-  hasvideo: 'true'
+  hasvideo: 'false'
   video:
     - 
       videoid: https://youtu.be/7g7cGjwJAkc

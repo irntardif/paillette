@@ -31,8 +31,15 @@ const openMenu = (e) =>{
   logo.classList.contains('hide') ? logo.classList.remove('hide') : logo.classList.add('hide');
 }
 
-document.getElementById('burger').onclick = (e) => openMenu(e);
-document.getElementById('burger2').onclick = (e) => openMenu(e);
+const $b1 = document.getElementById('burger');
+if($b1){
+  $b1.onclick = (e) => openMenu(e);
+}
+const $b2 = document.getElementById('burger2');
+if($b2){
+  $b2.onclick = (e) => openMenu(e);
+}
+
 
 function validateEmail(email) {
   const re = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;

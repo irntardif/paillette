@@ -694,6 +694,11 @@ nav.breadcrumb li a:hover{
   margin-left: 1em;
 }
 
+.carousel-wrapper .header-thumb .label.tag{
+  padding: 0 .1em;
+  margin:0;
+}
+
 .mention.label.tag{
   position: absolute;
   z-index: 99;
@@ -728,22 +733,60 @@ nav.breadcrumb li a:hover{
 }
 
 .label-wrapper > span:nth-child(even){
-  transform: rotate3d(1, 1, 1, 25deg);
+  -webkit-transform: rotate(25deg);
+  transform: rotate(25deg);
   top:15px;
+  left:-46px;
 }
 
 .label-wrapper > span:nth-child(odd){
-  transform: rotate3d(1, 1, 1, -28deg);
+  -webkit-transform: rotate(-28deg);
+  transform: rotate(-28deg);
   top: -10px;
   left:-20px;
 }
 
+.label-wrapper > span:nth-child(3n){
+  -webkit-transform: rotate(25deg);
+  transform: rotate(25deg);
+  left:-30px;
+  top:-35px;
+}
+
+.label-wrapper > span:nth-child(2n + 1){
+  left:12px;
+  top:10px;
+}
+
+.label-wrapper > span:nth-child(2n + 3){
+  left:45px;
+  top:56px;
+}
+
+.label-wrapper > span:nth-child(3n + 2){
+  -webkit-transform: rotate(-75deg);
+  transform: rotate(-75deg);
+  left:65px;
+  top:86px;
+}
+
+.label-wrapper > span:nth-child(4n + 3){
+  -webkit-transform: rotate(85deg);
+  transform: rotate(85deg);
+  left:-45px;
+}
+
 .label-wrapper > span:nth-child(4n){
-  transform: rotate3d(1, 2, 2, 25deg);
+  -webkit-transform: rotate(25deg);
+  transform: rotate(25deg);
+  left:30px;
+  top:15px;
 }
 
 .label-wrapper > span:nth-child(5n){
-  transform: rotate3d(2, 3, 1, -48deg);
+  -webkit-transform: rotate(48deg);
+  transform: rotate(48deg);
+  top: 25px;
 }
 
 .creation--stamp{

@@ -29,7 +29,7 @@
   content: "";
   position: absolute;
   width: 9rem;
-  right: -9rem;
+  right: -9.5rem;
   height: 200px;
   z-index: 22;
   background: #fff;
@@ -152,6 +152,10 @@
   padding:0;
 }
 
+.tippy-box[data-theme="light"]{
+  box-shadow: 10px 10px 10px rgba(0,0,0, .3);
+}
+
 .tippy-modal{
   width: 350px;
   border-radius: 0;
@@ -163,6 +167,7 @@
   padding: 1em;
   opacity:1;
   transition: opacity .3s ease;
+  z-index:99;
 }
 
 .tippy-modal .modal-body:hover{
@@ -227,5 +232,6 @@
 
   #calendar{
     display:flex;
+    overflow:hidden;
   }
 }
