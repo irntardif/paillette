@@ -4,12 +4,17 @@
       <span><?php snippet('dates', array('representations' => $event->representations())) ?></span>
       <span>
         <?= $event->type() == 'show' ? 'Spectacle' : 'Évènement'; ?>
-         <?php  $cats = explode(",", $page->categories());
+
+         <?php  
+
+        if( $event->categories()-> isNotEmpty()):
+          $cats = explode(",", $event->categories());
           foreach ($cats as $cat): ?>
             <span class="label tag bg-accent uppercase">
             <?= $cat == 'family' ? 'En famille' : 'Création'; ?>
             </span>
           <?php endforeach ?>  
+        <?php endif; ?>
       </span>
      
     </header>

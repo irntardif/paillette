@@ -457,6 +457,11 @@ small {
   padding: 0 1rem;
   display: block;
 }
+
+.menu a:hover{
+  text-decoration:underline;
+}
+
 .menu a[aria-current] {
   text-decoration: underline;
 }
@@ -587,7 +592,7 @@ a.menu-icon.icon-text{
 }
 
 .w_33{
-  width:33%;
+  width:33.3333333%;
 }
 
 .wrap{
@@ -663,9 +668,9 @@ nav.breadcrumb li a:hover{
 
 .label.tag{
     color: #000;
-    padding: 0 1em;
+    padding: 0 .5em;
     display: inline-block;
-    margin: 0 .5em 0 0;
+    margin: 0;
     vertical-align: super;
     font-size:0.777em;
     text-transform:lowercase;
@@ -673,7 +678,7 @@ nav.breadcrumb li a:hover{
 
 .thumb .label.tag{
   z-index: 99;
-  margin: 1em;
+  margin: .5em;
   display: inline-block;
   position: absolute;
   right: 0;
@@ -1579,8 +1584,8 @@ iframe{
   }
 
   .filter-item{
-    width: calc(50% - 2.6em);
-    margin: 1.3em 1.3em 4.5em 1.3em;
+    width: calc(50% - 2em);
+    margin: 1.3em 1em 4.5em 1em;
   }
 
   .grid.c-3 .filter-item{
@@ -1692,6 +1697,7 @@ iframe{
     margin: auto;
     width: 30px;
     top:0;
+    left: 3px;
   }
 
   .main-header > div{

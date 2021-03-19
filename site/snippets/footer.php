@@ -34,7 +34,6 @@
               <?php foreach ($site->children()->listed() as $elPage): ?>
               <li><a href="<?= $elPage->url() ?>"><?= $elPage->title()->html() ?></a></li>
               <?php endforeach ?>
-              <li><a href="<?= $site->find('artistes')->url() ?>"><?= $site->find('artistes')->title()->html() ?></a></li>
               <?php if($site->find('spectacles')->program()->isNotEmpty()): 
               foreach ($site->find('spectacles')->program()->toStructure() as $prog):
                 $url = $prog->document()->isNotEmpty() ? $prog->document()->toFile()->url() : null;
@@ -68,7 +67,7 @@
               </li> 
               <?php endif; ?>
               <li>
-                <a class="menu-icon icon-text loop" target="_blank" href="#">search</a>
+                <a class="menu-icon icon-text loop" target="_blank" href="/search">Recherche</a>
               </li>
             </ul>
           </div>
