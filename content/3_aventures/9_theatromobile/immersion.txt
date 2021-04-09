@@ -2,15 +2,31 @@ Title: Théâtromobile
 
 ----
 
+Intervenanttype: 
+
+----
+
 Intervenant: 
 
 ----
 
-Dates: 
+Intervenantname: 
 
 ----
 
-Hours: 
+Dates:
+
+- 
+  date: 2021-04-15
+  publictype: all
+
+----
+
+Hours: de 12h à 14h
+
+----
+
+Isfull: false
 
 ----
 
@@ -38,6 +54,10 @@ Moreinfos:
 
 ----
 
+Rprstntitle: 
+
+----
+
 Representations: 
 
 ----
@@ -48,6 +68,14 @@ Cover:
 
 ----
 
+Accentinfos: 
+
+----
+
+Accentlabel: 
+
+----
+
 Description:
 
 ## Du 3 au 16 juillet
@@ -55,7 +83,19 @@ Depuis 2011, Théâtromobile offre la possibilité à des jeunes âgés de 15 à
 
 ----
 
+Level: 
+
+----
+
+Highlightedblocks: 
+
+----
+
 Links: 
+
+----
+
+Relatedpages: 
 
 ----
 

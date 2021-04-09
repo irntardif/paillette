@@ -16,11 +16,15 @@ Intervenantname:
 
 ----
 
-Dates: 
+Dates:
+
+- 
+  date: 2021-04-15
+  publictype: all
 
 ----
 
-Hours: 
+Hours: 08h - 12h
 
 ----
 

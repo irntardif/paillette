@@ -11,7 +11,6 @@
     if($data->builder2()->isNotEmpty() && $data->layout() == 'c-2'): ?>
       <div class="grid c-2">
     <?php foreach($data->builder2()->toBuilderBlocks() as $block):
-
       snippet('blocks/' . $block->_key(), array('data' => $block, 'class' => "btn-light"));
       endforeach;
     endif;
