@@ -220,6 +220,7 @@
 
   .carousel-events .filter-item{
     width:calc(100% - 2em);
+    max-width: 400px;
   }
 
   .carousel-events + .carousel-nav button.next{

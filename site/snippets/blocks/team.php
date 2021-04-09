@@ -26,10 +26,33 @@
 	    		<p><a class="micro-text" href="mailto:<?= $item->pemail() ?>"><?= $item->pemail() ?></a></p>
 	    		<?php else: ?>
 	    			<p><span class="small-title"><?= $item->title() ?></span></p>
-	    			<?php foreach($item->workshops()->toPages() as $workshop): ?>
-	    				<p><a class="micro-text" href="<?= $workshop->url()?>"><?= $workshop->title() ?></a></p>
-	    			<?php endforeach;
-	    		endif; ?>
+				    <?php switch ($item->area()) {
+				        case 'arts-plastiques':
+				            $label = 'Arts Plastiques';
+				            break;
+				        case 'bien-être':
+				            $label = 'Bien-être';
+				            break;
+				        case 'danse':
+				            $label = 'Danse';
+				            break;
+				        case 'musique-chant':
+				            $label = 'Musique et chant';
+				            break;
+				        case 'theatre':
+				            $label = 'Théâtre';
+				            break;
+				        case 'mixed':
+				            $label = 'Pluridisciplinaire';
+				            break;
+				        default:
+				            $label = '';
+				            $desc =  '';
+				            break;
+				        }?>
+	    			<p><span class="micro-text"><?= $label ?></span></p>
+	    			
+	    		<?php endif; ?>
 	    	</div>
 	    <?php endforeach;?>
 	<?php if($type == 'pageType'): ?>

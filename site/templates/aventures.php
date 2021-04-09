@@ -54,7 +54,7 @@
                   echo $desc2; 
                 endif; ?>
               </div>
-            <!-- <?php snippet('artists-list', array('collection' => $aventuresP->children()->listed()->filterBy('intendedTemplate', $type))); ?>   -->
+           
             </div class="text margin_t-m">
             <?php if($type == 'stage'):
             snippet('filters', array('categories' => ['' => "Tous les âges", '.children1' => '4-5 ans', '.children2' => '6-10 ans', '.teen1' => '11-14 ans', '.teen2' => '15-18 ans', '.students' => 'étudiants', '.adults' => 'adultes'])); ?>

@@ -2,7 +2,7 @@ Title: Sauvage
 
 ----
 
-Intervenanttype: 
+Intervenanttype: artistpage
 
 ----
 
@@ -13,7 +13,7 @@ Intervenant:
 
 ----
 
-Intervenantname: 
+Intervenantname: COucou
 
 ----
 

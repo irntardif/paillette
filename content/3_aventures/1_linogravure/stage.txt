@@ -2,19 +2,29 @@ Title: Linogravure
 
 ----
 
+Intervenanttype: label
+
+----
+
 Intervenant:
 
 - intervenants/francois-soutif
+- >
+  artistes/frederic-mingant-cie-13-10e-en-ut
+
+----
+
+Intervenantname: Jean Pierre Coffe
 
 ----
 
 Dates:
 
 - 
-  date: 2020-11-28
+  date: 2021-05-22
   publictype: all
 - 
-  date: 2020-11-29
+  date: 2021-05-23
   publictype: all
 
 ----
@@ -54,6 +64,10 @@ Moreinfos:
 
 ----
 
+Rprstntitle: 
+
+----
+
 Representations: 
 
 ----
@@ -68,11 +82,15 @@ Accentinfos:
 
 ----
 
-Level: Adultes - Tous niveaux
+Accentlabel: 
 
 ----
 
 Description: Pour expérimenter cette technique simple de gravure, les participants sont invités à réaliser une œuvre colorée en combinant gravure et fonds préparés en collage. Ouvert aux débutants, ce stage est également accessible aux personnes expérimentées qui y trouveront un prolongement naturel des précédents stages organisés à La Paillette.
+
+----
+
+Level: Adultes - Tous niveaux
 
 ----
 
@@ -95,6 +113,7 @@ Links:
   linkurl: ""
   mailaddr: bonjour@irenetardif.com
   doc: [ ]
+  page: [ ]
 - 
   linklabel: pdf
   linktype: file
@@ -102,6 +121,7 @@ Links:
   mailaddr: bonjour@irenetardif.com
   doc:
     - paillette-v4.pdf
+  page: [ ]
 - 
   linklabel: url
   linktype: url
@@ -109,6 +129,7 @@ Links:
   mailaddr: bonjour@irenetardif.com
   doc:
     - paillette-v4.pdf
+  page: [ ]
 
 ----
 

@@ -11,7 +11,7 @@
   <a href="<?= $event->url() ?>">
     <?php $img = $event->cover()->toFile(); 
     if($img): ?>
-    <figure class="<?php  echo $img->extension() == 'jpg' || $img->extension() == 'jpeg' ? 'regular blue-filter' : 'regular' ?>">
+    <figure class="<?php  echo ($img->extension() == 'jpg' || $img->extension() == 'jpeg' || $img->extension() == 'webp') ? 'regular blue-filter' : 'regular' ?>">
       <?php if($event->accentlabel()->isNotEmpty()): ?>
         <span style="font-size:18px;" class="mention label tag bg-accent">
           <?= $event->accentlabel() ?>

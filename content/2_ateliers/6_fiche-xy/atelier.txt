@@ -2,7 +2,15 @@ Title: fiche xy
 
 ----
 
+Area: mixed
+
+----
+
 Intervenant: 
+
+----
+
+Contactmail: 
 
 ----
 
@@ -14,11 +22,25 @@ Prices:
 
 ----
 
-Cover: 
+Cover:
+
+- theatre-la-paillette-mjc3.jpeg
+
+----
+
+Accentinfos: 
+
+----
+
+Accentlabel: 
 
 ----
 
 Description: 
+
+----
+
+Level: 
 
 ----
 

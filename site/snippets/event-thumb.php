@@ -1,11 +1,34 @@
 <li class="filter-item <?php snippet('categories', array('categories' => $event->categories(), 'isClass' => true )) ?><?= $event->representations()->isNotEmpty() ? ' '.$event->representations()->toStructure()->first()->date()->toDate('%B') : ' all' ?>">
   <section>
     <header class="header-thumb grid c-2 margin_b-s">
-      <span><?php snippet('dates', array('representations' => $event->representations())) ?></span>
+      <?php if($event->representations()->isNotEmpty()){ ?>
+        <span><?php snippet('dates', array('representations' => $event->representations())) ?></span>
+      <?php }else{ ?>
+        <span><?php snippet('dates', array('representations' => $event->dates())) ?></span>
+      <?php } ?>
+      
       <span>
-        <?= $event->type() == 'show' ? 'Spectacle' : 'Évènement'; ?>
-
-         <?php  
+        <?php if($event->intendedTemplate() == 'spectacle'){ 
+          echo  $event->type() == 'show' ? 'Spectacle' : 'Évènement'; 
+        }else{
+          switch($event->intendedTemplate()){
+            case 'stage':
+            echo 'Stage';
+            break;
+            case 'sortie-classe':
+            echo 'Sortie de classe';
+            break;
+            case 'immersion':
+            echo 'Immersion';
+            break;
+            case 'projet':
+            echo 'Projet';
+            break;
+            default:
+            echo 'Stage';
+            break;
+          }
+        }
 
         if( $event->categories()-> isNotEmpty()):
           $cats = explode(",", $event->categories());

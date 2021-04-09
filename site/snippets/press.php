@@ -5,7 +5,9 @@
 		<div class="micro-text">
 			<em><?= $article->excerpt()->kirbytext(); ?></em>
 			<p><?= $article->moreinfos()->value(); ?></p>
-			<a class="link-regular" target="_blank" href="<?= $article->link() ?>">En lire plus</a>
+			<?php if($article->link()->isNotEmpty()): ?>
+				<a class="link-regular" target="_blank" href="<?= $article->link() ?>">En lire plus</a>
+			<?php endif; ?>
 		</div>
 	<?php endforeach; ?>
 </div>

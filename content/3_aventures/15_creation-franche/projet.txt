@@ -2,7 +2,17 @@ Title: Création franche
 
 ----
 
-Intervenant: - intervenants/compagnie-la-morsure
+Intervenanttype: artistpage
+
+----
+
+Intervenant:
+
+- intervenants/compagnie-la-morsure
+
+----
+
+Intervenantname: 
 
 ----
 
@@ -11,6 +21,10 @@ Dates:
 ----
 
 Hours: 
+
+----
+
+Isfull: false
 
 ----
 
@@ -34,6 +48,10 @@ Moreinfos:
 
 ----
 
+Rprstntitle: 
+
+----
+
 Representations:
 
 - 
@@ -42,7 +60,17 @@ Representations:
 
 ----
 
-Cover: - bleu.jpg
+Cover:
+
+- bleu.jpg
+
+----
+
+Accentinfos: 
+
+----
+
+Accentlabel: 
 
 ----
 
@@ -58,7 +86,19 @@ Projet financé par La Direction Culture de la Ville de Rennes
 
 ----
 
+Level: 
+
+----
+
+Highlightedblocks: 
+
+----
+
 Links: 
+
+----
+
+Relatedpages: 
 
 ----
 

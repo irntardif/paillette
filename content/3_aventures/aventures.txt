@@ -69,7 +69,10 @@ Immersionlinks:
 
 ----
 
-Onseasonimmersion: 
+Onseasonimmersion:
+
+- aventures/ces-filles-la
+- aventures/theatromobile
 
 ----
 
@@ -81,7 +84,10 @@ Projectlinks:
 
 ----
 
-Onseasonproject: 
+Onseasonproject:
+
+- aventures/creation-franche
+- aventures/creatives
 
 ----
 

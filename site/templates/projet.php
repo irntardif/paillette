@@ -63,10 +63,10 @@
               </div>
             <?php endforeach; ?>
           </div>
-          <?php endif; ?>
-          <?php if($page->intervenant()->toPages()):
-            foreach ($page->intervenant()->toPages() as $page) {
-              snippet('about', array('speaker' => $page->intervenant()->toPage(), 'class' => 'btn-light'));
+          <?php endif;
+          if($page->intervenantType() == 'artistpage' && $page->intervenant()->toPages()):
+            foreach ($page->intervenant()->toPages() as $intervenant) {
+              snippet('about', array('speaker' => $intervenant, 'class' => 'btn-light'));
             }
           endif; ?>
         </section>

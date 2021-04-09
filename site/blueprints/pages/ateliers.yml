@@ -41,6 +41,9 @@ columns:
           theatreedito:
             label: Edito Théâtre
             type: textarea
+          mixededito:
+            label: Edito Pluridisciplinaire
+            type: textarea
           hr2:
             type: line
           focus: sections/focus

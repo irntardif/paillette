@@ -2,7 +2,7 @@ Title: La Poursuite
 
 ----
 
-Intervenanttype: 
+Intervenanttype: artistpage
 
 ----
 

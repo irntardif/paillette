@@ -40,7 +40,7 @@ Highlightedblocks:
 - 
   title: Aventures à partager
   img:
-    - ces-filles-la.jpg
+    - theatre-la-paillette-mjc3.jpeg
   contenttext: '<p>Laboratoires de création, stages, projets avec le public, théâtromobile : milles manières de passer jours et nuits avec La Paillette.</p>'
   links:
     - 

@@ -39,6 +39,7 @@ tabs:
               danse: Danse
               musique-chant: Musique et Chant
               theatre: Théâtre
+              mixed: Pluridisciplinaire
             required: true
           intervenant:
             label: Intervenant

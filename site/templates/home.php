@@ -6,15 +6,18 @@
 		
 		<div class="carousel-wrapper margin_t-l">
 			<div class="carousel-events">
-				<?php foreach ($kirby->collection('incoming-shows') as $event): ?>
+				<?php foreach ($kirby->collection('incoming-events') as $event): ?>
 		      		<?php snippet('event-thumb', array('event' => $event)); ?>
 		    	<?php endforeach; ?>
 		    	<div style="width:100%"></div>
 			</div>
-			<nav class="carousel-nav">
-				<button class="prev">Prev</button>
-				<button class="next">Next</button>
-			</nav>
+			
+			<?php if(count($kirby->collection('incoming-events')) > 1) { ?>
+				<nav class="carousel-nav">
+					<button class="prev">Prev</button>
+					<button class="next">Next</button>
+				</nav>
+		<?php } ?>
 		</div>
 
 		<?php snippet('agenda', array('img' => $page->workshopImage())); ?>

@@ -8,7 +8,7 @@
     <?php snippet('intro') ?>
 
     <?php if ($ateliersP = page('ateliers')): ?>
-      <?php $types = ['arts-plastiques', 'bien-être', 'danse', 'musique-chant', 'theatre'];
+      <?php $types = ['arts-plastiques', 'bien-être', 'danse', 'musique-chant', 'theatre', 'mixed'];
       foreach ($types as $key => $type): ?>
         <?php switch ($type) {
         case 'arts-plastiques':
@@ -31,6 +31,14 @@
             $title = 'Théâtre';
             $desc =  $page->theatreedito()->kirbytext();
             break;
+        case 'mixed':
+            $title = 'Pluridisciplinaire';
+            $desc =  $page->mixededito()->kirbytext();
+            break;
+        default:
+            $title = '';
+            $desc =  '';
+            break;
         }?>
         <section class="dropdown-bloc" data-dropdown="true" data-id="<?=$key?>">
           <header class="flex space-between">
@@ -42,7 +50,6 @@
               <div class="text margin_t-m">
                 <?= $desc; ?>
               </div>
-             <!--  <?php snippet('artists-list', array('collection' => $ateliersP->children()->listed()->filterBy('area', $type))); ?>   -->
             </div>
             <?php snippet('filters', array('categories' => ['' => "Tous les âges", '.children1' => '4-5 ans', '.children2' => '6-10 ans', '.teen1' => '11-14 ans', '.teen2' => '15-18 ans', '.students' => 'étudiants', '.adults' => 'adultes'])); ?>
             <ul class="filter-grid grid c-3 margin_t-m">

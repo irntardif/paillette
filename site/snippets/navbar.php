@@ -41,16 +41,17 @@
         </a>
       <?php endforeach ?>
     
-      <?php foreach ($site->children()->unlisted() as $item):
-        if($item->id() == 'artistes' || $item->id() == 'infos' || $item->id() == 'la-paillette'): ?>
-        <a <?php e($item->isOpen(), 'aria-current ') ?> href="<?= $item->url() ?>">
-          <?= $item->title()->html(); ?>
-        </a>
-      <?php endif; ?>
-    <?php endforeach ?>
-      <a href="/search">
-        <span class="bg-primary bg-tint">Recherche</span>
-      </a>
+      <ul>
+        <li>
+          <a href="<?= $site->find('la-paillette')->url() ?>"><?= $site->find('la-paillette')->title()->html() ?></a>
+        </li>
+        <li>
+          <a href="<?= $site->find('infos')->url() ?>"><?= $site->find('infos')->title()->html() ?></a>
+        </li>
+        <li> 
+          <a href="/search"><span class="bg-primary bg-tint">Recherche</span></a>
+        </li>
+      </ul>
     </nav>
     
   </div>

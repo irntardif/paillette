@@ -2,11 +2,13 @@ Title: Nuages
 
 ----
 
-Intervenanttype: 
+Intervenanttype: artistpage
 
 ----
 
-Intervenant: 
+Intervenant:
+
+- artistes/christine-le-berre-hop-hop-hop
 
 ----
 
@@ -68,7 +70,7 @@ Accentinfos:
 
 ----
 
-Level: 
+Accentlabel: 
 
 ----
 
@@ -82,6 +84,10 @@ Imaginé avec les éducatrices de l’IME La Dussetière – Lécousse et Yoann 
 Découverte du spectacle Le roi des nuages et de l’univers de la compagnie, construction et manipulation de marionnettes, écriture et improvisation, création d’une petite forme théâtrale et confrontation au public lors d’une restitution, voilà les différents ingrédients de cette joyeuse semaine !
 
 + Projet financé par la DRAC et l’ARS Bretagne dans le cadre des projets Culture-Santé, le Conseil Départemental d’Ille-et-Vilaine (non acquis), l’IME La Dussetière, La Paillette
+
+----
+
+Level: 
 
 ----
 
