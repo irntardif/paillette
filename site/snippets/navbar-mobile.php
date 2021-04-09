@@ -34,22 +34,19 @@
       <?php endforeach ?>
     </nav>
     
-    <nav class="menu">
+    <nav class="menu menu-small">
       
-    
     <a class="menu-icon icon-text newsletter" href="#newsletter">
       <span class="bg-primary bg-tint">Newsletter</span>
     </a>
-     <a target="_blank" href="/search">
-        <span class="menu-icon loop"></span>
-        Recherche
+    <a class="menu-icon icon-text loop" href="/search">
+      <span>Recherche</span>
+    </a>
+    <?php if( $site->ticketing()->isNotEmpty()): ?>
+      <a class="menu-icon icon-text ticket" target="_blank" href="<?= $site->ticketing() ?>">
+        <span>Billetterie</span>
       </a>
-      <?php if( $site->ticketing()->isNotEmpty()): ?>
-        <a target="_blank" href="<?= $site->ticketing() ?>">
-          <span class="menu-icon ticket"></span>
-          Billetterie
-        </a>
-      <?php endif; ?>
+    <?php endif; ?>
     </nav>
 
    <?php snippet('social', ['socials' => $site->social()->toStructure() ]) ?>

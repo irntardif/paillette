@@ -14,7 +14,7 @@
  <?php if ($socials->count()): ?>
 <span class="social">
   <?php foreach ($socials as $social): ?>
-  <a href="<?= $social->url(); ?>">
+  <a target="_blank" href="<?= $social->url(); ?>">
     <?= svg('assets/icons/'.$social->platform().'.svg') ?>
   </a>
   <?php endforeach; ?>

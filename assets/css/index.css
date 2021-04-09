@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   -webkit-font-smoothing: antialiased;
-  -webkit-font-smoothing: subpixel-antialiased;
+  /*-webkit-font-smoothing: subpixel-antialiased;*/
 }
 
 @font-face {
@@ -417,8 +417,8 @@ small {
 
 .main-header .wrapper-2{
     position: fixed;
-    padding: 2em;
-    top: 100px;
+    padding: 1em;
+    top: 70px;
     left: 0;
     height: 100vh;
     background-color: var(--color-main);
@@ -439,6 +439,18 @@ small {
   font-size:28px;
 }
 
+.main-header .wrapper-2 .menu-small{
+  margin:1em 0 1em 1em;
+}
+
+.main-header .wrapper-2 .menu-small a{
+  font-size:1.1em;
+}
+
+.main-header .social{
+  margin-left:1em;
+}
+
 .logo {
   display: flex;
   font-size:1.5rem;
@@ -451,6 +463,10 @@ small {
 
 .menu{
   margin-top:1em;
+}
+
+.menu + .menu{
+  margin-top:0;
 }
 
 .menu a {
@@ -941,7 +957,7 @@ p.list span:last-child:after{
   margin-top:1rem;
 }
 
-.text :last-child:not(.no_m){
+.text :last-child:not(.no_m, br){
   margin-bottom:1rem;
 }
 

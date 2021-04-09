@@ -48,8 +48,8 @@
         <li>
           <a href="<?= $site->find('infos')->url() ?>"><?= $site->find('infos')->title()->html() ?></a>
         </li>
-        <li> 
-          <a href="/search"><span class="bg-primary bg-tint">Recherche</span></a>
+        <li style="margin-top:1.5em;"> 
+          <a style="font-size:1.2em; margin-top:.5em;" class="menu-icon icon-text loop" href="/search"><span class="bg-primary bg-tint">Recherche</span></a>
         </li>
       </ul>
     </nav>
