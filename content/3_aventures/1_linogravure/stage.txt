@@ -74,7 +74,7 @@ Representations:
 
 Cover:
 
-- bleu.jpg
+- danse-enfants.jpg
 
 ----
 
@@ -82,7 +82,7 @@ Accentinfos:
 
 ----
 
-Accentlabel: 
+Accentlabel: Annulé
 
 ----
 

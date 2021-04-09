@@ -19,7 +19,7 @@
                 <?php endif; ?>
               </figure>
               <div class="ws-infos margin_t-s">
-                <span class="cap"><?= $workspace->location() ?></span>
+                <span class="cap"><?= $workspace->location() == 'lavoir' ? 'Au lavoir' : 'Au théâtre' ?></span>
                 <span><?= $workspace->pName() ?></span>
                 <div class="micro-text"><?= $workspace->moreInfos()->kt() ?></div>  
               </div>
@@ -27,7 +27,7 @@
           <?php endforeach;?>
         </div>
       </div>
-
+      <?php snippet('blocks/buttonLink', array('data' => $data->buttonLink()->toStructure(), 'class' => 'btn-light')) ?>
 
   <?php if($data->dropdown()->toBool()): ?>
     </div>

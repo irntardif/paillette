@@ -20,11 +20,7 @@ Cover:
 
 ----
 
-Creation: false
-
-----
-
-Cohosting: false
+Creation: true
 
 ----
 
@@ -89,6 +85,14 @@ Companyname:
 
 ----
 
+Accentinfos: 
+
+----
+
+Accentlabel: 
+
+----
+
 Description:
 
 **Horaires à confirmer**
@@ -101,6 +105,10 @@ Spectacle organisé en co-réalisation avec le festival Mythos.
 
 ----
 
+Links: 
+
+----
+
 Distribution: 
 
 ----
@@ -109,7 +117,7 @@ Credits: Mise en scène, texte : Marine Bachelot Nguyen
 
 ----
 
-Links: 
+Highlightedblocks: 
 
 ----
 
@@ -118,6 +126,10 @@ Relatedpages:
 ----
 
 Press: 
+
+----
+
+Cohosting: false
 
 ----
 
