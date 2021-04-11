@@ -26,6 +26,14 @@
                 <?php endforeach?>
             </select>
           <?php endif; ?>
+          <?php if($site->artistsArchives()->isNotEmpty()): ?>
+          <select class="select" name="pdfArchives" id="pdfArchives">
+              <option value="">Tous les PDF</option>
+              <?php foreach ($site->artistsArchives()->toStructure() as $pdfArchive): ?>
+                <option value="<?= $pdfArchive->doc()->toFile()->url() ?>"><?= $pdfArchive->title() ?></option>
+              <?php endforeach?>
+          </select>
+        <?php endif; ?>
       </section>
   </div>
 </main>
@@ -33,3 +41,11 @@
   snippet('focus', array('focus' => $page->focus()->toStructure()));
 endif ?>
 <?php snippet('footer') ?>
+
+<script>
+  document.getElementById('pdfArchives').onchange = (e) => {
+  e.preventDefault();
+  var win = window.open(e.target.options[e.target.selectedIndex].getAttribute('value'), '_blank');
+  win.focus();
+}
+</script>

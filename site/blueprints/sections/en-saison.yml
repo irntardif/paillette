@@ -3,7 +3,7 @@
 # Sections can have different layouts and display additional information or a preview image
 # More about pages sections: https://getkirby.com/docs/reference/panel/sections/pages
 type: pages
-headline: Archives
+headline: En saison
 parent: site
 info: "{{ page.type }}"
 layout: list
@@ -11,8 +11,8 @@ templates:
   - spectacles
   - artistes
   - aventures
-status: unlisted
-empty: Pas encore d'archives
+status: listed
+empty: Pas encore de pages en saison
 image:
   query: page.cover
   cover: true

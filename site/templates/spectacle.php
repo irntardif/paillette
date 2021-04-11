@@ -57,13 +57,23 @@
               <?php if ($page->distribution()->isNotEmpty()): ?>
               <div>
                 <p class="underline margin_b-s">Distribution</p>
-                <?= $page->distribution()->kirbytext(); ?>
+                <div class="text" data-text="<?= $page->distribution()->kirbytext()?>">
+                  <?= $page->distribution()->kirbytext()->short(250,'...'); ?>
+                </div>
+                  <?php if($page->distribution()->length() > 250): ?>
+                  <span class="link color-accent read-more">&darr;</span>
+                <?php endif; ?>
               </div>
               <?php endif; ?>
               <?php if ($page->credits()->isNotEmpty()): ?>
               <div>
                 <p class="underline margin_b-s">Crédits</p>
-                <?= $page->credits()->kirbytext(); ?>
+                <div class="text" data-text="<?= $page->credits()->kirbytext()?>">
+                  <?= $page->credits()->kirbytext()->short(250,'...'); ?>
+                </div>
+                  <?php if($page->credits()->length() > 250): ?>
+                  <span class="link color-accent read-more">&darr;</span>
+                <?php endif; ?>
               </div>
               <?php endif; ?>
             </div>

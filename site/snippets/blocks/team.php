@@ -12,7 +12,6 @@
 	$title = "Les intervenants";
 } ?>
 
-
 <div class='column' style="<?=$style?>">
 	<h2 class="margin_b-s margin_t-m"><?= $title; ?></h2>
 	<?php if($type == 'pageType'): ?>
@@ -36,8 +35,11 @@
 				        case 'danse':
 				            $label = 'Danse';
 				            break;
-				        case 'musique-chant':
-				            $label = 'Musique et chant';
+				        case 'musique':
+				            $label = 'Musique';
+				            break;
+				        case 'chant':
+				            $label = 'Chant';
 				            break;
 				        case 'theatre':
 				            $label = 'Théâtre';

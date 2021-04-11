@@ -134,6 +134,8 @@ Pagebuilder:
       linktype: mail
       linkurl: ""
       mailaddr: conseiladministration@la-paillette.net
+      doc: [ ]
+      page: [ ]
       buttonlinks: [ ]
       _key: buttonLink
       _uid: buttonLink_1609860412566_290
@@ -172,6 +174,8 @@ Pagebuilder:
       linktype: mail
       linkurl: ""
       mailaddr: dynamique.lapaillette@gmail.com
+      doc: [ ]
+      page: [ ]
       buttonlinks: [ ]
       _key: buttonLink
       _uid: buttonLink_1609862335071_2153
@@ -249,16 +253,32 @@ Pagebuilder:
       _uid: column_1_1609417324013_431
     - 
       intervenants:
-        - intervenants/laurence-gicquel
         - intervenants/manon-thomas
         - intervenants/morvan-leray
         - >
           intervenants/denise-et-craig-schaffer-cie-mze-shina
         - intervenants/raphael-trehin
         - intervenants/jean-renault
+        - intervenants/laurence-gicquel
       stakeholders: [ ]
       _key: column_2
       _uid: column_2_1609418302613_431
+    - 
+      intervenants:
+        - intervenants/manon-thomas
+        - intervenants/morvan-leray
+        - >
+          intervenants/denise-et-craig-schaffer-cie-mze-shina
+        - intervenants/raphael-trehin
+        - intervenants/jean-renault
+        - intervenants/laurence-gicquel
+      stakeholders: [ ]
+      _key: column_2
+      uniquekey: 0
+      showpreviewinitially: false
+      expandedinitially: false
+      activefieldsetinitially: content
+      _uid: column_2_1617979418278_4102
   title: ""
   _key: teamColumns
   _uid: teamColumns_1609417144131_119

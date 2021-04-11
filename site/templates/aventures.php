@@ -96,10 +96,10 @@
                 <?php endforeach?>
             </select>
           <?php endif; ?>
-          <?php if($site->pdfArchives()->isNotEmpty()): ?>
+          <?php if($site->adventuresArchives()->isNotEmpty()): ?>
           <select class="select" name="pdfArchives" id="pdfArchives">
               <option value="">Tous les PDF</option>
-              <?php foreach ($site->pdfArchives()->toStructure() as $pdfArchive): ?>
+              <?php foreach ($site->adventuresArchives()->toStructure() as $pdfArchive): ?>
                 <option value="<?= $pdfArchive->doc()->toFile()->url() ?>"><?= $pdfArchive->title() ?></option>
               <?php endforeach?>
           </select>
@@ -112,3 +112,11 @@
 endif ?>
 <?php snippet('isotope-script') ?>
 <?php snippet('footer') ?>
+
+<script>
+  document.getElementById('pdfArchives').onchange = (e) => {
+  e.preventDefault();
+  var win = window.open(e.target.options[e.target.selectedIndex].getAttribute('value'), '_blank');
+  win.focus();
+}
+</script>

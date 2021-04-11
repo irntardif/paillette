@@ -10,27 +10,14 @@ title: Site
 tabs:
   sitePages:
     label: Pages
-    icon: file
+    icon: page
     columns:
       # The first column has one section for the subpages of the `photography` page in card layout
       # It reuses the pages section defined in `/site/blueprints/sections/albums.yml`
+                     
       - width: 1/2
         sections:
-          spectacles: 
-            extends: sections/spectacles
-            status: listed
-            #help: "Définir l'ordre des spectacles dans la Page Spectacle"
-          ateliers: 
-            extends: sections/ateliers
-            status: listed
-            #help: "Définir l'ordre des ateliers dans la Page Atelier"
-          aventures: 
-            extends: sections/aventures
-            status: listed
-            #help: "Définir l'ordre des aventures dans la Page Aventures"
-
-      - width: 1/2
-        sections:
+          onseason: sections/en-saison
           pages:
             type: pages
             create: default
@@ -38,19 +25,49 @@ tabs:
               - home
               - about
               - infos
-              - spectacles
               - ateliers
-              - aventures
-              - artistes
               - espace-pro
               - default
+      - width: 1/2
+        sections:
+          archivesPages: sections/archives
           archives:
             type: fields
             fields:
               pdfArchives:
-                label: Archives PDF
+                label: Archives PDF – Spectacles
                 type: structure
-                help: Télécharger ici les anciens programmes de saisons
+                help: Télécharger ici les anciens programmes de saisons**
+                fields:
+                  title:
+                    type: text
+                    label: Nom du document
+                    width: 1/2
+                  doc:
+                    label: Document
+                    type: files
+                    template: document
+                    query: page.files.filterBy('template', 'document')
+                    width: 1/2
+              adventuresArchives:
+                label: Archives PDF – Aventures à partager
+                type: structure
+                help: '**'
+                fields:
+                  title:
+                    type: text
+                    label: Nom du document
+                    width: 1/2
+                  doc:
+                    label: Document
+                    type: files
+                    template: document
+                    query: page.files.filterBy('template', 'document')
+                    width: 1/2
+              artistsArchives:
+                label: Archives PDF – Artises en résidence 
+                type: structure
+                help: '**'
                 fields:
                   title:
                     type: text
@@ -82,7 +99,29 @@ tabs:
                   -> Idem pour **Aventures à partager** et **Artistes en Résidence**
 
                   Et voilà !
-
+  sitePiles:
+    label: Fiches
+    icon: file
+    columns:
+       - width: 1/3
+        sections:
+          spectacles: 
+            extends: sections/spectacles
+            status: listed
+            #help: "Définir l'ordre des spectacles dans la Page Spectacle"
+       - width: 1/3
+        sections:
+          ateliers: 
+            extends: sections/aventures
+            status: listed
+            #help: "Définir l'ordre des ateliers dans la Page Atelier"
+       - width: 1/3
+        sections:
+          aventures: 
+            extends: sections/ateliers
+            status: listed
+            #help: "Définir l'ordre des aventures dans la Page Aventures"   
+  
   artists:
     icon: smile
     label: Artistes et intervenants

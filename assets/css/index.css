@@ -1053,7 +1053,7 @@ figure.logo-img{
   width:calc(50% - 2em);
   height: 0;
   overflow: hidden;
-  padding-bottom: calc(15% + 30px);
+  padding-bottom: calc(25% + 50px);
   position:relative;
   margin: 1em;
 }
@@ -1068,7 +1068,14 @@ figure.logo-img figcaption{
 }
 
 figure.logo-img img{
-  position:relative;
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  bottom:0;
+  right:0;
+  object-fit: contain;
 }
 
 figure.regular{
@@ -1785,7 +1792,7 @@ iframe{
   }
 
   figure.logo-img{
-    width:calc(20% - 2em);
+    width:calc(25% - 2em);
   }
 
   .select + .select{
