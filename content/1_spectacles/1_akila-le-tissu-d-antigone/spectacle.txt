@@ -50,7 +50,7 @@ Gallery:
 
 ----
 
-Company: artistpage
+Company: label
 
 ----
 
@@ -122,11 +122,26 @@ Links:
 
 ----
 
-Distribution: 
+Distribution:
+
+Texte et mise en scène : Marine Bachelot Nguyen, en complicité avec Marina Keltchewsky et François-Xavier Phan.
+Avec : Marina Keltchewsky, François-Xavier Phan et Marine Bachelot Nguyen
+Scénographie, vidéo et costumes : Julie Pareau 
+Lumière : Stéphane Colin 
+Assistante mise en scène : Joanna Armaing
 
 ----
 
-Credits: Lecture : Enora Boëlle / Texte : Robin Lescouët
+Credits:
+
+Production: Lumière d'août
+Coproduction : Le Strapontin, scène de territoire arts de la parole (Pont-Scorff) ; Le Canal théâtre du Pays de Redon, scène conventionnée d’intérêt National art et création pour le Théâtre; Théâtre de Choisy-le-Roi scène conventionnée d’intérêt national – art et création
+pour la diversité linguistique
+Partenaires en France :
+Troisième Bureau (Grenoble) ; MC2 - Scène nationale (Grenoble) ; festival Mythos (Rennes) ; festival Nio Far (Paris) ; La Chartreuse - centre national des écritures du spectacle (Villeneuve lez Avignon) ; Institut français (dans le cadre du programme "Villa Saïgon"), Région Bretagne, Ville de Rennes, Rennes métropole
+Partenaires au Viêtnam :
+Institut français de Hô-Chi-Minh-Ville
+Théâtre Hong Hac à Hô-Chi-Minh-Ville
 
 ----
 

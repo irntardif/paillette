@@ -4,7 +4,7 @@
   <div>
     <div data-text="true" class="hidden"><?= $page->edito()->kirbytext()?></div>
     <div class="text">
-      <?= $page->edito()->kirbytext()->short(500,'...'); ?>
+      <?= $page->edito()->short(500,'...')->kirbytext(); ?>
     </div>
     <?php if($page->edito()->length() > 500): ?>
       <span class="link color-accent read-more">&darr;</span>

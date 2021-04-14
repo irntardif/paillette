@@ -4,7 +4,7 @@
 $calendarEvents = [];
 foreach($events as $key => $event):
 
-	if($event->representations()->isNotEmpty()):
+	if($event->representations()->isNotEmpty() || $event->dates()->isNotEmpty()):
 		if($event->intendedTemplate()->name() == 'spectacle'){
 			$company = $event->relatedCompany()->toPage() ? $event->relatedCompany()->toPage()->title()->value() : $event->companyName()->value();
 		}else{
@@ -32,12 +32,21 @@ foreach($events as $key => $event):
 		$eventArray['textColor'] = '#000';
 		$eventArray['allDay'] = true;
 		
-		foreach($event->representations()->toStructure() as $rprst):
-			$eventArray['start'] = $rprst->date()->toDate('%Y-%m-%d');
-			if(!in_array($eventArray,$calendarEvents)):
+		if($event->representations()->isNotEmpty()){
+			foreach($event->representations()->toStructure() as $rprst):
+				$eventArray['start'] = $rprst->date()->toDate('%Y-%m-%d');
+				if(!in_array($eventArray,$calendarEvents)):
+					$calendarEvents[] = $eventArray;
+				endif;
+			endforeach;	
+		}else{
+			foreach($event->dates()->toStructure() as $date):
+				$eventArray['start'] = $date->date()->toDate('%Y-%m-%d');
+				if(!in_array($eventArray,$calendarEvents)):
 				$calendarEvents[] = $eventArray;
-			endif;
-		endforeach;	
+				endif;
+			endforeach;	
+		}
 	endif;
 endforeach?>
 
@@ -46,7 +55,7 @@ endforeach?>
     //document.addEventListener('DOMContentLoaded', function() {
 	    var calendarEl = document.getElementById('calendar');
 	    var calendar = new FullCalendar.Calendar(calendarEl, {
-	      	//initialView: 'dayGridMonth',
+	      	initialView: 'dayGridMonth',
 	      	locale: 'fr',
 	      	height: 220,
 	      	buttonText:{

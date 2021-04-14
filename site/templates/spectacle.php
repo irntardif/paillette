@@ -59,9 +59,9 @@
                 <p class="underline margin_b-s">Distribution</p>
                 <div data-text="true" class="hidden"><?= $page->distribution()->kirbytext()?></div>
                 <div class="text">
-                  <?= $page->distribution()->kirbytext()->short(250,'...'); ?>
+                  <?= $page->distribution()->short(250, '...')->kirbytext(); ?>
                 </div>
-                  <?php if($page->distribution()->length() > 250): ?>
+                <?php if($page->distribution()->length() > 250): ?>
                   <span class="link color-accent read-more">&darr;</span>
                 <?php endif; ?>
               </div>
@@ -71,7 +71,7 @@
                 <p class="underline margin_b-s">Crédits</p>
                 <div data-text="true" class="hidden"><?= $page->credits()->kirbytext()?></div>
                 <div class="text">
-                  <?= $page->credits()->kirbytext()->short(250,'...'); ?>
+                  <?= $page->credits()->short(250,'...')->kirbytext(); ?>
                 </div>
                   <?php if($page->credits()->length() > 250): ?>
                   <span class="link color-accent read-more">&darr;</span>
@@ -87,7 +87,7 @@
                   <p class="underline"><?= $bloc->title(); ?></p>
                   <div data-text="true" class="hidden"><?= $bloc->contentText()->kirbytext() ?></div>
                   <div class="text">
-                    <?= $bloc->contentText()->kirbytext()->short(250,'...'); ?>
+                    <?= $bloc->contentText()->short(250,'...')->kirbytext(); ?>
                   </div>
                   <?php if($bloc->contentText()->length() > 250): ?>
                     <span class="link color-accent read-more">&darr;</span>
