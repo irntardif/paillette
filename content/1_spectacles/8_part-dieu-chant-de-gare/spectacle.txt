@@ -24,10 +24,6 @@ Creation: false
 
 ----
 
-Cohosting: false
-
-----
-
 Cohostinginfos:
 
 - 
@@ -79,11 +75,21 @@ Company: artistpage
 
 ----
 
-Relatedcompany: 
+Relatedcompany:
+
+- artistes/christine-le-berre-hop-hop-hop
 
 ----
 
 Companyname: 
+
+----
+
+Accentinfos: 
+
+----
+
+Accentlabel: 
 
 ----
 
@@ -93,6 +99,10 @@ Théodor attend dans la gare lyonnaise surplombée d’une tour en forme de styl
 Pas de pathos ni de misérabilisme : la pièce de Julie Rossello-Rochet, succession de courtes scènes rythmées, avance avec la même détermination que Théodor face aux épreuves érigées sur son parcours. Sensible et ludique, la mise en scène de Julie Guichard s’appuie sur la complicité avec la salle et le jeu généreux des quatre comédiens. Une vision sans concession de la notion d’accueil.
 
 Représentations accueillies avec le soutien de l'Office national de diffusion artistique (ONDA).
+
+----
+
+Links: 
 
 ----
 
@@ -107,7 +117,7 @@ Mise en scène : Julie Guichard
 
 ----
 
-Links: 
+Highlightedblocks: 
 
 ----
 
@@ -116,6 +126,10 @@ Relatedpages:
 ----
 
 Press: 
+
+----
+
+Cohosting: false
 
 ----
 

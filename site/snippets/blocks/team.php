@@ -44,8 +44,8 @@
 				        case 'theatre':
 				            $label = 'Théâtre';
 				            break;
-				        case 'mixed':
-				            $label = 'Pluridisciplinaire';
+				        case 'pratique-transversale':
+				            $label = 'Pratique transversale';
 				            break;
 				        default:
 				            $label = '';

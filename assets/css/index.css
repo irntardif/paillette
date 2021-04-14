@@ -119,6 +119,10 @@ a {
   left: calc(100% - 1em);
 }
 
+.hidden{
+  display:none;
+}
+
 button {
   font: inherit;
   background: none;
@@ -1272,6 +1276,12 @@ iframe{
 .margin_t-l {
   margin-top: 3rem;
 }
+.margin_t-xl {
+  margin-top: 4.5rem;
+}
+.margin_t-xxl {
+  margin-top: 6rem;
+}
 .margin_l-m {
   margin-left: 1.5rem;
 }
@@ -1678,6 +1688,7 @@ iframe{
 
   .carousel-thumb{
     width:100%;
+    margin:0;
   }
 
   .carousel-thumb figure{

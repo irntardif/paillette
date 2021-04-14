@@ -68,3 +68,6 @@ Social:
 - 
   platform: twitter
   url: https://twitter.com/PailletteRennes
+- 
+  platform: instagram
+  url: https://www.instagram.com/

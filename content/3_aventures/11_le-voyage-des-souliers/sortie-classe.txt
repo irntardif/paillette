@@ -2,7 +2,7 @@ Title: Le voyage des Souliers
 
 ----
 
-Intervenanttype: 
+Intervenanttype: label
 
 ----
 
@@ -13,7 +13,7 @@ Intervenant:
 
 ----
 
-Intervenantname: 
+Intervenantname: couocu
 
 ----
 

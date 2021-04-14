@@ -14,7 +14,7 @@
       <?php endforeach ?>
     </ul>
     <?php endif ?>
-    <section class="margin_t-l">
+    <section class="margin_t-xxl">
         <h1 class="margin_b-l h1">Archives des saisons</h2>
         <?php 
           $archives = $site->children()->unlisted()->filterBy('template', 'artistes');

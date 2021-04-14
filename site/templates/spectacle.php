@@ -36,7 +36,7 @@
               <?= $cat == 'family' ? 'En famille' : 'Création'; ?>
               </span>
             <?php endforeach ?>
-            <p style="font-size:1.16em"><?= $page->relatedCompany()->toPage() ? '<a href="'.$site->find('artistes')->url().'#'.$page->relatedCompany()->toPage()->uid().'">'.$page->relatedCompany()->toPage()->title().'</a>' : $page->companyName(); ?></p>
+            <p style="font-size:1.16em"><?= $page->company() == 'artistpage' ? '<a href="'.$site->find('artistes')->url().'#'.$page->relatedCompany()->toPage()->uid().'">'.$page->relatedCompany()->toPage()->title().'</a>' : $page->companyName(); ?></p>
           </div>
           <div class="column" style="--columns: 4; padding-top: 1em;">
             <span style="font-size:1.16em" class="uppercase"><?= $page->genre() ?></span>
@@ -57,7 +57,8 @@
               <?php if ($page->distribution()->isNotEmpty()): ?>
               <div>
                 <p class="underline margin_b-s">Distribution</p>
-                <div class="text" data-text="<?= $page->distribution()->kirbytext()?>">
+                <div data-text="true" class="hidden"><?= $page->distribution()->kirbytext()?></div>
+                <div class="text">
                   <?= $page->distribution()->kirbytext()->short(250,'...'); ?>
                 </div>
                   <?php if($page->distribution()->length() > 250): ?>
@@ -68,7 +69,8 @@
               <?php if ($page->credits()->isNotEmpty()): ?>
               <div>
                 <p class="underline margin_b-s">Crédits</p>
-                <div class="text" data-text="<?= $page->credits()->kirbytext()?>">
+                <div data-text="true" class="hidden"><?= $page->credits()->kirbytext()?></div>
+                <div class="text">
                   <?= $page->credits()->kirbytext()->short(250,'...'); ?>
                 </div>
                   <?php if($page->credits()->length() > 250): ?>
@@ -81,16 +83,22 @@
             <?php if ($page->highlightedBlocks()->isNotEmpty()): ?>
             <div class="grid c-2 margin_b-m margin_t-m">
               <?php foreach ($page->highlightedBlocks()->toStructure() as $bloc): ?>
-                 <div>
+                <div>
                   <p class="underline"><?= $bloc->title(); ?></p>
-                  <?= $bloc->contentText()->kirbytext(); ?>
+                  <div data-text="true" class="hidden"><?= $bloc->contentText()->kirbytext() ?></div>
+                  <div class="text">
+                    <?= $bloc->contentText()->kirbytext()->short(250,'...'); ?>
+                  </div>
+                  <?php if($bloc->contentText()->length() > 250): ?>
+                    <span class="link color-accent read-more">&darr;</span>
+                  <?php endif; ?>
                 </div>
               <?php endforeach; ?>
             </div>
             <?php endif; ?>
             
             
-            <?php if ($page->relatedCompany()->isNotEmpty()): ?>
+            <?php if ($page->company() == 'artistpage' && $page->relatedCompany()->isNotEmpty()): ?>
               <?php snippet('about', array('speaker' => $page->relatedCompany()->toPage(), 'class' => 'btn-light')) ?>
             <?php endif; ?>
            

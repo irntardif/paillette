@@ -25,10 +25,6 @@ Creation: false
 
 ----
 
-Cohosting: true
-
-----
-
 Cohostinginfos:
 
 - 
@@ -98,10 +94,22 @@ Companyname: Collectif Bajour / Hector Manuel
 
 ----
 
+Accentinfos: 
+
+----
+
+Accentlabel: 
+
+----
+
 Description:
 
 Sur l’île, tout est calme. Le bruit des vagues berce ce lieu apaisé, encadré de deux plantes vertes pâlichonnes. Isolés au milieu de l’océan, Greg et Natacha, croisent Leslie. Les premiers ont quitté brutalement la start-up dans laquelle ils faisaient pourtant une ascension fulgurante. La trajectoire militante de la seconde s’est achevée cruellement. Cette île étrange aurait-elle des vertus réparatrices ? S’y retrouvent encore d’autres êtres en perte de sens, pour lesquels se retirer du monde est l’occasion d’inventer d’autres façons de vivre ensemble, de la plus (im)probable à la plus inouïe.
 Les jeunes membres du collectif Bajour ne laissent aucun répit au spectateur : en de courtes scènes drôles et caustiques, ils entremêlent fiction et flash-back. Avec un plaisir communicatif, ils interprètent ces insulaires tentant désespérément de se réapproprier une existence qui leur a échappé. Et affirment, au travers de cette allégorie, leur amour du théâtre et du jeu.
+
+----
+
+Links: 
 
 ----
 
@@ -125,7 +133,12 @@ Le collectif BAJOUR bénéficie du soutien de la Région Bretagne et de la Ville
 
 ----
 
-Links: 
+Highlightedblocks:
+
+- 
+  title: coucou
+  contenttext: |
+    <p></p><p>ça va ? j'aime le "theatre" Mise en scène et écriture collective dirigée par Hector Manuel</p><p>Avec Leslie Bernard, Julien Derivaz, Matthias Jacquin, Margaux Grilleau, Georges Slowick, Alexandre Virapin, Adèle Zouane</p><p>Musique originale Hector Manuel et Joaquim Pavy</p><p>Création lumière Damien Caris Mise en scène et écriture collective dirigée par Hector Manuel</p><p>Avec Leslie Bernard, Julien Derivaz, Matthias Jacquin, Margaux Grilleau, Georges Slowick, Alexandre Virapin, Adèle Zouane</p><p>Musique originale Hector Manuel et Joaquim Pavy</p><p>Création lumière Damien Caris</p><p></p><p></p>
 
 ----
 
@@ -134,6 +147,10 @@ Relatedpages:
 ----
 
 Press: 
+
+----
+
+Cohosting: true
 
 ----
 

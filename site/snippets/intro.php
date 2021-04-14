@@ -2,7 +2,8 @@
 ?>
 <header class="grid c-2">
   <div>
-    <div class="text" data-text="<?= $page->edito()->kirbytext()?>">
+    <div data-text="true" class="hidden"><?= $page->edito()->kirbytext()?></div>
+    <div class="text">
       <?= $page->edito()->kirbytext()->short(500,'...'); ?>
     </div>
     <?php if($page->edito()->length() > 500): ?>

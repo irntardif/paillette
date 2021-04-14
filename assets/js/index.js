@@ -17,9 +17,9 @@ Array.from(document.querySelectorAll(".read-more")).forEach(element => {
   element.onclick = (e) => {
     e.preventDefault();
     element.innerHTML = element.innerHTML == '↓' ? '↑' : '↓';
-    let innerText = element.previousElementSibling.getAttribute('data-text');
-    element.previousElementSibling.setAttribute('data-text', element.previousElementSibling.innerHTML);
-    element.previousElementSibling.innerHTML = innerText;
+    let innerText = element.parentNode.querySelector('[data-text]').innerHTML;
+    element.parentNode.querySelector('[data-text]').innerHTML = element.parentNode.querySelector('.text').innerHTML;
+    element.parentNode.querySelector('.text').innerHTML = innerText;
   };
 });
 

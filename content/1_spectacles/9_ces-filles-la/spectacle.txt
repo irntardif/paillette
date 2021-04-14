@@ -24,10 +24,6 @@ Creation: false
 
 ----
 
-Cohosting: false
-
-----
-
 Cohostinginfos:
 
 - 
@@ -85,11 +81,21 @@ Company: label
 
 ----
 
-Relatedcompany: 
+Relatedcompany:
+
+- artistes/marine-bachelot-nguyen
 
 ----
 
-Companyname: La Collective Ces Filles-Là
+Companyname: La Collective Ces Filles-Là louloulala
+
+----
+
+Accentinfos: 
+
+----
+
+Accentlabel: 
 
 ----
 
@@ -105,7 +111,17 @@ Représentations accueillies avec le soutien de l'Office national de diffusion a
 
 ----
 
-Distribution: 
+Links: 
+
+----
+
+Distribution:
+
+a terminale des cohortes soudées comme les doigts de la main. Quand la photo volée de Scarlett nue circule sur les réseaux sociaux, la solidarité cesse, et le groupe devient bourreau.
+Pour faire le récit du harcèlement dont Scarlett est victime, La Collective Ces Filles-Là enfile ses chaussettes de sport, ses crampons et mouille le maillot. Elles sont six jeunes comédiennes, sorties des grandes écoles de théâtre, auxquelles s’ajoute un groupe de rennaises associées pour l’occasion.
+Elles seront une quinzaine à se mettre en ligne pour raconter de façon chorale la tyrannie du groupe, à plonger leurs yeux dans ceux du public, à chanter, à danser, et à dire sans détour le texte incisif du canadien Evan Placey, auteur de cette pièce drôle cruelle et militante.
+
+Représentations accueillies avec le soutien de l'Office national de diffusion artistique (ONDA).
 
 ----
 
@@ -116,7 +132,11 @@ Conception : La Collective Ces Filles-Là
 
 ----
 
-Links: 
+Highlightedblocks:
+
+- 
+  title: ejezjz
+  contenttext: "<p>a terminale des cohortes soudées comme les doigts de la main. Quand la photo volée de Scarlett nue circule sur les réseaux sociaux, la solidarité cesse, et le groupe devient bourreau.<br>Pour faire le récit du harcèlement dont Scarlett est victime, La Collective Ces Filles-Là enfile ses chaussettes de sport, ses crampons et mouille le maillot. Elles sont six jeunes comédiennes, sorties des grandes écoles de théâtre, auxquelles s’ajoute un groupe de rennaises associées pour l’occasion.<br>Elles seront une quinzaine à se mettre en ligne pour raconter de façon chorale la tyrannie du groupe, à plonger leurs yeux dans ceux du public, à chanter, à danser, et à dire sans détour le texte incisif du canadien Evan Placey, auteur de cette pièce drôle cruelle et militante.</p><p>Représentations accueillies avec le soutien de l'Office national de diffusion artistique (ONDA).</p>"
 
 ----
 
@@ -127,6 +147,10 @@ Relatedpages:
 ----
 
 Press: 
+
+----
+
+Cohosting: false
 
 ----
 

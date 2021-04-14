@@ -4,7 +4,7 @@
       <?php if($event->level()->isNotEmpty()): ?>
       <span><?= $event->level() ?></span>
       <?php else : ?>
-      <span style="color:transparent">Coucou</span>
+      <span style="color:transparent">Discipline</span>
       <?php endif; ?>
     </header>
  
@@ -24,9 +24,16 @@
     </figure>
     <?php endif; ?>
     <div class="infos margin_t-s">
-      <h2 class="h2"><?= $event->title(); ?></h2>
-      <?php if($event->intervenant()->isNotEmpty()): ?>
-      <p> <?= $event->intervenant()->toPage()->title() ?></p>
+      <h2 class="h2"><?= $event->title(); ?></h2> 
+
+      <?php if($event->intervenantType() == 'artistpage' || ($event->intendedTemplate() == 'atelier' &&  $event->intervenant()->isNotEmpty())): ?>
+      <p class='list'>
+        <?php foreach ($event->intervenant()->toPages() as $intervenant) {
+          echo '<span>'.$intervenant->title().'</span>';
+        } ?>
+      </p>
+      <?php else : ?>
+      <p> <?= $event->intervenantName() ?></p>
       <?php endif; ?>
     </div>
   </a>

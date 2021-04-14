@@ -56,7 +56,16 @@
       </figure>
       <div class="infos margin_t-s">
         <h2 class="h2"><?= $event->title(); ?></h2>
-        <p><?= $event->relatedCompany()->toPage() ? $event->relatedCompany()->toPage()->title() : $event->companyName(); ?></p>
+        <p><?= $event->company() == 'artistpage' && $event->relatedCompany()->isNotEmpty() ? $event->relatedCompany()->toPage()->title() : $event->companyName(); ?></p>
+         <?php if($event->intervenantType() == 'artistpage'): ?>
+            <p class='list' style="font-size:1.16em">
+              <?php foreach ($event->intervenant()->toPages() as $intervenant) {
+                echo '<span>'.$intervenant->title().'</span>';
+              } ?>
+            </p>
+            <?php else: ?>
+            <p style="font-size:1.16em"> <?= $event->intervenantName() ?></p>
+            <?php endif; ?>
       </div>
     </a>
   </section>

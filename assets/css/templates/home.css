@@ -28,8 +28,8 @@
 #calendar tbody:after{
   content: "";
   position: absolute;
-  width: 9rem;
-  right: -9.5rem;
+  width: 9.5rem;
+  right: -10rem;
   height: 200px;
   z-index: 22;
   background: #fff;
@@ -233,6 +233,6 @@
 
   #calendar{
     display:flex;
-    overflow:hidden;
+    /*overflow:hidden;*/
   }
 }

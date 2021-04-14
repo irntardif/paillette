@@ -272,6 +272,7 @@ Pagebuilder:
         - intervenants/raphael-trehin
         - intervenants/jean-renault
         - intervenants/laurence-gicquel
+        - intervenants/estelle-jegou-henri-louis
       stakeholders: [ ]
       _key: column_2
       uniquekey: 0

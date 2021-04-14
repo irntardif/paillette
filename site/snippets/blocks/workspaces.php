@@ -8,6 +8,7 @@
   <div class="wrapper">
   <?php endif; ?>
     <div class="text margin_t-m"><?= $data->description()->kirbytext(); ?></div>
+     <?php snippet('blocks/buttonLink', array('data' => $data->buttonLink()->toStructure(), 'class' => 'btn-light')) ?>
       <div class="media margin_t-m">
         <div class="grid c-3">
           <?php foreach($data->workspaces()->toStructure() as $workspace): ?>
@@ -27,7 +28,7 @@
           <?php endforeach;?>
         </div>
       </div>
-      <?php snippet('blocks/buttonLink', array('data' => $data->buttonLink()->toStructure(), 'class' => 'btn-light')) ?>
+     
 
   <?php if($data->dropdown()->toBool()): ?>
     </div>

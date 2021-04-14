@@ -1,5 +1,5 @@
 <?php foreach ($focus as $el):?>
-<section class="focus bg-accent">
+<section id="focus" class="focus bg-accent">
 	<div class="main-wrapper grid c-2" style="padding-top: 3.77em;padding-bottom: 3.77em">
 	
 		<div class="media">
