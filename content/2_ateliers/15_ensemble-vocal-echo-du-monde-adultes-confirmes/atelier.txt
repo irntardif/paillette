@@ -1,0 +1,74 @@
+Title: Ensemble vocal Echo du monde
+
+----
+
+Area: musique-chant
+
+----
+
+Intervenant:
+
+- >
+  intervenants/denise-et-craig-schaffer-cie-mze-shina
+
+----
+
+Contactmail: 
+
+----
+
+Public: adults
+
+----
+
+Prices:
+
+- 
+  pricetype: Etudiants
+  amount: 186
+- 
+  pricetype: 'Tout public '
+  amount: 213
+
+----
+
+Cover:
+
+- 2019.06.16_echo-du-monde-7.jpg
+
+----
+
+Accentinfos: 
+
+----
+
+Accentlabel: 
+
+----
+
+Description:
+
+Cet atelier est destiné aux personnes désireuses de développer leur voix et qui souhaitent intégrer un groupe vocal pour un plaisir physique, émotionnel et musical. Le répertoire est axé sur des chants polyphoniques traditionnels de différents pays : Géorgie, Afrique du Sud, Bulgarie, Bosnie, Occitanie, Etats-Unis… L’apprentissage s’effectue uniquement par transmission orale (pas de partitions), seuls les textes en différentes langues seront fournis. Pour intégrer ce groupe, un parcours classique n’est pas forcément un atout (nous consulter pour vérifier le niveau). 
+Au programme : conscience corporelle, production d’harmoniques, développement de l’écoute individuelle ainsi que du son d’ensemble du groupe, travail sur le rythme et mémorisation des textes dans l’optique de donner quatre concerts hors les murs de La Paillette et éventuellement participer à des projets pluridisciplinaires.
+
+----
+
+Level: Adultes confirmés
+
+----
+
+Planning:
+
+- 
+  public: Adultes confirmés
+  hours: lundi 20h45-22h15
+  isfull: 'false'
+  description: ""
+
+----
+
+Links: 
+
+----
+
+Relatedpages: 

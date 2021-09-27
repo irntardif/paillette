@@ -6,7 +6,7 @@ Area: pratique-transversale
 
 ----
 
-Bio: 
+Bio: Après un parcours de plasticienne et de pédagogue, c’est finalement le théâtre (Conservatoire Régional d’art dramatique, ANALIV, Compagnie Sabine Londault, etc.) et la danse (Françoise Morice en danse contemporaine et expression corporelle, Marie-Geneviève Massé en danse baroque, Monique Clin...) qui emportent Estelle Jegou vers sa vie professionnelle. Le théâtre musical, l’opéra, l’opérette, les comédies musicales, lui font découvrir le chant. Sa passion des marionnettes lui donne envie de créer des personnages qu’elle met en scène (*Rêverie et poudre d’oubli*, entre autres). Ce parcours l’amène à enseigner avec plaisir la pluridisciplinarité au sein d’ateliers de théâtre et de transversalité aux pratiques artistiques pour les enfants.
 
 ----
 
@@ -14,7 +14,10 @@ Links:
 
 ----
 
-Workshops: 
+Workshops:
+
+- ateliers/eveil-transversal
+- ateliers/initiation-transversale
 
 ----
 

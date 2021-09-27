@@ -1,0 +1,128 @@
+Title: Modern Jazz
+
+----
+
+Area: danse
+
+----
+
+Intervenant:
+
+- intervenants/laurence-gicquel
+
+----
+
+Contactmail: 
+
+----
+
+Public: children1, children2, teen1, teen2, students, adults
+
+----
+
+Prices:
+
+- 
+  pricetype: ' 7-12 ans'
+  amount: 193
+- 
+  pricetype: '13-17 ans '
+  amount: 209
+- 
+  pricetype: Etudiants
+  amount: 223
+- 
+  pricetype: Adultes
+  amount: 277
+
+----
+
+Cover:
+
+- p6081939.jpg
+
+----
+
+Accentinfos: 
+
+----
+
+Accentlabel: 
+
+----
+
+Description:
+
+Exercices d’échauffement et de placement et apprentissage d'une chorégraphie présentée dans le cadre du festival *Les Envolées* sont les bases de cet atelier. Rythme, énergie, fluidité et respiration font partie de l' enseignement mais le plaisir et l’écoute sont les moteurs principaux.
+
+Si vous suivez l’atelier de Laurence, vous danserez sûrement sur : 
+*Peter Pan* de Polo & Pan, *Keep it Movin* de Wax Tailor, *The box* de Roddy Ricch, *You ?* de Two Feet, *McKay & Cassie* de Labrinth
+
+----
+
+Level: Enfants - ados- adultes
+
+----
+
+Planning:
+
+- 
+  public: 7-8 ans
+  hours: mardi 18-19h
+  isfull: 'false'
+  description: ""
+- 
+  public: 9-10 ans
+  hours: mercredi 15h15-16h15
+  isfull: 'true'
+  description: ""
+- 
+  public: 11-12 ans
+  hours: mercredi 14h15-15h15
+  isfull: 'false'
+  description: ""
+- 
+  public: 13-14 ans
+  hours: mercredi 16h15-17h30
+  isfull: 'false'
+  description: ""
+- 
+  public: 15-17 ans
+  hours: mercredi 17h45-19h
+  isfull: 'false'
+  description: ""
+- 
+  public: Etudiants avancés
+  hours: mercredi 19h00-20h30
+  isfull: 'false'
+  description: ""
+- 
+  public: Adultes intermédiaires
+  hours: mardi 19h00-20h30
+  isfull: 'true'
+  description: ""
+- 
+  public: 'Adultes Avancés '
+  hours: mardi 20h30-22h00
+  isfull: 'false'
+  description: ""
+
+----
+
+Links: 
+
+----
+
+Relatedpages: 
+
+----
+
+Relatedevents: 
+
+----
+
+Relatedadventures: 
+
+----
+
+Type: dance

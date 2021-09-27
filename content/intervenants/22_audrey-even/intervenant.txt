@@ -1,0 +1,29 @@
+Title: Audrey Even
+
+----
+
+Area: theatre
+
+----
+
+Bio: Comédienne et metteuse en scène de théâtre, formée au conservatoire de Rennes entre 2007 et 2009, Audrey Even alimente son parcours via des formations de clown, d’écriture, de théâtre musical, ainsi que par la pratique du chant. Elle crée la Compagnie Croquantes en 2013 où elle aborde la musicalité du texte à travers des écrits de Rebotier. Formée au théâtre forum avec 3PH, elle s’associe à la Compagnie 3e Acte, Jam en scène, ou l’Attelage. En 2016, elle intègre la Compagnie A Corps Perdus, collabore avec Jérémy Delaunay, Ronan Mancec, Juliette Bessou et travaille sur Akordame, un projet d’interprétation de textes originaux accompagné par deux musiciens.
+
+----
+
+Links:
+
+- 
+  linklabel: Compagnie A corps perdus
+  linktype: url
+  linkurl: https://www.facebook.com/cieacorpsperdus
+  mailaddr: ""
+  doc: [ ]
+  page: [ ]
+
+----
+
+Workshops: 
+
+----
+
+Adventures: 

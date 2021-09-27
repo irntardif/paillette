@@ -1,0 +1,35 @@
+Title: Marie Parent et Christophe Le Cheviller - Compagnie la Morsure
+
+----
+
+Area: theatre
+
+----
+
+Bio:
+
+Marie Parent est comédienne improvisatrice, performeuse, metteuse en scène, autrice, plasticienne. Avant cela, elle avait milité pour de nombreux projets d’éducation populaire pendant 12 ans comme travailleuse sociale. En 2015, elle intègre la Puzzle compagnie et monte, avec Christophe Le Cheviller, la compagnie La Morsure qu’ils co-dirigent depuis. 
+
+Comédien, improvisateur, formé aux arts plastiques et ayant rêvé de devenir dessinateur de BD, Christophe le Cheviller expérimente en tant qu’amateur le match d’improvisation dans les années 90. C’est lors de ces spectacles qu’il rencontrera Samuel Doux (comédien, auteur, réalisateur, scénariste) avec qui il fonde, la compagnie L’Oeil Ecoute à Paris en 1998. Au sein de cette compagnie, ils créent des spectacles de théâtre jeunes et tout public, ainsi que des spectacles d’improvisation. 
+
+Marie Parent et Christophe Le Cheviller mettent en scène des formes spectaculaires où l’improvisation évolue dans un cadre dramaturgique établi. Ils travaillent avec des artistes amateurs comme professionnels et des publics exclus de la scène (personnes âgées, en souffrance psychique, isolées).
+
+----
+
+Links:
+
+- 
+  linklabel: Compagnie La Morsure
+  linktype: url
+  linkurl: https://www.lamorsure.com/
+  mailaddr: ""
+  doc: [ ]
+  page: [ ]
+
+----
+
+Workshops: 
+
+----
+
+Adventures: 

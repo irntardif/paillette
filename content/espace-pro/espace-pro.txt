@@ -4,33 +4,9 @@ Title: Espace Pro
 
 Text:
 
-Bienvenue sur l’espace pro de la Paillette,
-Vous trouverez ci-dessous différents documents :
+Bienvenue sur l’espace professionnel de La Paillette. 
+Vous y trouverez prochainement des indications techniques sur nos salles de travail.
 
 ----
 
-Links:
-
-- 
-  linklabel: Test Exemple
-  linktype: mail
-  linkurl: ""
-  mailaddr: mail@mail.fr
-  doc: [ ]
-  page: [ ]
-  label: Document X
-  url: ""
-  document:
-    - 12.02-maquettes-graphiques-du-site.pdf
-- 
-  linklabel: Doc
-  linktype: file
-  linkurl: ""
-  mailaddr: ""
-  doc:
-    - apus-mockup1510.pdf
-  page: [ ]
-  label: Document X
-  url: ""
-  document:
-    - 12.02-maquettes-graphiques-du-site.pdf
+Links: 

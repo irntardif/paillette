@@ -1,0 +1,36 @@
+Title: Denise Schaffer - Mze Shina
+
+----
+
+Area: chant
+
+----
+
+Bio: Denise Schaffer est née à Lima au Pérou. Musicienne, chef de chœur et conteuse, elle découvre l’univers de la musique traditionnelle de Turquie avec l’ethnomusicologue turc Talip Özkan, puis la polyphonie géorgienne lors d’un premier voyage en 1996. Elle explore également le répertoire irlandais et crée le duo Voyce avec Craig Schaffer en 2007 et Fly Away en 2014. Fascinée par la musique des mots et des langues, elle travaille sur le rapport intime qui lie le théâtre et la musique en créant plusieurs contes musicaux destinés au jeune public. Elle est membre fondatrice de Mze Shina avec lequel elle a enregistré quatre albums et donne des stages de musique et de chant.
+
+----
+
+Links:
+
+- 
+  linklabel: Mze Shina
+  linktype: url
+  linkurl: http://mzeshina.fr/
+  mailaddr: ""
+  doc: [ ]
+  page: [ ]
+
+----
+
+Workshops:
+
+- >
+  ateliers/ensemble-vocal-echo-du-monde-adultes-confirmes
+- >
+  ateliers/ensemble-vocal-couleur-paillette-adultes-inities
+- >
+  ateliers/technique-vocale-adultes-tous-niveaux
+
+----
+
+Adventures: 

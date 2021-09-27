@@ -1,0 +1,78 @@
+Title: Piano
+
+----
+
+Area: musique-chant
+
+----
+
+Intervenant:
+
+- intervenants/jean-renault
+
+----
+
+Contactmail: 
+
+----
+
+Public: children2, teen1, teen2, students, adults
+
+----
+
+Prices:
+
+- 
+  pricetype: 'Cours individuel 7 ans - 17 ans'
+  amount: 519
+- 
+  pricetype: 'Cours individuel adulte '
+  amount: 535
+
+----
+
+Cover:
+
+- cours-de-piano.jpg
+
+----
+
+Accentinfos: Atelier individuel de 30 minutes.
+
+----
+
+Accentlabel: 
+
+----
+
+Description: Dans cet atelier, le répertoire proposé est aussi large que possible (notamment en tenant compte des niveaux) : classique, jazz, chanson / pop, musiques de films… Il est ouvert aux propositions des participants, même si pour les débutants, des méthodes "classiques" sont utilisées. L’accent est mis sur la détente et la précision musicale. Pour les débutants, il n’est pas nécessaire d’avoir des connaissances préalables en solfège. Pour espérer une progression artistique satisfaisante, l’intervenant précise qu’un minimum de pratique est nécessaire entre deux séances d’atelier, ce qui implique notamment de pouvoir disposer d’un instrument d’une qualité acceptable pour s’entraîner.
+
+----
+
+Level: Enfants-ados-adultes
+
+----
+
+Planning:
+
+- 
+  public: 'À partir de 7 ans '
+  hours: mercredi 10h-12h
+  isfull: 'true'
+  description: ""
+- 
+  public: 'À partir de 7 ans '
+  hours: Jeudi 16h30-21h
+  isfull: 'false'
+  description: |
+    Dans cet atelier, le répertoire proposé est aussi large que possible (notamment en tenant compte des niveaux) : classique, jazz, chanson / pop, musiques de films… Il est ouvert aux propositions des participants, même si pour les débutants, des méthodes "classiques" sont utilisées. L’accent est mis sur la détente, et la précision musicale. Pour les débutants, il n’est pas nécessaire d’avoir des connaissances préalables en solfège. Enfin, pour espérer une progression artistique satisfaisante, l’animateur précise qu’un minimum de pratique est nécessaire entre deux séances d’atelier, ce qui implique notamment de pouvoir disposer d’un instrument d’une qualité acceptable pour s’entraîner.
+    
+    Cours de 30 min
+
+----
+
+Links: 
+
+----
+
+Relatedpages: 

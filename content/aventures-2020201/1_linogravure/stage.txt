@@ -1,0 +1,129 @@
+Title: Linogravure
+
+----
+
+Intervenanttype: label
+
+----
+
+Intervenant: 
+
+----
+
+Intervenantname: François Soutif
+
+----
+
+Dates:
+
+- 
+  date: 2020-11-28
+  publictype: all
+- 
+  date: 2020-11-29
+  publictype: all
+
+----
+
+Hours: de 10h à 16h
+
+----
+
+Isfull: false
+
+----
+
+Contactmail: 
+
+----
+
+Public: adults, students
+
+----
+
+Prices:
+
+- 
+  pricetype: 'Adhérents '
+  amount: 65
+- 
+  pricetype: 'Non adhérents '
+  amount: 70
+
+----
+
+Rprstnname: 
+
+----
+
+Moreinfos: 
+
+----
+
+Rprstntitle: 
+
+----
+
+Representations: 
+
+----
+
+Cover:
+
+- visuel-stage-lino.jpg
+
+----
+
+Accentinfos: 
+
+----
+
+Accentlabel: Annulé
+
+----
+
+Description: Pour expérimenter cette technique simple de gravure, les participants sont invités à réaliser une œuvre colorée en combinant gravure et fonds préparés en collage. Ouvert aux débutants, ce stage est également accessible aux personnes expérimentées qui y trouveront un prolongement naturel des précédents stages organisés à La Paillette.
+
+----
+
+Level: Adultes - Tous niveaux
+
+----
+
+Highlightedblocks: 
+
+----
+
+Links:
+
+- 
+  linklabel: François Soutif
+  linktype: url
+  linkurl: http://francoissoutif.blogspot.fr
+  mailaddr: ""
+  doc: [ ]
+  page: [ ]
+
+----
+
+Relatedpages: 
+
+----
+
+Relatedevents: 
+
+----
+
+Relatedadventures: 
+
+----
+
+Adtype: stage
+
+----
+
+Planning: 
+
+----
+
+Type: stage

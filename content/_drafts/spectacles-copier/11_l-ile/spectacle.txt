@@ -1,0 +1,230 @@
+Title: L'Île
+
+----
+
+Type: show
+
+----
+
+Genre: théâtre
+
+----
+
+Categories: creation
+
+----
+
+Cover:
+
+- >
+  lile-2-bajour-c2a9loewen-photographie-600x.jpg
+
+----
+
+Creation: false
+
+----
+
+Cohostinginfos: <p></p>
+
+----
+
+Moreinfos: <p>1h30, dès 15 ans</p>
+
+----
+
+Representations:
+
+- 
+  date: 2021-03-30 20:00:00
+  publictype: all
+- 
+  date: 2021-03-31 20:00:00
+  publictype: all
+
+----
+
+Prices: 
+
+----
+
+Ticketing: http://forumsirius.fr/orion/_spectacle.phtml?inst=06007&lg=FR&kld=1&tCache=1602771054017&idv=82adff&spec=643
+
+----
+
+Gallery:
+
+- >
+  lile-2_bajour_loewen-photographie-scaled.jpg
+
+----
+
+Company: label
+
+----
+
+Relatedcompany:
+
+- >
+  artistes/https-www-cppc-fr-wp-artiste-bajour
+
+----
+
+Companyname: Hector Manuel, Collectif Bajour
+
+----
+
+Accentinfos: 
+
+----
+
+Accentlabel: Annulé
+
+----
+
+Description:
+
+Sur l’île, tout est calme. Le bruit des vagues berce ce lieu apaisé, encadré de deux plantes vertes pâlichonnes. Isolés au milieu de l’océan, Greg et Natacha, croisent Leslie. Les premiers ont quitté brutalement la start-up dans laquelle ils faisaient pourtant une ascension fulgurante. La trajectoire militante de la seconde s’est achevée cruellement. Cette île étrange aurait-elle des vertus réparatrices ? S’y retrouvent encore d’autres êtres en perte de sens, pour lesquels se retirer du monde est l’occasion d’inventer d’autres façons de vivre ensemble, de la plus (im)probable à la plus inouïe.
+Les jeunes membres du collectif Bajour ne laissent aucun répit au spectateur : en de courtes scènes drôles et caustiques, ils entremêlent fiction et flash-back. Avec un plaisir communicatif, ils interprètent ces insulaires tentant désespérément de se réapproprier une existence qui leur a échappé. Et affirment, au travers de cette allégorie, leur amour du théâtre et du jeu.
+
+----
+
+Links:
+
+- 
+  linklabel: Collectif Bajour
+  linktype: url
+  linkurl: https://www.cppc.fr/wp/artiste/bajour/
+  mailaddr: ""
+  doc: [ ]
+  page: [ ]
+
+----
+
+Distribution:
+
+Création : Collectif Bajour
+Mise en scène et écriture collective dirigée par Hector Manuel
+Avec : Leslie Bernard, Julien Derivaz, Matthias Jacquin, Margaux Grilleau, Georges Slowick, Alexandre Virapin, Adèle Zouane
+Musique originale : Hector Manuel et Joaquim Pavy
+Création lumière : Damien Caris
+
+----
+
+Credits:
+
+Production BAJOUR
+Coproduction CPPC / L’Aire Libre, St-Jacques-de-la-Lande (35)
+Avec le soutien du Groupe des 20 Théâtre Île de France, du Fond d’Insertion du Théâtre National de Bretagne et de Spectacle Vivant en Bretagne.
+Le collectif BAJOUR bénéficie du soutien de la Région Bretagne et de la Ville de Rennes.
+
+----
+
+Highlightedblocks:
+
+- 
+  title: Autour du spectacle
+  contenttext: '<p>Mar 30 mars à 18h30<br>En partenariat avec le Conservatoire à Rayonnement Régional de Rennes (CRR)<br>Lecture performance « Autour de l’île » avec montage et écriture textuelle ou sonore en amont du spectacle par les élèves du cycle 3 du département "Théâtre", encadrés par Sylvain Ottavy<br></p>'
+
+----
+
+Relatedpages: 
+
+----
+
+Press: 
+
+----
+
+Cohosting: true
+
+----
+
+Cohostinglogo: 
+
+----
+
+Moreinformations: 
+
+----
+
+Headline: 
+
+----
+
+Subheadline: 
+
+----
+
+Tags: 
+
+----
+
+Images:
+
+- 
+  filename: >
+    lile-2_bajour_loewen-photographie-scaled.jpg
+  dragText: '(image: lile-2_bajour_loewen-photographie-scaled.jpg)'
+  icon:
+    type: file-image
+    ratio: 5/4
+    back: pattern
+    color: '#de935f'
+    cover: true
+    url: >
+      https://la-paillette.dev/media/pages/spectacles/l-ile/fe3a9fb330-1609944032/lile-2_bajour_loewen-photographie-scaled.jpg
+    cards:
+      url: >
+        data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw
+      srcset: >
+        https://la-paillette.dev/media/pages/spectacles/l-ile/fe3a9fb330-1609944032/lile-2-bajour-loewen-photographie-scaled-352x.jpg
+        352w,
+        https://la-paillette.dev/media/pages/spectacles/l-ile/fe3a9fb330-1609944032/lile-2-bajour-loewen-photographie-scaled-864x.jpg
+        864w,
+        https://la-paillette.dev/media/pages/spectacles/l-ile/fe3a9fb330-1609944032/lile-2-bajour-loewen-photographie-scaled-1408x.jpg
+        1408w
+    list:
+      url: >
+        data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw
+      srcset: >
+        https://la-paillette.dev/media/pages/spectacles/l-ile/fe3a9fb330-1609944032/lile-2-bajour-loewen-photographie-scaled-38x38.jpg
+        1x,
+        https://la-paillette.dev/media/pages/spectacles/l-ile/fe3a9fb330-1609944032/lile-2-bajour-loewen-photographie-scaled-76x76.jpg
+        2x
+  id: >
+    spectacles/l-ile/lile-2_bajour_loewen-photographie-scaled.jpg
+  image:
+    ratio: 5/4
+    back: pattern
+    cover: true
+    url: >
+      https://la-paillette.dev/media/pages/spectacles/l-ile/fe3a9fb330-1609944032/lile-2_bajour_loewen-photographie-scaled.jpg
+    cards:
+      url: >
+        data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw
+      srcset: >
+        https://la-paillette.dev/media/pages/spectacles/l-ile/fe3a9fb330-1609944032/lile-2-bajour-loewen-photographie-scaled-352x.jpg
+        352w,
+        https://la-paillette.dev/media/pages/spectacles/l-ile/fe3a9fb330-1609944032/lile-2-bajour-loewen-photographie-scaled-864x.jpg
+        864w,
+        https://la-paillette.dev/media/pages/spectacles/l-ile/fe3a9fb330-1609944032/lile-2-bajour-loewen-photographie-scaled-1408x.jpg
+        1408w
+    list:
+      url: >
+        data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw
+      srcset: >
+        https://la-paillette.dev/media/pages/spectacles/l-ile/fe3a9fb330-1609944032/lile-2-bajour-loewen-photographie-scaled-38x38.jpg
+        1x,
+        https://la-paillette.dev/media/pages/spectacles/l-ile/fe3a9fb330-1609944032/lile-2-bajour-loewen-photographie-scaled-76x76.jpg
+        2x
+  info: 1198 × 600
+  link: >
+    /pages/spectacles+l-ile/files/lile-2_bajour_loewen-photographie-scaled.jpg
+  text: >
+    lile-2_bajour_loewen-photographie-scaled.jpg
+  type: image
+  url: >
+    https://la-paillette.dev/media/pages/spectacles/l-ile/fe3a9fb330-1609944032/lile-2_bajour_loewen-photographie-scaled.jpg
+  uuid: >
+    lile-2_bajour_loewen-photographie-scaled.jpg

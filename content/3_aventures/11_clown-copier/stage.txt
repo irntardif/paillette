@@ -1,0 +1,112 @@
+Title: Clown
+
+----
+
+Intervenanttype: label
+
+----
+
+Intervenant:
+
+- intervenants/emilie-bonnafous-armengol
+
+----
+
+Intervenantname: Emilie Bonnafous - Armengol
+
+----
+
+Dates:
+
+- 
+  date: 2022-04-02
+  publictype: all
+- 
+  date: 2022-04-03
+  publictype: all
+
+----
+
+Hours: de 10h à 16h30
+
+----
+
+Isfull: false
+
+----
+
+Contactmail: 
+
+----
+
+Public: students, adults
+
+----
+
+Prices:
+
+- 
+  pricetype: Adhérents
+  amount: 95
+- 
+  pricetype: Non adhérents
+  amount: 100
+
+----
+
+Rprstnname: 
+
+----
+
+Moreinfos: 
+
+----
+
+Rprstntitle: 
+
+----
+
+Representations: 
+
+----
+
+Cover:
+
+- >
+  clown-pour-le-web-sebastien-armengol.jpeg
+
+----
+
+Accentinfos: 
+
+----
+
+Accentlabel: 
+
+----
+
+Description: Improvisations, expérimentations sensorielles, exercices pour appeler la présence de chacun telle qu’elle est et non telle qu’on voudrait qu’elle soit, renforcement de la confiance en l’autre et en soi enrobé de douceur, jeux en tout genre : le stage encadré par Emilie Bonnafous-Armengol fait appel au clown qui sommeille en nous. Il invite à se défaire des apparences pour se concentrer sur l’essentiel : le jeu.
+
+----
+
+Level: Adultes - Débutants et initiés
+
+----
+
+Highlightedblocks: 
+
+----
+
+Links: 
+
+----
+
+Relatedpages: 
+
+----
+
+Relatedevents: 
+
+----
+
+Relatedadventures: 

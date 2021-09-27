@@ -1,0 +1,75 @@
+Title: Théâtre
+
+----
+
+Area: theatre
+
+----
+
+Intervenant:
+
+- >
+  intervenants/philippe-fagnot-scen-attitudes
+
+----
+
+Contactmail: 
+
+----
+
+Public: adults
+
+----
+
+Prices:
+
+- 
+  pricetype: Etudiants
+  amount: 282
+- 
+  pricetype: 'Adultes '
+  amount: 326
+
+----
+
+Cover:
+
+- ok-20180621_mon-fric_054_preview.jpg
+
+----
+
+Accentinfos: 
+
+----
+
+Accentlabel: 
+
+----
+
+Description:
+
+L'atelier de Philippe Fagnot travaille sur la cohésion de groupe en privilégiant l’échange, l’expérience, le jeu, l’improvisation, la prise de risque et le lâcher prise. Il propose d'explorer une pièce contemporaine, en menant de front un travail sur le plateau et un travail sur le texte, pour progressivement faire corps avec les mots en maîtrisant le texte, le ou les personnages, la voix, le jeu, l’espace, le rapport au partenaire et au public. Avant de présenter le résultat en juin au moment du festival *les Envolées*, il y aura un premier rendez-vous public en avril, en étape de travail, dans un espace de proximité. Une nouvelle mise en scène sera adaptée au grand plateau du théâtre. Place donc à l’audace, la générosité, l’engagement, l’énergie, la rigueur, l’assiduité et le plaisir de progresser.
+
+Dernières créations dans le cadre des *Envolées *: *L'homme qui *de Peter Brook, *L'homme prudent* de Carlo Goldoni, *Mon fric* de David Lescot
+
+----
+
+Level: Adultes confirmés
+
+----
+
+Planning:
+
+- 
+  public: Adultes confirmés
+  hours: jeudi 20h15-22h15
+  isfull: 'true'
+  description: ""
+
+----
+
+Links: 
+
+----
+
+Relatedpages: 

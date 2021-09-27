@@ -1,0 +1,29 @@
+Title: Jérémy Delaunay - Compagnie A corps Perdus
+
+----
+
+Area: theatre
+
+----
+
+Bio: Comédien pour le théâtre, Jérémy Delaunay découvre rapidement un intérêt pour le travail scénographique. Le jeu des matières, lumières et effets pour créer des images et faire naître l'illusion dans les yeux du spectateur l'animent. En 2014, il crée avec Marion Petitjean, la compagnie A Corps Perdus. En tant que comédien, il aime orienter son travail d’acteur sur le corps et sa présence. Il se forme ainsi plus particulièrement à la technique du clown, mais aussi à d'autres compétences (hypnose Ericksonienne, Feldenkraïs, etc). Jérémy Delaunay a rejoint Jam en Scène, puis L'Attelage  sur la création de spectacles forum afin de nourrir une autre expérience du plateau mais surtout d'être plus proche des publics en difficulté.
+
+----
+
+Links:
+
+- 
+  linklabel: 'Compagnie A corps perdus '
+  linktype: url
+  linkurl: https://www.facebook.com/cieacorpsperdus
+  mailaddr: ""
+  doc: [ ]
+  page: [ ]
+
+----
+
+Workshops: 
+
+----
+
+Adventures: 

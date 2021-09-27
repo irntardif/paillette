@@ -1,0 +1,241 @@
+Title: Akila - le tissu d'Antigone
+
+----
+
+Type: show
+
+----
+
+Genre: théâtre
+
+----
+
+Categories: creation
+
+----
+
+Cover:
+
+- akila-paysage.jpeg
+
+----
+
+Creation: false
+
+----
+
+Cohostinginfos: <p></p>
+
+----
+
+Moreinfos: <p>2h, dès 15 ans</p>
+
+----
+
+Representations:
+
+- 
+  date: 2021-11-16 14:30:00
+  publictype: school
+- 
+  date: 2021-11-16 20:00:00
+  publictype: all
+- 
+  date: 2021-11-17 20:00:00
+  publictype: all
+
+----
+
+Prices: 
+
+----
+
+Ticketing: http://www.forumsirius.net/orion/paillette.phtml?spec=666
+
+----
+
+Gallery:
+
+- akila-paysage.jpeg
+
+----
+
+Company: label
+
+----
+
+Relatedcompany:
+
+- artistes/marine-bachelot-nguyen
+
+----
+
+Companyname: Marine Bachelot Ngyuen, Lumière d'août
+
+----
+
+Accentinfos: 
+
+----
+
+Accentlabel: 
+
+----
+
+Description:
+
+Akila, lycéenne discrète, perd deux de ses frères dans des circonstances très différentes. L’un en héros. L’autre en paria. Parce que l’on refuse à ce dernier une place au cimetière communal, la jeune fille va défier les lois de la République, à commencer par celles en vigueur dans son lycée.
+Dans cette fiction politisée et actuelle, Marine Bachelot Nguyen transpose le drame d’Antigone, connue pour sa résistance à l’ordre donné par Créon de laisser la dépouille de son frère Polynice sans sépulture. En l’écrivant au présent, elle confronte plusieurs visions de la laïcité et du vivre-ensemble et s’empare de la tragédie pour interroger les sujets politiques sensibles qui agitent nos sociétés. Le voile dont se coiffe Akila, symbole de révolte, va provoquer de multiples remous.
+Les comédiens, accompagnés par la présence musicale de Raphaël Otchakowski, donnent à entendre une jeunesse des quartiers populaires qui ne se résout pas. Indignée.
+
+----
+
+Links:
+
+- 
+  linklabel: "Lumière d'août"
+  linktype: url
+  linkurl: http://www.lumieredaout.net/
+  mailaddr: ""
+  doc: [ ]
+  page: [ ]
+
+----
+
+Distribution:
+
+Texte et mise en scène : Marine Bachelot Nguyen
+Jeu : Mouna Belghali, Hiba El Aflahi, Nikita Faulon, Damien Gabriac, Thomas Germaine, Arnold Mensah
+Création musicale et interprétation :  Raphaël Otchakowsky
+Assistanat à la mise en scène : Delphine Battour
+Scénographie : Bénédicte Jolys
+Costumes : Laure Fonvieille
+Régie générale et lumière : Gweltaz Chauviré
+Régie son : Pierre Marais
+Administration : Charlotte Hubert-Vaillant
+Production : Gabrielle Jarrier
+
+----
+
+Credits:
+
+Production : Lumière d'août (Rennes, 35)
+Coproduction : Le Canal - scène conventionnée d'intérêt national (Redon, 35) ; Le Grand T, théâtre de
+Loire-Atlantique (Nantes, 44) ; La Maison du Théâtre (Brest, 29) ; La Paillette, Maison des Jeunes et de la
+Culture (Rennes, 35) ; La Passerelle, scène nationale (Saint-Brieuc, 22); Le théâtre du Champ au
+Roy (Guingamp, 22) ; Le théâtre du Pays de Morlaix (Morlaix, 29)
+Soutiens : L'Aire Libre - Centre de Production des Paroles Contemporaines (Saint-Jacquesde-la-Lande, 35) ; Le CDN de Normandie-Rouen (Rouen, 76) ; le fonds d'insertion de l'École du TNB (Rennes, 35) ; Spectacle vivant en Bretagne pour la lecture à Avignon en juillet 2018 ; Troisième Bureau (Grenoble, 38); le TUNantes (Nantes, 44)Construction du décor : Atelier du Grand T, théâtre de Loire-Atlantique
+
+----
+
+Highlightedblocks:
+
+- 
+  title: Autour du spectacle
+  contenttext: "<p>Rencontre avec l'équipe artistique le 16 novembre après le spectacle</p>"
+- 
+  title: Soutiens
+  contenttext: "<p>L'accueil de ce spectacle bénéficie du dispositif de soutien à la diffusion « Avis de Tournées » porté par l’ODIA Normandie, la Région Pays de la Loire et Spectacle vivant en Bretagne.</p><p></p>"
+
+----
+
+Relatedpages: 
+
+----
+
+Press: 
+
+----
+
+Cohosting: false
+
+----
+
+Cohostinglogo: 
+
+----
+
+Moreinformations: 
+
+----
+
+Headline: 
+
+----
+
+Subheadline: 
+
+----
+
+Tags: 
+
+----
+
+Images:
+
+- 
+  filename: >
+    lile-2_bajour_loewen-photographie-scaled.jpg
+  dragText: '(image: lile-2_bajour_loewen-photographie-scaled.jpg)'
+  icon:
+    type: file-image
+    ratio: 5/4
+    back: pattern
+    color: '#de935f'
+    cover: true
+    url: >
+      https://la-paillette.dev/media/pages/spectacles/l-ile/fe3a9fb330-1609944032/lile-2_bajour_loewen-photographie-scaled.jpg
+    cards:
+      url: >
+        data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw
+      srcset: >
+        https://la-paillette.dev/media/pages/spectacles/l-ile/fe3a9fb330-1609944032/lile-2-bajour-loewen-photographie-scaled-352x.jpg
+        352w,
+        https://la-paillette.dev/media/pages/spectacles/l-ile/fe3a9fb330-1609944032/lile-2-bajour-loewen-photographie-scaled-864x.jpg
+        864w,
+        https://la-paillette.dev/media/pages/spectacles/l-ile/fe3a9fb330-1609944032/lile-2-bajour-loewen-photographie-scaled-1408x.jpg
+        1408w
+    list:
+      url: >
+        data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw
+      srcset: >
+        https://la-paillette.dev/media/pages/spectacles/l-ile/fe3a9fb330-1609944032/lile-2-bajour-loewen-photographie-scaled-38x38.jpg
+        1x,
+        https://la-paillette.dev/media/pages/spectacles/l-ile/fe3a9fb330-1609944032/lile-2-bajour-loewen-photographie-scaled-76x76.jpg
+        2x
+  id: >
+    spectacles/l-ile/lile-2_bajour_loewen-photographie-scaled.jpg
+  image:
+    ratio: 5/4
+    back: pattern
+    cover: true
+    url: >
+      https://la-paillette.dev/media/pages/spectacles/l-ile/fe3a9fb330-1609944032/lile-2_bajour_loewen-photographie-scaled.jpg
+    cards:
+      url: >
+        data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw
+      srcset: >
+        https://la-paillette.dev/media/pages/spectacles/l-ile/fe3a9fb330-1609944032/lile-2-bajour-loewen-photographie-scaled-352x.jpg
+        352w,
+        https://la-paillette.dev/media/pages/spectacles/l-ile/fe3a9fb330-1609944032/lile-2-bajour-loewen-photographie-scaled-864x.jpg
+        864w,
+        https://la-paillette.dev/media/pages/spectacles/l-ile/fe3a9fb330-1609944032/lile-2-bajour-loewen-photographie-scaled-1408x.jpg
+        1408w
+    list:
+      url: >
+        data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw
+      srcset: >
+        https://la-paillette.dev/media/pages/spectacles/l-ile/fe3a9fb330-1609944032/lile-2-bajour-loewen-photographie-scaled-38x38.jpg
+        1x,
+        https://la-paillette.dev/media/pages/spectacles/l-ile/fe3a9fb330-1609944032/lile-2-bajour-loewen-photographie-scaled-76x76.jpg
+        2x
+  info: 1198 × 600
+  link: >
+    /pages/spectacles+l-ile/files/lile-2_bajour_loewen-photographie-scaled.jpg
+  text: >
+    lile-2_bajour_loewen-photographie-scaled.jpg
+  type: image
+  url: >
+    https://la-paillette.dev/media/pages/spectacles/l-ile/fe3a9fb330-1609944032/lile-2_bajour_loewen-photographie-scaled.jpg
+  uuid: >
+    lile-2_bajour_loewen-photographie-scaled.jpg

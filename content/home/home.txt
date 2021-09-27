@@ -4,34 +4,32 @@ Title: Accueil
 
 Headerimage:
 
-- header-paillette-website.jpg
+- banniere-site.jpg
 
 ----
 
 News:
 
 - 
-  title: Dernières nouvelles
-  contenttext: '<p>Cher·e·s adhérent·e·s,<br>Cher·e·s spectateurs·trice·s,<br>Cher·e·s ami·e·s de La Paillette,</p><p>À la suite des dernières mesures annoncées par le gouvernement, nous sommes dans l’obligation de fermer La Paillette au public jusqu’au 1er décembre 2020. Par conséquent, jusqu’à cette date, tous les ateliers réguliers sont suspendus, les spectacles et stages sont annulés. Nous nous efforçons de trouver des solutions avec les artistes, intervenants et partenaires, aussi nous vous demandons encore un peu de patience afin de pouvoir vous proposer dès que possible des alternatives et/ou des dispositifs de compensation adaptés. En attendant de vous retrouver dans nos murs, nous restons joignables par téléphone et par mail.</p><p>On se dit à très vite ? Nous l’espérons, vous nous manquez déjà !</p>'
+  title: SOIRÉE ADHÉRENT·E·
+  contenttext: "<p>Une soirée rien que pour les adhérent·e ! Pour se rencontrer, tout connaitre de La Paillette, boire un verre avec l'équipe, assister au vernissage de l'exposition Typogr4ph13, découvrir le théâtre et recevoir un joli cadeau... </p><p>Mercredi 29 septembre à 19h<br>Rdv Côté Lavoir - 2 rue du Pré de Bris</p><p>Vous pensez venir ? N'hésitez pas à nous le dire : hello@la-paillette.net</p>"
   links: [ ]
 - 
-  title: Résidence Marine Bachelot Nguyen
-  contenttext: "<p>Petite lueur dans cette période de confinement , Marine Bachelot Nguyen et son équipe sont autorisés à passer deux semaines en résidence sur les planches du théâtre pour peaufiner les derniers détails de la création Akila - le tissu d'Antigone, qui aurait dû jouer du 10 au 14 novembre.</p>"
-  links: [ ]
-- 
-  title: Résidence Marine Bachelot Nguyen
-  contenttext: "<p>Petite lueur dans cette période de confinement , Marine Bachelot Nguyen et son équipe sont autorisés à passer deux semaines en résidence sur les planches du théâtre pour peaufiner les derniers détails de la création Akila - le tissu d'Antigone, qui aurait dû jouer du 10 au 14 novembre.</p>"
+  title: INSCRIPTION AUX ATELIERS
+  contenttext: "<p>Arts-plastiques &gt; Danse &gt; Chant &gt; Musique &gt; Théâtre <br>Il reste des places pour nos ateliers de pratiques artistiques. <br>Rendez-vous dès le 1er septembre côté Lavoir pour vous inscrire aux horaires d'ouverture. <br></p><p></p>"
   links:
     - 
       linklabel: ""
-      linktype: ""
+      linktype: url
       linkurl: ""
       mailaddr: ""
       doc: [ ]
       page: [ ]
-      label: lien XY
-      url: https://la-paillette.dev/
-      document: [ ]
+- 
+  title: PASS SANITAIRE
+  contenttext: |
+    <p>Toute personne majeure devra présenter un pass sanitaire valide à l'entrée de la structure pour participer aux activités de La Paillette : ateliers, stages, spectacles, projets.</p><p>Pour les mineurs âgés de 12 à 17 ans, l’application du pass sanitaire entrera en vigueur le 30 septembre 2021.</p><p>Plus de renseignements sur le <a href="https://www.gouvernement.fr/info-coronavirus/pass-sanitaire" rel="noopener noreferrer nofollow">site du gouvernement</a>.</p>
+  links: [ ]
 
 ----
 
@@ -40,8 +38,8 @@ Highlightedblocks:
 - 
   title: Aventures à partager
   img:
-    - theatre-la-paillette-mjc3.jpeg
-  contenttext: '<p>Laboratoires de création, stages, projets avec le public, théâtromobile : milles manières de passer jours et nuits avec La Paillette.</p>'
+    - ces-filles-la.jpg
+  contenttext: '<p>Laboratoires de création, stages, projets participatifs, sorties de classe, théâtromobile : mille manières de passer jours et nuits avec La Paillette.</p>'
   links:
     - 
       linklabel: Toutes les aventures
@@ -55,60 +53,60 @@ Highlightedblocks:
       url: https://dev.la-paillette.net/aventures
       document: [ ]
 - 
-  title: Espaces à louer
+  title: Artistes en résidence
   img:
-    - theatre-la-paillette-mjc.jpg
-  contenttext: '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam semper accumsan neque et sagittis. Nulla vitae risus felis. Praesent rutrum, nisi id consectetur fermentum, dui odio hendrerit ante, vitae aliquet ligula quam vel mauris. Suspendisse ut massa ut dui finibus tristique. Suspendisse mattis justo dui,</p>'
+    - theatre-la-paillette-mjc3.jpeg
+  contenttext: "<p>Tout l'année des équipes artistiques viennent répéter leurs futures créations dans les murs de La Paillette.</p>"
   links:
     - 
-      linklabel: Infos Pratiques
+      linklabel: 'Artistes en résidence '
       linktype: url
-      linkurl: https://google.fr
+      linkurl: http://dev.la-paillette.net/artistes
       mailaddr: ""
       doc: [ ]
-      page:
-        - infos
-      label: Espaces à louer
-      url: 'http://dev.la-paillette.net/infos#workspaces'
-      document: [ ]
+      page: [ ]
 
 ----
 
 Focus:
 
 - 
-  label: Zoom sur...
+  label: 'APPEL À PARTICIPATION : Dans le vif-Jeunes'
   imgs:
-    - ces-filles-la.jpg
-    - akila-paysage.jpg
-  diaporama: 'true'
-  hasvideo: 'false'
-  video:
-    - 
-      videoid: https://youtu.be/7g7cGjwJAkc
-      platform: youtube
+    - >
+      dans-le-vif_laissezlesmurspropres.tumblr.com-post-145222292756.png
+  diaporama: 'false'
+  hasvideo: 'true'
+  video: [ ]
   contenttext: |
-    ##Marine Bachelot Nguyen
-    
-    Artiste en résidence, Marine Bachelot Nguyen, sera avec nous en novembre pour la création de son dernier spectacle
-    
-    Petite lueur dans cette période de confinement , Marine Bachelot Nguyen et son équipe sont autorisés à passer deux semaines en résidence sur les planches du théâtre pour peaufiner les derniers détails de la création Akila - le tissu d'Antigone, qui aurait dû jouer du 10 au 14 novembre.
+    Tu as entre 16 et 25 ans ?
+    On te propose une aventure associant lecture et débat. Autour de la thématique DÉLIT DE SOLIDARITÉ, Dans le vif propose de t'emparer de textes commandés aux auteurs Guillaume Cayet, Jézabel Coguyec, Philippe Malone et Mariette Navarro et de les restituer lors d'une soirée lecture + débat.
+    Travail de mise en voix et de scénographie avec Frédérique Mingant et Noëlle Kéruzoré
+    Débat animé par Arnaud Wassmer
   links:
     - 
-      linklabel: Test Lien
+      linklabel: Infos et inscriptions
+      linktype: mail
+      linkurl: ""
+      mailaddr: coordination@la-paillette.net
+      doc: [ ]
+      page: [ ]
+    - 
+      linklabel: Dans le vif
       linktype: url
-      linkurl: https://la-paillette.net
+      linkurl: http://danslevif.fr/
       mailaddr: ""
       doc: [ ]
       page: [ ]
-      label: test lien
-      url: https://la-paillette.dev/
-      document: [ ]
+    - 
+      linklabel: Aventure à partager
+      linktype: url
+      linkurl: >
+        https://www.la-paillette.net/aventures/dans-le-vif-jeunes
+      mailaddr: ""
+      doc: [ ]
+      page: [ ]
   press: [ ]
-  videoid: https://youtu.be/7g7cGjwJAkc
-  platform: youtube
-  img:
-    - akila-paysage.jpg
 
 ----
 

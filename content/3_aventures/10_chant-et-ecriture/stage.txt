@@ -1,0 +1,119 @@
+Title: Chant et écriture
+
+----
+
+Intervenanttype: artistpage
+
+----
+
+Intervenant:
+
+- intervenants/francois-soton
+
+----
+
+Intervenantname: 
+
+----
+
+Dates:
+
+- 
+  date: 2021-10-09
+  publictype: all
+- 
+  date: 2021-10-25
+  publictype: all
+- 
+  date: 2021-10-26
+  publictype: all
+- 
+  date: 2021-10-27
+  publictype: all
+- 
+  date: 2021-10-28
+  publictype: all
+- 
+  date: 2021-10-29
+  publictype: all
+
+----
+
+Hours: de 11h à 18h (le 9 oct.) et de 10h à 18h
+
+----
+
+Isfull: false
+
+----
+
+Contactmail: 
+
+----
+
+Public: children2, teen1, teen2
+
+----
+
+Prices:
+
+- 
+  pricetype: Adhérents
+  amount: 185
+- 
+  pricetype: Non adhérents
+  amount: 190
+
+----
+
+Rprstnname: 
+
+----
+
+Moreinfos: 
+
+----
+
+Rprstntitle: 
+
+----
+
+Representations: 
+
+----
+
+Cover:
+
+- stage-chanson.jpg
+
+----
+
+Accentinfos:
+
+Dates du stage : 
+Sam 9 octobre 
+Du lundi 25 au ven 29 octobre
+
+----
+
+Accentlabel: 
+
+----
+
+Description: Des chansons, et encore des chansons ! Le quotidien est peuplé de chansons des autres qu'elles soient inspirantes, embarrassantes, énergisantes, reposantes. Pourtant, chacun a sa chanson intérieure et cet atelier se propose d'ouvrir cet espace d'expression musicale. François Soton accompagne les participant·e·s dans les premières étapes de la création musicale : écriture d'un texte, recherches mélodiques, harmoniques, rythmiques. La philosophie est la suivante :  essais-erreurs-plaisir-réussites. À la fin de cet atelier, chacun·e repart avec sa propre chanson interprétée et accompagnée.
+
+----
+
+Level: De 10 ans à 15 ans
+
+----
+
+Highlightedblocks: 
+
+----
+
+Links: 
+
+----
+
+Relatedpages: 

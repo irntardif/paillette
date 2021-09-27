@@ -1,0 +1,68 @@
+Title: Théâtre
+
+----
+
+Area: theatre
+
+----
+
+Intervenant:
+
+- >
+  intervenants/berengere-lebacle-lumiere-d-aout
+
+----
+
+Contactmail: 
+
+----
+
+Public: adults
+
+----
+
+Prices:
+
+- 
+  pricetype: Adultes
+  amount: 326
+
+----
+
+Cover:
+
+- bd@allan-fos3.jpg
+
+----
+
+Accentinfos: 
+
+----
+
+Accentlabel: 
+
+----
+
+Description: L'atelier de Bérengère Lebâcle s’ouvre à celles et ceux qui souhaitent s’aventurer au plateau en collectif. Si vous aimez les mots, la musique, les corps en mouvement et que vous êtes curieux, venez construire avec nous ce collectif du mardi. Dans cet atelier il s'agit d'inventer des mondes qui nous décalent autant qu’ils nous ressemblent, à partir d’un texte contemporain choisi ensemble. Joueur·euse, vous êtes les bienvenues !
+
+----
+
+Level: Adultes débutants
+
+----
+
+Planning:
+
+- 
+  public: Adultes débutants
+  hours: 'mardi 18h30 - 20h30'
+  isfull: 'true'
+  description: ""
+
+----
+
+Links: 
+
+----
+
+Relatedpages: 

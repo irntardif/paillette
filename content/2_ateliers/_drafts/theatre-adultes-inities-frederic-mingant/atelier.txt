@@ -1,0 +1,75 @@
+Title: Théâtre
+
+----
+
+Area: theatre
+
+----
+
+Intervenant:
+
+- >
+  intervenants/frederique-mingant-cie-13-10eme-ut
+
+----
+
+Contactmail: 
+
+----
+
+Public: adults
+
+----
+
+Prices:
+
+- 
+  pricetype: 'Etudiants '
+  amount: 282
+- 
+  pricetype: Adultes
+  amount: 326
+
+----
+
+Cover:
+
+- bd@allanfos5.jpg
+
+----
+
+Accentinfos: 
+
+----
+
+Accentlabel: 
+
+----
+
+Description:
+
+L'atelier de Frédérique Mingant propose d’approfondir les outils nécessaires au comédien, en s’appuyant de façon privilégiée sur un texte du répertoire dramatique, contemporain ou classique. Partant de l’idée que faire du théâtre, c’est d’abord jouer ensemble, l’atelier portera plus particulièrement sur l’écoute, les intentions, l’espace et les jeux de tensions. La question centrale est donc celle d’entrer conjointement dans un texte de théâtre et découvrir, par le jeu, ce qu’il implique en termes d’espace, de dynamiques, d’énergie et de rapport à l’autre.
+
+Dernières créations dans le cadre des *Envolées* : *L’opéra de quat’sous* de Bertolt Brecht, *Les gens déraisonnables sont en voie de disparition* de Peter Handke, *Les ondes magnétiques* de David Lescot
+
+----
+
+Level: Adultes initiés
+
+----
+
+Planning:
+
+- 
+  public: Adultes initiés
+  hours: mercredi 20h00-22h00
+  isfull: 'true'
+  description: ""
+
+----
+
+Links: 
+
+----
+
+Relatedpages: 

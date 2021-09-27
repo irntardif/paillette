@@ -1,0 +1,71 @@
+Title: Théâtre
+
+----
+
+Area: theatre
+
+----
+
+Intervenant:
+
+- >
+  intervenants/berengere-lebacle-dany-simon-theatre-du-vestiaire
+
+----
+
+Contactmail: 
+
+----
+
+Public: adults
+
+----
+
+Prices:
+
+- 
+  pricetype: 'Etudiants '
+  amount: 282
+- 
+  pricetype: Adultes
+  amount: 326
+
+----
+
+Cover:
+
+- bd@allan-fos2.jpg
+
+----
+
+Accentinfos: 
+
+----
+
+Accentlabel: 
+
+----
+
+Description: L'atelier de cette année est consacré au travail d'un texte contemporain. Dans un premier temps, il est question de défricher et explorer l’oeuvre avec les outils de l’acteur (jeu, engagement du corps, espace, improvisation) en s'appuyant sur différents matériaux dramaturgiques (textes, images, musiques, films) pour stimuler l’invention poétique du collectif. Dans un second temps, le jeu sur le plateau fait résonner le texte et permet de se l’approprier. L'idée étant de chercher à être au plus proche de la vérité des personnages, de leurs quêtes intimes. Ce processus de travail permet à chacun d’être dans l’expérience du comédien passeur d’une langue et de sa singularité. Puis le temps des répétitions intensifie la quête de sens et de possibles sur le plateau pour renforcer la vitalité créatrice individuelle et collective.
+
+----
+
+Level: Adultes initiés
+
+----
+
+Planning:
+
+- 
+  public: Adultes initiés-confirmés
+  hours: lundi 20h30-22h30
+  isfull: 'true'
+  description: ""
+
+----
+
+Links: 
+
+----
+
+Relatedpages: 

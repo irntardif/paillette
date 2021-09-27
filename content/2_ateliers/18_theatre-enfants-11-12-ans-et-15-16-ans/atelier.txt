@@ -1,0 +1,76 @@
+Title: Théâtre
+
+----
+
+Area: theatre
+
+----
+
+Intervenant:
+
+- intervenants/audrey-even
+
+----
+
+Contactmail: 
+
+----
+
+Public: teen1, teen2
+
+----
+
+Prices:
+
+- 
+  pricetype: 'Enfants '
+  amount: 316
+
+----
+
+Cover:
+
+- theatre1.jpg
+
+----
+
+Accentinfos: 
+
+----
+
+Accentlabel: 
+
+----
+
+Description:
+
+L'atelier d'Audrey Even explore dans un premier temps les ressentis physiques et les émotions, avant de s'intéresser à la découverte des techniques de jeu théâtral et de ce que cela implique : détente véritable, ancrage du corps, travail sur la respiration, la voix, l’espace, la relation à l’autre, l’observation... Sans jamais perdre de vue l’essentiel : le plaisir du jeu et le groupe, celui-ci passant par le travail spécifique du texte et l'interprétation. Cet atelier aboutit à une représentation publique à l'occasion du festival *Les Envolées*.
+
+Dernières créations dans le cadre des *Envolées* : *Les 11 petits vieux qui ne voulaient pas mourir* de Suzanne Van Lohuisen, *Zoo ou l'assassin philanthrope* de Vercors,* Si on rêvait ? Si on se parlait ? * de Françoise du Chaxel, *Histoire aux cheveux rouges* de Maurice Yendt
+
+----
+
+Level: Enfants 11-12 ans & 15-16 ans
+
+----
+
+Planning:
+
+- 
+  public: 11-12 ans
+  hours: mercredi 15h15-17h15
+  isfull: 'true'
+  description: ""
+- 
+  public: 15-16 ans
+  hours: mercredi 17h30-19h30
+  isfull: 'true'
+  description: ""
+
+----
+
+Links: 
+
+----
+
+Relatedpages: 

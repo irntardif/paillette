@@ -1,0 +1,67 @@
+Title: Osez danser
+
+----
+
+Area: danse
+
+----
+
+Intervenant:
+
+- intervenants/noemie-joseph
+
+----
+
+Contactmail: 
+
+----
+
+Public: adults
+
+----
+
+Prices:
+
+- 
+  pricetype: Adultes
+  amount: 277
+
+----
+
+Cover:
+
+- p6081922.jpg
+
+----
+
+Accentinfos: 
+
+----
+
+Accentlabel: 
+
+----
+
+Description: Découvrir, re-découvrir ou travailler son potentiel corporel à travers la danse. Cet atelier est destiné à des personnes souhaitant avant tout faire un travail de remise en forme en passant par de l’étirement, du renforcement musculaire, de l’assouplissement tout en s’appuyant sur des techniques de danse.
+
+----
+
+Level: 50 ans et +
+
+----
+
+Planning:
+
+- 
+  public: 'Adultes débutants - intermédiaires'
+  hours: vendredi 14h-15h30
+  isfull: 'false'
+  description: ""
+
+----
+
+Links: 
+
+----
+
+Relatedpages: 

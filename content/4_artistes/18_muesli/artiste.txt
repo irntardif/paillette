@@ -1,0 +1,52 @@
+Title: Charlotte Blin, collectif AÏE AÏE AÏE
+
+----
+
+Type: Résidence de création
+
+----
+
+Duration: 19 - 23 avril
+
+----
+
+Spectacle: 
+
+----
+
+Creationname: Muesli
+
+----
+
+Links:
+
+- 
+  linklabel: Collectif Aïe Aïe Aïe
+  linktype: url
+  linkurl: http://www.aieaieaie.fr/
+  mailaddr: ""
+  doc: [ ]
+  page: [ ]
+
+----
+
+Cover:
+
+- muesli_photo_charlotte_blin_web.jpg
+
+----
+
+Bio: 
+
+----
+
+Origin: Rennes, Ille-et-Vilaine
+
+----
+
+Description:
+
+*Muesli* est un projet de création qui prend pour point de départ un paysage : un champ de graminées. Au milieu des graines, *Muesli* raconte des histoires de relation entre générations. Il s’agit d’évoquer l’attachement qui nous lie aux autres et le besoin aussi, à tout âge, de nous différencier. Pour préparer ce spectacle, Charlotte Blin part à la rencontre de diverses personnalités du monde de l’agriculture, de la botanique et de la recherche scientifique ayant pour points communs l’univers des graines et des graminées. AÏE AÏE AÏE est un collectif d'artistes qui explore la mise en scène et ses écritures. Il réunit Julien Mellano, Charlotte Blin, Justine Curatolo et accompagne régulièrement d'autres artistes.
+
+Dates de résidence : 
+Du mardi 19 au samedi 23 avril - Plateau

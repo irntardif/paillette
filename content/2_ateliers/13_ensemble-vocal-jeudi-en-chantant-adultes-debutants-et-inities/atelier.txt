@@ -1,0 +1,71 @@
+Title: Ensemble vocal Jeudi en chantant
+
+----
+
+Area: musique-chant
+
+----
+
+Intervenant:
+
+- intervenants/craig-schaffer-mze-shina
+- intervenants/denise-schaffer-mze-shina
+
+----
+
+Contactmail: 
+
+----
+
+Public: adults
+
+----
+
+Prices:
+
+- 
+  pricetype: 'Etudiants '
+  amount: 167
+- 
+  pricetype: Adultes
+  amount: 193
+
+----
+
+Cover:
+
+- bd2019.06.16_echo-du-monde-11.jpg
+
+----
+
+Accentinfos: 
+
+----
+
+Accentlabel: 
+
+----
+
+Description: Un atelier pour celles et ceux qui souhaitent explorer leur voix dans le plaisir de chanter au sein d’un groupe. Jeux vocaux, improvisations collectives, répertoire éclectique : chants du monde, gospels… l’accent est mis sur le plaisir de chanter plutôt que sur le répertoire. L’apprentissage des chants s’effectue par transmission orale, il n’est demandé aucune connaissance préalable en solfège car l’essentiel du travail sera basé sur l’écoute. Au programme : découverte de son corps-instrument afin de placer sa voix, travail sur la respiration, le rythme et le lâcher prise.
+
+----
+
+Level: Adultes débutants et initiés
+
+----
+
+Planning:
+
+- 
+  public: Adultes débutants et initiés
+  hours: jeudi 18h30-20h
+  isfull: 'false'
+  description: ""
+
+----
+
+Links: 
+
+----
+
+Relatedpages: 

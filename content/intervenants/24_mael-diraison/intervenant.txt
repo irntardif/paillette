@@ -1,0 +1,30 @@
+Title: Mael Diraison
+
+----
+
+Area: theatre
+
+----
+
+Bio: Initialement formé aux conservatoires de Rennes, de Brest et d'Angers, Mael Diraison se retrouve entraîné un peu par hasard vers le cinéma. Il réalise les courts-métrages *Tard sur le port* en 2014, *Anna Jaouen* en 2018, et travaille actuellement sur d'autres projets de scénarios. Sa pratique est marquée par la notion de troupe, de travail en collectif cherchant à mettre en valeur les compétences propres de chacun. Dans le cadre des ateliers théâtre, il cherche avant tout à transmettre de la passion et de l'énergie : celle du plaisir à créer ensemble.
+
+----
+
+Links:
+
+- 
+  linklabel: Mael Diraison
+  linktype: url
+  linkurl: >
+    https://www.kubweb.media/page/mael-diraison-tard-sur-le-port/
+  mailaddr: ""
+  doc: [ ]
+  page: [ ]
+
+----
+
+Workshops: 
+
+----
+
+Adventures: 

@@ -1,0 +1,133 @@
+Title: Histoires de fouilles
+
+----
+
+Type: show
+
+----
+
+Genre: Théâtre
+
+----
+
+Categories: family
+
+----
+
+Cover:
+
+- site-erwan-floch-20190404-3661-hd.jpg
+
+----
+
+Creation: false
+
+----
+
+Moreinfos: <p>45 min, dès 6 ans</p>
+
+----
+
+Representations:
+
+- 
+  date: 2022-01-11 10:00:00
+  publictype: school
+- 
+  date: 2022-01-11 14:30:00
+  publictype: school
+- 
+  date: 2022-01-12 10:00:00
+  publictype: school
+- 
+  date: 2022-01-12 14:30:00
+  publictype: all
+
+----
+
+Prices: 
+
+----
+
+Ticketing: http://www.forumsirius.net/orion/paillette.phtml?spec=669
+
+----
+
+Gallery:
+
+- site-erwan-floch-20190404-3661-hd.jpg
+
+----
+
+Company: label
+
+----
+
+Relatedcompany: 
+
+----
+
+Companyname: David Wahl
+
+----
+
+Accentinfos: 
+
+----
+
+Accentlabel: 
+
+----
+
+Description: Vous pensiez tout savoir sur le plastique ? C’était sans compter sur l’exposé de ce professeur un peu fou et de son assistante, venus remettre de l’ordre dans nos croyances collectives. Autour d’une zone de fouilles et d’une mystérieuse machine, le savant nous invite à devenir des chercheurs écologues ! Le plastique est-il issu de dinosaures décomposés, combien de fois se recycle-t-il vraiment, quelle place prend-il dans notre quotidien ? Toutes ces questions s’invitent joyeusement dans cette épopée contemporaine au cours de laquelle chaque fait rapporté est 100% authentifié. Connu pour ses « causeries », formes de cabinet de curiosités faits d’objets, de mots et de récits, David Whal aime construire des fictions où se retrouvent des découvertes scientifiques, des époques différentes et ses propres questionnements. Artiste associé à Océanopolis Brest depuis 2019, le comédien-conférencier éveille les consciences et nous invite furieusement à gratter la terre et soulever les pierres !
+
+----
+
+Links:
+
+- 
+  linklabel: David Wahl
+  linktype: url
+  linkurl: http://davidwahl.fr/
+  mailaddr: ""
+  doc: [ ]
+  page: [ ]
+
+----
+
+Distribution:
+
+Texte : David Wahl
+Collaboration artistique : Gaëlle Hausermann
+Interprétation David Wahl et Laëticia Le Mesle en alternance avec Najib Oudghiri
+Régisseur général Anne Wagner en alternance avec Anthony Henrot
+Conception/réalisation scénographique/accessoires : Valentin Martineau
+Conseil technique : Jérôme Delporte
+
+----
+
+Credits:
+
+Production Incipit
+Coproduction Le Quartz - Scène nationale de Brest, la Faïencerie Théâtre; Cinéma de Créil, Scène nationale de l’Essonne, Agora Desnos
+Avec le soutien de (dans le cadre d’accueil en résidence dans les écoles) : La Faïencerie Théâtre Cinéma de Créil, le Quartz - Scène nationale de Brest, l’Onde Théâtre centre d’art – Vélizy Villacoublay, Scène nationale de l’Essonne, Agora Desnos
+
+Ce spectacle bénéficie d’une aide à la création du ministère de la culture - DRAC de Bretagne et de la Ville de Brest
+Remerciement au Techshop d’Ivry-sur-Seine, Ateliers Leroy-Merlin
+David Wahl est artiste associé à Océanopolis, Brest – Centre de Culture Scientifique et Technique dédié à  l’Océan
+
+----
+
+Highlightedblocks:
+
+- 
+  title: Autour du spectacle
+  contenttext: "<p>Rencontre avec l'équipe artistique le 12 janvier après le spectacle</p>"
+
+----
+
+Relatedpages: 
+
+----
+
+Press: 

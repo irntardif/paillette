@@ -1,0 +1,89 @@
+Title: Qi Gong
+
+----
+
+Area: bien-être
+
+----
+
+Intervenant:
+
+- intervenants/jean-marc-le-cacheur
+
+----
+
+Contactmail: 
+
+----
+
+Public: adults
+
+----
+
+Prices: 
+
+----
+
+Cover:
+
+- gi-qong-3.jpg
+
+----
+
+Accentinfos:
+
+Ateliers gérés et encadrés par l'association Ming Shen
+Renseignements & inscriptions au 06 12 16 56 40
+
+----
+
+Accentlabel: 
+
+----
+
+Description: Envie de faire une pause ? De vous accorder un moment pour vous ressourcer, vous relaxer ? La Paillette accueille l'association Ming Shen pour des cours de Qi Gong.
+
+----
+
+Level: Adultes
+
+----
+
+Planning:
+
+- 
+  public: Adultes
+  hours: Lundi 10h30-12h
+  isfull: 'false'
+  description: ""
+- 
+  public: Adultes
+  hours: Lundi 12-13h30
+  isfull: 'false'
+  description: ""
+- 
+  public: Adultes
+  hours: Jeudi 12-13h30
+  isfull: 'false'
+  description: ""
+- 
+  public: Adultes
+  hours: Jeudi 10h30-12h
+  isfull: 'false'
+  description: ""
+
+----
+
+Links: 
+
+----
+
+Relatedpages: 
+
+----
+
+Relatedevents: 
+
+----
+
+Relatedadventures: 

@@ -1,0 +1,122 @@
+Title: Création franche
+
+----
+
+Intervenanttype: label
+
+----
+
+Intervenant: 
+
+----
+
+Intervenantname: La Morsure
+
+----
+
+Dates: 
+
+----
+
+Hours: 
+
+----
+
+Isfull: false
+
+----
+
+Contactmail: 
+
+----
+
+Public: adults
+
+----
+
+Prices: 
+
+----
+
+Rprstnname: 
+
+----
+
+Moreinfos: 
+
+----
+
+Rprstntitle: 
+
+----
+
+Representations: 
+
+----
+
+Cover:
+
+- bdcreation-franche.jpg
+
+----
+
+Accentinfos: 
+
+----
+
+Accentlabel: 
+
+----
+
+Description:
+
+2020-2022 
+Destiné à des personnes âgées vivant en établissement, « Création Franche » fait le pari de la création avec un public pas comme/comme les autres. S’appuyant sur des ateliers, il permet aux participants de découvrir la pratique théâtrale à travers la technique de l’improvisation. Un membre du personnel soignant de chaque établissement concerné est présent à leurs côtés, afin de bénéficier d’un volet formation, dont il pourra s’emparer par la suite. Point final du projet, le spectacle *Memori-Variations territoires* créé par La Morsure, sera adapté et joué, en allant au-devant des contraintes sanitaires avec des représentations aux fenêtres ou dans les cours des établissements de santé.
+
+Contact : Aude Challemel du Rozier
+
+----
+
+Level: 
+
+----
+
+Highlightedblocks:
+
+- 
+  title: 'Partenaires '
+  contenttext: '<p>Projet mené avec l’Ehpad Saint-Cyr, l’Ehpad Léon Grimaud et l’accueil de jour Kerélys.</p>'
+- 
+  title: 'Financement '
+  contenttext: '<p>Projet financé par La Direction Culture de la Ville de Rennes</p>'
+
+----
+
+Links:
+
+- 
+  linklabel: 'Contact '
+  linktype: mail
+  linkurl: ""
+  mailaddr: coordination@la-paillette.net
+  doc: [ ]
+  page: [ ]
+- 
+  linklabel: La Morsure
+  linktype: url
+  linkurl: https://www.lamorsure.com/
+  mailaddr: ""
+  doc: [ ]
+  page: [ ]
+
+----
+
+Relatedpages: 
+
+----
+
+Relatedevents: 
+
+----
+
+Relatedadventures: 

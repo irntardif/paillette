@@ -1,0 +1,58 @@
+Title: Frédérique Mingant, Compagnie 13/10è en Ut
+
+----
+
+Type: Création
+
+----
+
+Duration: 7-11 sep. 2020 / jan-juin 2021
+
+----
+
+Spectacle:
+
+- spectacles/sauvage
+
+----
+
+Creationname: 
+
+----
+
+Links:
+
+- 
+  linklabel: 13-10e en Ut
+  linktype: url
+  linkurl: https://www.compagnie1310.com/
+  mailaddr: ""
+  doc: [ ]
+  page: [ ]
+  label: Compagnie 1310
+  url: https://www.compagnie1310.com/
+  document: [ ]
+
+----
+
+Cover:
+
+- sauvage.jpeg
+
+----
+
+Bio: 
+
+----
+
+Origin: Rennes, Ille-et-Vilaine.
+
+----
+
+Description:
+
+Le projet de création SAUVAGE s’est construit dans la durée, en mettant en œuvre un processus de travail organisé autour de laboratoires associant systématiquement l’équipe artistique et technique et un groupe de personnes venues d’horizons divers. La Paillette soutient le projet depuis 2018 en le coproduisant et a accueilli plusieurs de ces laboratoires, constituant ainsi une petite communauté « sauvage » hors et dans les murs.
+
+Dates de résidence 
+Du 7 au 11 sept. 2020 - Plateau 
+De janvier à juin 2021 - Hors les murs

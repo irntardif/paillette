@@ -1,0 +1,120 @@
+Title: Modern Jazz
+
+----
+
+Area: danse
+
+----
+
+Intervenant:
+
+- intervenants/manon-thomas
+
+----
+
+Contactmail: 
+
+----
+
+Public: children1, children2, adults
+
+----
+
+Prices:
+
+- 
+  pricetype: '5 ans '
+  amount: 161
+- 
+  pricetype: 6-9 ans
+  amount: 193
+- 
+  pricetype: Etudiants
+  amount: 223
+- 
+  pricetype: Adultes
+  amount: 277
+
+----
+
+Cover:
+
+- bd@camillemodern-jazz-laurence.jpg
+
+----
+
+Accentinfos: 
+
+----
+
+Accentlabel: 
+
+----
+
+Description:
+
+Les ateliers d’éveil et d’initiation pour les 6 ans de Manon Thomas permettent la découverte du rythme, de l’espace et du schéma corporel. Équilibre/déséquilibre, lié/saccadé, proche/lointain sont des exemples de notions qui sont abordées tout au long de l’année et qui guident les élèves vers un travail technique de façon ludique. 
+Pour les 7-9 ans ayant déjà une première expérience avec la danse, le modern jazz et le contemporain sont explorés lors de l’atelier. Les ateliers adultes explorent le rapport au poids, notamment dans les chutes et les portés. En prêtant une attention particulière à la musicalité, Manon Thomas travaille dans différentes dynamiques de mouvements afin que chaque élève progresse tout en prenant du plaisir en dansant. 
+
+Si vous suivez l’atelier de Manon, vous danserez sûrement sur : 
+*Reckoner* de Radiohead, *Attila Marcel* des triplettes de belleville, *Imik Simik *d’Hindi Zahra, *Marea negra* de Bachar Mar-Khalifé, *Eleven wives* d'Avishai Cohen, *Je ne mâche pas mes mots *de Camille, *La marelle* de Dom la nena...
+
+----
+
+Level: Enfants - adultes
+
+----
+
+Planning:
+
+- 
+  public: 5 ans
+  hours: lundi 17h-17h45
+  isfull: 'false'
+  description: "L' atelier d’éveil permet la découverte du rythme, de l’espace, du schéma corporel ... Équilibre/déséquilibre, lié/saccadé, proche/lointain sont des exemples de notions qui sont abordées tout au long de l’année et qui guident les élèves vers un travail technique de façon ludique."
+- 
+  public: 6 ans
+  hours: lundi 17h45-18h45
+  isfull: 'false'
+  description: "L' atelier d’initiation pour les 6 ans permet la découverte du rythme, de l’espace, du schéma corporel ... Équilibre/déséquilibre, lié/saccadé, proche/lointain sont des exemples de notions qui sont abordées tout au long de l’année et qui guident les élèves vers un travail technique de façon ludique."
+- 
+  public: 7-9 ans
+  hours: jeudi 17h-18h
+  isfull: 'true'
+  description: 'L’atelier d’orientation pour les 7-9 ans permet quant à lui de découvrir deux styles de danse : le modern-jazz et le contemporain et s’adresse aux enfants ayant une première expérience avec la danse.'
+- 
+  public: Adultes débutants-intermédiaires
+  hours: lundi 18h45-20h15
+  isfull: 'true'
+  description: >
+    À travers une gestuelle organique et
+    énergique, Manon Thomas travaille sur
+    le rapport au poids, notamment dans les
+    chutes et les portés. En portant une
+    attention particulière à la
+    musicalité, elle travaille dans
+    différentes dynamiques de mouvements
+    afin que chaque élève progresse tout
+    en prenant du plaisir en dansant.
+- 
+  public: Adultes débutants
+  hours: samedi 14h-15h30
+  isfull: 'false'
+  description: >
+    À travers une gestuelle organique et
+    énergique, Manon Thomas travaille sur
+    le rapport au poids, notamment dans les
+    chutes et les portés. En portant une
+    attention particulière à la
+    musicalité, elle travaille dans
+    différentes dynamiques de mouvements
+    afin que chaque élève progresse tout
+    en prenant du plaisir en dansant
+
+----
+
+Links: 
+
+----
+
+Relatedpages: 

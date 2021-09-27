@@ -6,25 +6,21 @@ Intervenanttype: label
 
 ----
 
-Intervenant:
-
-- intervenants/francois-soutif
-- >
-  artistes/frederic-mingant-cie-13-10e-en-ut
+Intervenant: 
 
 ----
 
-Intervenantname: Jean Pierre Coffe
+Intervenantname: François Soutif
 
 ----
 
 Dates:
 
 - 
-  date: 2021-05-22
+  date: 2020-11-28
   publictype: all
 - 
-  date: 2021-05-23
+  date: 2020-11-29
   publictype: all
 
 ----
@@ -33,7 +29,7 @@ Hours: de 10h à 16h
 
 ----
 
-Isfull: true
+Isfull: false
 
 ----
 
@@ -74,7 +70,7 @@ Representations:
 
 Cover:
 
-- danse-enfants.jpg
+- bdvisuel-stage-lino.jpg
 
 ----
 
@@ -94,41 +90,18 @@ Level: Adultes - Tous niveaux
 
 ----
 
-Highlightedblocks:
-
-- 
-  title: Financeurs
-  contenttext: '<p>la DRAC Bretagne<br>dispositif KARTA et La Paillette</p>'
-- 
-  title: Partenaires
-  contenttext: '<p>Coucou les petits moineau</p>'
+Highlightedblocks: 
 
 ----
 
 Links:
 
 - 
-  linklabel: contact
-  linktype: mail
-  linkurl: ""
-  mailaddr: bonjour@irenetardif.com
-  doc: [ ]
-  page: [ ]
-- 
-  linklabel: pdf
-  linktype: file
-  linkurl: ""
-  mailaddr: bonjour@irenetardif.com
-  doc:
-    - paillette-v4.pdf
-  page: [ ]
-- 
-  linklabel: url
+  linklabel: François Soutif
   linktype: url
-  linkurl: https://google.fr
-  mailaddr: bonjour@irenetardif.com
-  doc:
-    - paillette-v4.pdf
+  linkurl: http://francoissoutif.blogspot.fr
+  mailaddr: ""
+  doc: [ ]
   page: [ ]
 
 ----

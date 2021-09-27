@@ -1,0 +1,45 @@
+Title: Artistes 2020/2021
+
+----
+
+Edito:
+
+Lieu de fabrique théâtral, nous accompagnons tout au long de l’année plusieurs équipes artistiques en résidence en leur apportant un soutien financier, technique et humain.
+Certaines compagnies éprouvent le besoin de partager plus largement - et notamment avec le public - ces temps de travail et de recherche. Pour d’autres, c’est de cette rencontre que naît le terreau ou la matière même de leur projet. 
+Parce qu’il nous importe de rendre visible cette phase de recherche et de création, des temps d’échange et de partage, pensés avec les artistes autour de leur résidence, sont régulièrement proposés.
+
+----
+
+Headerimage: - illu-paillette5.png
+
+----
+
+Focus:
+
+- 
+  label: Accompagnement
+  imgs:
+    - dsc_1263.jpg
+  diaporama: 'false'
+  hasvideo: 'false'
+  video: [ ]
+  contenttext: |
+    ## Espace de recherche
+    
+    Mise à disposition des espaces de travail
+    
+    Depuis la rentrée 2008 - 2009, la salle « création » à La Paillette est ouverte à toute compagnie de théâtre - artiste qui souhaitent chercher, essayer, répéter … sans pour autant qu’ils soient en projet avec La Paillette. Cette salle est bien adaptée aux besoins de cette étape de travail. Cet espace peut aussi être propice — dans certaines conditions — à la présentation de lecture, d’étape de travail auprès des professionnels afin de favoriser les rencontres entre les artistes et les programmateurs mais aussi avec le public.
+  links: [ ]
+  press: [ ]
+
+----
+
+Onseason:
+
+- artistes/l-unanime
+- artistes/laure-catherin-ladude
+- artistes/enora-boelle-le-joli-collectif
+- artistes/marine-bachelot-nguyen
+- artistes/christine-le-berre-hop-hop-hop
+- >
+  artistes/frederic-mingant-cie-13-10e-en-ut

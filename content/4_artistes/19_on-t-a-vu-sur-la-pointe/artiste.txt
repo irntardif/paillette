@@ -1,0 +1,56 @@
+Title: On t'a vu sur la pointe
+
+----
+
+Type: Résidence de création
+
+----
+
+Duration: 20 sept. - 1er oct.
+
+----
+
+Spectacle:
+
+- >
+  spectacles/a-t-w-o-a-d-anything-to-wipe-out-a-devil
+
+----
+
+Creationname: A.T.W.O.A.D. (Anything to Wipe Out a Devil)
+
+----
+
+Links:
+
+- 
+  linklabel: "On t'a vu sur la pointe"
+  linktype: url
+  linkurl: https://ontavusurlapointe.com/
+  mailaddr: ""
+  doc: [ ]
+  page: [ ]
+
+----
+
+Cover:
+
+- res-atwoad.jpg
+
+----
+
+Bio: 
+
+----
+
+Origin: Allaire, Morbihan
+
+----
+
+Description:
+
+En 2013, Anne-Cécile Richard crée la compagnie On t'a vu sur la pointe avec Antoine Malfettes. Artiste touche à tout et autodidacte, elle construit et conçoit les marionnettes et les créations sonores des spectacles de la compagnie. Antoine Malfettes est auteur, metteur en scène et comédien-marionnettiste. 
+
+Dates de résidence : 
+Du 20 septembre au 1er octobre - Plateau 
+Création mars 2022

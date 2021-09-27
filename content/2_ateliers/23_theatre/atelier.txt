@@ -1,0 +1,73 @@
+Title: Théâtre
+
+----
+
+Area: theatre
+
+----
+
+Intervenant:
+
+- intervenants/compagnie-la-morsure
+
+----
+
+Contactmail: 
+
+----
+
+Public: 
+
+----
+
+Prices:
+
+- 
+  pricetype: 'Adultes '
+  amount: 150
+- 
+  pricetype: 'Etudiants '
+  amount: 130
+
+----
+
+Cover:
+
+- la-morsure.jpg
+
+----
+
+Accentinfos: L'atelier Labo est un atelier de 10 séances qui permet de découvrir une approche du théâtre autrement que par la création d'un spectacle. La Paillette propose deux ateliers Labo par an : de septembre à décembre et de janvier à avril.
+
+----
+
+Accentlabel: Nouveau !
+
+----
+
+Description:
+
+Atelier Labo « RÉELS/RÉALITÉS » avec La Morsure 
+Comment faire exister la frontière entre le réel et la réalité ? Comment mélanger les temporalités ? Comment se perdre entre sa subjectivité et l’objectivité du monde extérieur ? L'atelier de La Morsure explore des systèmes de jeu improvisé, de narration, de mise en scène et de production de texte qui peuvent permettre d’aborder l’onirisme, la folie et l’invisible. Il ouvre des mondes parallèles et sécants, entre le fantastique et la psychanalyse pour aborder l’étrangeté en créant des moteurs de jeu simples et spontanés.
+
+----
+
+Level: Adultes initiés
+
+----
+
+Planning:
+
+- 
+  public: Adultes-Tous niveaux
+  hours: 'le mercredi de 20h à 22 h : 10 ateliers du 22 septembre au 8 décembre '
+  isfull: 'false'
+  description: ""
+
+----
+
+Links: 
+
+----
+
+Relatedpages: 

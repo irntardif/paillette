@@ -5,7 +5,7 @@ Title: La Paillette
 Pdfarchives:
 
 - 
-  title: Saison 2019-20
+  title: Saison 2019-2020
   doc:
     - >
       plaquette-2019-2020-la-paillette-planches.pdf
@@ -15,7 +15,7 @@ Pdfarchives:
 Adventuresarchives:
 
 - 
-  title: Saison 2020-21
+  title: Archives 2019-20
   doc:
     - aventures-a-partager-19-20.pdf
 
@@ -24,7 +24,7 @@ Adventuresarchives:
 Artistsarchives:
 
 - 
-  title: 'Archives 2020 - 2021'
+  title: Archives 2019-20
   doc:
     - artistes-en-residence-19-20.pdf
 
@@ -48,11 +48,11 @@ Email: accueil.mjc@la-paillette.net
 
 ----
 
-Mainphone: 02 99 59 88 86
+Mainphone: 02 99 59 88 88
 
 ----
 
-Ticketingphone: 02 99 59 88 88
+Ticketingphone: 02 99 59 88 86
 
 ----
 
@@ -66,8 +66,6 @@ Social:
   platform: facebook
   url: https://www.facebook.com/LaPailletteMJC/
 - 
-  platform: twitter
-  url: https://twitter.com/PailletteRennes
-- 
   platform: instagram
-  url: https://www.instagram.com/
+  url: >
+    https://www.instagram.com/lapaillette_rennes/

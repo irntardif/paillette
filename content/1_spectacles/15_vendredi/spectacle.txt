@@ -1,0 +1,125 @@
+Title: Vendredi
+
+----
+
+Type: show
+
+----
+
+Genre: Théâtre et danse
+
+----
+
+Categories: family, creation
+
+----
+
+Cover:
+
+- site-_vendredidsc3764.jpg
+
+----
+
+Creation: false
+
+----
+
+Cohostinginfos: <p>En partenariat avec le festival Marmaille - Du 19 au 29 octobre - Lilico Rennes - lilicojeunepublic.fr</p>
+
+----
+
+Moreinfos: <p>1h, dès 8 ans</p>
+
+----
+
+Representations:
+
+- 
+  date: 2021-10-21 10:00:00
+  publictype: school
+- 
+  date: 2021-10-21 14:30:00
+  publictype: school
+- 
+  date: 2021-10-22 14:30:00
+  publictype: school
+- 
+  date: 2021-10-22 19:00:00
+  publictype: all
+
+----
+
+Prices: 
+
+----
+
+Ticketing: http://www.forumsirius.net/orion/paillette.phtml?spec=667
+
+----
+
+Gallery:
+
+- site-_vendredidsc3764.jpg
+
+----
+
+Company: label
+
+----
+
+Relatedcompany: 
+
+----
+
+Companyname: Christine Le Berre, Compagnie hop! hop! hop!
+
+----
+
+Accentinfos: Ouverture de la billetterie le 8 septembre 2021.
+
+----
+
+Accentlabel: 
+
+----
+
+Description: Sur son île, Vendredi s’adonne aux plaisirs simples d’une vie rythmée par les éléments naturels. Se nourrir, s’abriter, jouer avec des bouts de cordes et des branches de bois… avec son bon sourire et son émerveillement permanent, elle coule des jours heureux. Mais cette quiétude solitaire se voit bousculée par l’arrivée de Robinsonne. Costume militaire et rouge à lèvre pimpant, la conquistadore entend bien lui inculquer les bonnes manières ! Dans cette création, second volet du diptyque entamé avec *Robinsonne ou le mirage de vendredi,* Christine Le Berre invite la danseuse Léa Rault à la rejoindre pour explorer un théâtre physique et plastique, aussi expressif qu’ingénieux. Ici pas de paroles. Mais des corps dansants, tribaux et poétiques qui suffisent à conter ce classique revisité au féminin. Quand le duel devient duo, la magie opère et invite à célébrer son âme d’enfant.
+
+----
+
+Links:
+
+- 
+  linklabel: compagnie hop! hop! hop!
+  linktype: url
+  linkurl: https://www.facebook.com/ciehophophop/
+  mailaddr: ""
+  doc: [ ]
+  page: [ ]
+
+----
+
+Distribution:
+
+Mise en scène, interprétation : Christine le Berre 
+Chorégraphie, interprétation : Léa Rault
+Regard extérieur : Denis Athimon
+Musique : Thomas Poli
+Costumes : Stéfanie Gicquiaud
+Lumières et Décors : Didier Martin
+
+----
+
+Credits: Partenaires : La Paillette (Rennes, 35) ; Lillico / Festival Marmaille (Rennes, 35) ; La Passerelle, Scène Nationale (St-Brieuc, 22) ; Le Vivat, Scène Conventionnée danse (Armentières, 59) ; La Minoterie, Scène Conventionnée Arts Enfance Jeunesse (Dijon, 21) ; Le Dôme (Saint-Avé, 56) ; DRAC Bretagne ; Région Bretagne ; Ville de Rennes
+
+----
+
+Highlightedblocks: 
+
+----
+
+Relatedpages: 
+
+----
+
+Press: 

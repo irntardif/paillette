@@ -1,0 +1,71 @@
+Title: Théâtre
+
+----
+
+Area: theatre
+
+----
+
+Intervenant:
+
+- intervenants/estelle-jegou-henri-louis
+
+----
+
+Contactmail: 
+
+----
+
+Public: children2
+
+----
+
+Prices:
+
+- 
+  pricetype: 'Enfants '
+  amount: 236
+
+----
+
+Cover:
+
+- bd-atelier-estelle.jpg
+
+----
+
+Accentinfos: 
+
+----
+
+Accentlabel: 
+
+----
+
+Description:
+
+Cet atelier d’initiation à la pratique théâtrale dévoile l’univers du théâtre en abordant son histoire par le biais d'anecdotes ludiques et en proposant des pièces à lire, à écouter, à regarder, mais surtout, à jouer ! Des jeux collectifs et individuels amusants permettront à l’acteur en herbe de développer son imaginaire, sa sensibilité, prendre conscience de son corps dans l’espace, des multiples possibilités que lui offre sa voix, et, par là même, de son potentiel expressif et émotionnel. Deux rendez-vous avec le public sous forme de courts spectacles ponctuent l’année.
+
+Dernières créations dans le cadre des *Envolées* : * Lily Moon et le secret de la lucarne* de Thèrese Roche / *Une sorcière dans le cartable* de Laurence Kleinberger / *La belle porte* de Régis Porte
+
+----
+
+Level: Enfants 6-8 ans
+
+----
+
+Planning:
+
+- 
+  public: 6-8 ans
+  hours: mercredi 13h45-15h15
+  isfull: 'true'
+  description: ""
+
+----
+
+Links: 
+
+----
+
+Relatedpages: 

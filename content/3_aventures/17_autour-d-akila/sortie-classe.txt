@@ -1,0 +1,111 @@
+Title: Autour d’Akila
+
+----
+
+Intervenanttype: label
+
+----
+
+Intervenant: 
+
+----
+
+Intervenantname: Lumière d'août
+
+----
+
+Dates: 
+
+----
+
+Hours: 
+
+----
+
+Isfull: false
+
+----
+
+Contactmail: 
+
+----
+
+Public: 
+
+----
+
+Prices: 
+
+----
+
+Rprstnname: 
+
+----
+
+Moreinfos: 
+
+----
+
+Rprstntitle: 
+
+----
+
+Representations: 
+
+----
+
+Cover:
+
+- akila-paysage.jpeg
+
+----
+
+Accentinfos: 
+
+----
+
+Accentlabel: 
+
+----
+
+Description:
+
+Projet d’EAC avec le collège Les Ormeaux, Rennes / Saison 2021-2022
+Novembre à décembre 2021
+
+En lien avec le spectacle *Akila – le tissu d’Antigone* accueilli au mois de novembre 2021, une des classes de 3ème du collège Les Ormeaux bénéficiera d’un parcours associant la venue au spectacle, une visite de La Paillette, et une immersion dans la création artistique au travers d’ateliers de pratique menés par les artistes du spectacle : écriture, jeu et création sonore, donnant lieu à une présentation publique au collège.
+
+----
+
+Level: Collège
+
+----
+
+Highlightedblocks:
+
+- 
+  title: Financement
+  contenttext: '<p>Le Département d’Ille-et-Vilaine<br>Le collège Les Ormeaux<br>La Paillette</p>'
+
+----
+
+Links:
+
+- 
+  linklabel: Contact
+  linktype: mail
+  linkurl: ""
+  mailaddr: mediation@la-paillette.net
+  doc: [ ]
+  page: [ ]
+- 
+  linklabel: "Lumière d'août"
+  linktype: url
+  linkurl: http://www.lumieredaout.net/
+  mailaddr: ""
+  doc: [ ]
+  page: [ ]
+
+----
+
+Relatedpages: 

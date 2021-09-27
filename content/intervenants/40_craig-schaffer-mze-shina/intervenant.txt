@@ -1,0 +1,29 @@
+Title: Craig Schaffer - Mze Shina
+
+----
+
+Area: chant
+
+----
+
+Bio: Né en Californie, Craig Schaffer est musicien, auteur-compositeur et  joue du dulcimer, la cithare des Etats-Unis. C’est à l’occasion d’une tournée en France, qu’il découvre la polyphonie géorgienne et décide de s’installer à Paris. Il collabore avec plusieurs compagnies de théâtre dont l’Entreprise de François. En 2003, il forme le groupe So Wax pour lequel il compose et sort l’album *Packing Vocals* (2014). Il cofonde avec Denise Schaffer, le groupe Fly Away en 2014 sur un répertoire des chants folk américains. Il est membre fondateur de Mze Shina. Il donne également des stages de chant en France ainsi qu’à l’étranger et dirige des ensembles vocaux avec Denise Schaffer.
+
+----
+
+Links:
+
+- 
+  linklabel: Mze Shina
+  linktype: url
+  linkurl: http://mzeshina.fr/
+  mailaddr: ""
+  doc: [ ]
+  page: [ ]
+
+----
+
+Workshops: 
+
+----
+
+Adventures: 

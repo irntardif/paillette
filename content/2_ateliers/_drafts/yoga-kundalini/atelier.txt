@@ -1,0 +1,74 @@
+Title: Yoga Kundalini
+
+----
+
+Area: bien-être
+
+----
+
+Intervenant:
+
+- intervenants/association-indiyoga
+
+----
+
+Contactmail: 
+
+----
+
+Public: adults
+
+----
+
+Prices: 
+
+----
+
+Cover:
+
+- yoga-kundalini.jpeg
+
+----
+
+Accentinfos:
+
+Atelier géré et encadré par l'association Indigoyoga
+Renseignements et inscriptions au  06 52 12 61 22
+
+----
+
+Accentlabel: 
+
+----
+
+Description: Envie de faire une pause ? De vous accorder un moment pour vous ressourcer, vous relaxer ? La Paillette accueille l'association Indigoyoga pour des cours de yoga kundalini.
+
+----
+
+Level: Adultes
+
+----
+
+Planning:
+
+- 
+  public: Adultes
+  hours: Mardi 12h30-13h45
+  isfull: 'false'
+  description: ""
+
+----
+
+Links: 
+
+----
+
+Relatedpages: 
+
+----
+
+Relatedevents: 
+
+----
+
+Relatedadventures: 

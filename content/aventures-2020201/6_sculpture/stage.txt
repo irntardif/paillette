@@ -1,0 +1,125 @@
+Title: Sculpture
+
+----
+
+Intervenanttype: label
+
+----
+
+Intervenant:
+
+- intervenants/francois-soutif
+
+----
+
+Intervenantname: François Soutif
+
+----
+
+Dates:
+
+- 
+  date: 2021-05-04
+  publictype: all
+- 
+  date: 2021-05-05
+  publictype: all
+- 
+  date: 2021-05-06
+  publictype: all
+
+----
+
+Hours: de 10h à 17h
+
+----
+
+Isfull: false
+
+----
+
+Contactmail: 
+
+----
+
+Public: children2
+
+----
+
+Prices:
+
+- 
+  pricetype: Adhérents
+  amount: 98
+- 
+  pricetype: Non adhérents
+  amount: 103
+
+----
+
+Rprstnname: 
+
+----
+
+Moreinfos: 
+
+----
+
+Rprstntitle: 
+
+----
+
+Representations: 
+
+----
+
+Cover:
+
+- picasso-la-chevre.jpg
+
+----
+
+Accentinfos: 
+
+----
+
+Accentlabel: Annulé
+
+----
+
+Description:
+
+François Soutif propose un stage de trois jours pour devenir aussi inventif que le maître Pablo Picasso lorsqu’il composa sa fameuse Chèvre en bois, plâtre, métal, poteries en céramique et mêmes grandes feuilles de palmiers !
+Au programme, collecte, tri et assemblage de matériaux hétéroclites pour réaliser petit à petit sa plus belle sculpture.
+
+----
+
+Level: De 8 à 11 ans
+
+----
+
+Highlightedblocks: 
+
+----
+
+Links:
+
+- 
+  linklabel: François Soutif
+  linktype: url
+  linkurl: http://francoissoutif.blogspot.fr
+  mailaddr: ""
+  doc: [ ]
+  page: [ ]
+
+----
+
+Relatedpages: 
+
+----
+
+Relatedevents: 
+
+----
+
+Relatedadventures: 

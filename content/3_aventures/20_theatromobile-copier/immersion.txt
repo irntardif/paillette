@@ -1,0 +1,128 @@
+Title: Théâtromobile
+
+----
+
+Intervenanttype: label
+
+----
+
+Intervenant: 
+
+----
+
+Intervenantname: Rozenn Tregoat et Eric Antoine
+
+----
+
+Dates: 
+
+----
+
+Hours: 
+
+----
+
+Isfull: false
+
+----
+
+Contactmail: 
+
+----
+
+Public: students, teen2
+
+----
+
+Prices:
+
+- 
+  pricetype: En fonction du quotient familial
+  amount: 155
+- 
+  pricetype: En fonction du quotient familial
+  amount: 195
+
+----
+
+Rprstnname: La nuit des rois
+
+----
+
+Moreinfos: Gratuit
+
+----
+
+Rprstntitle: 
+
+----
+
+Representations:
+
+- 
+  date: 2021-09-25 18:00:00
+  publictype: all
+- 
+  date: 2021-09-26 15:00:00
+  publictype: all
+
+----
+
+Cover:
+
+- theatromobile@audecdr-82.jpg
+
+----
+
+Accentinfos:
+
+Nouvelles dates ! 
+Samedi 25 septembre à 18h et dimanche 26 septembre à 15h à la Treizh Ferm :  Montbuisson – 35135 Domloup
+Gratuit
+
+----
+
+Accentlabel: 
+
+----
+
+Description:
+
+## 
+Depuis 2011, Théâtromobile offre la possibilité à des jeunes âgés de 15 à 20 ans de participer à une aventure artistique faite pour et par eux-mêmes. Sous forme de création théâtrale conçue et répétée dans un temps très court au début de chaque été, Théâtromobile a vocation à être présentée en extérieur et en itinérance en région. 
+
+En juin et juillet 2021, accompagnés des metteur·se·s en scène Rozenn Tregoat et Eric Antoine, 14 jeunes âgés de 15 à 20 ans ont pris part à une aventure théâtrale hors du commun. Entre culture et permaculture, ils ont répété durant deux semaines à la Treizh FERm *La nuit des rois* de William Shakespeare. Une comédie romantique adaptée par Jean-Michel Rabeux en 2009, version moderne et rock’n’roll ! Travestissements, quiproquos, sentiments amoureux, ambiguïtés sexuelles, mauvais coups ... tout est permis dans cette pièce détonnante, dans laquelle la langue joue plus que jamais avec les mots.
+Mise en scène : Rozenn Tregoat et Eric Antoine
+Texte : adaptation de Jean-Michel Rabeaux d'après l'oeuvre de W. Shakespeare.
+
+----
+
+Level: De 15 à 20 ans
+
+----
+
+Highlightedblocks: 
+
+----
+
+Links:
+
+- 
+  linklabel: Contact
+  linktype: mail
+  linkurl: https://google.fr
+  mailaddr: coordination@la-paillette.net
+  doc: [ ]
+  page: [ ]
+
+----
+
+Relatedpages: 
+
+----
+
+Relatedevents: 
+
+----
+
+Relatedadventures: 

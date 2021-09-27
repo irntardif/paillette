@@ -2,7 +2,7 @@
 <section id="focus" class="focus bg-accent">
 	<div class="main-wrapper grid c-2" style="padding-top: 3.77em;padding-bottom: 3.77em">
 	
-		<div class="media">
+		<div class="media margin_b-l">
 			<div class="carousel-wrapper">
 				<?php if($el->imgs()->isNotEmpty()):
 				if($el->diaporama()->toBool()): ?>

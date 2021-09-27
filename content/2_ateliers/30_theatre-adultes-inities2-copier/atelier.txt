@@ -1,0 +1,79 @@
+Title: Théâtre
+
+----
+
+Area: theatre
+
+----
+
+Intervenant:
+
+- intervenants/yann-lefievre-cie-aida
+
+----
+
+Contactmail: 
+
+----
+
+Public: adults
+
+----
+
+Prices:
+
+- 
+  pricetype: 'Etudiants '
+  amount: 282
+- 
+  pricetype: Adultes
+  amount: 326
+
+----
+
+Cover:
+
+- dsc_0053.jpg
+
+----
+
+Accentinfos:
+
+Dates et horaires de l'atelier : 
+Week-ends : vendredi 28 janvier de 20h à 23h / 29 et 30 janvier de 10h à 17h / 5 et 6 mars de 10h à 17h / du 9 au 12 avril de 10h à 17h /  28 et  29 mai de 10h à 17h
+
+----
+
+Accentlabel: 
+
+----
+
+Description:
+
+L'atelier de création de Sara Amrous et Yann Lefievre explore le lien entre intimité et politique. Le projet sera nourri par l’engagement de chacun et l’apport de propositions personnelles. L’espace de l’atelier est à part et précieux, il s’agit d’y créer une confiance, une exigence et un vocabulaire commun avec le groupe. Les répétitions sont organisées sur des week-end ou vacances scolaires pour mener à bien un projet joyeux et collectif qui sera joué dans le cadre du festival les *Envolées*.
+
+Dernières créations dans le cadre des Envolées : *Evénements* de Didier-Georges Gabily,  *Zaï Zaï Zaï* adaptation de la BD de Fab Caro.
+
+----
+
+Level: Adultes initiés
+
+----
+
+Planning:
+
+- 
+  public: Adultes initiés-confirmés
+  hours: janv-mars-avril-mai
+  isfull: 'true'
+  description: |
+    Dates et horaires de l'atelier :
+    Week-ends : vendredi 28 janvier de 20h à 23h / 29 et 30 janvier de 10h à 17h / 5 et 6 mars de 10h à 17h / du 9 au 12 avril de 10h à 17h /  28 et  29 mai de 10h à 17h
+
+----
+
+Links: 
+
+----
+
+Relatedpages: 

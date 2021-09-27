@@ -1,0 +1,123 @@
+Title: A.T.W.O.A.D. (Anything to Wipe Out a Devil)
+
+----
+
+Type: show
+
+----
+
+Genre: Théâtre et théâtre d'ombres
+
+----
+
+Categories: creation
+
+----
+
+Cover:
+
+- site-20210610_225947.jpg
+
+----
+
+Creation: false
+
+----
+
+Moreinfos: <p>1h15, dès 14 ans </p>
+
+----
+
+Representations:
+
+- 
+  date: 2022-03-23 20:00:00
+  publictype: all
+- 
+  date: 2022-03-24 20:00:00
+  publictype: all
+
+----
+
+Prices: 
+
+----
+
+Ticketing: http://www.forumsirius.net/orion/paillette.phtml?spec=673
+
+----
+
+Gallery:
+
+- site-20210610_225947.jpg
+
+----
+
+Company: label
+
+----
+
+Relatedcompany: 
+
+----
+
+Companyname: Anne-Cécile Richard, On t'a vu sur la pointe
+
+----
+
+Accentinfos: 
+
+----
+
+Accentlabel: 
+
+----
+
+Description: A.T.W.O.A.D : 6 lettres énigmatiques qui font écho à l’enquête policière la plus brûlante de ces dernières années. Quand Anne découvre que le chapitre 14 intitulé « Anything to Wipe Out a Devil » du livre de Robert Fisk *The great war for civilisation* a disparu lors de sa traduction, elle enclenche une mécanique qui va bientôt la dépasser. Véritable laboratoire de recherche, mêlant fictions et témoignages réels, A.T.W.O.A.D. est un spectacle de théâtre documentaire qui interroge la complexité des liens entre la France et l'Algérie. Dans une ambiance de polar politique et intime, la compagnie On t’a vu sur la pointe s’appuie sur le théâtre d’ombres pour tenter de débusquer ce « démon » qu’on a souhaité cacher dans un placard. Tabous, censure et mémoire collective sont au cœur de cette création contemporaine qui ouvre un espace de réflexion sur la liberté d’expression au XXIème siècle. Sans jugement ni réponses préconçues, ce cheminement tout en finesse porté par un comédien seul en scène tient en haleine jusqu’au dénouement final… Une vision éclairée sur la part sombre de notre histoire.
+
+----
+
+Links:
+
+- 
+  linklabel: "On t'a vu sur la pointe"
+  linktype: url
+  linkurl: https://ontavusurlapointe.com/
+  mailaddr: ""
+  doc: [ ]
+  page: [ ]
+
+----
+
+Distribution:
+
+Écriture, mise en scène et création sonore : Anne-Cécile Richard
+Écriture, interprétation et création lumière : Antoine Malfettes
+Création technique et régie : Sébastien Lucas
+
+----
+
+Credits:
+
+Production : On t'a vu sur la pointe
+Co-productions et résidences :
+Le Canal Théâtre du Pays de Redon / Scène conventionnée d'intérêt national pour le théâtre (35) ; L'Atelier Culturel / Scène de territoire des arts de la piste (Landerneau, 29) La Paillette (Rennes, 35) ; La Maison du Théâtre (Brest, 29) ; Le Strapontin (Pont-Scorff, 56)
+
+----
+
+Highlightedblocks:
+
+- 
+  title: Autour du spectacle
+  contenttext: "<p>Rencontre avec l'équipe artistique le 23 mars après le spectacle</p>"
+- 
+  title: Soutiens
+  contenttext: "<p>Ce spectacle bénéficie d'une aide à la création de la DRAC Bretagne, de la Région Bretagne, de Rennes Métropole et du Département d’Ille-et-Vilaine</p>"
+
+----
+
+Relatedpages: 
+
+----
+
+Press: 

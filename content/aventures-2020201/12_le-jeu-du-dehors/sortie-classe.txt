@@ -1,0 +1,125 @@
+Title: Le Jeu du dehors
+
+----
+
+Intervenanttype: label
+
+----
+
+Intervenant:
+
+- intervenants/les-araignees-philosophes
+
+----
+
+Intervenantname: Les araignées philosophes
+
+----
+
+Dates: 
+
+----
+
+Hours: 
+
+----
+
+Isfull: false
+
+----
+
+Contactmail: 
+
+----
+
+Public: 
+
+----
+
+Prices: 
+
+----
+
+Rprstnname: 
+
+----
+
+Moreinfos: 
+
+----
+
+Rprstntitle: 
+
+----
+
+Representations: 
+
+----
+
+Cover:
+
+- araignees-hilosphes.jpeg
+
+----
+
+Accentinfos: 
+
+----
+
+Accentlabel: 
+
+----
+
+Description:
+
+Atelier philo-théâtre (report saison 2019-2020)
+Décembre 2020
+
+Imaginé et encadré par Les araignées philosophes, le Jeu du dehors est un atelier imaginé pour et autour du spectacle Souliers de sable joué par la Cie La Petite Fabrique en décembre 2020. Cet atelier a pour but de sensibiliser les élèves au spectacle et philosopher sur la thématique du Dehors !  En décembre, 5 classes de l’école Marie Pape-Carpantier à Rennes vont bénéficier de cette action.
+
+Contact : Aude Challemel du Rozier
+
+----
+
+Level: 
+
+----
+
+Highlightedblocks:
+
+- 
+  title: Financements
+  contenttext: '<p>La Ville de Rennes<br>La Paillette <br>L’école Marie Pape-Carpantier</p><p></p>'
+
+----
+
+Links:
+
+- 
+  linklabel: Contact
+  linktype: mail
+  linkurl: ""
+  mailaddr: mediation@la-paillette.net
+  doc: [ ]
+  page: [ ]
+- 
+  linklabel: 'Les araignées philosophes '
+  linktype: url
+  linkurl: http://araigneesphilosophes.com/
+  mailaddr: ""
+  doc: [ ]
+  page: [ ]
+
+----
+
+Relatedpages:
+
+- spectacles/souliers-desable
+
+----
+
+Relatedevents: 
+
+----
+
+Relatedadventures: 

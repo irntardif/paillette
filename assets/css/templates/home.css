@@ -59,6 +59,7 @@
 #calendar .fc-daygrid-day-top{
   background-color: var(--color-accent);
   width:32px;
+  color:  #fff;
 }
 
 #calendar .fc-col-header{
@@ -157,6 +158,11 @@
   margin:auto;
 }
 
+/*/ correction Bug Chrome /*/
+#calendar.fc .fc-view-harness{
+  flex-grow: 0!important; 
+}
+
 .tippy-content{
   padding:0;
 }
@@ -240,8 +246,70 @@
     top:40%;
   }
 
-  #calendar{
+   #calendar{
     display:flex;
-    /*overflow:hidden;*/
   }
 }
+
+@media screen and (min-width: 768px) and (max-width:1080px) {
+  #calendar{
+    overflow:scroll;
+    max-width:100%;
+  }
+}
+
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+    .home header.main-header{
+      position: fixed;
+      margin-top: 0;
+      top:0;
+    }
+
+    body.home{
+      padding-top: 75px;
+    }
+
+    #burger{
+      position:absolute;
+    }
+}
+
+/*ipad PRo 12.9"*/
+/* Portrait */
+/* Declare the same value for min- and max-width to avoid colliding with desktops */
+/* Source: https://medium.com/connect-the-dots/css-media-queries-for-ipad-pro-8cad10e17106*/
+@media only screen
+and (min-device-width: 1024px)
+and (max-device-width: 1024px)
+and (orientation: portrait)
+and (-webkit-min-device-pixel-ratio: 2) {
+  .home header.main-header{
+     margin-top:0;
+  }
+
+  #burger{
+    position:absolute;
+  }
+}
+
+/*ipad Landscape"*/
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: landscape) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+    .home header.main-header{
+     margin-top:0;
+    }
+
+  #burger{
+    position:absolute;
+  
+}
+
+
+

@@ -17,12 +17,13 @@ Pagebuilder:
         Billetterie : 02 99 59 88 86 – billetterie@la-paillette.net
         
         ##Nous trouver :
-        Le lavoir :
+        Le Lavoir :
         2, rue du Pré de Bris- 35000 Rennes
         Le Théâtre :
         6 rue Louis Guilloux – 35000 Rennes
         
         ##Accès :
+        Lignes de bus C4, 11, 53, 54, 55, 56 :  arrêt Chèques postaux
         Lignes de bus 11, 54, 55, 56 : arrêt Guilloux Lorient
         Ligne de bus C4 et 53 : Arrêt Guilloux
         Star de nuit N1 : arrêt Chèques postaux
@@ -72,21 +73,25 @@ Pagebuilder:
   builder2:
     - 
       images:
-        - theatre-la-paillette-mjc.jpg
-        - vendredi.jpg
+        - lavoirbd.jpg
       _key: imgContent
       _uid: imgContent_1609868710625_2249
     - 
       textcontent: |
-        ##Horaires d’ouverture :
-        Accueil - côté Lavoir
-        Lundi, mardi et jeudi : 13h30-21h Mercredi : 9h30-21h Vendredi : 13h30-18h30 Pendant les vacances scolaires, nous contacter pour connaître nos horaires d’ouverture.
+        ##Accueil - côté Lavoir
+        Lundi, mardi et jeudi : 13h30-21h 
+        Mercredi : 9h30-21h  
+        Vendredi : 13h30-18h30  
         
         ##Billetterie - côté Théâtre 
-        Mardi, jeudi et vendredi : 13h30-18h Mercredi : 12h-18h En soirée : 1h avant le début de chaque représentation.
+        Mardi, jeudi et vendredi : 13h30-18h 
+        Mercredi : 12h-18h
+         En soirée : 30 min avant le début de chaque représentation.
+        
+        Pendant les vacances scolaires, nous contacter pour connaître nos horaires d’ouverture.
         
         ##Accessibilité
-        Le lavoir et le Théâtre sont accessibles aux personnes à mobilité réduite.
+        Le Lavoir et le Théâtre sont accessibles aux personnes à mobilité réduite.
         Pour la venue aux ateliers et aux représentations, merci de prévenir respectivement l’accueil ou la billetterie en amont afin que nous puissions vous accueillir au mieux.
         
         Pour les personnes malentendantes, un dispositif de boucle magnétique a été installé dans la salle de spectacle.
@@ -144,33 +149,47 @@ Pagebuilder:
       textcontent: |
         ##TARIFS SPECTACLES
         
-        Tarif plein 13 € (hors spectacles Akila - le Tissu d’Antigone et Circulations Capitales)
+        Tarif plein 13 € (hors spectacles *Extra, festival d'un soir*, *Vendredi* et *Fracassé.e.s*)
         
-        **Tarifs réduits**
-         11 € Adhérent La Paillette, adhérent MJC de Rennes Métropole, demandeur d’emploi, carte Cezam 9 € Étudiant, bénéficiaire RSA, AAH 8 € Moins de 18 ans, groupe (10 personnes et plus)
+        Tarifs réduits
+         11 € Adhérent La Paillette, adhérent MJC de Rennes Métropole, demandeur d’emploi, carte Cezam 
+        9 € Étudiant, bénéficiaire RSA, AAH 
+        8 € Moins de 18 ans, groupe (10 personnes et plus)
          5 € dispositif Sortir ! 
         Pour tout tarif réduit il vous sera demandé un justificatif.
         
-        **Parcours 3 spectacles **
+        Parcours 3 spectacles 
         Parcours tarif plein : 33 € (11 € la place supplémentaire) 
-        Parcours tarif réduit adhérent et demandeur d’emploi : 30 € (10 € la place supplémentaire) Parcours tarif réduit - de 18 ans, étudiants et bénéficiaire RSA : 21 € (7 € la place supplémentaire)
+        Parcours tarif réduit adhérent et demandeur d’emploi : 30 € (10 € la place supplémentaire) 
+        Parcours tarif réduit - de 18 ans, étudiants et bénéficiaire RSA : 21 € (7 € la place supplémentaire)
         
-        **Dispositif Sortir !**
-        Ce dispositif nominatif vous donne droit à des réductions. Il est délivré sous conditions de ressources, via les CCAS. Infos dans le CCAS de votre lieu d’habitation. Infos : www.sortir-rennesmetropole.fr
-        Comités d’entreprises
-        OIS Cezam, inter CE en Ille et Vilaine : un tarif réduit (11€) est accordé aux porteurs de la carte CEZAM en cours de validité
+        Dispositif Sortir !
+        Ce dispositif nominatif vous donne droit à des réductions. Il est délivré sous conditions de ressources, via les CCAS. Infos dans le CCAS de votre lieu d’habitation.
+        Infos : www.sortir-rennesmetropole.fr
+        
+        Comités d’entreprises OIS Cezam, inter CE en Ille et Vilaine : un tarif réduit (11€) est accordé aux porteurs de la carte CEZAM en cours de validité
       _key: textcontent
       _uid: textcontent_1609868759493_2300
     - 
       textcontent: |
         ##PAIEMENT 
         Sur place à la billetterie en espèces, carte bancaire, chèque, chèque-vacances
+        
         En ligne sur notre site www.la-paillette.net par carte bancaire sans majoration (système sécurisé)
-        Par téléphone par carte bancaire au 02 99 59 88 86 Il est possible de réserver une place par téléphone. Les réservations sont définitives à réception du règlement dans les 5 jours suivant l’appel. Passé ce délai, les places seront remises en vente. Les billets prépayés sont à retirer au guichet le soir de la représentation.
+        
+        Par téléphone par carte bancaire au 02 99 59 88 86.  Il est possible de réserver une place par téléphone. Les réservations sont définitives à réception du règlement dans les 5 jours suivant l’appel. Passé ce délai, les places seront remises en vente. Les billets prépayés sont à retirer au guichet le soir de la représentation.
+        
         Par courrier en précisant le spectacle choisi, la date, le nombre et le tarif des places que vous commandez. Joignez le chèque établi à l’ordre de La Paillette.
+        
          Les billets non retirés ne seront pas remboursés.
       _key: textcontent
       _uid: textcontent_1609868779802_2300
+    - 
+      textcontent: |
+        ##TARIFS ATELIERS
+        Pour connaitre nos tarifs et nos modalités d'inscription aux ateliers, rendez-vous dans la rubrique (link: /ateliers#focus text: Ateliers)
+      _key: textcontent
+      _uid: textcontent_1618151210434_5034
   builder3: [ ]
   template: alignleft
   textonly: 'true'
@@ -226,19 +245,27 @@ Pagebuilder:
   builder2:
     - 
       textcontent: |
-        ##Covid 19
-        La Paillette met tout en œuvre pour vous accueillir dans les meilleures conditions. Un protocole respectant les normes sanitaires en vigueur appliquées aux salles de spectacle est en place. Il concerne l’accès aux ateliers et aux spectacles. Nous l’adapterons en fonction des obligations et nous vous tiendrons informés. Vous pouvez consulter les mesures mises en œuvre dans les fiches dédiées.
-        (file: accueil-du-public.pdf)
-        (file: accueil-des-adherents.pdf)
+        ##Pass sanitaire et protocole
+        
+        Toute personne majeure devra présenter un pass sanitaire valide à l'entrée de la structure pour participer aux activités de La Paillette : ateliers, stages, spectacles, projets.
+        Pour les mineurs âgés de 12 à 17 ans, l’application du pass sanitaire entrera en vigueur le 30 septembre 2021.
+        
+        Plus de renseignements sur le (link: https://www.gouvernement.fr/info-coronavirus/pass-sanitaire text: site du gouvernement)
+        
+        La Paillette met tout en œuvre pour vous accueillir dans les meilleures conditions. Un protocole respectant les normes sanitaires en vigueur appliquées aux salles de spectacle est en place. Il concerne l’accès aux ateliers et aux spectacles. Nous l’adapterons en fonction des obligations.
         
         L’espace bar du Théâtre est temporairement fermé.
       _key: textcontent
       _uid: textcontent_1609868809210_2351
     - 
       images:
-        - illu-paillette4.png
+        - piscine.png
       _key: imgContent
       _uid: imgContent_1609868802193_2351
+    - 
+      files: [ ]
+      _key: fileUpload
+      _uid: fileUpload_1616672778245_62274
   builder3: [ ]
   template: alignleft
   textonly: 'false'
@@ -259,37 +286,43 @@ Pagebuilder:
   _uid: editorial_1609420517243_400
   gap: null
 - 
-  h1title: 'Louer nos espaces '
+  h1title: Louer nos salles
   dropdown: 'true'
   description: |
-    La Paillette loue des salles d’une capacité de 10 à 200 personnes pour vos événements, réunions, formations, séminaires, répétitions de danse, théâtre, etc... Merci de nous contacter afin de préciser votre demande, nous vous ferons part des disponibilités, conditions techniques et financières.
+    La Paillette loue des salles d’une capacité de 10 à 200 personnes pour vos événements, réunions, formations, séminaires, répétitions de danse, théâtre, etc.
+    Pour toute demande, n'hésitez pas à nous contacter en précisant vos besoins. Nous vous ferons part des disponibilités ainsi que des conditions techniques et financières.
     
-    Plus de renseignements au 02 99 59 88 88. 
+    Contact : Annick Quistrebert
   workspaces:
     - 
       location: lavoir
       img:
-        - theatre-la-paillette-mjc.jpg
+        - dsc_1281-retourchee-reduite.jpg
       pname: Salle Mélété
-      moreinfos: Capacité de 80 à 100 personnes
+      moreinfos: |
+        Capacité de 80 à 100 personne.
+        Salle réservée pour les réunions, séminaires et événements à caractère festif.
     - 
       location: lavoir
       img:
-        - theatre-la-paillette-mjc3.jpg
+        - salle-polymnie-bd.jpg
       pname: Salle Polymnie
       moreinfos: |
         Capacité de 20 à 30 personnes 
         Salle équipée d’un tapis de danse et de barres de danse.
+        Salle réservée pour des activités artistiques (yoga, danse, chant), du travail de création ou de répétition.
     - 
       location: lavoir
       img:
-        - theatre-la-paillette-mjc2.jpg
+        - thalie-retouchee-bd.jpg
       pname: Salle Thalie
-      moreinfos: Capacité de 20 à 30 personnes
+      moreinfos: |
+        Capacité de 20 à 30 personnes.
+        Salle réservée pour des activités artistiques (théâtre, mouvement corporel, chant), du travail de création ou de répétition.
     - 
       location: lavoir
       img:
-        - theatre-la-paillette-mjc.jpg
+        - calliope-retouchee-bd.jpg
       pname: Salle Calliope
       moreinfos: |
         Capacité de 40 personnes.  
@@ -297,7 +330,7 @@ Pagebuilder:
     - 
       location: lavoir
       img:
-        - theatre-la-paillette-mjc2.jpg
+        - uranie-retouchee-bd.jpg
       pname: Salle Uranie
       moreinfos: |
         Capacité de 20 à 30 personnes
@@ -305,7 +338,7 @@ Pagebuilder:
     - 
       location: lavoir
       img:
-        - theatre-la-paillette-mjc.jpg
+        - clio-retouchee-bd.jpg
       pname: Salle Clio
       moreinfos: |
         Capacité de 20 à 30 personnes
@@ -313,31 +346,36 @@ Pagebuilder:
     - 
       location: theatre
       img:
-        - theatre-la-paillette-mjc3.jpg
-      pname: Salle de Spectacle
-      moreinfos: >
-        Salle de spectacle et espaces corrélés
-        (loges, bar, hall d’accueil, etc.)
-         Capacité de 210 places
+        - plateau-bd.jpg
+      pname: 'Salle de spectacle - Le plateau'
+      moreinfos: |
+        Salle de spectacle et espaces corrélés (loges, bar, hall d’accueil, etc.)
+        Capacité de 210 places.
+        Salle réservée pour du travail de création, de la diffusion de spectacles, des conférences et séminaires.
     - 
       location: theatre
       img:
-        - theatre-la-paillette-mjc.jpg
+        - salle-creation-bdjpg.jpg
       pname: Salle Création  
-      moreinfos: Capacité de 41 places
+      moreinfos: |
+        Capacité de 41 places.
+        Salle réservée pour du travail de création.
     - 
       location: theatre
-      img: [ ]
+      img:
+        - salle-atelierbd.jpg
       pname: Salle Atelier  
-      moreinfos: ""
+      moreinfos: |
+        Capacité de 35 places.
+        Salle réservée pour du travail de création.
   buttonlink:
     - 
-      linklabel: 'Annick Quistrebert '
-      linktype: file
+      linklabel: Contact
+      linktype: mail
       linkurl: ""
       mailaddr: loc.salle@la-paillette.net
-      doc:
-        - mockup-1111.pdf
+      doc: [ ]
+      page: [ ]
   workspaces_1:
     - 
       location: ""

@@ -1,0 +1,68 @@
+Title: Théâtre
+
+----
+
+Area: theatre
+
+----
+
+Intervenant:
+
+- >
+  intervenants/jeremy-delaunay-compagnie-a-corps-perdus
+
+----
+
+Contactmail: 
+
+----
+
+Public: students
+
+----
+
+Prices:
+
+- 
+  pricetype: Etudiants
+  amount: 282
+
+----
+
+Cover:
+
+- dsc_0822.jpg
+
+----
+
+Accentinfos: 
+
+----
+
+Accentlabel: 
+
+----
+
+Description: L'atelier de Jérémy Delaunay a pour volonté de réapprendre à dire, avec tous les sens en éveil. Réveiller le lâcher-prise, le laisser-vivre et profiter pleinement de l’explosion de saveurs et d’émotions qui va suivre. Tout est propice à la création : un texte, un mot, une injustice, une odeur, un bonheur, une couleur, un rire, une faute. De ce hasard naitra un cocon aux couleurs des expériences de ce laboratoire, qui aboutira à une création collective dans le cadre du festival *Les Envolées*.
+
+----
+
+Level: Etudiants initiés
+
+----
+
+Planning:
+
+- 
+  public: Etudiants initiés
+  hours: mardi 20h45-22h45
+  isfull: 'true'
+  description: ""
+
+----
+
+Links: 
+
+----
+
+Relatedpages: 

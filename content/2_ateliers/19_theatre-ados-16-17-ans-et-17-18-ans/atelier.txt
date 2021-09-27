@@ -1,0 +1,77 @@
+Title: Théâtre
+
+----
+
+Area: theatre
+
+----
+
+Intervenant:
+
+- intervenants/mael-diraison
+
+----
+
+Contactmail: 
+
+----
+
+Public: teen2, teen1
+
+----
+
+Prices:
+
+- 
+  pricetype: Enfants 11-18 ans
+  amount: 316
+
+----
+
+Cover:
+
+- reduite-atelierdsc_0988.jpg
+
+----
+
+Accentinfos: 
+
+----
+
+Accentlabel: 
+
+----
+
+Description: Le premier trimestre de l'atelier de Mael Diraison est consacré à la découverte et l’appropriation des fondamentaux du théâtre à travers des exercices, des improvisations, un travail sur l’imaginaire, l’écoute, l’espace, le mouvement et une mise en jeu de la parole intime. Pour enrichir et développer le potentiel et la singularité de chacun, l'atelier s'appuie sur des extraits de textes de théâtre contemporain pour la jeunesse. Puis, il approfondit l’approche de la langue et du jeu d’acteur en vivant l’expérience d’une création qui sera présentée lors du festival *Les Envolées*.
+
+----
+
+Level: Ados 13-14 ans & 16-17 ans & 17-18 ans
+
+----
+
+Planning:
+
+- 
+  public: 13-14 ans
+  hours: mercredi 16h-18h
+  isfull: 'true'
+  description: ""
+- 
+  public: 16-17 ans
+  hours: mardi 18h30-20h30
+  isfull: 'true'
+  description: 'Apprendre à jouer c’est d’abord apprendre à lire. À traquer dans un texte les pistes ouvertes par l’autrice ou l’auteur, qui dessineront les bases de la future création collective. Lecture active, ludique, à concevoir comme une vaste course d’orientation – une enquête laissant la part belle à la curiosité et à la création plutôt que comme une fastidieuse dissertation de français – ce recours constant au texte constituera le socle pédagogique de l’atelier de Maël Diraison. De ce moment initial découlera la suite : le travail d’un jeu se basant sur la situation plutôt que sur la psychologie et la construction d’un geste de mise en scène partagé. L’atelier trouvera son aboutissement lors de la présentation du chantier, en fin d’année.'
+- 
+  public: 17-18 ans
+  hours: lundi 18h30-20h30
+  isfull: 'true'
+  description: "Le premier trimestre de l'atelier de Mael Diraison est consacré à la découverte et l’appropriation des fondamentaux du théâtre à travers des exercices, des improvisations, un travail sur l’imaginaire, l’écoute, l’espace, le mouvement et une mise en jeu de la parole intime. Pour enrichir et développer le potentiel et la singularité de chacun, l'atelier s'appuie sur des extraits de textes de théâtre contemporain pour la jeunesse. Puis, il approfondit l’approche de la langue et du jeu d’acteur en vivant l’expérience d’une création qui sera présentée lors du festival *Les Envolées*."
+
+----
+
+Links: 
+
+----
+
+Relatedpages: 

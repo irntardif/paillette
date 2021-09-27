@@ -1,0 +1,29 @@
+Title: Anne-Cécile Richard et Antoine Malfettes, On t'a vu sur la pointe
+
+----
+
+Area: theatre
+
+----
+
+Bio: En 2013, Anne-Cécile crée la compagnie On t'a vu sur la pointe avec Antoine Malfettes. Artiste touche à tout et autodidacte, elle construit et conçoit les marionnettes et les créations sonores des spectacles de la compagnie. Antoine Malfettes est auteur, metteur en scène et comédien-marionnettiste.
+
+----
+
+Links:
+
+- 
+  linklabel: "on t'a vu sur la pointe"
+  linktype: url
+  linkurl: https://ontavusurlapointe.com/
+  mailaddr: ""
+  doc: [ ]
+  page: [ ]
+
+----
+
+Workshops: 
+
+----
+
+Adventures: 

@@ -1,0 +1,68 @@
+Title: Théâtre
+
+----
+
+Area: theatre
+
+----
+
+Intervenant:
+
+- >
+  intervenants/christel-petitgas-compagnie-du-chiendent
+
+----
+
+Contactmail: 
+
+----
+
+Public: adults
+
+----
+
+Prices:
+
+- 
+  pricetype: Adultes
+  amount: 326
+
+----
+
+Cover:
+
+- nael-maheux.jpg
+
+----
+
+Accentinfos: 
+
+----
+
+Accentlabel: 
+
+----
+
+Description: L’atelier de Chrystel Petitgas s’adresse à des personnes qui ont une pratique théâtrale depuis peu, ou aucune. C’est à la fois un lieu d’expérimentation, d’exploration et de construction. Expérimentation d’un langage, qui est celui du théâtre, exploration du jeu, et construction à partir d’une oeuvre théâtrale. C’est un travail qui s’adresse à chacun et implique un travail collectif. Travail autour de ce que l’on appelle les fondamentaux : l’écoute, le jeu. Travail autour de la présence, sur le rapport à soi, à l’autre, à l’espace, au texte. Un travail qui sollicite beaucoup le corps. Les vies du corps. Mobiliser l’attention de chacun et solliciter ce qui en lui, en elle, est créateur.
+
+----
+
+Level: Adultes débutants
+
+----
+
+Planning:
+
+- 
+  public: 'Adultes débutants '
+  hours: vendredi 20h00-22h00
+  isfull: 'true'
+  description: ""
+
+----
+
+Links: 
+
+----
+
+Relatedpages: 

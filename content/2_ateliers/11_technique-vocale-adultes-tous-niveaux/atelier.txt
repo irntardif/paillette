@@ -1,0 +1,67 @@
+Title: Technique vocale
+
+----
+
+Area: musique-chant
+
+----
+
+Intervenant:
+
+- intervenants/denise-schaffer-mze-shina
+
+----
+
+Contactmail: 
+
+----
+
+Public: adults
+
+----
+
+Prices:
+
+- 
+  pricetype: Adultes
+  amount: 315
+
+----
+
+Cover:
+
+- bdmze_shina_photo_trio-dsc_3739.jpg
+
+----
+
+Accentinfos: 
+
+----
+
+Accentlabel: 
+
+----
+
+Description: Cet atelier est destiné aux personnes désireuses de découvrir et de développer leur voix par un travail sur le corps et la respiration à travers un répertoire de chants du monde et de chansons. Individuellement ou en petit groupe, il s’agit d’accéder à sa voix véritable en lien avec son être profond. Au programme : conscience corporelle, travail sur la respiration, la production d’harmoniques, l’interprétation et l’écoute.
+
+----
+
+Level: Adultes - Tous niveaux
+
+----
+
+Planning:
+
+- 
+  public: 'Adultes - Tous niveaux'
+  hours: jeudi 19h-20h
+  isfull: 'false'
+  description: ""
+
+----
+
+Links: 
+
+----
+
+Relatedpages: 

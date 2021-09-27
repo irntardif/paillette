@@ -1,0 +1,71 @@
+Title: Initiation transversale
+
+----
+
+Area: mixed
+
+----
+
+Intervenant:
+
+- intervenants/estelle-jegou-henri-louis
+
+----
+
+Contactmail: 
+
+----
+
+Public: children2
+
+----
+
+Prices:
+
+- 
+  pricetype: Enfants
+  amount: 236
+
+----
+
+Cover:
+
+- initiation-transversale-ok.jpg
+
+----
+
+Accentinfos: 
+
+----
+
+Accentlabel: 
+
+----
+
+Description:
+
+Cet atelier propose de découvrir les bases du théâtre, des arts plastiques et de la musique en les pratiquant de façon ludique. L’année sera scindée en trois parties évolutives dans l’élaboration d’un spectacle qui sera présenté lors du festival *Les Envolées*. Découverte d'un auteur, interprétation des personnages, bruitages, accessoires, décors, c'est tout un programme qui s'offre aux enfants !
+
+Dernières créations dans le cadre des *Envolées* : *Le château des fantômes *de Mireille Saver,* Le Trampoulaminet *de Yves Garric
+
+----
+
+Level: Enfants 6-8 ans
+
+----
+
+Planning:
+
+- 
+  public: 6-8 ans
+  hours: Jeudi 17h-18h30
+  isfull: 'true'
+  description: ""
+
+----
+
+Links: 
+
+----
+
+Relatedpages: 

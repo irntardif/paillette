@@ -1,0 +1,129 @@
+Title: Marionnettes
+
+----
+
+Intervenanttype: label
+
+----
+
+Intervenant:
+
+- intervenants/on-t-a-vu-sur-la-pointe
+
+----
+
+Intervenantname: Anne-Cécile Richard et Antoine Malfettes, On t'a vu sur la pointe
+
+----
+
+Dates:
+
+- 
+  date: 2021-03-02
+  publictype: all
+- 
+  date: 2021-03-04
+  publictype: all
+- 
+  date: 2021-03-03
+  publictype: all
+
+----
+
+Hours: de 10h à 17h
+
+----
+
+Isfull: false
+
+----
+
+Contactmail: 
+
+----
+
+Public: teen1
+
+----
+
+Prices:
+
+- 
+  pricetype: Adhérents
+  amount: 120
+- 
+  pricetype: Non adhérents
+  amount: 125
+
+----
+
+Rprstnname: 
+
+----
+
+Moreinfos: 
+
+----
+
+Rprstntitle: Restitution
+
+----
+
+Representations:
+
+- 
+  date: 2021-03-04 18:00:00
+  publictype: all
+
+----
+
+Cover:
+
+- marionnettes-francois-berlivet.jpg
+
+----
+
+Accentinfos:
+
+Initialement prévu du 2 au 4 mars 2021, le stage marionnettes est reporté à une date ultérieure.
+Nous vous tiendrons informés rapidement des nouvelles dates choisies.
+
+----
+
+Accentlabel: Reporté
+
+----
+
+Description: Durant 3 jours, Anne-Cécile Richard et Antoine Malfettes proposent un moment de construction et de manipulation afin de découvrir le plaisir des arts de la marionnette. Après avoir fabriqué votre propre marionnette à partir de matériaux de récupération, découvrez comment passer de l’inerte à l’animé en un clin d’oeil et raconter une histoire dans une forme simple mais irrésistible.
+
+----
+
+Level: De 11 ans à 14 ans
+
+----
+
+Highlightedblocks: 
+
+----
+
+Links:
+
+- 
+  linklabel: "On t'a vu sur la pointe"
+  linktype: url
+  linkurl: https://ontavusurlapointe.com/
+  mailaddr: ""
+  doc: [ ]
+  page: [ ]
+
+----
+
+Relatedpages: 
+
+----
+
+Relatedevents: 
+
+----
+
+Relatedadventures: 

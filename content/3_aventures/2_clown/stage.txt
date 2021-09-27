@@ -2,7 +2,7 @@ Title: Clown
 
 ----
 
-Intervenanttype: 
+Intervenanttype: label
 
 ----
 
@@ -12,15 +12,22 @@ Intervenant:
 
 ----
 
-Intervenantname: 
+Intervenantname: Emilie Bonnafous - Armengol
 
 ----
 
-Dates: 
+Dates:
+
+- 
+  date: 2021-06-05
+  publictype: all
+- 
+  date: 2021-06-06
+  publictype: all
 
 ----
 
-Hours: 
+Hours: de 10h à 16h30
 
 ----
 
@@ -65,7 +72,7 @@ Representations:
 
 Cover:
 
-- bleu.jpg
+- clown-pour-le-web-sebastien-armengol.jpg
 
 ----
 
@@ -77,16 +84,11 @@ Accentlabel: Annulé
 
 ----
 
-Description:
-
-Improvisations, expérimentations sensorielles, exercices pour appeler la présence de chacun telle qu’elle est et non telle qu’on voudrait qu’elle soit, renforcement de la confiance en l’autre et en soi enrobé de douceur, jeux en tout genre : le stage encadré par Emilie Bonnafous-Armengol fait appel au clown qui sommeille en nous. Il invite à se défaire des apparences pour se concentrer sur l’essentiel : le jeu.
-
-Initialement prévu les 16 et 17 janvier 2021, le stage clown est reporté à une date ultérieure.
-Nous vous tiendrons informés rapidement des nouvelles dates choisies.
+Description: Improvisations, expérimentations sensorielles, exercices pour appeler la présence de chacun telle qu’elle est et non telle qu’on voudrait qu’elle soit, renforcement de la confiance en l’autre et en soi enrobé de douceur, jeux en tout genre : le stage encadré par Emilie Bonnafous-Armengol fait appel au clown qui sommeille en nous. Il invite à se défaire des apparences pour se concentrer sur l’essentiel : le jeu.
 
 ----
 
-Level: 
+Level: Adultes - Débutants et initiés
 
 ----
 

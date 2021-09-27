@@ -1,0 +1,125 @@
+Title: Le voyage des Souliers
+
+----
+
+Intervenanttype: artistpage
+
+----
+
+Intervenant:
+
+- >
+  intervenants/compagnie-la-petite-fabrique
+
+----
+
+Intervenantname: 
+
+----
+
+Dates: 
+
+----
+
+Hours: 
+
+----
+
+Isfull: false
+
+----
+
+Contactmail: 
+
+----
+
+Public: 
+
+----
+
+Prices: 
+
+----
+
+Rprstnname: 
+
+----
+
+Moreinfos: 
+
+----
+
+Rprstntitle: 
+
+----
+
+Representations: 
+
+----
+
+Cover:
+
+- le-voyage-des-souliers.jpg
+
+----
+
+Accentinfos: 
+
+----
+
+Accentlabel: 
+
+----
+
+Description:
+
+Parcours EAC avec l’école d’Epignac  Saison 2020-2021
+
+Autour de la création Souliers de Sable jouée par la compagnie La Petite Fabrique en décembre 2020, la classe de CE1 de l’école d ’Epignac bénéficie d’un parcours associant visite de La Paillette, venue au spectacle, atelier de théâtre et un atelier philosophique encadré par Les araignées philosophes.
+
+Contact : Aude Challemel du Rozier
+
+----
+
+Level: 
+
+----
+
+Highlightedblocks:
+
+- 
+  title: Financement
+  contenttext: '<p>La DRAC Bretagne<br>L’école d’Epignac<br>La Paillette<br></p><p></p>'
+
+----
+
+Links:
+
+- 
+  linklabel: Contact
+  linktype: mail
+  linkurl: ""
+  mailaddr: mediation@la-paillette.net
+  doc: [ ]
+  page: [ ]
+- 
+  linklabel: 'Compagnie La Petite Fabrique '
+  linktype: url
+  linkurl: http://lapetitefabrique.org/
+  mailaddr: ""
+  doc: [ ]
+  page: [ ]
+
+----
+
+Relatedpages:
+
+- spectacles/souliers-desable
+
+----
+
+Relatedevents: 
+
+----
+
+Relatedadventures: 

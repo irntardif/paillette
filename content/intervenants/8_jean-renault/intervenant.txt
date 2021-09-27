@@ -1,0 +1,29 @@
+Title: Jean Renault
+
+----
+
+Area: musique
+
+----
+
+Bio: Débutant le piano à 6 ans et d’abord formé au classique, Jean Renault se tourne vers le jazz à l’adolescence, inspiré particulièrement par la musique de Bill Evans. Vers l’âge de 19 ans il commence à jouer en groupe avec des musiciens professionnels de la scène rennaise. Suivront vingt années d’expériences scéniques au sein de multiples groupes, colorées par les différents lieux qu’il habitera (Paris, La Corse, la Provence, Rio de Janeiro). Jean Renault a été primé au 2è concours régional de jazz de Rennes en 1988, et a joué dans les festivals Calvi 1990 et 91, Jazz à l’Ouest 1998 et 99, Jazz in Plouër 2014... Il est diplômé en Formation Musicale du Conservatoire de Rennes.
+
+----
+
+Links:
+
+- 
+  linklabel: Jean Renault
+  linktype: url
+  linkurl: http://jeanrenault.e-monsite.com/
+  mailaddr: ""
+  doc: [ ]
+  page: [ ]
+
+----
+
+Workshops: 
+
+----
+
+Adventures: 

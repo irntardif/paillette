@@ -1,0 +1,78 @@
+Title: Théâtre
+
+----
+
+Area: theatre
+
+----
+
+Intervenant:
+
+- intervenants/laurent-maze
+
+----
+
+Contactmail: 
+
+----
+
+Public: adults
+
+----
+
+Prices:
+
+- 
+  pricetype: 'Etudiants '
+  amount: 282
+- 
+  pricetype: Adultes
+  amount: 326
+
+----
+
+Cover:
+
+- dsc_0805.jpg
+
+----
+
+Accentinfos: 
+
+----
+
+Accentlabel: 
+
+----
+
+Description:
+
+IL ETAIT UNE FOIS MAI 68
+Collaboration artistique : Jeanne-Victoire David - Compagnie Points Sensibles
+
+Une femme vide la maison de ses parents disparus et découvre un enregistrement audio qui lui était destiné, dans lequel son père et sa mère ont consigné jour après jour leur Mai 68, comment il et et elle l'ont vécu, et comment cet événement social, politique et culturel a résonné dans leurs vies. Elle entreprend alors de reconstituer leur histoire face à l'Histoire, et de rendre cohérents les fragments de ces récits avec ce qu'elle connaissait de leurs vies. 
+Cet atelier propose une création collective en écriture de plateau autour de Mai 68, à travers des écrits littéraires ou politiques de l'époque, réels ou fantasmés, des archives visuelles et sonores, entre Histoire officielle et histoires cachées.
+
+----
+
+Level: Adultes initiés-confirmés
+
+----
+
+Planning:
+
+- 
+  public: Adultes initiés-confirmés
+  hours: >
+    Lundi / Tous les 15 jours 20h30-23h00 +
+    3 samedis en journée
+  isfull: 'false'
+  description: ""
+
+----
+
+Links: 
+
+----
+
+Relatedpages: 

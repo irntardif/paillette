@@ -1,0 +1,45 @@
+Title: David Czesienski, Collectif O'SO
+
+----
+
+Type: 
+
+----
+
+Duration: 
+
+----
+
+Spectacle: - spectacles/l-assomoir
+
+----
+
+Creationname: 
+
+----
+
+Links:
+
+- 
+  linklabel: "Collectif O'SO"
+  linktype: url
+  linkurl: http://www.collectifoso.com/
+  mailaddr: ""
+  doc: [ ]
+  page: [ ]
+
+----
+
+Cover: - bleu-1408x.jpg
+
+----
+
+Bio: 
+
+----
+
+Origin: 
+
+----
+
+Description: 

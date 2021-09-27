@@ -6,11 +6,19 @@ Area: arts-plastiques
 
 ----
 
-Bio: Professeur d'arts plastiques et illustrateur jeunesse
+Bio: Après des études d’arts plastiques à Rennes, François Soutif enseigne pendant 10 ans dans un collège de banlieue parisienne.  Parallèlement, il continue à développer sa pratique artistique de plus en plus orientée vers l’illustration. Installé dans l’Ouest de la France depuis 2008, il partage désormais son temps entre le dessin et la sculpture, l'enseignement des arts plastiques à La Paillette, l'illustration pour la presse et l'édition jeunesse et la musique. Depuis 2004, il a publié une quinzaine d’albums jeunesse (dont *bouh!* en 2012), tous parus aux éditions kaléidoscope.
 
 ----
 
-Links: 
+Links:
+
+- 
+  linklabel: François Soutif
+  linktype: url
+  linkurl: http://francoissoutif.blogspot.fr
+  mailaddr: ""
+  doc: [ ]
+  page: [ ]
 
 ----
 

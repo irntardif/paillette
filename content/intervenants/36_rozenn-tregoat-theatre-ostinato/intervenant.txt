@@ -1,0 +1,29 @@
+Title: Rozenn Tregoat - Théâtre Ostinato
+
+----
+
+Area: theatre
+
+----
+
+Bio: Formée au conservatoire de Rennes, Rozenn Tregoat est metteure en scène notamment pour la compagnie Théâtre Ostinato fondée en 2009. Son travail s’attache essentiellement à mettre en scène des auteurs de théâtre contemporains, d’adaptations de films ou de bandes dessinées traitant de questions de société. Si les sujets abordés sont vifs, elle recherche l’humour et un jeu intense chez les acteurs pour nourrir une vitalité au plateau. Elle travaille également avec des enfants, adolescents ou encore des adultes pour ses créations avec un public amateur.
+
+----
+
+Links:
+
+- 
+  linklabel: Théâtre Ostinato
+  linktype: url
+  linkurl: https://theatreostinato.jimdofree.com/
+  mailaddr: ""
+  doc: [ ]
+  page: [ ]
+
+----
+
+Workshops: 
+
+----
+
+Adventures: 

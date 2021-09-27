@@ -1,0 +1,33 @@
+Title: Yann Lefeivre, Sara Amrous - Compagnie Aïda
+
+----
+
+Area: theatre
+
+----
+
+Bio:
+
+Yann Lefeivre est issu de la promotion 7 de l'école du Théâtre National de Bretagne (2009-2012 / Direction Stanislas Nordey). Il co-fonde en 2012 Fièvre et Eldorado en 2020. Il est acteur et metteur en scène. En 2015, il met en scène une version revisitée d'*On ne badine pas avec l’amour*. En 2017, il adapte la * Furie des nantis*.  En 2020 il met en scène *Quand viendra la vague* d’Alice Zeniter. Il mène en parallèle de nombreux projets pluridisciplinaires. Les textes et le collectif sont au cœur de son travail.
+
+Sara Amrous est metteuse en scène et comédienne. À l’issue de sa formation au Théâtre National de Bretagne, elle cofonde la compagnie Fièvre, puis elle poursuit son travail au sein de la compagnie Aïda qu'elle fonde en 2018. Elle est formée à la danse, les arts-plastiques, le théâtre et le chant lyrique. Son travail s’articule autour de questions qui traitent du choc des cultures, et interroge différents territoires (intimes et géographiques). Au théâtre elle met en scène, *Corps et Tentations* de D-G Gabily, *Tchaïka* adaptation de La Mouette d’A. Tchékhov, *Âmes et Demeures* de D-G Gabily, *L’Invitation au Voyage*, spectacle musical autour des poèmes de Charles Baudelaire.
+
+----
+
+Links:
+
+- 
+  linklabel: Compagnie Aïda
+  linktype: url
+  linkurl: https://www.facebook.com/aida.compagnie/
+  mailaddr: ""
+  doc: [ ]
+  page: [ ]
+
+----
+
+Workshops: 
+
+----
+
+Adventures: 

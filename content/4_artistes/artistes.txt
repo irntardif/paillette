@@ -12,15 +12,59 @@ Parce qu’il nous importe de rendre visible cette phase de recherche et de cré
 
 Headerimage:
 
-- illu-paillette5.png
+- theatre.png
 
 ----
 
-Focus: 
+Focus:
+
+- 
+  label: Accompagnement
+  imgs:
+    - dsc_1263.jpg
+  diaporama: 'false'
+  hasvideo: 'false'
+  video: [ ]
+  contenttext: |
+    ## Espace de recherche
+    
+    Mise à disposition des espaces de travail
+    
+    Dans le but d’accomplir au mieux sa mission d’accompagnement de la création, La Paillette met à disposition des équipes artistiques - évoluant principalement dans le secteur théâtral - des salles de travail pour des temps de recherche et de répétitions. Afin d’être au plus proche des besoins et de la temporalité des compagnies, la planification de ces accueils se construit avec elles tout au long de l’année.
+    Cette mise à disposition gracieuse de ces espaces de travail (salles de réunion & studios au Lavoir et salle création au Théâtre) répond à plusieurs objectifs :
+    -	le partage de l’outil
+    -	la rencontre et l’interconnaissance mutuelle
+    
+    Les équipes artistiques accueillies en 2020-2021 :
+    Compagnie 13/10e en Ut (35)
+    Compagnie Felmur (35)
+    Groupe Odyssée (35)
+    Mze Shina (35)
+    Collectif LACAVALE(59)
+    Compagnie la mort est dans la boîte (35)
+    Sophie Cardin, plasticienne (35)
+    Théâtre des Tarabates (22)
+    Collectif compagnies du 35 / Compagnie Singularités (35)
+    Collectif Deter (35)
+    Ecole Parallèle Imaginaire (35)
+    Compagnie Frag (44)
+    Compagnie Le grand appétit (22)
+    Lumière d'août (35)
+    Compagnie Scopitone (35)
+    Compagnie Version 14 (35)
+    Compagnie A corps perdus (35)
+    Compagnie Les craspouilles (35)
+  links: [ ]
+  press: [ ]
 
 ----
 
 Onseason:
 
-- artistes/l-unanime
-- artistes/laure-catherin-ladude
+- artistes/l-unanime-copier
+- artistes/on-t-a-vu-sur-la-pointe
+- >
+  artistes/christine-le-berre-hop-hop-hop-copier
+- >
+  artistes/delphine-battour-la-zamak-compagnie
+- artistes/muesli

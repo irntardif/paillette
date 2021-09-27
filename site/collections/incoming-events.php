@@ -1,28 +1,33 @@
 <?php 
 return function ($site) {
-	$events = $site->find('spectacles')->children()->listed();
-	$adventures = $site->find('aventures')->children()->listed();
+	$events = $site->find('spectacles')->onSeason()->toPages()->sortBy('firstEvent', 'asc');
+	$adventures = $site->find('aventures')->children()->listed()->sortBy('firstEvent', 'asc');
+	$allEvents = new Pages(array($events, $adventures));
 	$today = new Datetime();
 	$today = $today->getTimestamp();
 	$incoming = [];
-	foreach($events as $event):
-		if($event->representations()->isNotEmpty()):
-			foreach($event->representations()->toStructure() as $rprst):
-				if($rprst->date()->toDate('%s') >= $today && !in_array($event, $incoming)):
-					$incoming[] = $event;
-				endif;
-			endforeach;
-		endif;
+	$i = 0;
+	foreach($allEvents as $event):
+		
+		// if($i < 3){
+			if($event->representations()->isNotEmpty() && $event->dates()->isEmpty()):
+				foreach($event->representations()->toStructure() as $rprst):
+					if($rprst->date()->toDate('%s') >= $today && !in_array($event, $incoming)):
+						$incoming[] = $event;
+						$i = $i+1;
+					endif;
+				endforeach;
+			elseif($event->dates()->isNotEmpty()):
+				foreach($event->dates()->toStructure() as $date):
+					if($date->date()->toDate('%s') >= $today && !in_array($event, $incoming)):
+						$incoming[] = $event;
+						$i = $i+1;
+					endif;
+				endforeach;
+			endif;
+		// }
 	endforeach; 
-	foreach($adventures as $adv):
-		if($adv->dates()->isNotEmpty()):
-			foreach($adv->dates()->toStructure() as $date):
-				if($date->date()->toDate('%s') >= $today && !in_array($adv, $incoming)):
-					$incoming[] = $adv;
-				endif;
-			endforeach;
-		endif;
-	endforeach; 
-    return $incoming;
+	$incoming = new Pages($incoming);
+    return $incoming->sortBy('dates', 'representations', 'asc');
 };
 

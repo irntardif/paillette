@@ -9,7 +9,9 @@ Pour découvrir une discipline artistique, un processus de création, inscrire v
 
 ----
 
-Headerimage: 
+Headerimage:
+
+- tablee.png
 
 ----
 
@@ -17,7 +19,7 @@ Visitstext:
 
 Vous avez envie de découvrir l’envers du décor ? La Paillette organise des visites à la demande, pour des groupes constitués. Entre initiations techniques, parcours dans les recoins de nos deux bâtiments et rencontres avec l’équipe professionnelle, le Lavoir et le Théâtre n’auront plus aucuns secrets pour vous.
 
-Contactez Aude Challemel du Rozier :
+Contact : Marthe Bouillaguet
 
 ----
 
@@ -39,7 +41,17 @@ Visitslinks:
 
 ----
 
-Focus: 
+Focus:
+
+- 
+  label: ""
+  imgs: [ ]
+  diaporama: 'false'
+  hasvideo: 'false'
+  video: [ ]
+  contenttext: ""
+  links: [ ]
+  press: [ ]
 
 ----
 
@@ -51,17 +63,11 @@ Stagelinks:
 
 ----
 
-Onseasonstage:
-
-- aventures/linogravure
-- aventures/clown
-- aventures/danse-contemporaine
-- aventures/marionnettes
-- aventures/voix-polyphonies-harmonies
+Onseasonstage: 
 
 ----
 
-Immersiontext: Si l’envie de vous plonger dans un procédé créatif vous démange, n’hésitez plus et rejoignez-nous ! Avec plusieurs projets annuels en lien direct avec le travail d’une équipe artistique accueillie, nous vous proposons de passer des fauteuils au plateau. Ces projets, pensés en amont avec les compagnies professionnelles, peuvent proposer aux amateurs de monter sur scène dans des formes participatives ou leur offrir la possibilité d’intervenir dans le processus de création en réfléchissant aux côtés des metteur·e·s en scène et artistes présent·e·s dans nos murs..
+Immersiontext: Si l’envie de vous plonger dans un procédé créatif vous démange, n’hésitez plus et rejoignez-nous ! Avec plusieurs projets annuels en lien direct avec le travail d’une équipe artistique accueillie, nous vous proposons de passer des fauteuils au plateau. Ces projets, pensés en amont avec les compagnies professionnelles, peuvent proposer aux amateurs de monter sur scène dans des formes participatives ou leur offrir la possibilité d’intervenir dans le processus de création en réfléchissant aux côtés des metteur·e·s en scène et artistes présent·e·s dans nos murs.
 
 ----
 
@@ -71,12 +77,11 @@ Immersionlinks:
 
 Onseasonimmersion:
 
-- aventures/ces-filles-la
-- aventures/theatromobile
+- aventures/theatromobile-copier
 
 ----
 
-Projecttext: Ouverts aux acteurs culturels souhaitant développer un projet dans ou hors les murs de La Paillette, ces projets en complicité sont le fruit de rencontres et d’envies communes. Réflexion autour de la thématique du projet, du choix des intervenant·e·s, des tenants logistiques, des possibilités de financement.. tout est possible, il suffit d’en discuter ensemble.
+Projecttext: Ouverts aux acteurs culturels souhaitant développer un projet dans ou hors les murs de La Paillette, ces projets en complicité sont le fruit de rencontres et d’envies communes. Réflexion autour de la thématique du projet, du choix des intervenant·e·s, des tenants logistiques, des possibilités de financement... tout est possible, il suffit d’en discuter ensemble.
 
 ----
 
@@ -87,7 +92,6 @@ Projectlinks:
 Onseasonproject:
 
 - aventures/creation-franche
-- aventures/creatives
 
 ----
 
@@ -97,16 +101,19 @@ De la simple visite du théâtre au projet sur une année, La Paillette met en p
 
 Vous êtes un établissement scolaire et vous souhaitez obtenir de l’information sur un spectacle, réserver pour une séance, initier un projet au long cours :
 
-Contact : Aude Challemel du Rozier
+Contact : Marthe Bouillaguet
 
 ----
 
 Classexitstext2:
 
-## REPRÉSENTATIONS SCOLAIRES EN 2020 :
-Souliers de sable : Ven 11 déc à 14h30
-Le Roi des nuages : Jeu 11 et Ven 12 fév. à 14h30
-De l’avenir incertain du monde merveilleux dans lequel nous vivons : Mar 23 mars à 14h30
+## REPRÉSENTATIONS SCOLAIRES EN 2021 :
+Vendredi : Jeu 21 oct à 10h et 14h30 et Ven 22 oct à 14h30
+Akila - le tissu d'Antigone : Mar 16 nov à 14h30
+On ne dit pas j'ai crevé : Jeu 9 et Ven 10 déc à 14h30
+Histoires de fouilles : Mar 11 et mer 12 jan à 10h et 14h30
+Pères : Mar 1er fév à 14h30
+Ces filles-là : Mar 8 mars à 14h30 et mer 9 mars à 10h
 
 ----
 
@@ -114,19 +121,18 @@ Classlinks:
 
 - 
   linklabel: Contact
-  linktype: file
+  linktype: mail
   linkurl: ""
-  mailaddr: ""
-  doc:
-    - mockup-1111.pdf
+  mailaddr: mediation@la-paillette.net
+  doc: [ ]
   page: [ ]
 
 ----
 
 Onseasonclass:
 
-- aventures/nuages
-- aventures/le-jeu-du-dehors
+- aventures/autour-d-akila
+- aventures/robinsonnade
 
 ----
 

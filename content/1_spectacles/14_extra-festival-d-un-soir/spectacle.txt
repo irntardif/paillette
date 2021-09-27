@@ -1,0 +1,139 @@
+Title: Extra - Festival d'un soir
+
+----
+
+Type: event
+
+----
+
+Genre: Concert
+
+----
+
+Categories: 
+
+----
+
+Cover:
+
+- extra-site-internet.jpg
+
+----
+
+Creation: false
+
+----
+
+Moreinfos: <p>Tout public</p>
+
+----
+
+Representations:
+
+- 
+  date: 2021-09-17 19:00:00
+  publictype: all
+
+----
+
+Prices:
+
+- 
+  pricetype: Tout public
+  amount: 0
+
+----
+
+Ticketing: 
+
+----
+
+Gallery:
+
+- extra-site-internet.jpg
+
+----
+
+Company: artistpage
+
+----
+
+Relatedcompany:
+
+- artistes/l-unanime
+
+----
+
+Companyname: 
+
+----
+
+Accentinfos:
+
+1er rendez-vous le 17 septembre. 
+Prochains rendez-vous en novembre, février et juin.
+
+----
+
+Accentlabel: 
+
+----
+
+Description:
+
+EXTRA#1 : VACANCES !
+Vendredi 17 septembre à 19h
+Voilà un joli leitmotiv pour prolonger l’été lors du premier temps fort organisé en septembre à La Paillette. Concert "Vacances" de l’unanime, cartes postales, lunettes de soleil, bar à sirop, playlist estivale, tongs et transats viendront s’emparer de cette soirée de rentrée festive et colorée. Tenue de vacances exigée ! Apéritif sorti du sac autorisé. 
+ 
+
+Extra - Festival d'un soir, c'est quoi ? 
+C'est plus de spectacles, plus de rencontres, plus de moments singuliers dont on a encore et toujours besoin ! Imaginé par La Paillette et l’unanime, ce nouveau temps fort décline dans l'année 4 rendez-vous décalés et curieux qui favorisent la rencontre et le partage d'expérience et mettent en lumière le travail d’artistes qui ont beaucoup de choses à dire et peu de place pour le faire. Lancement d'EXTRA au mois de septembre, avant de le retrouver en novembre 2021, février et juin 2022.
+
+----
+
+Links:
+
+- 
+  linklabel: "l'unanime"
+  linktype: url
+  linkurl: http://lunanime.fr/
+  mailaddr: ""
+  doc: [ ]
+  page: [ ]
+- 
+  linklabel: 'Vacances '
+  linktype: url
+  linkurl: >
+    https://www.youtube.com/watch?v=cEQNl5N38Jk
+  mailaddr: ""
+  doc: [ ]
+  page: [ ]
+
+----
+
+Distribution: 
+
+----
+
+Credits: 
+
+----
+
+Highlightedblocks:
+
+- 
+  title: Soutiens
+  contenttext: "<p><em>Extra, festival d'un soir</em> bénéficie du soutien du Ministère de la Culture - Drac de Bretagne, dans le cadre du Plan de Relance 2021 et du soutien de l’ONDA au titre du dispositif de <em>co-contruction. </em></p>"
+
+----
+
+Relatedpages: 
+
+----
+
+Press:
+
+- 
+  excerpt: '<p></p>'
+  moreinfos: ""
+  link: ""

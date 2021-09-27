@@ -1,0 +1,70 @@
+Title: Théâtre
+
+----
+
+Area: theatre
+
+----
+
+Intervenant:
+
+- intervenants/delphine-battour
+
+----
+
+Contactmail: 
+
+----
+
+Public: adults
+
+----
+
+Prices:
+
+- 
+  pricetype: 'Etudiants '
+  amount: 282
+- 
+  pricetype: Adultes
+  amount: 326
+
+----
+
+Cover:
+
+- bd@allanfos5.jpg
+
+----
+
+Accentinfos: 
+
+----
+
+Accentlabel: 
+
+----
+
+Description: L'atelier de Delphine Battour aura lieu en trois temps. Le premier portera sur un ensemble d'exercices d'approche du plateau afin de fédérer le groupe et créer un espace de jeu « safe » en confiance avec ses partenaires. Le deuxième temps portera sur la découverte de plusieurs textes dramaturgiques afin de trouver le texte qui correspondrait au mieux à l'énergie collective du groupe. Le troisième temps s'articulera sur le choix final de la pièce ainsi qu'une présentation du travail dramaturgique en vue de la création du spectacle. Delphine Battour porte un regard appuyé sur la direction d'interprètes et sur les questions de genres au plateau.
+
+----
+
+Level: Adultes initiés
+
+----
+
+Planning:
+
+- 
+  public: Adultes initiés
+  hours: mardi 20h45-22h45
+  isfull: 'true'
+  description: ""
+
+----
+
+Links: 
+
+----
+
+Relatedpages: 

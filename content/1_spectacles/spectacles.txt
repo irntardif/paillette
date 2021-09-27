@@ -4,27 +4,26 @@ Title: Spectacles et évènements
 
 Edito:
 
-## Saison 2020 / 2021
-Chaque saison, La Paillette met à l’honneur la diversité théâtrale contemporaine en programmant une dizaine de spectacles mêlant répertoires et créations. Attachée à montrer la vivacité des formes actuelles et à faire résonner les sujets d’actualité, elle fait la part belle à l’accueil d’équipes bretonnes, en nécessaire complémentarité avec des équipes nous venant de plus loin. Politique, humaniste, onirique, notre saison se veut le reflet du monde et de la société d’aujourd’hui et de notre engagement à défendre/valoriser un théâtre résolument contemporain. 
+## Saison 2021 - 2022
 
-Un théâtre sensible aussi, qui n’oublie pas de s’adresser aux nouvelles générations pour leur montrer que l’art est un formidable agitateur d’imagination. N’attendez plus pour venir « En famille », certains spectacles (quatre cette saison !) vous attendent avec vos enfants. Jeunes, moins jeunes, passionné·e·s, néophytes, curieux·se, spectateur·rice·s en quête de réflexion et d’évasion, La Paillette vous tend les bras !
+Cette saison 21 – 22 sera belle. Méthode Coué ? Existentialisme affirmé ? Imagination naïve ? Pas du tout ! À La Paillette, il s’agit simplement de vouloir vivre et partager des aventures, comprendre des histoires contemporaines, découvrir que l’on sait si peu et vouloir apprendre… C’est bien suffisant pour faire humanité et trouver la route jolie. Les artistes et les oeuvres que nous croiserons vont étonner aujourd’hui pour inspirer demain, provoquer pour secouer des idées trop reçues et peut-être surtout, nous éclairer sur nous-mêmes. Il est des exercices plus difficiles que de s’asseoir dans un fauteuil, prendre un pinceau ou chanter : alors, assumons avec audace, faisons preuve de courage et agitons nos esprits ! Pourquoi attendre pour venir écouter, voir et faire à La Paillette ? À chaque instant, notre équipe professionnelle et bénévole sera mobilisée pour vous accompagner : il suffit de passer le pont… Cette saison 21 – 22 sera belle, peut-être même la plus belle ! Vivons-la ensemble !
 
 ----
 
 Headerimage:
 
-- header-cheval.png
+- transat.png
 
 ----
 
 Program:
 
 - 
-  label: Programme de saison
+  label: 'Programme de saison '
   linktype: document
   url: ""
   document:
-    - mock-2310.pdf
+    - depliant-semestre-1.pdf
 
 ----
 
@@ -32,27 +31,23 @@ Focus:
 
 - 
   label: Festival
-  imgs: [ ]
+  imgs:
+    - envolees-10-perrine-moisan.jpg
   diaporama: 'false'
   hasvideo: 'false'
   video: [ ]
   contenttext: |
     ## Les Envolées
-    Les Envolées, c’est notre festival des pratiques artistiques en amateur, aboutissement de tout le travail mené à l’année par nos intervenant·e·s avec leurs groupes au sein des ateliers et des espaces de création. Les Envolées, c’est plus de 30 spectacles, une exposition, des surprises et des invités renouvelés à chaque édition, près de 1000 personnes de tous les âges sur scène ou hors les murs pour le plaisir de plus de 4000 spectateurs. 
-    
-    Programme disponible à partir du mois d’avril sur notre site.
+    Les *Envolées*, c’est notre festival des pratiques artistiques en amateur, aboutissement de tout le travail mené à l’année par nos intervenant·e·s avec leurs groupes au sein des ateliers et des espaces de création.  Les *Envolées*, c’est plus de 30 spectacles, une exposition, des surprises et des invités renouvelés à chaque édition, près de 1000 personnes de tous les âges sur scène ou hors les murs pour le plaisir de plus de 4000 spectateurs. 
   links:
     - 
-      linklabel: ""
-      linktype: ""
+      linklabel: Programme Les Envolées 2021
+      linktype: file
       linkurl: ""
       mailaddr: ""
-      doc: [ ]
+      doc:
+        - les-envolees-programme-vf.pdf
       page: [ ]
-      label: Tout le programme
-      url: ""
-      document:
-        - paillette-v4.pdf
   press:
     - 
       excerpt: '<p>Les Envolées, ce sont des vrais spectacles soucieux de tenir un propos, de convaincre et de garder le rythme. Ils sont portés par des acteurs qui ne décrochent jamais et vont jusqu’au bout de leurs propositions. On sent qu’un travail de plateau a soudé ces individus inégalement doués en des troupes quasi-invincibles. <br>Cette transfiguration, incroyablement émouvante enlève tout !</p>'
@@ -65,19 +60,4 @@ Focus:
 
 ----
 
-Onseason:
-
-- spectacles/akila-le-tissu-d-antigone
-- >
-  spectacles/de-l-avenir-incertain-du-monde-merveilleux-dans-lequel-nous-vivons
-- spectacles/circulations-capitales
-- spectacles/l-ile
-- spectacles/ces-filles-la
-- spectacles/part-dieu-chant-de-gare
-- spectacles/le-roi-des-nuages
-- spectacles/sauvage
-- spectacles/souliers-desable
-- >
-  spectacles/trois-textes-sur-la-qusetion-du-salaire
-- spectacles/l-assomoir
-- spectacles/on-ne-dit-pas-j-ai-creve
+Onseason: 

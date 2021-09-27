@@ -1,0 +1,119 @@
+Title: Contemporain
+
+----
+
+Area: danse
+
+----
+
+Intervenant:
+
+- intervenants/marielle-desjardins
+
+----
+
+Contactmail: 
+
+----
+
+Public: children2, teen1, teen2, adults
+
+----
+
+Prices:
+
+- 
+  pricetype: Ados
+  amount: 209
+- 
+  pricetype: 'Etudiants '
+  amount: 223
+- 
+  pricetype: Adultes
+  amount: 277
+
+----
+
+Cover:
+
+- dsc_0111@nael-maheux.jpg
+
+----
+
+Accentinfos: 
+
+----
+
+Accentlabel: 
+
+----
+
+Description:
+
+Les ateliers de Marielle Desjardins destinés aux 10-17 ans sont des espaces d’exploration, de composition et d’apprentissage technique à partir des notions fondamentales d’espace, de temps, de poids et de flux. 
+Les adultes sont invités à découvrir ou poursuivre la danse contemporaine à travers un travail technique d’improvisation et de composition, dans une prise de conscience du mouvement dansé.
+
+Si vous suivez l’atelier de Marielle, vous danserez sûrement sur :  *Kuzola* de Pongo, Kaät feat Blick Bassy, *Jelassi* de Nato et Sahalé, *Heart of Glass* de Blondie, *Othello / SOLO PIANO II* de Chilly Gonzales, Claude Debussy ...
+
+----
+
+Level: Ados - adultes
+
+----
+
+Planning:
+
+- 
+  public: 10-13 ans
+  hours: jeudi 18h00-19h15
+  isfull: 'false'
+  description: >
+    À la fois espace d’exploration, de
+    composition et d’apprentissage
+    technique à partir des notions
+    fondamentales d’espace, de temps, de
+    poids et de flux, ces deux ateliers
+    s’adressent aux enfants de 10 à 17
+    ans.
+- 
+  public: 14-17 ans
+  hours: jeudi 19h15-20h30
+  isfull: 'false'
+  description: >
+    À la fois espace d’exploration, de
+    composition et d’apprentissage
+    technique à partir des notions
+    fondamentales d’espace, de temps, de
+    poids et de flux, ces deux ateliers
+    s’adressent aux enfants de 10 à 17
+    ans.
+- 
+  public: Adultes débutants
+  hours: jeudi 20h30-22h00
+  isfull: 'false'
+  description: >
+    Cet atelier s’adresse aux adultes qui
+    souhaitent découvrir ou poursuivre la
+    danse contemporaine à travers un
+    travail technique d’improvisation et
+    de composition, dans une prise de
+    conscience du mouvement dansé.
+- 
+  public: Adultes intermédiaires-avancés
+  hours: mercredi 20h45-22h15
+  isfull: 'false'
+  description: >
+    Cet atelier s’adresse aux adultes qui
+    souhaitent poursuivre la danse
+    contemporaine à travers un travail
+    technique d’improvisation et de
+    composition, dans une prise de
+    conscience du mouvement dansé.
+
+----
+
+Links: 
+
+----
+
+Relatedpages: 

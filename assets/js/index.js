@@ -102,29 +102,16 @@ function scrollEventThrottle(fn) {
 
 const body = document.getElementsByTagName('body')[0];
 
-document.addEventListener('DOMContentLoaded', function(){
-
-inView('[data-src]').on('enter', setSrcAttribute);
-    
-  if (window.innerWidth >= 768 ){
-    scrollEventThrottle((scrollPos, previousScrollPos) => {
-      let $toptrigger = body.classList.contains('home') ? 550 : 150;
-      if(scrollPos >= $toptrigger){
-        body.classList.add('fixed-header');
-      }
-      if(scrollPos < $toptrigger){
-        body.classList.remove('fixed-header');
-      }
-    });
-  }else{
-    body.classList.remove('fixed-header');
-    return
-  }
-
-  const carousels = document.querySelectorAll(".carousel-img");
+ const carousels = document.querySelectorAll(".carousel-img");
   for(const carousel of carousels) {
     const carouselInst = new Siema({
-      selector: carousel
+      selector: carousel,
+      duration: 600,
+      easing: 'ease-out',
+      perPage: 1,
+      startIndex: 0,
+      draggable: true,
+      multipleDrag: true,
     })
 
     const prev = carousel.nextElementSibling.querySelector('.prev');
@@ -143,5 +130,24 @@ inView('[data-src]').on('enter', setSrcAttribute);
       carouselInst.currentSlide == 0 ? prev.classList.add('inactive') : prev.classList.remove('inactive');
       carouselInst.currentSlide == carouselInst.innerElements.length - 1 ? next.classList.add('inactive') : next.classList.remove('inactive');
     });
+  }
+
+document.addEventListener('DOMContentLoaded', function(){
+
+inView('[data-src]').on('enter', setSrcAttribute);
+    
+  if (window.innerWidth >= 768 ){
+    scrollEventThrottle((scrollPos, previousScrollPos) => {
+      let $toptrigger = body.classList.contains('home') ? 550 : 150;
+      if(scrollPos >= $toptrigger){
+        body.classList.add('fixed-header');
+      }
+      if(scrollPos < $toptrigger){
+        body.classList.remove('fixed-header');
+      }
+    });
+  }else{
+    body.classList.remove('fixed-header');
+    return
   }
 });

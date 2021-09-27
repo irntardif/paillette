@@ -1,0 +1,70 @@
+Title: Atelier chorégraphique
+
+----
+
+Area: danse
+
+----
+
+Intervenant:
+
+- intervenants/manon-thomas
+
+----
+
+Contactmail: 
+
+----
+
+Public: adults
+
+----
+
+Prices:
+
+- 
+  pricetype: Etudiants
+  amount: 149
+- 
+  pricetype: Adultes
+  amount: 186
+
+----
+
+Cover:
+
+- p6081849.jpg
+
+----
+
+Accentinfos: 
+
+----
+
+Accentlabel: 
+
+----
+
+Description: L’atelier chorégraphique s’adresse aux danseurs ayant déjà plusieurs années de pratique de la danse, qui souhaitent s’engager dans un travail régulier d’improvisation et d’expérimentation. Cet atelier de 3 heures peut se faire séparément d’un atelier hebdomadaire où l’approche technique est davantage approfondie. Il est cependant recommandé de prendre un cours technique en complément afin de stimuler sa créativité. Le travail réalisé aboutit à une création individuelle ou collective présentée dans le cadre du festival *Les Envolées*.
+
+----
+
+Level: Adultes initiés
+
+----
+
+Planning:
+
+- 
+  public: Adultes initiés
+  hours: '8 samedis 15h30-18h30 : 5 mars, 12 mars, 19 mars, 26 mars, 2 avril, 30 avril, 7 mai, 14 mai'
+  isfull: 'false'
+  description: ""
+
+----
+
+Links: 
+
+----
+
+Relatedpages: 

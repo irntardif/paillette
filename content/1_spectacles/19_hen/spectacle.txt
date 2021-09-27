@@ -1,0 +1,130 @@
+Title: HEN
+
+----
+
+Type: show
+
+----
+
+Genre: Cabaret déjanté - marionnette
+
+----
+
+Categories: 
+
+----
+
+Cover:
+
+- >
+  site-christophe-raynaud-de-lage-hen-3.jpg
+
+----
+
+Creation: false
+
+----
+
+Moreinfos: <p>1h15, dès 15 ans</p>
+
+----
+
+Representations:
+
+- 
+  date: 2022-01-26 20:00:00
+  publictype: all
+- 
+  date: 2022-01-27 20:00:00
+  publictype: all
+
+----
+
+Prices: 
+
+----
+
+Ticketing: http://www.forumsirius.net/orion/paillette.phtml?spec=670
+
+----
+
+Gallery:
+
+- >
+  site-christophe-raynaud-de-lage-hen-3.jpg
+
+----
+
+Company: label
+
+----
+
+Relatedcompany: 
+
+----
+
+Companyname: Johanny Bert, Théâtre de Romette
+
+----
+
+Accentinfos: 
+
+----
+
+Accentlabel: 
+
+----
+
+Description: HEN est un personnage plein de vie et exubérant, une diva enragée et virile à talons qui s’exprime en chantant l’amour, l’espoir, les corps et la sexualité. Créature chimérique, sculptée dans du bois, de la mousse, du métal et du latex, HEN trouve sa source dans les rêveries de Björk et les volutes de fumée de Brigitte Fontaine. Dans ce récit musical inspiré des cabarets berlinois des années 30 ou de la scène performative queer actuelle, HEN nous confronte avec humour et dérision à nos questionnements sur l’identité. Faisant écho à des combats politiques et sociétaux toujours d’actualité, le metteur en scène Johanny Bert nous interpelle : et si HEN était humain, l’accepteriez-vous tel.le qu’iel est ? Accompagné sur scène de deux musiciens, HEN offre un moment rare de liberté, qui bouleverse autant qu’il charme. Une parenthèse comme il en existe peu. Hors norme et unique. Comme HEN.
+
+----
+
+Links:
+
+- 
+  linklabel: Théâtre de Romette
+  linktype: url
+  linkurl: https://www.theatrederomette.com/
+  mailaddr: ""
+  doc: [ ]
+  page: [ ]
+
+----
+
+Distribution:
+
+Conception, mise en scène : Johanny Bert
+Acteurs marionnettistes : Johanny Bert (voix de HEN) et Anthony Diaz
+Musiciens en scène : Guillaume Bongiraud (violoncelle électro-acoustique), Cyrille Froger (percussionniste)
+Auteurs compositeurs pour la création : Marie Nimier, Prunella Rivière, Gwendoline Soublin, Laurent Madiot, Alexis Morel, Pierre Notte, Yumma Ornelle et une reprise de Brigitte Fontaine
+Fabrication des marionnettes : Eduardo Felix
+Lifting HEN : Laurent Huet
+Création lumières : Johanny Bert, Gilles Richard
+Création sons : Frédéric Dutertre, Simon Muller
+Création costumes : Pétronille Salomé
+
+----
+
+Credits:
+
+Production Théâtre de Romette
+Coproductions Le Bateau Feu - Scène Nationale (Dunkerque) ; La 2Deuche (Lempdes)
+Partenaires : La Cour des Trois Coquins - scène vivante de Clermont-Ferrand ; Le Mouffetard - Théâtre des arts de la marionnette (Paris) ; Le Carreau du Temple à Paris - Accueil studio
+Le Théâtre de Romette est implanté à Clermont-Ferrand, à La Cour des Trois Coquins - scène vivante et est associé à la Maison des Arts du Léman de Thonon-Evian-Publier.
+La compagnie est conventionnée par la DRAC Auvergne-Rhône-Alpes, la Région Auvergne-Rhône-Alpes et la Ville de Clermont-Ferrand. Johanny Bert est artiste compagnon au Bateau Feu, Scène Nationale de Dunkerque. 
+
+----
+
+Highlightedblocks:
+
+- 
+  title: 'Autour du spectacle '
+  contenttext: "<p>Rencontre avec l'équipe artistique le 26 janvier après le spectacle. <br>Pause théâtre avec Johanny Bert&nbsp;: rencontre le jeudi 27 janvier à 12h45 à l'université Rennes 2 – Ouvert à tous</p>"
+
+----
+
+Relatedpages: 
+
+----
+
+Press: 

@@ -1,0 +1,29 @@
+Title: Dany Simon - Théâtre du Vestiaire
+
+----
+
+Area: theatre
+
+----
+
+Bio: Après une formation de comédienne auprès de Claude Mathieu, Florence Haziot et Jean-Louis Martin-Barbaz, Dany Simon entre à l’Université Paris VIII, où elle a pour professeurs Michel Vinaver, Jean-Marie Pradier, Claude Buchevald, Michèle Kokosowski, Patrice Pavis. À sa sortie, elle est assistante du metteur en scène Jean-Marc Montel de la Compagnie Autrement Dit. Elle réalise ensuite des mises en scène pour plusieurs compagnies. Elle travaille régulièrement avec Bruno Geslin. En 1998, elle crée le Théâtre du Vestiaire à Rennes. Dany Simon est également responsable d’ateliers théâtre pour adultes et adolescents dans des centres culturels, MJC, lycées, collèges, centre de formation…
+
+----
+
+Links:
+
+- 
+  linklabel: Théâtre du vestiaire
+  linktype: url
+  linkurl: http://www.theatreduvestiaire.fr/
+  mailaddr: ""
+  doc: [ ]
+  page: [ ]
+
+----
+
+Workshops: 
+
+----
+
+Adventures: 

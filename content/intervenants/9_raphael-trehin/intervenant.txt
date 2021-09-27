@@ -1,0 +1,29 @@
+Title: Raphaël Tréhin
+
+----
+
+Area: musique
+
+----
+
+Bio: Passionné de batterie depuis l’âge de 6 ans, Raphaël Tréhin partage aujourd’hui son activité entre l’enseignement et un parcours artistique personnel.  Après avoir joué dans différentes formations musicales depuis le collège, il est aujourd’hui batteur du groupe Arhios (post rock et dérivés). Depuis 2016, il tourne en France, a réalisé des enregistrements studio et tourné des clips vidéos. Raphaël Tréhin  est titulaire d’un Diplôme National Supérieur Professionnel de Musicien Musiques Actuelles Amplifiées et d’un Diplôme d’état spécialisation Musiques Actuelles Amplifiées batterie.
+
+----
+
+Links:
+
+- 
+  linklabel: Arhios
+  linktype: url
+  linkurl: http://arhios.com/
+  mailaddr: ""
+  doc: [ ]
+  page: [ ]
+
+----
+
+Workshops: 
+
+----
+
+Adventures: 

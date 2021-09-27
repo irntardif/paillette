@@ -1,0 +1,29 @@
+Title: André Layus - Compagnie Version 14
+
+----
+
+Area: theatre
+
+----
+
+Bio: André Layus débute en 1992 sa formation théâtrale à Paris avec les auteurs classiques. Arrivé en Bretagne, il participe à des créations régionales sur des auteurs plus contemporains (Bernard Chartreux avec le Théâtre du Vestiaire, Joël Jouanneau avec Dokan Théâtre...). En 2002, André Layus est engagé pour jouer Bottom dans le *Songe d’une nuit d’été* de W.Shakespeare avec la compagnie Jo Bithume puis dans Victor Frankenstein. C’est la mise en oeuvre, avec l’univers du théâtre de rue et des festivals européens, d’un jeu énergique et corporel pour des publics internationaux. En 2013, il crée à Rennes Version 14, compagnie de théâtre qui propose des projets qui aiment puiser leurs inspirations dans l'espace public et dans lesquels la poésie est constante.
+
+----
+
+Links:
+
+- 
+  linklabel: Version 14
+  linktype: url
+  linkurl: https://www.facebook.com/CieVersion14
+  mailaddr: ""
+  doc: [ ]
+  page: [ ]
+
+----
+
+Workshops: 
+
+----
+
+Adventures: 

@@ -1,0 +1,164 @@
+Title: Les Envolées 2021
+
+----
+
+Type: event
+
+----
+
+Genre: 
+
+----
+
+Categories: 
+
+----
+
+Cover:
+
+- banniere-web-bd.jpg
+
+----
+
+Creation: false
+
+----
+
+Representations:
+
+- 
+  date: 2021-05-30 14:00:00
+  publictype: all
+- 
+  date: 2021-05-30 16:00:00
+  publictype: all
+- 
+  date: 2021-06-07 18:30:00
+  publictype: all
+- 
+  date: 2021-06-08 18:30:00
+  publictype: all
+- 
+  date: 2021-06-13 18:00:00
+  publictype: all
+- 
+  date: 2021-06-26 11:30:00
+  publictype: all
+- 
+  date: 2021-06-26 13:30:00
+  publictype: all
+- 
+  date: 2021-06-26 16:00:00
+  publictype: all
+- 
+  date: 2021-06-26 18:00:00
+  publictype: all
+- 
+  date: 2021-06-26 20:00:00
+  publictype: all
+- 
+  date: 2021-06-27 11:30:00
+  publictype: all
+- 
+  date: 2021-06-27 13:30:00
+  publictype: all
+- 
+  date: 2021-06-27 15:00:00
+  publictype: all
+- 
+  date: 2021-06-27 16:00:00
+  publictype: all
+- 
+  date: 2021-06-27 18:00:00
+  publictype: all
+- 
+  date: 2021-06-27 20:00:00
+  publictype: all
+- 
+  date: 2021-06-30 18:30:00
+  publictype: all
+
+----
+
+Prices:
+
+- 
+  pricetype: Tarif unique
+  amount: 1
+
+----
+
+Ticketing: http://forumsirius.fr/orion/paillette.phtml?kld=1
+
+----
+
+Gallery:
+
+- banniere-web-bd.jpg
+
+----
+
+Company: 
+
+----
+
+Relatedcompany: 
+
+----
+
+Companyname: 
+
+----
+
+Accentinfos: Ouverture de la billetterie tout public :  le 25 mai (pour le dim 30 mai) et le 15 juin (pour les 26 et 27 juin)
+
+----
+
+Accentlabel: 
+
+----
+
+Description: Le festival des pratiques artistiques en amateur est de retour pour sa 39ème édition. Contre vents et marées, nous sommes heureux de vous proposer une vingtaine de rendez-vous qui mettent en lumière la création et la pratique amateur sous toutes ses formes. Représentations théâtrales, stages de pratique artistique, interludes musicaux, flashmobs, restitutions de  projets partenaires... cet événement singulier dans la métropole rennaise est porté par des adhérent·e·s et intervenant·e·s plus motivé·e·s que jamais ! Après une saison quasiment entière en vidéo-conférence, l'énergie et l'envie de se retrouver sont là. Il ne nous manque plus que vous. Rejoignez-nous vite pour partager des moments conviviaux, drôles, émouvants, tous guidés par un élan créatif qui nous a terriblement manqué !
+
+----
+
+Links:
+
+- 
+  linklabel: Programme Les Envolées
+  linktype: file
+  linkurl: ""
+  mailaddr: ""
+  doc:
+    - les-envolees-programme.pdf
+  page: [ ]
+- 
+  linklabel: >
+    Protocole sanitaire pour assister aux
+    spectacles
+  linktype: file
+  linkurl: ""
+  mailaddr: ""
+  doc:
+    - 10-juin-fiche-protocole-public.pdf
+  page: [ ]
+
+----
+
+Distribution: 
+
+----
+
+Credits: 
+
+----
+
+Highlightedblocks: 
+
+----
+
+Relatedpages: 
+
+----
+
+Press: 

@@ -1,0 +1,56 @@
+Title: Delphine Battour, La Zamak Compagnie
+
+----
+
+Type: Résidence de création
+
+----
+
+Duration: 2 - 6 nov. et 14 - 19 fév.
+
+----
+
+Spectacle:
+
+- spectacles/fracasse-e-s
+
+----
+
+Creationname: Fracassé.e.s
+
+----
+
+Links:
+
+- 
+  linklabel: Zamak compagnie
+  linktype: url
+  linkurl: https://www.zamakcie.fr/
+  mailaddr: ""
+  doc: [ ]
+  page: [ ]
+
+----
+
+Cover:
+
+- >
+  res-fracasse.e.s-2-credit-mats-hilda-gustau.jpg
+
+----
+
+Bio: 
+
+----
+
+Origin: 
+
+----
+
+Description:
+
+La Zamak Compagnie travaille sur la représentation du quotidien, du commun et sur les sentiments humains poussés à l’extrême. L’approche quasi cinématographique du plateau répond à un besoin de représenter au plus près le réel, de reproduire le sensible. Elle travaille à La Paillette la pièce *Fracassé·e·s*, adaptation du texte de Kae Tempest, qui sera créé en avril 2022 en partenariat avec le festival Mythos.
+
+Dates de résidence
+Du 2 au 6 nov. et du 14 au 19 fév. - Plateau 
+Création avril 2022

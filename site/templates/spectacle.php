@@ -4,7 +4,6 @@
   <div class="main-wrapper">
     <?php snippet('breadcrumb') ?>
     <?php snippet('intro') ?>
-
     <article>
       <?php if ($page->gallery()->isNotEmpty()): ?>
       <div class="carousel">
@@ -30,12 +29,15 @@
        <header class="grid margin_t-l">
           <div class="column" style="--columns: 8">
             <h1 class="no_m h1"><?= $page->title(); ?></h1>
-            <?php  $cats = explode(",", $page->categories());
-            foreach ($cats as $cat): ?>
-              <span class="label tag bg-accent uppercase">
-              <?= $cat == 'family' ? 'En famille' : 'Création'; ?>
-              </span>
-            <?php endforeach ?>
+            <?php  
+            if($page->categories()->isNotEmpty()){
+              $cats = explode(",", $page->categories());
+              foreach ($cats as $cat): ?>
+                <span class="label tag bg-accent uppercase">
+                <?= $cat == 'family' ? 'En famille' : 'Création'; ?>
+                </span>
+              <?php endforeach ?>
+            <?php } ?>
             <p style="font-size:1.16em"><?= $page->company() == 'artistpage' ? '<a href="'.$site->find('artistes')->url().'#'.$page->relatedCompany()->toPage()->uid().'">'.$page->relatedCompany()->toPage()->title().'</a>' : $page->companyName(); ?></p>
           </div>
           <div class="column" style="--columns: 4; padding-top: 1em;">
@@ -109,7 +111,9 @@
                   'label' => null, 
                   'moreInfos' => null
                   )) ?></span>
-              <a class="btn icon ticket" href="<?= $page->ticketing(); ?>" target="_blank">Réserver en ligne</a>
+              <?php if ($page->ticketing()->isNotEmpty()): ?>
+                <a class="btn icon ticket" href="<?= $page->ticketing(); ?>" target="_blank">Réserver en ligne</a>
+              <?php endif; ?>
               <ul class="icons-list margin_t-m">
                 <li><a href="tel:<?=$site->ticketingphone()?>"class="menu-icon icon-text underline phone"><?=$site->ticketingphone()?></a></li>
                 <li><a href="<?= $site->find('infos')->url()?>" class="menu-icon icon-text underline infos">Informations pratiques</a></li>

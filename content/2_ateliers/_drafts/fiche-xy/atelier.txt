@@ -1,0 +1,64 @@
+Title: fiche xy
+
+----
+
+Intervenant: 
+
+----
+
+Public: 
+
+----
+
+Prices: 
+
+----
+
+Cover: 
+
+----
+
+Description: 
+
+----
+
+Planning:
+
+- 
+  public: 4-5 ans
+  hours: ""
+  isfull: 'false'
+  description: ""
+- 
+  public: 6-10 ans
+  hours: ""
+  isfull: 'false'
+  description: ""
+- 
+  public: 11-14 ans
+  hours: ""
+  isfull: 'false'
+  description: ""
+- 
+  public: 15-18 ans
+  hours: ""
+  isfull: 'false'
+  description: ""
+- 
+  public: étudiants
+  hours: ""
+  isfull: 'false'
+  description: ""
+- 
+  public: adultes
+  hours: ""
+  isfull: 'false'
+  description: ""
+
+----
+
+Links: 
+
+----
+
+Relatedpages: 

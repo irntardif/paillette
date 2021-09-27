@@ -24,17 +24,7 @@ Creation: false
 
 ----
 
-Cohostinginfos:
-
-- 
-  label: Théâtre National de Bretagne
-  url: https://www.t-n-b.fr/
-  logo: [ ]
-- 
-  label: Théâtre Contemporain
-  url: >
-    https://www.theatre-contemporain.net/contacts/Theatre-National-de-Bretagne-TNB/
-  logo: [ ]
+Cohostinginfos: <p></p>
 
 ----
 
@@ -53,7 +43,7 @@ Representations:
 Prices:
 
 - 
-  pricetype: Sur Réservation
+  pricetype: Sur réservation
   amount: 0
 
 ----
@@ -68,28 +58,29 @@ Gallery:
 
 ----
 
-Company: artistpage
+Company: label
 
 ----
 
 Relatedcompany:
 
-- artistes/marine-bachelot-nguyen
+- artistes/lumiere-d-aout
 
 ----
 
-Companyname: 
+Companyname: Lumière d'Août
 
 ----
 
-Accentinfos: 
+Accentinfos: Suite aux dernières annonces gouvernementales du 10 décembre 2020, nous ne pourrons pas accueillir de public pour assister à la lecture proposée par le collectif Lumière d'août. Nous vous tiendrons informés d'une éventuelle date de report.
+
+----
+
+Accentlabel: Annulé
 
 ----
 
 Description:
-
-Suite aux dernières annonces gouvernementales du 10 décembre 2020, nous ne pourrons pas accueillir de public pour assister à la lecture proposée par le collectif Lumière d'août.
-Nous vous tiendrons informés d'une éventuelle date de report.
 
 Le collectif Lumière d'août nous invite à nous interroger sur les mesures d'exonération des charges proposées par le gouvernement à la suite du premier confinement. Gâteau alléchant ou fragilisation du salariat, la question a été posée aux auteurs et autrices lors d'un appel à texte sur les cotisations sociales, au sens large. Après avoir reçu 45 propositions, ce sont finalement 3 projets très différents qui seront lus par Alexis Fichet, Charline Grand, Arnold Mensah, Juliette Pourquery de Boisserin et Nicolas Richard lors d'une soirée aussi poétique que politique.
 
@@ -99,23 +90,29 @@ Textes sélectionnés :
 Mais ça va aller, de Mélissa Golebiewski
 Fleurs séchées sur piano noir, de Lydie Tamisier
 
-La lecture est suivie d'un temps de discussion avec les auteurs qui seront présents.
-
 ----
 
 Links:
 
 - 
-  linklabel: Dossier artistique
-  linktype: file
-  linkurl: ""
+  linklabel: Appel à textes
+  linktype: url
+  linkurl: >
+    http://www.lumieredaout.net/7-pages/504-appel-a-textes-de-theatre
   mailaddr: ""
-  doc:
-    - paillette-v4.pdf
+  doc: [ ]
+  page: [ ]
   label: Appel à textes de théâtre
   url: >
     http://www.lumieredaout.net/7-pages/504-appel-a-textes-de-theatre
   document: [ ]
+- 
+  linklabel: "Lumière d'août"
+  linktype: url
+  linkurl: http://www.lumieredaout.net/
+  mailaddr: ""
+  doc: [ ]
+  page: [ ]
 
 ----
 
@@ -127,7 +124,11 @@ Credits:
 
 ----
 
-Highlightedblocks: 
+Highlightedblocks:
+
+- 
+  title: Après le spectacle
+  contenttext: "<p>La lecture est suivie d'un temps de discussion avec les auteurs qui seront présents.</p>"
 
 ----
 

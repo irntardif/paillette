@@ -1,0 +1,133 @@
+Title: Pères, enquête sur les paternités d'aujourd'hui
+
+----
+
+Type: show
+
+----
+
+Genre: Théâtre
+
+----
+
+Categories: creation
+
+----
+
+Cover:
+
+- >
+  site-peres5_christophe-raynaud-de-lage_0234.jpg
+
+----
+
+Creation: false
+
+----
+
+Moreinfos: <p>1h, dès 12 ans </p>
+
+----
+
+Representations:
+
+- 
+  date: 2022-02-01 14:30:00
+  publictype: school
+- 
+  date: 2022-02-01 20:00:00
+  publictype: all
+- 
+  date: 2022-02-02 20:00:00
+  publictype: all
+
+----
+
+Prices: 
+
+----
+
+Ticketing: http://www.forumsirius.net/orion/paillette.phtml?spec=671
+
+----
+
+Gallery:
+
+- >
+  site-peres5_christophe-raynaud-de-lage_0234.jpg
+
+----
+
+Company: label
+
+----
+
+Relatedcompany: 
+
+----
+
+Companyname: Elise Chatauret et Thomas Pondevie, Compagnie Babel
+
+----
+
+Accentinfos: 
+
+----
+
+Accentlabel: 
+
+----
+
+Description: Dans un intérieur domestique, deux comédiens campent avec douceur des personnages de pères. Autoritaires, absents ou aimants, ces figures masculines ont été dessinées à partir d’entretiens réalisés avec des habitants de Sevran et de Malakoff, des professionnels (sociologues, anthropologues, philosophes) et des institutions. Sur le plateau, les histoires de famille affleurent, dessinant un arbre généalogique hétéroclite. Comment fait-on famille aujourd’hui en France ? Quels sont les nouveaux modèles qui ont émergé et émergent aujourd’hui ? Conçu par Elise Chatauret et Thomas Pondevie avec la Poudrerie de Sevran, *Pères* transforme cette matière vivante et sensible en un théâtre social, qui explore un demi-siècle d’histoire de la famille pour trouver le chemin de l’homme du futur. Sans doute inimaginable hier, cet homme pluriel s’incarne sur scène dans un théâtre de poche, contemporain et essentiel.
+
+----
+
+Links:
+
+- 
+  linklabel: compagnie Babel
+  linktype: url
+  linkurl: https://www.compagniebabel.com/
+  mailaddr: ""
+  doc: [ ]
+  page: [ ]
+
+----
+
+Distribution:
+
+Écriture, dramaturgie et mise en scène : Élise Chatauret et Thomas Pondevie, à partir d’entretiens réalisés avec des habitants de Sevran et de Malakoff. 
+Avec : Laurent Barbot et Iannis Haillet
+Scénographie : Charles Chauvet et Jori Desq
+Conception graphique et costumes : Charles Chauvet
+Régie générale et conception technique : Jori Desq
+Création sonore : Maxime Tisserand 
+Lumières : Léa Maris
+Stagiaire mise en scène et dramaturgie : Vladia Merlet
+Production et administration : Véronique Felenbok et Lucie Guillard
+
+----
+
+Credits:
+
+Production : Compagnie Babel-Élise Chatauret / Théâtre de la Poudrerie - Sevran
+En coproduction avec : Malakoff Scène nationale ; Nouveau Théâtre de Montreuil – CDN ; Les Ateliers Médicis ; La Manufacture – CDN Nancy- Lorraine.
+Avec l’aide du département de la Seine-Saint-Denis. Et avec le soutien du Théâtre de la Tempête. 
+La compagnie est conventionnée par la Région Ile-de-France et le Ministère de la Culture Drac-Ile-de-France.
+La compagnie est en résidence à Malakoff Scène nationale de 2019 à 2021. A partir de janvier 2021, elle est associée au Théâtre des Quartiers d’Ivry – CDN du Val-de-Marne et au Théâtre de la Manufacture – CDN Nancy-Lorraine.
+
+----
+
+Highlightedblocks:
+
+- 
+  title: 'Autour du spectacle '
+  contenttext: "<p>Rencontre avec l'équipe artistique le 1er février après le spectacle</p>"
+
+----
+
+Relatedpages: 
+
+----
+
+Press: 

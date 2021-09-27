@@ -1,0 +1,72 @@
+Title: Théâtre
+
+----
+
+Area: theatre
+
+----
+
+Intervenant:
+
+- >
+  intervenants/sylvain-ottavy-compagnie-titre-provisoire
+
+----
+
+Contactmail: 
+
+----
+
+Public: adults
+
+----
+
+Prices:
+
+- 
+  pricetype: Adultes
+  amount: 326
+
+----
+
+Cover:
+
+- bdsylvain-ottavy@dr.jpg
+
+----
+
+Accentinfos: 
+
+----
+
+Accentlabel: 
+
+----
+
+Description:
+
+Sylvain Ottavy propose une année d’atelier de théâtre ayant un double objectif : celui d’aborder les outils techniques nécessaires au comédien et celui d’entrer conjointement dans un texte de théâtre, avec ce qu’il implique au niveau du jeu, de l’écoute et du rapport à l’autre. Par le biais d’exercices, les différents outils nécessaires au plateau sont abordés : le corps, la voix, l’espace. Par le biais d’improvisations autour de textes, le travail porte également sur les dynamiques et les jeux de tension. La question centrale reste celle d’élaborer en groupe une réflexion sur le jeu et le texte.
+
+Dernières créations dans le cadre des *Envolées* :  *Le Banquier Anarchiste* de Pessoa, *Bovary* de Tiago Rodriguez, *Atteintes à sa vie* de Martin Crimp
+
+----
+
+Level: Adultes débutants
+
+----
+
+Planning:
+
+- 
+  public: Adultes débutants
+  hours: mercredi 20h15-22h15
+  isfull: 'true'
+  description: ""
+
+----
+
+Links: 
+
+----
+
+Relatedpages: 

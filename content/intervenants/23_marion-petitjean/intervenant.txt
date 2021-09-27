@@ -1,0 +1,29 @@
+Title: Marion Petitjean
+
+----
+
+Area: theatre
+
+----
+
+Bio: Formée par la compagnie Brozzoni, puis par l’école d’Art Dramatique de la Scène sur Saône à Lyon, Marion Petitjean joue pour les compagnies Théâtre Debout, Certains Soirs, Punch Festivités, Chapiteau Théâtre. À son arrivée à Rennes, elle crée en 2014 la compagnie A Corps Perdus avec Jérémy Delaunay, Juliette Bessou et Audrey Even. La compagnie défend un théâtre engagé avec une écriture contemporaine pour une ouverture sur le monde. En parallèle, elle enseigne le théâtre au sein de plusieurs structures artistiques, sociales et pédagogiques depuis 15 ans (MJC La Paillette, l’Antipode, l’Agora, établissements scolaires et IME …).
+
+----
+
+Links:
+
+- 
+  linklabel: Compagnie A corps perdus
+  linktype: url
+  linkurl: https://www.facebook.com/cieacorpsperdus
+  mailaddr: ""
+  doc: [ ]
+  page: [ ]
+
+----
+
+Workshops: 
+
+----
+
+Adventures: 

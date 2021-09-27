@@ -14,15 +14,21 @@ Spectacle:
 
 ----
 
-Creationname: 
+Creationname: Vendredi
 
 ----
 
 Links:
 
 - 
+  linklabel: Compagnie Hophophop
+  linktype: url
+  linkurl: >
+    https://www.facebook.com/ciehophophop/?ref=page_internal
+  mailaddr: ""
+  doc: [ ]
+  page: [ ]
   label: hop!hop!hop!
-  linktype: external
   url: >
     https://sites.google.com/view/ciehophophop/accueil
   document: [ ]
@@ -35,12 +41,18 @@ Cover:
 
 ----
 
+Bio: 
+
+----
+
+Origin: Rennes, Ille-et-Vilaine
+
+----
+
 Description:
 
-Christine Le Berre mène un travail mêlant corps, matière, théâtre et objet. Par ses créations à l’adresse du jeune public, elle invite le public à un voyage abstrait et symbolique où l’émotion esthétique peut naître sans narration nécessaire. Deuxième volet d’une création en diptyque, avec Robinsonne ou le mirage de Vendredi (corps et objet, dès 4 ans), Vendredi s’adresse à des enfants à partir de 9 ans.
+Christine Le Berre mène un travail mêlant corps, matière, théâtre et objet. Par ses créations à l’adresse du jeune public, elle invite le public à un voyage abstrait et symbolique où l’émotion esthétique peut naître sans narration nécessaire. Deuxième volet d’une création en diptyque, avec Robinsonne ou le mirage de Vendredi (corps et objet, dès 4 ans), *Vendredi *s’adresse à des enfants à partir de 9 ans.
 
 Dates de résidence
 Du 11 au 16 janv. 2021 – Salle création
-Création octobre 2021
-
-La Compagnie hop!hop!hop! est originaire de Rennes, Ille-et-Vilaine
+Création en octobre 2021

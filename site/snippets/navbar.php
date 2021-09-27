@@ -1,4 +1,4 @@
- <header class="main-header">
+ <header class="main-header" id="navbar">
   <div class="wrapper-1">
     <div class="w_33">
       <span id="burger" class="menu-burger">
@@ -50,6 +50,7 @@
         </li>
         <li style="margin-top:1.5em;"> 
           <a style="font-size:1.2em; margin-top:.5em;" class="menu-icon icon-text loop" href="/search"><span class="bg-primary bg-tint">Recherche</span></a>
+          <a style="font-size:1.2em; margin-top:.2em;" class="menu-icon icon-text ticket" href="http://forumsirius.fr/orion/paillette.phtml?kld=1"><span class="bg-primary bg-tint">Billetterie</span></a>
         </li>
       </ul>
     </nav>

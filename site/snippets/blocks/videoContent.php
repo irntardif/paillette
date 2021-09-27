@@ -23,7 +23,9 @@ if($data && $data->videoId()->isNotEmpty()):
 	?>
 
 	<div class="media margin_t-m">
-	    <iframe width="560" height="315" src="<?= $url.$id ?>" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		<figure class='regular'>
+		    <iframe src="<?= $url.$id ?>" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		</figure>
 	</div>
 
 <?php endif; ?>

@@ -2,7 +2,7 @@ Title: Danse contemporaine
 
 ----
 
-Intervenanttype: artistpage
+Intervenanttype: label
 
 ----
 
@@ -12,17 +12,17 @@ Intervenant:
 
 ----
 
-Intervenantname: 
+Intervenantname: Catherine Legrand, Compagnie Equilibre
 
 ----
 
 Dates:
 
 - 
-  date: 2021-02-06
+  date: 2021-06-05
   publictype: all
 - 
-  date: 2021-02-07
+  date: 2021-06-06
   publictype: all
 
 ----
@@ -46,73 +46,66 @@ Public: adults, students
 Prices:
 
 - 
-  pricetype: Stage + Spectacle Triangle
-  amount: 40
-- 
-  pricetype: Stage uniquement
+  pricetype: tarif unique
   amount: 29
 
 ----
 
-Rprstnname: So Schnell au Triangle
+Rprstnname: 
 
 ----
 
-Moreinfos: Durée 1h05
+Moreinfos: 
 
 ----
 
-Representations:
+Rprstntitle: 
 
-- 
-  date: 2021-02-09 20:30:00
-  publictype: all
-- 
-  date: 2021-02-10 20:30:00
-  publictype: all
+----
+
+Representations: 
 
 ----
 
 Cover:
 
-- bleu.jpg
+- so-schnell-caroline-ablain-_1.jpeg
 
 ----
 
-Accentinfos: 
+Accentinfos: Le stage aura lieu sous le préau de l'Ecole Sainte-Marie, située rue du Père Lebret.
 
 ----
 
-Level: 
+Accentlabel: 
 
 ----
 
-Description:
-
-Vingt-neuf ans après la disparition du grand chorégraphe Dominique Bagouet, Catherine Legrand, interprète de la Compagnie Bagouet entre 1982 et 1993, recrée en 2020 l'une de ses pièces majeures, So Schnell, qui sera présentée au Triangle dans le cadre du Festival Waterproof, plongez dans la danse. Elle animera un stage à La Paillette durant lequel elle proposera d'aborder quelques danses extraites de So Schnell.
-
-Stage accueilli dans le cadre du Festival Waterproof, plongez dans la danse
-
-Adulte - tous niveaux
+Description: Vingt-neuf ans après la disparition du grand chorégraphe Dominique Bagouet, Catherine Legrand, interprète de la Compagnie Bagouet entre 1982 et 1993, recrée en 2020 l'une de ses pièces majeures, *So Schnell*, qui aurait dû être présentée au Triangle dans le cadre du Festival *Waterproof, plongez dans la danse*. Elle animera un stage à La Paillette durant lequel elle proposera d'aborder quelques danses extraites de *So Schnell*.
 
 ----
 
-Highlightedblocks: 
+Level: Adultes - Tous niveaux
+
+----
+
+Highlightedblocks:
+
+- 
+  title: 'Partenaires '
+  contenttext: '<p>Stage accueilli dans le cadre du Festival Waterproof, plongez dans la danse</p>'
 
 ----
 
 Links:
 
 - 
-  linklabel: ""
-  linktype: ""
+  linklabel: Inscriptions
+  linktype: mail
   linkurl: ""
-  mailaddr: ""
+  mailaddr: accueil.mjc@la-paillette.net
   doc: [ ]
   page: [ ]
-  label: Renseignements
-  url: https://letriangle.org/agenda/so-schnell
-  document: [ ]
 
 ----
 

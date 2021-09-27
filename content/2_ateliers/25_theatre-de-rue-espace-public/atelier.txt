@@ -1,0 +1,80 @@
+Title: Théâtre de rue / Espace public
+
+----
+
+Area: theatre
+
+----
+
+Intervenant:
+
+- >
+  intervenants/andre-layus-compagnie-version-14
+
+----
+
+Contactmail: 
+
+----
+
+Public: adults
+
+----
+
+Prices:
+
+- 
+  pricetype: Etudiants
+  amount: 282
+- 
+  pricetype: Adultes
+  amount: 326
+
+----
+
+Cover:
+
+- >
+  andre-layus-2019.06.16_greve-du-crime-parc-st-cyr-29.jpg
+
+----
+
+Accentinfos: 
+
+----
+
+Accentlabel: 
+
+----
+
+Description: Jouer avec, dans et pour la ville comme un théâtre ouvert et vivant à 360 degrés... La démarche s’appuie sur les fondamentaux du théâtre (le corps, la voix, l’improvisation, l’écoute, la présence..). Au début les participants profitent des soirées en plein air pour créer un groupe, un choeur, expérimenter des jeux, des situations, des prises de parole. À partir de l’hiver, le choix se recentre sur la découverte d’une partition et du texte, qui sera mise en scène au printemps, avant une déambulation dans l’espace public à l'occasion du festival *Les Envolées* et d’autres festivals alentour.
+
+----
+
+Level: Adultes - Tous niveaux
+
+----
+
+Planning:
+
+- 
+  public: 'Adultes - Tous niveaux'
+  hours: mercredi 19h-21h
+  isfull: 'false'
+  description: ""
+
+----
+
+Links: 
+
+----
+
+Relatedpages: 
+
+----
+
+Relatedevents: 
+
+----
+
+Relatedadventures: 

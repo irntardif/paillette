@@ -1,0 +1,71 @@
+Title: Théâtre
+
+----
+
+Area: theatre
+
+----
+
+Intervenant:
+
+- >
+  intervenants/rozenn-tregoat-theatre-ostinato
+
+----
+
+Contactmail: 
+
+----
+
+Public: adults
+
+----
+
+Prices:
+
+- 
+  pricetype: 'Etudiants '
+  amount: 282
+- 
+  pricetype: 'Adultes '
+  amount: 326
+
+----
+
+Cover:
+
+- bdrozenn-tregoat-@pepe-maurice.jpg
+
+----
+
+Accentinfos: 
+
+----
+
+Accentlabel: 
+
+----
+
+Description: L’atelier de Rozenn Tregoat s’articule en deux temps. Un premier temps est consacré au travail d’improvisation à partir de thématiques, de photos, de musique, de textes non théâtraux... Avant de se fixer sur une pièce, il y aura également un travail sur des extraits de textes de différents répertoires et registres de manière à explorer et expérimenter différentes théâtralités. Dans un second temps, l'atelier se concentrera sur un texte qui fera l’objet d’une présentation finale. Rozenn Tregoat s'intéresse essentiellement à des auteurs contemporains qui abordent avec humour des questions de société. L’adaptation de scénario de film au théâtre est également une piste et offre un réel défi de mise en scène et de jeu d’acteur.
+
+----
+
+Level: Adultes confirmés
+
+----
+
+Planning:
+
+- 
+  public: Adultes confirmés
+  hours: jeudi 20h15-22h15
+  isfull: 'true'
+  description: ""
+
+----
+
+Links: 
+
+----
+
+Relatedpages: 

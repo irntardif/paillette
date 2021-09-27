@@ -1,0 +1,104 @@
+Title: Danse
+
+----
+
+Intervenanttype: label
+
+----
+
+Intervenant: 
+
+----
+
+Intervenantname: Pascal Guerettin et Albert Amphimaque
+
+----
+
+Dates:
+
+- 
+  date: 2021-11-20
+  publictype: all
+- 
+  date: 2021-11-21
+  publictype: all
+
+----
+
+Hours: De 10h à 18h
+
+----
+
+Isfull: false
+
+----
+
+Contactmail: 
+
+----
+
+Public: children2, teen1, teen2, students, adults
+
+----
+
+Prices:
+
+- 
+  pricetype: '10 ans - 17 ans et adultes : 1 cours'
+  amount: 20
+- 
+  pricetype: '10 ans - 17 ans et adultes : 2 cours'
+  amount: 35
+- 
+  pricetype: 'Adultes : 4 cours'
+  amount: 65
+
+----
+
+Rprstnname: 
+
+----
+
+Moreinfos: 
+
+----
+
+Rprstntitle: 
+
+----
+
+Representations: 
+
+----
+
+Cover:
+
+- stage-danse.jpg
+
+----
+
+Accentinfos: 
+
+----
+
+Accentlabel: 
+
+----
+
+Description: Exercices techniques, plaisir du mouvement et découverte d'univers chorégraphiques sont au programme de ces deux jours placés sous le signe de la danse.
+
+----
+
+Level: Enfants, ados, adultes - inter & avancés
+
+----
+
+Highlightedblocks: 
+
+----
+
+Links: 
+
+----
+
+Relatedpages: 

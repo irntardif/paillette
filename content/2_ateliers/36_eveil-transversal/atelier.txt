@@ -1,0 +1,75 @@
+Title: Eveil transversal
+
+----
+
+Area: mixed
+
+----
+
+Intervenant:
+
+- intervenants/estelle-jegou-henri-louis
+
+----
+
+Contactmail: 
+
+----
+
+Public: children1
+
+----
+
+Prices:
+
+- 
+  pricetype: Enfants
+  amount: 161
+
+----
+
+Cover:
+
+- eveil-2.jpg
+
+----
+
+Accentinfos: 
+
+----
+
+Accentlabel: 
+
+----
+
+Description:
+
+Parcours croisé axé sur la transdisciplinarité avec un rythme de 9 séances par module.
+Module éveil corporel : 
+Cet atelier propose aux jeunes enfants une approche de l’expression gestuelle et verbale sous forme de jeux théâtralisés et de petites chorégraphies. 
+Module musique : 
+Sous forme de jeux divers et variés, le jeune enfant se familiarisera avec les notions de rythme, de mélodie, de son grave et aigu. Il découvrira aussi l’instrumentarium à partir d’un travail d’écoute de musiques du monde et le chant. 
+Module arts plastiques : 
+Sur la base d’un thème et d’une lecture de contes qui ouvrent grand la porte de l’imaginaire, l’enfant effectue un voyage plastique à travers la forme, la couleur et la matière en pratiquant le dessin, la peinture, le découpage, le collage et le modelage.
+
+----
+
+Level: Enfants 4-5 ans
+
+----
+
+Planning:
+
+- 
+  public: 4-5 ans
+  hours: lundi 17h30-18h15
+  isfull: 'true'
+  description: ""
+
+----
+
+Links: 
+
+----
+
+Relatedpages: 

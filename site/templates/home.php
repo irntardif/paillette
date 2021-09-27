@@ -4,27 +4,38 @@
 <main class="main">
 	<div class="main-wrapper padding_b-xxl">
 		
-		<div class="carousel-wrapper margin_t-l">
-			<div class="carousel-events">
-				<?php foreach ($kirby->collection('incoming-events') as $event): ?>
-		      		<?php snippet('event-thumb', array('event' => $event)); ?>
-		    	<?php endforeach; ?>
-		    	<div style="width:100%"></div>
+
+		<?php if(count($kirby->collection('incoming-events')) > 2) { ?>
+			<div class="carousel-wrapper margin_t-l">
+				<div class="carousel-events">
+					<?php foreach ($kirby->collection('incoming-events') as $event): ?>
+			      <?php snippet('event-thumb', array('event' => $event)); ?>
+			    <?php endforeach; ?>
+			    <div style="width:200%"></div>
+				</div>
+				
+				<?php if(count($kirby->collection('incoming-events')) > 2) { ?>
+					<nav class="carousel-nav">
+						<button class="prev">Prev</button>
+						<button class="next">Next</button>
+					</nav>
+			<?php } ?>
 			</div>
+		<?php }else{ ?>
 			
-			<?php if(count($kirby->collection('incoming-events')) > 1) { ?>
-				<nav class="carousel-nav">
-					<button class="prev">Prev</button>
-					<button class="next">Next</button>
-				</nav>
+			<ul class="filter-grid grid c-2 margin_t-m row-large">
+			<?php foreach ($kirby->collection('incoming-events') as $event):
+				snippet('event-thumb', array('event' => $event));
+			endforeach; ?>
+			</ul>
+		
 		<?php } ?>
-		</div>
 
 		<?php snippet('agenda', array('img' => $page->workshopImage())); ?>
 		
 		<div class="grid <?= $page->news()->isNotEmpty() ? 'c-3' : 'c-2' ?>">
 			<?php if($page->news()->isNotEmpty()):?>
-			<div>
+			<div class="margin_b-m">
 				<h2 class="h2">Actualités</h2>
 				<?php foreach($page->news()->toStructure() as $key => $new): ?>
 				<section class="dropdown-bloc small <?= $key == 0 ? 'open' : '' ?>" data-dropdown="true" data-id="<?=$key?>">
@@ -73,10 +84,10 @@ endif ?>
     duration: 600,
     easing: 'ease-out',
     perPage: {
-	    768: 1,
+	    768: 2,
 	    1024: 3,
 	  },
-    startIndex: 0,
+    startIndex: -1,
     draggable: true,
     multipleDrag: true,
     threshold: 20,
@@ -85,7 +96,7 @@ endif ?>
     onInit: () => {},
     onChange: () => {},
   });
-  	const prev = document.querySelector('.prev');
+  const prev = document.querySelector('.prev');
 	const next = document.querySelector('.next');
 
 	prev.classList.add('inactive');

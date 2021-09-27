@@ -1,0 +1,29 @@
+Title: Philippe Fagnot - Scèn'Attitudes
+
+----
+
+Area: theatre
+
+----
+
+Bio: Comédien, metteur en scène et formateur, Philippe Fagnot est diplômé du Conservatoire National Supérieur de Région de Rennes. Après avoir co-dirigé la Compagnie Théâtre de l’Elixir de Rennes pendant 25 ans, il fonde sa société Scèn’Attitudes. Il pratique, développe et enseigne, entre autres pratiques théâtrales, les ressorts du masque de la Commedia dell’ Arte depuis 30 ans à travers des spectacles, des ateliers, des stages. Philippe Fagnot s’est produit plus de 1500 fois sur scène et a mis plus de 45 spectacles en scène avec des professionnels, mais également des amateurs, des étudiants... Il est également intervenant pédagogique en lycée sous contrat avec le TNB.
+
+----
+
+Links:
+
+- 
+  linklabel: Scèn’Attitudes
+  linktype: url
+  linkurl: https://scen-attitudes.com/
+  mailaddr: ""
+  doc: [ ]
+  page: [ ]
+
+----
+
+Workshops: 
+
+----
+
+Adventures: 

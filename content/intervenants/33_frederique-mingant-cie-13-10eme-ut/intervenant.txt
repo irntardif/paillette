@@ -1,0 +1,29 @@
+Title: Frédérique Mingant - Compagnie 13/10è Ut
+
+----
+
+Area: theatre
+
+----
+
+Bio: Frédérique Mingant est metteuse en scène et directrice artistique de la compagnie 13/10è en Ut (Rennes). Elle travaille de façon privilégiée sur les textes dramatiques de la fin du XXème siècle ou du XXIème siècle. Elle a mis en scène *Gaspard* de Peter Handke (2007), trois œuvres de Witold Gombrowicz (*Yvonne, princesse de Bourgogne*, *Bakakaï*, *Opérette*, 2009), *Hôtel Palestine* (2010) et *Trust* de Falk Richter (2013), *Toutes les choses géniales *de Duncan Macmillan (2016), *1984* de George Orwell dans l’adaptation d’Icke & Macmillan (2017), *George Kaplan* de Frédéric Sonntag (2019). Depuis 2018, elle développe un cycle de laboratoires de recherche théâtrale nommé SAUVAGE.
+
+----
+
+Links:
+
+- 
+  linklabel: Compagnie 13/10ème en Ut
+  linktype: url
+  linkurl: https://www.compagnie1310.com/
+  mailaddr: ""
+  doc: [ ]
+  page: [ ]
+
+----
+
+Workshops: 
+
+----
+
+Adventures: 

@@ -1,0 +1,74 @@
+Title: Ensemble vocal Couleur Paillette
+
+----
+
+Area: musique-chant
+
+----
+
+Intervenant:
+
+- >
+  intervenants/denise-et-craig-schaffer-cie-mze-shina
+
+----
+
+Contactmail: 
+
+----
+
+Public: adults
+
+----
+
+Prices:
+
+- 
+  pricetype: 'Etudiant '
+  amount: 167
+- 
+  pricetype: Adulte
+  amount: 193
+
+----
+
+Cover:
+
+- echo-panduris.jpg
+
+----
+
+Accentinfos: 
+
+----
+
+Accentlabel: 
+
+----
+
+Description:
+
+Un atelier pour celles et ceux qui souhaitent explorer leur voix au sein d’un groupe. Jeux vocaux, improvisations collectives, répertoire éclectique : chants du monde, gospels… L’accent est mis sur le plaisir de chanter plutôt que sur le répertoire. L’apprentissage des chants s’effectuera par transmission orale, il n’est demandé aucune connaissance préalable en solfège car l’essentiel du travail sera basé sur l’écoute.
+Au programme : découverte de son corps-instrument afin de placer sa voix, travail sur la respiration, le rythme et le lâcher prise.
+
+----
+
+Level: Adultes débutants-initiés
+
+----
+
+Planning:
+
+- 
+  public: Adultes débutants-initiés
+  hours: lundi 19h15-20h45
+  isfull: 'false'
+  description: ""
+
+----
+
+Links: 
+
+----
+
+Relatedpages: 

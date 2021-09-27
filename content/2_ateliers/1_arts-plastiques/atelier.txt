@@ -1,0 +1,114 @@
+Title: Arts Plastiques
+
+----
+
+Area: arts-plastiques
+
+----
+
+Intervenant:
+
+- intervenants/francois-soutif
+
+----
+
+Contactmail: 
+
+----
+
+Public: children2, teen1, teen2, students, adults
+
+----
+
+Prices:
+
+- 
+  pricetype: 5-8 ans
+  amount: 196
+- 
+  pricetype: 9 à 17 ans
+  amount: 260
+- 
+  pricetype: Etudiants
+  amount: 256
+- 
+  pricetype: Adultes
+  amount: 294
+
+----
+
+Cover:
+
+- photo-stage-portrait-fev2019.jpeg
+
+----
+
+Accentinfos: 
+
+----
+
+Accentlabel: 
+
+----
+
+Description: Les ateliers de François Soutif à destination des enfants, adolescents et adultes offrent la possibilité de se familiariser avec les arts plastiques et d’explorer le potentiel créatif de chacun autour des techniques du dessin, de la peinture, du modelage, du collage ou de la photo. Les enfants et adolescents peuvent y acquérir ou consolider leurs connaissances de base (couleurs, matières, représentations à deux ou à trois dimensions...). L’atelier pour adultes a pour objectif d'enseigner la maîtriser des gestes, outils et matériaux dans le but de réutiliser les effets plastiques obtenus dans des travaux personnels.
+
+----
+
+Level: Enfants-ados-adultes
+
+----
+
+Planning:
+
+- 
+  public: 5-8 ans
+  hours: mercredi 15h15-16h45
+  isfull: 'true'
+  description: ""
+- 
+  public: 9-12 ans
+  hours: mercredi 13h45-15h15
+  isfull: 'false'
+  description: ""
+- 
+  public: 13-17 ans
+  hours: mercredi 17h-19h
+  isfull: 'false'
+  description: >
+    Destiné aux adolescents, cet atelier se
+    veut un lieu d’apprentissage collectif
+    au sein duquel de nombreuses techniques
+    sont abordées ( dessin, la peinture, le
+    modelage, le collage, ou la photo...).
+    Il offre la possibilité de se projeter
+    dans des projets très personnels en
+    développant sa propre singularité
+    plastique, tout en ouvrant des espaces
+    de création en groupe.
+- 
+  public: Adultes intitiés-confirmés
+  hours: mardi 20h-22h
+  isfull: 'false'
+  description: "Rendez-vous hebdomadaire destiné à expérimenter différentes techniques - le dessin et la peinture bien sûr, mais également le modelage, le collage, la gravure, etc. - cet atelier a pour objectif d'enseigner la maîtriser des gestes, outils et matériaux dans le but de réutiliser les effets plastiques obtenus dans des travaux personnels."
+- 
+  public: Adultes débutants
+  hours: mercredi 20h-22h
+  isfull: 'false'
+  description: ""
+
+----
+
+Links: 
+
+----
+
+Relatedpages: 
+
+----
+
+Relatedevents: 
+
+----
+
+Relatedadventures: 

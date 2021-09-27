@@ -6,30 +6,17 @@ Area: danse
 
 ----
 
-Bio: Lorem Ipsum blablabla
+Bio: Laurence Gicquel a obtenu son Diplôme d'Etat de professeure de danse en modern jazz en 2000 au Centre des Arts Vivants à Paris après une formation chez Rick Odums. Elle continue à se former par la suite auprès de Bruno Vandelli et Carl Portal lors de différents stages. Ces multiples influences chorégraphiques alliées à une diversité musicale se retrouvent dans son enseignement.
 
 ----
 
-Links:
-
-- 
-  label: Danse nomade
-  linktype: external
-  url: >
-    https://www.ouest-france.fr/bretagne/la-danse-nomade-dispensee-aux-eleves-des-perrieres-1598537
-  document: [ ]
-- 
-  label: Facebook
-  linktype: external
-  url: https://www.facebook.com/
-  document: [ ]
+Links: 
 
 ----
 
 Workshops:
 
 - ateliers/modern-jazz-enfants-ados
-- ateliers/arts-plastiques
 
 ----
 

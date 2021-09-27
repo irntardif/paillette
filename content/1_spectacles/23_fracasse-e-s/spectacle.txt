@@ -1,0 +1,131 @@
+Title: Fracassé·e·s
+
+----
+
+Type: show
+
+----
+
+Genre: Théâtre
+
+----
+
+Categories: creation
+
+----
+
+Cover:
+
+- >
+  site-fracasse.e.s-2-credit-mats-hilda-gustau.jpg
+
+----
+
+Creation: false
+
+----
+
+Cohostinginfos: <p>En partenariat avec le festival Mythos - Du 1er au 9 avril - festival-mythos.com</p>
+
+----
+
+Moreinfos: <p>1h50, dès 15 ans</p>
+
+----
+
+Representations:
+
+- 
+  date: 2022-04-07 20:00:00
+  publictype: all
+- 
+  date: 2022-04-08 20:00:00
+  publictype: all
+
+----
+
+Prices: 
+
+----
+
+Ticketing: http://www.forumsirius.net/orion/paillette.phtml?spec=675
+
+----
+
+Gallery:
+
+- >
+  site-fracasse.e.s-2-credit-mats-hilda-gustau.jpg
+
+----
+
+Company: label
+
+----
+
+Relatedcompany: 
+
+----
+
+Companyname: Delphine Battour, La Zamak Compagnie
+
+----
+
+Accentinfos: Ouverture de la billetterie le 1er septembre 2021.
+
+----
+
+Accentlabel: 
+
+----
+
+Description: Chaque année Ted, Charlotte et Dan se recueillent dans un parc au pied d’un grand arbre en la mémoire de leur ami Tony, décédé à l’âge de 15 ans. Entre introspection et nostalgie de leur jeunesse, les trois amis racontent leurs espoirs, galères et désillusions. En prise avec des jobs ennuyeux et des vies étriquées, ils s’échappent dans des nuits sans fin, où la musique résonne aussi fort que leur rage. Symbole d’une génération en quête de sens, *Fracassé·e·s* est l’adaptation par Delphine Battour de la première pièce écrite par Kae Tempest. Un texte ancré dans le bitume londonien, traversé d’éclats et de fêlures, qui résonne dans une langue puissante et incantatoire. Mêlant voix intérieures, scènes dialoguées, partitions chorales et slams au réalisme brut, *Fracassé·e·s* repoétise le monde et happe au plus profond, pour transmettre une énergie folle dans la grisaille du quotidien. Un acte de résistance.
+
+----
+
+Links:
+
+- 
+  linklabel: La Zamak compagnie
+  linktype: url
+  linkurl: https://www.zamakcie.fr/
+  mailaddr: ""
+  doc: [ ]
+  page: [ ]
+
+----
+
+Distribution:
+
+Texte : Kae Tempest 
+Mise en scène : Delphine Battour
+Collaboration artistique et dramaturgique : Mats-Hilda Gustau
+Jeu :  Laure Catherin ; Nathan Jousni ; Cléa Laizé 
+Création Lumière et Régie : Claire Gallien
+Régie Vidéo : Julie Pareau
+Création Sonore : Raphaël Mars
+Création Vidéo : Clémence Lesné
+
+----
+
+Credits:
+
+*Fracassé·e·s* est une adaptation de la pièce *Wasted*, publiée sous le titre français *Fracassés* par l'Arche Editeur - www.arche-editeur.com
+Coproduction : La Paillette (Rennes); Théâtre Aire Libre (Saint-Jacques-de-la-Lande); La Maison du Théâtre - Brest
+Soutiens : Au bout du plongeoir et la Coopération Nantes-Rennes-Brest-Rouen - Itinéraires d’artiste(s); Festival FRAGMENTS - La Loge (Paris); Le Grand Parquet -Théâtre Paris Villette (Paris) ; La ville de Rennes ; DRAC Bretagne
+
+----
+
+Highlightedblocks:
+
+- 
+  title: Autour du spectacle
+  contenttext: "<p>Rencontre avec l'équipe artistique le 7 avril après le spectacle</p>"
+
+----
+
+Relatedpages: 
+
+----
+
+Press: 

@@ -1,0 +1,33 @@
+Title: Denise et Craig Schaffer -  Mze Shina
+
+----
+
+Area: chant
+
+----
+
+Bio:
+
+Denise Schaffer est née à Lima au Pérou. Musicienne, chef de chœur et conteuse, elle découvre l’univers de la musique traditionnelle de Turquie avec l’ethnomusicologue turc Talip Özkan, puis la polyphonie géorgienne lors d’un premier voyage en 1996. Elle explore également le répertoire irlandais et crée le duo Voyce avec Craig Schaffer en 2007 et Fly Away en 2014. Elle est membre fondateur de Mze Shina avec lequel elle a enregistré quatre albums et donne des stages de musique et de chant.
+
+Né en Californie, Craig Schaffer est musicien, auteur-compositeur et  joue du dulcimer, la cithare des Etats-Unis. C’est à l’occasion d’une tournée en France, qu’il découvre la polyphonie géorgienne et décide de s’installer à Paris. Il collabore avec plusieurs compagnies de théâtre dont l’Entreprise de François. En 2003, il forme le groupe So Wax. En 2014, il co-fonde avec Denise Schaffer, le groupe Fly Away sur un répertoire des chants folk américains. Il est membre fondateur de Mze Shina.
+
+----
+
+Links:
+
+- 
+  linklabel: Mze Shina
+  linktype: url
+  linkurl: http://mzeshina.fr/
+  mailaddr: ""
+  doc: [ ]
+  page: [ ]
+
+----
+
+Workshops: 
+
+----
+
+Adventures: 

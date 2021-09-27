@@ -1,0 +1,142 @@
+Title: Sauvage
+
+----
+
+Intervenanttype: label
+
+----
+
+Intervenant:
+
+- >
+  artistes/frederic-mingant-cie-13-10e-en-ut
+
+----
+
+Intervenantname: Frédérique Mingant, Compagnie 13/10è en Ut
+
+----
+
+Dates:
+
+- 
+  date: 2021-04-16
+  publictype: all
+- 
+  date: 2021-04-17
+  publictype: all
+- 
+  date: 2021-04-18
+  publictype: all
+
+----
+
+Hours: ven : de 19h à 21h // sam & dim de 10h à 19h
+
+----
+
+Isfull: false
+
+----
+
+Contactmail: mediation@la-paillette.net
+
+----
+
+Public: adults, students
+
+----
+
+Prices: 
+
+----
+
+Rprstnname: 
+
+----
+
+Moreinfos: 
+
+----
+
+Rprstntitle: 
+
+----
+
+Representations: 
+
+----
+
+Cover:
+
+- 6labosauvagelapaillette_40.jpg
+
+----
+
+Accentinfos: 
+
+----
+
+Accentlabel: 
+
+----
+
+Description:
+
+## Laboratoire de création et stage 
+
+En deux saisons, douze laboratoires SAUVAGE ont eu lieu, regroupant des artistes, des techniciens, des créateurs et vous. 
+Pour la 3ème année consécutive, Frédérique Mingant éprouve avec un groupe de personnes volontaires le processus de recherche et de création qu’elle a mis en place autour de la création du spectacle SAUVAGE programmé au mois de janvier 2021.
+Cette année, 2 nouveaux rendez-vous sont proposés avant le grand saut collectif :
+Un « labo SAUVAGE » qui aura pour ambition d’inventer un nouveau protocole de jeu collectif et de nourrir le travail de création de la compagnie. Pensé avec le groupe présent au 1er rendez-vous, testé et approfondi par la seule équipe artistique pendant 5 jours au plateau, il est éprouvé et poursuivi par le groupe au 2ème rdv.
+Et un « stage SAUVAGE » pour plonger le temps d’un week-end dans les règles du jeu de SAUVAGE, faire le pari de l’improvisation et de l’immersif et inventer, avec le groupe, son protocole.
+
+Contact : Aude Challemel du Rozier
+
+----
+
+Level: Ouvert à tous - dès 18 ans
+
+----
+
+Highlightedblocks:
+
+- 
+  title: Labo SAUVAGE 
+  contenttext: '<p>Gratuit - Ouvert aux adultes, <br>sans pré-requis nécessaire</p><p>Ven 4 sept. de 19h à 21h <br>et Jeu 10 sept. de 19h à 21h</p>'
+- 
+  title: Stage SAUVAGE
+  contenttext: '<p>Gratuit – Ouvert aux adultes, sans pré-requis nécessaire</p><p>Ven 16 avr. de 19h à 21h <br>et sam 17 &amp; dim 18 avr. de 10h à 19h</p>'
+
+----
+
+Links:
+
+- 
+  linklabel: Contact
+  linktype: mail
+  linkurl: ""
+  mailaddr: mediation@la-paillette.net
+  doc: [ ]
+  page: [ ]
+- 
+  linklabel: Compagnie 13/10è en Ut
+  linktype: url
+  linkurl: https://www.compagnie1310.com/
+  mailaddr: ""
+  doc: [ ]
+  page: [ ]
+
+----
+
+Relatedpages:
+
+- spectacles/sauvage
+
+----
+
+Relatedevents: 
+
+----
+
+Relatedadventures: 

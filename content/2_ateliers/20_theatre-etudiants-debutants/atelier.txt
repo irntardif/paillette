@@ -1,0 +1,67 @@
+Title: Théâtre
+
+----
+
+Area: theatre
+
+----
+
+Intervenant:
+
+- intervenants/alain-petit
+
+----
+
+Contactmail: 
+
+----
+
+Public: students
+
+----
+
+Prices:
+
+- 
+  pricetype: Etudiants
+  amount: 282
+
+----
+
+Cover:
+
+- bdetudiants.jpg
+
+----
+
+Accentinfos: 
+
+----
+
+Accentlabel: 
+
+----
+
+Description: L'atelier d'Alain Petit propose d’explorer le chemin qui mène de la narration à l’acte théâtral, du lecteur à l’acteur. À partir de quel instant, par quel processus, l’oeuvre écrite donne-t-elle naissance à la représentation scénique, quelle part de "théâtralité" contient-elle, de quelle manière peut elle être mise en scène ? Autour des verbes lire, raconter, interpréter, l'atelier questionne le passage de la lecture à la scène et interroge sur les notions de transposition artistique, de fidélité au sens du récit, de réceptivité au son, à l’image, aux gestes et aux rythmes impulsés par l’écriture dramaturgique. Sans oublier de mettre l’accent sur l’aspect collectif de l’entreprise artistique et l’appréhension d’un espace qui porte en lui ses propres contraintes.
+
+----
+
+Level: Etudiants débutants
+
+----
+
+Planning:
+
+- 
+  public: Etudiants débutants
+  hours: mardi 19h30-21h30
+  isfull: 'true'
+  description: ""
+
+----
+
+Links: 
+
+----
+
+Relatedpages: 

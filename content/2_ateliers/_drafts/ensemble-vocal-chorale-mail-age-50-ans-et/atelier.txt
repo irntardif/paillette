@@ -1,0 +1,67 @@
+Title: Ensemble vocal Chorale Mail'Âge
+
+----
+
+Area: musique-chant
+
+----
+
+Intervenant:
+
+- intervenants/francois-soton
+
+----
+
+Contactmail: 
+
+----
+
+Public: adults
+
+----
+
+Prices:
+
+- 
+  pricetype: Tout public
+  amount: 60
+
+----
+
+Cover:
+
+- 2019.06.16_chorale-de-l-age-d-or-2.jpg
+
+----
+
+Accentinfos: 
+
+----
+
+Accentlabel: 
+
+----
+
+Description: Cet atelier composé d'une trentaine de choristes s'adresse aux personnes aimant chanter des chants d'hier et d'aujourd'hui. L'heure et demie se déroule entre convivialité et bonne humeur. Quelques concerts sont organisés durant l’année.
+
+----
+
+Level: 50 ans et +
+
+----
+
+Planning:
+
+- 
+  public: '50 ans et + '
+  hours: mardi 14h30-16h
+  isfull: 'false'
+  description: ""
+
+----
+
+Links: 
+
+----
+
+Relatedpages: 

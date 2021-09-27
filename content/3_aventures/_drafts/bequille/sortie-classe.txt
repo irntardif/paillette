@@ -1,0 +1,129 @@
+Title: Béquille / Comment j’ai taillé mon tronc pour en faire des copeaux
+
+----
+
+Intervenanttype: label
+
+----
+
+Intervenant: 
+
+----
+
+Intervenantname: Laure Catherin, Compagnie Ladude
+
+----
+
+Dates: 
+
+----
+
+Hours: 
+
+----
+
+Isfull: false
+
+----
+
+Contactmail: 
+
+----
+
+Public: 
+
+----
+
+Prices: 
+
+----
+
+Rprstnname: 
+
+----
+
+Moreinfos: 
+
+----
+
+Rprstntitle: 
+
+----
+
+Representations: 
+
+----
+
+Cover:
+
+- bequille2reduite.jpg
+
+----
+
+Accentinfos: 
+
+----
+
+Accentlabel: 
+
+----
+
+Description:
+
+Résidence de création au Lycée Bréquigny (report saison 2019-2020) 
+Septembre 2020 
+
+Ce projet devait être créé initialement en mars 2020 au Lycée Bréquigny. Après une semaine de résidence en septembre, la création de la compagnie Ladude a finalement eu lieu à la rentrée 2020 lors d'une séance réservée au lycée.
+
+Contact : Aude Challemel du Rozier
+
+----
+
+Level: 
+
+----
+
+Highlightedblocks:
+
+- 
+  title: Financement
+  contenttext: '<p>La DRAC Bretagne – dispositif KARTA <br>La Paillette</p>'
+
+----
+
+Links:
+
+- 
+  linklabel: Contact
+  linktype: mail
+  linkurl: ""
+  mailaddr: mediation@la-paillette.net
+  doc: [ ]
+  page: [ ]
+- 
+  linklabel: Compagnie Ladude
+  linktype: url
+  linkurl: https://www.facebook.com/LaDudecie
+  mailaddr: ""
+  doc: [ ]
+  page: [ ]
+- 
+  linklabel: En résidence à La Paillette
+  linktype: page
+  linkurl: ""
+  mailaddr: ""
+  doc: [ ]
+  page:
+    - artistes
+
+----
+
+Relatedpages: 
+
+----
+
+Relatedevents: 
+
+----
+
+Relatedadventures: 

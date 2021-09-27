@@ -1,0 +1,125 @@
+Title: Dans le vif-Jeunes
+
+----
+
+Intervenanttype: label
+
+----
+
+Intervenant: 
+
+----
+
+Intervenantname: Frédérique Mingant et Noëlle Kéruzoré
+
+----
+
+Dates: 
+
+----
+
+Hours: 
+
+----
+
+Isfull: false
+
+----
+
+Contactmail: 
+
+----
+
+Public: 
+
+----
+
+Prices: 
+
+----
+
+Rprstnname: Délits de solidarités
+
+----
+
+Moreinfos: 
+
+----
+
+Rprstntitle: Restitution
+
+----
+
+Representations:
+
+- 
+  date: 2021-12-12 17:00:00
+  publictype: all
+
+----
+
+Cover:
+
+- >
+  dans-le-vif_laissezlesmurspropres.tumblr.com-post-145222292756.jpg
+
+----
+
+Accentinfos: 
+
+----
+
+Accentlabel: 
+
+----
+
+Description:
+
+Dans le cadre du temps fort Dans le vif et en partenariat avec le Théâtre du Cercle, l’ADEC 35, le Grand Cordel…
+
+Dans le vif, c’est une suite de réactions :
+- un thème en lien avec l’actualité
+- des auteurs et autrices qui écrivent sur ce thème en temps resserré
+- des artistes qui s’emparent de ces textes en temps limité 
+
+Tous les deux ans, le collectif demande à plusieurs auteurs et autrices d’écrire chacun un texte de théâtre court, en réaction à une question d’actualité. 
+En 2018, Guillaume Cayet, Jézabel Coguyec, Philippe Malone et Mariette Navarro se sont emparés du sujet " Délit de solidarité" en lien avec l'arrestation de Cédric Herrou. De cette matière sont nés 4 textes de théâtre, qui seront proposés par La Paillette à des jeunes âgés de 16 à 25 ans afin de les mettre en voix. Cette lecture publique sera scénographiée par Frédérique Mingant et Noëlle Kéruzoré du collectif Dans le vif. Les participant·e·s seront invité·e·s à rencontrer des associations, professionnels et militants et préparer un débat qui sera animé par Arnaud Wassmer.
+
+Pour qui ? 
+Des jeunes âgés de 16 à 25 ans, sans pré-requis sauf la motivation d’être là.
+Quand ? 
+Samedi 9 octobre, 10h – 17h : 1ère rencontre, lecture des textes et échanges autour de la thématique « Délits de solidarité »
+Lundi 18 oct, 8, 15 & 29 novembre, 19h-20h30 : Rencontres pour la préparation du débat
+Samedi 4 et Dimanche 5 décembre, 10h – 17h : Répétitions de la lecture des textes
+Dimanche 12 décembre, 17h : Lecture publique suivie du débat animé par Arnaud Wassmer
+
+----
+
+Level: De 16 à 25 ans
+
+----
+
+Highlightedblocks: 
+
+----
+
+Links:
+
+- 
+  linklabel: Contact
+  linktype: mail
+  linkurl: ""
+  mailaddr: coordination@la-paillette.net
+  doc: [ ]
+  page: [ ]
+- 
+  linklabel: 'Dans le vif '
+  linktype: url
+  linkurl: http://danslevif.fr/
+  mailaddr: ""
+  doc: [ ]
+  page: [ ]
+
+----
+
+Relatedpages: 

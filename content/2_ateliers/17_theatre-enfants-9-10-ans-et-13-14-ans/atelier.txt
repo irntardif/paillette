@@ -1,0 +1,67 @@
+Title: Théâtre
+
+----
+
+Area: theatre
+
+----
+
+Intervenant:
+
+- intervenants/flore-augereau
+
+----
+
+Contactmail: 
+
+----
+
+Public: children2
+
+----
+
+Prices:
+
+- 
+  pricetype: Enfants 9-10 ans
+  amount: 236
+
+----
+
+Cover:
+
+- 2019-04-12_stage-jeu-d-acteurs06.jpg
+
+----
+
+Accentinfos: 
+
+----
+
+Accentlabel: 
+
+----
+
+Description: Cet atelier propose de former un groupe dans lequel chacun peut découvrir et explorer les techniques théâtrales. Il commence l'année par des jeux et improvisations pour travailler le corps dans l’espace, la voix et l’écoute de l’autre. Suite à cela, des textes variés servent de support pour travailler l’interprétation de manière ludique et rythmée afin que chacun puisse s’exprimer sur scène en expérimentant le plaisir de jouer.
+
+----
+
+Level: Enfants 9-10 ans
+
+----
+
+Planning:
+
+- 
+  public: 9-10 ans
+  hours: mercredi 13h45-15h15
+  isfull: 'true'
+  description: ""
+
+----
+
+Links: 
+
+----
+
+Relatedpages: 

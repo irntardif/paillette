@@ -5,14 +5,19 @@ Title: Ateliers
 Edito:
 
 ## Ateliers et espaces de création 
+
+**Dates d'inscriptions aux ateliers **
+Arts-plastiques > Danse > Chant > Musique > Théâtre
+Il reste des places pour nos ateliers de pratiques artistiques. Rendez-vous dès le 1er septembre côté Lavoir pour vous inscrire aux horaires d'ouverture. Journées continues les mercredis 1er, 8 et 15 septembre !
+
 Théâtre, danse, musique, arts-plastiques, plus de 60 propositions encadrées par des professionnel·le·s du spectacle vivant sont proposées à La Paillette de septembre à juin. À ces ateliers de pratique s’ajoutent la possibilité de vivre le lieu autrement, par le biais de parcours permettant d’assister à des répétitions publiques, de profiter d’interventions d’artistes accueillis dans la programmation, de s’inscrire à des aventures participatives ou d’aller au spectacle en bénéficiant d’un tarif réduit.
-L’aboutissement du travail réalisé au sein des ateliers peut donner lieu en fin d’année à une représentation, une répétition ouverte ou une exposition dans le cadre du Festival Les Envolées, temps fort de la saison dédié aux pratiques en amateur.
+L’aboutissement du travail réalisé au sein des ateliers peut donner lieu en fin d’année à une représentation, une répétition ouverte ou une exposition dans le cadre du Festival *Les Envolées*, temps fort de la saison dédié aux pratiques en amateur.
 
 ----
 
 Headerimage:
 
-- illu-paillette3.png
+- plan.png
 
 ----
 
@@ -20,7 +25,7 @@ Artsedito: Dessin, peinture, modelage, gravure, assemblage, etc., toutes ces dis
 
 ----
 
-Wellnessedito: Pour s’accorder un moment de détente et se recentrer en travaillant la respiration, l’énergie et la posture, les associations Ming Shen et Indigoyoga proposent respectivement des cours de Qi Gong et des cours de yoga kundalini.
+Wellnessedito: Pour s’accorder un moment de détente et se recentrer en travaillant la respiration, l’énergie et la posture, l'association Ming Shen propose des cours de Qi Gong.
 
 ----
 
@@ -36,14 +41,14 @@ Theatreedito: Travail du corps et de la voix, de l’espace et de l’écoute, a
 
 ----
 
-Mixededito: Edito PLUPLU
+Mixededito: 
 
 ----
 
 Focus:
 
 - 
-  label: Infos Pratiques
+  label: ""
   imgs: [ ]
   diaporama: 'false'
   hasvideo: 'false'
@@ -51,7 +56,7 @@ Focus:
   contenttext: |
     ## Conditions de déroulement des ateliers
     
-    Tous les ateliers débutent le 28 septembre 2020.
+    Tous les ateliers débutent la semaine du 20 septembre 2021.
     
     Le nombre de séances dans l’année peut varier entre 26 et 30 séances (au maximum). Le nombre total d’heures et l’amplitude horaire des séances hebdomadaires sont donnés à titre indicatif en début de saison. Ils peuvent être ajustés à la hausse comme à la baisse en fonction du nombre d’inscrits. Une séance d’essai est possible la première semaine seulement si le dossier est complet : adhésion et cotisation réglées (l’adhésion est obligatoire et non remboursable).
     La Paillette se réserve le droit d’annuler un atelier ou un stage non complet.
@@ -68,7 +73,15 @@ Focus:
     ### Conditions de remboursement
     Le remboursement est possible en cas de mutation et/ou déménagement au-delà de 50 km, maladie, nouveaux horaires de travail empêchant définitivement la pratique de l’activité.
     Toute demande doit être accompagnée de justificatifs et doit être effectuée auprès du secrétariat au Lavoir. Tout trimestre entamé reste dû.
-  links: [ ]
+  links:
+    - 
+      linklabel: 'Protocole sanitaire pour les ateliers '
+      linktype: file
+      linkurl: ""
+      mailaddr: ""
+      doc:
+        - fiche-protocole-adherent.pdf
+      page: [ ]
   press: [ ]
   img:
     - illu-paillette3.png

@@ -1,0 +1,74 @@
+Title: Théâtre
+
+----
+
+Area: theatre
+
+----
+
+Intervenant:
+
+- >
+  intervenants/romain-brosseau-groupe-odyssees
+
+----
+
+Contactmail: 
+
+----
+
+Public: 
+
+----
+
+Prices:
+
+- 
+  pricetype: Adultes
+  amount: 150
+- 
+  pricetype: Etudiants
+  amount: 130
+
+----
+
+Cover:
+
+- atelier-labo-odyssees.jpg
+
+----
+
+Accentinfos: L'atelier Labo est un atelier de 10 séances qui permet de découvrir une approche du théâtre autrement que par la création d'un spectacle. La Paillette propose deux ateliers Labo par an : de septembre à décembre et de janvier à avril.
+
+----
+
+Accentlabel: Nouveau !
+
+----
+
+Description:
+
+« VOS RÊVES DE THÉÂTRE » 
+Le théâtre a passé des mois à ne pas être considéré comme essentiel ; le Groupe Odyssées propose un espace d’expérimentation qui affirme son caractère vital. Le plateau comme lieu de plaisir, de désir et de possibles accomplissements des rêves. Quel est mon rêve de théâtre ? Mon kiff suprême ? Mon fantasme d’acteur·ice ? Celui que je n’ai jamais osé réaliser, jamais osé formuler ? Comment parler de ses désirs les plus profonds sur une scène ? Vous tenterez de les raconter... voire de les réaliser ! Il y aura des récits et des tentatives. Des paroles intimes et des textes, chansons, poèmes, œuvres d’art...
+
+----
+
+Level: Adultes initiés
+
+----
+
+Planning:
+
+- 
+  public: Adultes-Tous niveaux
+  hours: 'le mercredi de 20h à 22 h : 10 ateliers du 5 janvier au 23 mars '
+  isfull: 'false'
+  description: ""
+
+----
+
+Links: 
+
+----
+
+Relatedpages: 

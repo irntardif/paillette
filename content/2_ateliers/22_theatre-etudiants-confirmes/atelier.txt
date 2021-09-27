@@ -1,0 +1,72 @@
+Title: Théâtre
+
+----
+
+Area: theatre
+
+----
+
+Intervenant:
+
+- >
+  intervenants/eric-antoine-compagnie-kali-co
+
+----
+
+Contactmail: 
+
+----
+
+Public: students
+
+----
+
+Prices:
+
+- 
+  pricetype: Etudiants
+  amount: 282
+
+----
+
+Cover:
+
+- bdnael-maheux.jpg
+
+----
+
+Accentinfos: 
+
+----
+
+Accentlabel: 
+
+----
+
+Description:
+
+Cet atelier est fondé sur la création d'une pièce contemporaine. Même si le texte n’est pas premier. Fondamentalement, il y a le corps. Qui est là. Qui tente d’exister. Et il y a le jeu bien sûr. Le plaisir de jouer, de jouer à être, soi, l’autre, l’étranger, le monstre, l’inconnu. Jouer, chercher cette liberté, pouvoir être, enfin, libre d’être entièrement, jusqu’au bout. Le pouvoir d’être là, ici et maintenant, de jouer, et de vivre. C’est ce qui fait la beauté du théâtre.
+
+Dernières créations dans le cadre des *Envolées* : *Rhapsodies *de Sylvain Levey, *Les couteaux dans le dos, les ailes dans la gueule* de Pierre Notte, *Appels entrants illimités et 2h14 *de David Paquet
+
+----
+
+Level: Etudiants confirmés
+
+----
+
+Planning:
+
+- 
+  public: Etudiants confirmés
+  hours: lundi 20h00-22h00
+  isfull: 'true'
+  description: ""
+
+----
+
+Links: 
+
+----
+
+Relatedpages: 

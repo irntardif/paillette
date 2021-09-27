@@ -43,12 +43,12 @@
                 $isDesc = $timeslot->description()->isNotEmpty();  ?>
                 <section class="dropdown-bloc small" data-id="<?=$key?>">
                   <header class="no_m flex wrap space-between">
-                    <span style="width:30%"><?=$timeslot->public()?></span>
-                    <span style="width:40%"><?=$timeslot->hours()?></span>
+                    <span class="w_30 w_100-mb"><?=$timeslot->public()?></span>
+                    <span class="w_40 w_100-mb"><?=$timeslot->hours()?></span>
                     <?php if($timeslot->isFull()->toBool()): ?> 
-                      <span style="width:20%"><span class="label bg-light">complet</span></span>
+                      <span class="w_20 w_50-mb"><span class="label bg-light">complet</span></span>
                     <?php else: ?>
-                      <span style="width:20%"></span>
+                      <span class="w_20 w_50-mb"></span>
                     <?php endif; ?>
                     <span></span>
                     <!-- <span class="no_m" style="width:5%"><span class="open-icon no_m"></span></span> -->

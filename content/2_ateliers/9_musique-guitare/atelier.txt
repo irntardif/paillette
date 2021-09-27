@@ -1,0 +1,73 @@
+Title: Guitare
+
+----
+
+Area: musique-chant
+
+----
+
+Intervenant:
+
+- intervenants/morvan-leray
+
+----
+
+Contactmail: 
+
+----
+
+Public: children2, teen1, teen2, students, adults
+
+----
+
+Prices:
+
+- 
+  pricetype: Cours individuel 7 ans-17 ans
+  amount: 260
+- 
+  pricetype: Cours individuel adulte
+  amount: 268
+
+----
+
+Cover:
+
+- cours-de-guitare.jpg
+
+----
+
+Accentinfos: Atelier individuel ou pour 2 personnes de même niveau d’1/2h.
+
+----
+
+Accentlabel: 
+
+----
+
+Description: L'atelier guitare permet d’aborder le riche domaine des musiques actuelles. En solo ou en duo, il progresse à travers les mélodies, accords, rythmes et techniques que le registre des musiques actuelles nous a offert ou continue à nous offrir. Ouvert à tout les niveaux, Morvan Leray adapte son atelier au souhait de l'élève sans négliger l'aspect technique et magistral de l'instrument.
+
+----
+
+Level: Enfants-ados-adultes
+
+----
+
+Planning:
+
+- 
+  public: 'À partir de 7 ans '
+  hours: lundi 17h-21h
+  isfull: 'false'
+  description: |
+    L'atelier guitare permet d’aborder le riche domaine des musiques actuelles. En solo ou en duo, il progresse à travers les mélodies, accords, rythmes et techniques que le registre des musiques actuelles nous a offert ou continue à nous offrir et est ouvert à tous les niveaux.
+    
+    Cours individuel ou pour 2 personnes de même niveau d’1/2h
+
+----
+
+Links: 
+
+----
+
+Relatedpages: 

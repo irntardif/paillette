@@ -1,0 +1,111 @@
+Title: Robinsonnade
+
+----
+
+Intervenanttype: label
+
+----
+
+Intervenant: 
+
+----
+
+Intervenantname: Compagnie hop! hop! hop !
+
+----
+
+Dates: 
+
+----
+
+Hours: 
+
+----
+
+Isfull: false
+
+----
+
+Contactmail: 
+
+----
+
+Public: 
+
+----
+
+Prices: 
+
+----
+
+Rprstnname: 
+
+----
+
+Moreinfos: 
+
+----
+
+Rprstntitle: 
+
+----
+
+Representations: 
+
+----
+
+Cover:
+
+- vendredi-web.jpg
+
+----
+
+Accentinfos: 
+
+----
+
+Accentlabel: 
+
+----
+
+Description:
+
+Projet d’EAC avec les écoles élémentaires Andrée Chédid, Guyenne et Jean Moulin, ainsi que le collège Rosa Parks, Rennes / Saison 2021-2022
+Octobre 2021 à mars 2022
+
+Suite à leur venue au spectacle *Vendredi*, programmé au mois d’octobre 2021, les élèves de 5 classes de CM1-CM2 des écoles élémentaires, ainsi qu’une classe de 6ème du collège, participeront à des ateliers de pratique encadrés par les artistes du spectacle et seront accueillis à La Paillette pour une visite des coulisses du théâtre. Ce projet, mené à l’échelle du quartier Villejean, rayonnera sur toute l’année scolaire avec des travaux menés en classe par les enseignants, visant à des échanges inter-établissements et favorisant la passerelle CM2/6ème.
+
+----
+
+Level: Primaire et collège
+
+----
+
+Highlightedblocks:
+
+- 
+  title: Financement
+  contenttext: '<p>La Ville de Rennes<br>La DRAC Bretagne<br>Les établissements scolaires<br>La Paillette</p>'
+
+----
+
+Links:
+
+- 
+  linklabel: Contact
+  linktype: mail
+  linkurl: ""
+  mailaddr: mediation@la-paillette.net
+  doc: [ ]
+  page: [ ]
+- 
+  linklabel: Hop!hop!hop!
+  linktype: url
+  linkurl: https://www.facebook.com/ciehophophop/
+  mailaddr: ""
+  doc: [ ]
+  page: [ ]
+
+----
+
+Relatedpages: 

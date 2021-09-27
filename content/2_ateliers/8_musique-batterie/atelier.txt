@@ -1,0 +1,70 @@
+Title: Batterie
+
+----
+
+Area: musique-chant
+
+----
+
+Intervenant:
+
+- intervenants/raphael-trehin
+
+----
+
+Contactmail: 
+
+----
+
+Public: children2, teen1, teen2, students, adults
+
+----
+
+Prices:
+
+- 
+  pricetype: 'Cours individuel 7-17 ans '
+  amount: 496
+- 
+  pricetype: 'Cours individuel adulte '
+  amount: 535
+
+----
+
+Cover:
+
+- musique.jpg
+
+----
+
+Accentinfos: Ateliers individuels de 30 minutes.
+
+----
+
+Accentlabel: 
+
+----
+
+Description: Cet atelier est destiné à toutes les personnes désireuses de découvrir ou de se perfectionner en batterie. Seront abordés des thèmes variés tels que : technique, étude de styles (Rock, Reggae, Funk, Blues...), coordination, indépendance ou encore la lecture. Le cours n’est pas basé sur une méthode particulière, il se construit au fil des séances en fonction des progressions et des envies.
+
+----
+
+Level: Enfants-ados-adultes
+
+----
+
+Planning:
+
+- 
+  public: 'À partir de 7 ans '
+  hours: mardi 16h30-21h00
+  isfull: 'false'
+  description: ""
+
+----
+
+Links: 
+
+----
+
+Relatedpages: 

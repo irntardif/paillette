@@ -1,0 +1,29 @@
+Title: Bérengère Lebâcle - Lumière d'août
+
+----
+
+Area: theatre
+
+----
+
+Bio: Après une Licence d’Arts du spectacle, Bérengère Lebâcle  mêle pratique et formation à travers plusieurs stages et ateliers auprès des Lucioles (Pierre Maillet, Mélanie Leray, Pascal Tokatlian), auprès de Toméo Verges, ou Gianni G. Fornet. Compositrice, chanteuse et comédienne, elle joue sous la direction de Sophie P. Gadmer,  C. Windelschmid ou D.Gauchard.  Elle met en scène des performances, est dramaturge et assistante pour le projet Nouvelle Vague de Garance Dor et participe à des performances du Collectif KOM.POST, de Berlin. Depuis 2011, elle travaille avec Dany Simon (théâtre du Vestiaire) et participe à de nombreux projets de la compagnie Lumière d’août.
+
+----
+
+Links:
+
+- 
+  linklabel: "Lumière d'août"
+  linktype: url
+  linkurl: http://www.lumieredaout.net/
+  mailaddr: ""
+  doc: [ ]
+  page: [ ]
+
+----
+
+Workshops: 
+
+----
+
+Adventures: 

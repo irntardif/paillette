@@ -10,32 +10,24 @@ Pagebuilder:
   layout: c-2
   builder2:
     - 
-      videoid: https://vimeo.com/411598677
-      platform: vimeo
-      _key: videoContent
-      _uid: videoContent_1611138849118_1622
-    - 
       textcontent: |
-        Située au cœur du domaine Saint-Cyr à Rennes, dans le quartier de Bourg L’évêque, La Paillette est l’une des cinq Maison des Jeunes et de la Culture de la ville. Elle accueille tout au long de l’année des ateliers de pratiques artistiques en amateur, des spectacles de théâtre, des stages, un festival et des projets de médiation et d’action culturelle imaginés sous forme d’aventures à partager.
+        Située au cœur du domaine Saint-Cyr à Rennes, dans le quartier de Bourg L’évêque, La Paillette est l’une des cinq Maison des Jeunes et de la Culture de la ville. Elle accueille tout au long de l’année des ateliers de pratiques artistiques en amateur, des spectacles de théâtre, des stages, le festival *Les Envolées* et des projets de médiation et d’action culturelle imaginés sous forme d’aventures à partager.
         
         Disposant de deux bâtiments, le Lavoir et le Théâtre, La Paillette n’a de cesse de lier ces espaces autour d’un projet commun : celui d’accueillir et de valoriser toutes les cultures en infusant dans chaque pan de son activité la rencontre primordiale avec la création.
-      _key: textcontent
-      _uid: textcontent_1609862789787_1666
-    - 
-      images:
-        - theatre-la-paillette-mjc.jpg
-        - theatre-la-paillette-mjc2.jpg
-      _key: imgContent
-      _uid: imgContent_1609862815498_1666
-    - 
-      textcontent: |
+        
         Traverser le Lavoir, c’est contempler deux siècles d’histoire, être charmé par sa galerie vitrée donnant sur l’Ille, au confluent de la Vilaine, et prendre le pouls de l’activité fourmillante de La Paillette lorsqu’adhérents, professionnel·le·s, équipes artistiques, bénévoles et habitant·e·s se croisent pour pratiquer, transmettre, créer, échanger et profiter de ce lieu convivial.
         
         Se rendre au Théâtre c’est découvrir le versant récent de La Paillette, construit en 2006, pour y rencontrer une ruche identique au Lavoir et profiter de sa salle de spectacle de 210 places faisant la part belle à la création théâtrale contemporaine et notamment bretonne.
         
         Chaque bâtiment a été pensé comme un espace ouvert et accueillant. Au détour d’une balade ou avant une activité, il est possible de passer prendre un café en journée ou de découvrir quelques suggestions de livres au coin lecture du Lavoir. En soirée, le Théâtre invite les spectateurs à se restaurer avant ou après les spectacles, en profitant d’une vue imprenable sur le parc Saint-Cyr.
       _key: textcontent
-      _uid: textcontent_1611139152064_1622
+      _uid: textcontent_1609862789787_1666
+    - 
+      images:
+        - la-paillette-theatre.jpg
+        - reduite-dsc_1119.jpg
+      _key: imgContent
+      _uid: imgContent_1609862815498_1666
   builder3:
     - 
       textcontent: |
@@ -88,16 +80,19 @@ Pagebuilder:
     - 
       files:
         - 
-          docname: Projet artistique de la Paillette
+          docname: Projet artistique de La Paillette
           files:
-            - >
-              12.02-presentation-des-modeles-de-mise-en-page.pdf
+            - 20-12-19-la-paillette-projet.pdf
         - 
           docname: >
-            Charte de l’Unesco sur la diversité
-            culturelle
+            Déclaration de Fribourg sur les droits
+            culturels
           files:
-            - mockup-1111.pdf
+            - declaration-fr3.pdf
+        - 
+          docname: "Rapport d'activité 2019-2020"
+          files:
+            - rapports-pour-ag-19-20.pdf
       _key: fileUpload
       _uid: fileUpload_1609858054990_229
   builder3: [ ]
@@ -110,30 +105,29 @@ Pagebuilder:
   builder2:
     - 
       textcontent: |
-        La Paillette est une association de loi 1901. Elle se compose d’une équipe permanente et d’un Conseil d’administration….
+        La Paillette est une association de loi 1901. Elle se compose d’une équipe permanente et d’un Conseil d’administration.
         
         ##Conseil d'administration
-        Présidente : Katell Stephan 
-        Vice-présidente : Corinne Jarnot 
+        Présidente : Katell Stéphan 
         Secrétaire : Isabelle Le Corguillé 
         Secrétaire adjoint : Étienne Cha
-         Trésorier : Didier Schlagdenhauffen 
-        Trésorier adjoint : Alexander Niess 
-        Membres du bureau : Jeanne Clinchamp, Michel Monestes 
+         Trésorier : Alexander Niess
+        Trésorier adjoint : Philippe Desnos
+        Membres du bureau : Jeanne Clinchamp, Michel Monestes  et Marcella Sorci
       _key: textcontent
       _uid: textcontent_1609860054202_1357
     - 
       textcontent: |
-        Autres membres élus : Rizlane Allanic, Catherine Chalandre, Philippe Desnos, Frédérique Le Borgne, Alain Le Roux, Mélanie Richer, Marcella Sorci
+        Autres membres élus : Frédérique Le Borgne, Alain Le Roux et Mélanie Richer
          Membres de droit : Corinne Le Fustec représentante de la FRMJC Bretagne, Benoit Careil représentant de la ville de Rennes, Valérie Leroux directrice de La Paillette 
-        Représentants du personnel - membres élus au Conseil Social et Économique : Cyrille Baron représentant titulaire, Laurence Gicquel représentante suppléante
+        Représentant du personnel - membre élus au Conseil Social et Économique : Laurence Gicquel, représentante titulaire
       _key: textcontent
       _uid: textcontent_1609860054202_1367
     - 
       linklabel: Contact
       linktype: mail
       linkurl: ""
-      mailaddr: conseiladministration@la-paillette.net
+      mailaddr: presidence@la-paillette.net
       doc: [ ]
       page: [ ]
       buttonlinks: [ ]
@@ -166,11 +160,11 @@ Pagebuilder:
       _uid: textcontent_1609862641994_1127
     - 
       images:
-        - header-cheval.png
+        - baigneuses.png
       _key: imgContent
       _uid: imgContent_1609862317064_1656
     - 
-      linklabel: Renseignements
+      linklabel: Contact
       linktype: mail
       linkurl: ""
       mailaddr: dynamique.lapaillette@gmail.com
@@ -206,13 +200,13 @@ Pagebuilder:
             financière des ateliers
           pemail: accueil.mjc@la-paillette.net
         - 
-          pname: Cyrille Baron
-          pfunction: Coordination des pratiques artistiques 
-          pemail: coordination.mjc@la-paillette.net
-        - 
-          pname: Aude Challemel du Rozier
-          pfunction: Médiation culturelle
+          pname: Marthe Bouillaguet
+          pfunction: Médiation
           pemail: mediation@la-paillette.net
+        - 
+          pname: Aude Challemel du Rozier
+          pfunction: Coordination des pratiques artistiques 
+          pemail: coordination@la-paillette.net
         - 
           pname: Martin Delion
           pfunction: Régie générale
@@ -226,60 +220,79 @@ Pagebuilder:
           pfunction: Communication
           pemail: communication@la-paillette.net
         - 
-          pname: Valérie Leroux
+          pname: 'Valérie Leroux & Nicolas Fily'
           pfunction: Direction
           pemail: direction@la-paillette.net
         - 
-          pname: Annick Quistrebert 
+          pname: Annick Quistrebert
           pfunction: >
             Accueil, location de salles, entretien
             des locaux
           pemail: loc.salle@la-paillette.net
         - 
-          pname: Amélie Rousseau 
+          pname: Amélie Rousseau
           pfunction: >
             Adjointe de direction, conseillère
             artistique 
           pemail: adj.direction@la-paillette.net
         - 
-          pname: Céline Salmon  
+          pname: 'Céline Salmon '
           pfunction:  Entretien des locaux 
-          pemail: entretien.theatre@la-paillette.net
+          pemail: ""
         - 
           pname: Amandine Salvan
-          pfunction: Billetterie, accueil, secrétariat
+          pfunction: Billetterie, accueil des compagnies
           pemail: billetterie@la-paillette.net
       _key: column_1
       _uid: column_1_1609417324013_431
     - 
       intervenants:
+        - intervenants/laurence-gicquel
         - intervenants/manon-thomas
         - intervenants/morvan-leray
         - >
           intervenants/denise-et-craig-schaffer-cie-mze-shina
         - intervenants/raphael-trehin
         - intervenants/jean-renault
-        - intervenants/laurence-gicquel
+        - intervenants/estelle-jegou-henri-louis
+        - intervenants/francois-soutif
+        - intervenants/manon-thomas
+        - intervenants/marielle-desjardins
+        - intervenants/morvan-leray
+        - intervenants/jean-renault
+        - intervenants/raphael-trehin
+        - intervenants/compagnie-la-morsure
+        - intervenants/noemie-joseph
+        - intervenants/audrey-even
+        - intervenants/mael-diraison
+        - >
+          intervenants/dany-simon-theatre-du-vestiaire
+        - intervenants/alain-petit
+        - >
+          intervenants/jeremy-delaunay-compagnie-a-corps-perdus
+        - >
+          intervenants/eric-antoine-compagnie-kali-co
+        - >
+          intervenants/berengere-lebacle-lumiere-d-aout
+        - >
+          intervenants/jean-pierre-artur-compagnie-signe-distinctif
+        - >
+          intervenants/christel-petitgas-compagnie-du-chiendent
+        - >
+          intervenants/sylvain-ottavy-compagnie-titre-provisoire
+        - intervenants/yann-lefievre-cie-aida
+        - intervenants/laurent-maze
+        - >
+          intervenants/rozenn-tregoat-theatre-ostinato
+        - >
+          intervenants/philippe-fagnot-scen-attitudes
+        - >
+          intervenants/andre-layus-compagnie-version-14
+        - intervenants/francois-soton
+        - intervenants/flore-augereau
       stakeholders: [ ]
       _key: column_2
       _uid: column_2_1609418302613_431
-    - 
-      intervenants:
-        - intervenants/manon-thomas
-        - intervenants/morvan-leray
-        - >
-          intervenants/denise-et-craig-schaffer-cie-mze-shina
-        - intervenants/raphael-trehin
-        - intervenants/jean-renault
-        - intervenants/laurence-gicquel
-        - intervenants/estelle-jegou-henri-louis
-      stakeholders: [ ]
-      _key: column_2
-      uniquekey: 0
-      showpreviewinitially: false
-      expandedinitially: false
-      activefieldsetinitially: content
-      _uid: column_2_1617979418278_4102
   title: ""
   _key: teamColumns
   _uid: teamColumns_1609417144131_119
@@ -289,24 +302,51 @@ Pagebuilder:
   description: |
     La Paillette remercie tous les partenaires qui soutiennent son projet en lui permettant de faire vivre la création et les pratiques artistiques en amateur.
     
-    La Paillette, Maison des Jeunes et de la Culture est affiliée à la Fédération Régionale des Maisons des Jeunes et de la Culture de Bretagne. Elle est subventionnée par la Ville de Rennes, Rennes Métropole, le Conseil Régional de Bretagne, la DRAC Bretagne. Elle est soutenue pour la diffusion de certains spectacles par l’ONDA, Office National de Diffusion Artistique, l’OARA-Office Artistique de la Région Nouvelle-Aquitaine et Spectacle Vivant en Bretagne. Elle est membre du réseau professionnel des PCGO, Partenaires Culturels du Grand Ouest.
+    La Paillette, Maison des Jeunes et de la Culture est affiliée à la Fédération Régionale des Maisons des Jeunes et de la Culture Bretagne et Pays de La Loire.  Elle est subventionnée par la Ville de Rennes, Rennes Métropole, le Conseil Régional de Bretagne, la DRAC Bretagne.  Elle est soutenue pour la diffusion de certains spectacles par l’ONDA, Office National de Diffusion Artistique et Spectacle Vivant en Bretagne.  Elle est membre du réseau professionnel des PCGO, Partenaires Culturels du Grand Ouest.
+    
+    La Paillette est partenaire de (link: http://canalb.fr/ text: Canal B) et (link: https://www.citizenkid.com/ text: Citizenkid.com)
   partnerslogos:
     - 
       pname: Ville de Rennes
       logo:
-        - rennes.png
+        - vdr_bmsansfr_noir.jpg
     - 
       pname: Rennes Métropole
       logo:
         - rennes-metropoles.svg
     - 
-      pname: CR Bretagne
+      pname: Conseil Régional de Bretagne
       logo:
         - region-bretagne-logo.svg
+    - 
+      pname: DRAC Bretagne
+      logo:
+        - logocoul_drac.jpg
+    - 
+      pname: France Relance
+      logo:
+        - logo-fr-kit-com.png
+    - 
+      pname: FRMJC-Bretagne et Pays de La Loire
+      logo:
+        - frmjc-bzhpdl.png
     - 
       pname: ONDA
       logo:
         - >
           logo-onda-office-national-de-diffusion-artistique.jpg
+    - 
+      pname: Spectacle Vivant en Bretagne
+      logo:
+        - svb-logo-positif.jpg
+    - 
+      pname: 'Canal B '
+      logo:
+        - logo_canab-rennes_2015_nb-01.jpg
+    - 
+      pname: Citizenkid
+      logo:
+        - >
+          logo-noir-et-blanc_ck_grandformat_fond_blanc.png
   _key: partners
   _uid: partners_1609419771345_112

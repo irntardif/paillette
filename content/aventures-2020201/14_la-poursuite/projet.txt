@@ -1,0 +1,155 @@
+Title: La Poursuite
+
+----
+
+Intervenanttype: label
+
+----
+
+Intervenant: 
+
+----
+
+Intervenantname: La Morsure
+
+----
+
+Dates:
+
+- 
+  date: 2021-01-01
+  publictype: all
+- 
+  date: 2021-01-02
+  publictype: all
+- 
+  date: 2021-01-03
+  publictype: all
+- 
+  date: 2021-01-04
+  publictype: all
+- 
+  date: 2021-01-05
+  publictype: all
+- 
+  date: 2021-01-06
+  publictype: all
+- 
+  date: 2021-04-30
+  publictype: all
+
+----
+
+Hours: 
+
+----
+
+Isfull: false
+
+----
+
+Contactmail: 
+
+----
+
+Public: teen2, students, adults
+
+----
+
+Prices:
+
+- 
+  pricetype: 'Séance privée '
+  amount: 0
+
+----
+
+Rprstnname: La Poursuite
+
+----
+
+Moreinfos: 
+
+----
+
+Rprstntitle: 
+
+----
+
+Representations:
+
+- 
+  date: 2021-04-07 17:30:00
+  publictype: all
+
+----
+
+Cover:
+
+- bd-la-poursuite-bis.jpg
+
+----
+
+Accentinfos: 
+
+----
+
+Accentlabel: 
+
+----
+
+Description:
+
+ Pour sa seconde édition, le projet « La Poursuite » s’appuie sur la thématique de la normopathie afin de permettre à des jeunes âgés de 16 à 30 ans de côtoyer la création. Venue au spectacle, ateliers de pratiques artistiques, rencontre avec les professionnel·le·s du secteur culturel sont autant d’entrées pour leur permettre de trouver un espace de valorisation de soi au sein du projet. Une restitution publique de leur travail sur l’année et une mini tournée régionale ponctuent le projet. 
+
+Contact : Aude Challemel du Rozier
+
+----
+
+Level: 
+
+----
+
+Highlightedblocks:
+
+- 
+  title: Partenaires
+  contenttext: "<p>Projet mené avec l'association Tout Atout</p>"
+
+----
+
+Links:
+
+- 
+  linklabel: Contact
+  linktype: mail
+  linkurl: ""
+  mailaddr: mediation@la-paillette.net
+  doc: [ ]
+  page: [ ]
+- 
+  linklabel: Tout Atout
+  linktype: url
+  linkurl: http://toutatout.org/
+  mailaddr: ""
+  doc: [ ]
+  page: [ ]
+- 
+  linklabel: 'La Morsure '
+  linktype: url
+  linkurl: https://www.lamorsure.com/
+  mailaddr: ""
+  doc: [ ]
+  page: [ ]
+
+----
+
+Relatedpages: 
+
+----
+
+Relatedevents: 
+
+----
+
+Relatedadventures: 

@@ -1,0 +1,72 @@
+Title: Théâtre
+
+----
+
+Area: theatre
+
+----
+
+Intervenant:
+
+- >
+  intervenants/jean-pierre-artur-compagnie-signe-distinctif
+
+----
+
+Contactmail: 
+
+----
+
+Public: adults
+
+----
+
+Prices:
+
+- 
+  pricetype: Adultes
+  amount: 326
+
+----
+
+Cover:
+
+- nael-maheux-dsc_0019.jpg
+
+----
+
+Accentinfos: 
+
+----
+
+Accentlabel: 
+
+----
+
+Description:
+
+L'atelier de Jean-Pierre Artur propose une entrée en matière à partir d’exercices ludiques basés sur l’écoute, le placement de voix, la gestuelle, etc. Ces exercices ont pour double objectif de tisser un lien convivial entres les participants et d’apprendre à se servir des différents modes d’expression pour composer par la suite des personnages divers et variés. La suite s'appuie sur un ou plusieurs textes, qui seront travaillés d’abord à la table pour répertorier les mots ; la ponctuation ; les objets ou les lieux permettant de mettre en avant les caractéristiques des personnages. Arrive ensuite le temps des répétitions et de l’apprentissage du texte. Ces instants où l’étonnement, l’erreur et la bonne humeur participent à la cohésion du groupe.
+
+Dernières créations dans le cadre des *Envolées* : *On s'aime pourtant bien* (recueil de textes d'auteurs contemporains), *Le taux de dommage* (montage de textes)
+
+----
+
+Level: Adultes débutants
+
+----
+
+Planning:
+
+- 
+  public: Adultes débutants
+  hours: jeudi 20h00-22h00
+  isfull: 'true'
+  description: ""
+
+----
+
+Links: 
+
+----
+
+Relatedpages: 

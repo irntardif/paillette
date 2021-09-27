@@ -1,0 +1,73 @@
+Title: Ensemble vocal Mercredi en chantant
+
+----
+
+Area: musique-chant
+
+----
+
+Intervenant:
+
+- intervenants/craig-schaffer-mze-shina
+
+----
+
+Contactmail: 
+
+----
+
+Public: adults
+
+----
+
+Prices:
+
+- 
+  pricetype: 'Etudiant '
+  amount: 167
+- 
+  pricetype: Tout public
+  amount: 193
+
+----
+
+Cover:
+
+- bd-echo-du-monde-la-photo.jpg
+
+----
+
+Accentinfos: 
+
+----
+
+Accentlabel: 
+
+----
+
+Description:
+
+Un atelier pour celles et ceux dont les murs de la salle de bain résonnent de chants et qui souhaitent explorer leur voix dans le plaisir de chanter. Jeux vocaux, improvisations collectives, répertoire éclectique : chants du monde, gospels… l’accent est mis sur le plaisir de chanter plutôt que sur le répertoire. L’apprentissage des chants s’effectue par transmission orale, il n’est demandé aucune connaissance préalable en solfège car l’essentiel du travail sera basé sur l’écoute.
+Au programme : découverte de son corps-instrument afin de placer sa voix, travail sur la respiration, le rythme et le lâcher prise.
+
+----
+
+Level: Adultes débutants
+
+----
+
+Planning:
+
+- 
+  public: Adultes débutants
+  hours: mercredi 18h30-20h
+  isfull: 'false'
+  description: ""
+
+----
+
+Links: 
+
+----
+
+Relatedpages: 
