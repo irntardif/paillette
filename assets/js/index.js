@@ -134,6 +134,14 @@ const body = document.getElementsByTagName('body')[0];
 
 document.addEventListener('DOMContentLoaded', function(){
 
+  const texts = document.querySelectorAll('.text');
+
+  texts.forEach(text => {
+    text.innerHTML = text.innerHTML.replace(/&#8232;/g," ");
+    text.innerHTML = text.innerHTML.replace(/\u2028/g," ");
+  });
+
+
 inView('[data-src]').on('enter', setSrcAttribute);
     
   if (window.innerWidth >= 768 ){

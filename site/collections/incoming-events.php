@@ -9,7 +9,7 @@ return function ($site) {
 	$i = 0;
 	foreach($allEvents as $event):
 		
-		// if($i < 3){
+		//if($i < 2){
 			if($event->representations()->isNotEmpty() && $event->dates()->isEmpty()):
 				foreach($event->representations()->toStructure() as $rprst):
 					if($rprst->date()->toDate('%s') >= $today && !in_array($event, $incoming)):
@@ -25,7 +25,7 @@ return function ($site) {
 					endif;
 				endforeach;
 			endif;
-		// }
+		//}
 	endforeach; 
 	$incoming = new Pages($incoming);
     return $incoming->sortBy('dates', 'representations', 'asc');
